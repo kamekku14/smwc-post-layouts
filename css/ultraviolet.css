@@ -1,0 +1,226 @@
+/*
+	ANOTHER ONE!!!
+	~ Kamek the Magikoopa
+*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i&subset=latin-ext'); /* If there was a font installed on your computer, it ignores it. 
+																											Load Time: Moderate */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder why how I use this... */
+
+.ultraviolet_bg {
+	background: url('https://i.imgur.com/VhIbF19.png') bottom right no-repeat, #5F4B8B url('https://i.imgur.com/YDtlzPI.png') repeat center center;
+	padding: 0px;
+	font-family: "Alegreya Sans", Candara, Calibri, "Segoe UI", "Noto Sans", Verdana, Arial, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #f8f8f8;
+	text-shadow: 2px 2px 2px rgba(25, 20, 37, 0.5);
+	min-height: 250px;
+}
+
+.ultraviolet_post {
+	background: transparent;
+	padding: 8px;
+	color: #f8f8f8;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 256px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+.ultraviolet_sig {
+	background-color: rgba(8, 6, 12, 0.8);
+	padding: 8px;
+	color: #cdc2d3;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.ultraviolet_bg .quote .box {
+	background: rgba(25, 20, 37, 0.5);
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(25,20,37,0.5);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(25,20,37,0.5);
+	box-shadow: 0px 0px 5px 5px rgba(25,20,37,0.5);
+	border: 0px #f0eaff;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.ultraviolet_bg .quote .boxhead {
+	font-style: italic;
+	font-size: 16px;
+	color: #f0eaff;
+}
+
+.ultraviolet_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #ddd8ea;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #ddd8ea;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.ultraviolet_bg .quote .box .quote .boxhead {
+	font-style: italic;
+	font-size: 16px;
+	color: #ddd8ea;
+}
+
+.ultraviolet_bg .code .box {
+	background: rgba(24, 29, 12, 0.5);
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(24,29,12,0.5);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(24,29,12,0.5);
+	box-shadow: 0px 0px 5px 5px rgba(24,29,12,0.5);
+	border: 0px #dfe9c8;
+	padding: 5px;
+	color: #bed390;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.ultraviolet_bg .code .boxhead {
+	font-style: italic;
+	font-size: 16px;
+	color: #dfe9c8;
+}
+
+.ultraviolet_bg .code br {
+	display: none;
+}
+
+.ultraviolet_bg pre {
+	font-family: Consolas, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+}
+
+.ultraviolet_bg pre.box {
+	font-family: Consolas, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+}
+
+.ultraviolet_bg code {
+	font-family: Consolas, "Lucida Console", monospace !important; 
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: rgba(25, 20, 37, 0.5);
+	padding: 1px;
+	display: inline-block;
+}
+
+.ultraviolet_bg hr {
+	border: 0;
+	height: 1px;
+	background: #a199b3
+}
+
+/* Others */
+.ultraviolet_bg a:link {
+	color: #F6CFE1;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.ultraviolet_bg a:visited {
+	color: #F2EBE1;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	}
+
+.ultraviolet_bg a:hover {
+	color: #EDE992;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	}
+
+.ultraviolet_bg a:active {
+	color: #F8B2A8;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	}
+
+.ultraviolet_bg ::selection {
+	color: rgb(248,248,248);
+	text-shadow: none;
+	background: #3d88a7;
+}
+
+.ultraviolet_bg ::-moz-selection {
+	color: rgb(248, 248, 248);
+	text-shadow: none;
+	background: #3d88a7;
+}
+
+.ultraviolet_bg .spoiler {
+	background-color: #bac2d7 !important;
+	border: 1px dashed #bac2d7;
+	border-radius: 0px;
+	padding: 1px;
+	color: #F8F8F8 !important;
+	transition: background-color .25s linear;
+}
+
+.ultraviolet_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.ultraviolet_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.ultraviolet_bg .code .spoiler {
+	color: inherit !important; /* why not? */
+} 
+
+.ultraviolet_bg .spoiler:hover {
+	background-color: transparent !important;
+}
+
+.ultraviolet_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

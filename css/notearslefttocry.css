@@ -1,0 +1,319 @@
+/*
+	Do not stand at my grave and cry; I am not there. I did not die.
+	~ Kamek the Magikoopa
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i&subset=latin-ext'); /* If there was a font installed on your computer, it ignores it. 
+																								Load Time: Moderate */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder why how I use this... */
+
+.notearslefttocry_bg {
+	background: #242A2C url('https://i.imgur.com/zO0EDSj.png') repeat center center;
+	padding: 20px;
+	font-family: Asap, Calibri, Carlito, Verdana, Arial, Helvetica, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #f8f8f8;
+	text-shadow: 1px 1px 2px rgba(47, 77, 92, 0.5);
+	min-height: 250px;
+}
+
+.notearslefttocry_post {
+	background: rgba(7, 35, 49, 0.8);
+	border: 0 none #a6eaea;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(7, 35, 49, 0.8);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(7, 35, 49, 0.8);
+	box-shadow: 0px 0px 5px 5px rgba(7, 35, 49, 0.8);
+	padding: 12px;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 2px rgba(47, 77, 92, 0.5);
+	margin-right: 200px;
+	min-width: 16px;
+	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	word-wrap: break-word;
+}
+
+.notearslefttocry_sig {
+	background: transparent;
+	padding: 12px;
+	color: #f8f8f8;
+	text-shadow: 0px 0px 5px #080808, 0px 0px 5px #080808, 0px 0px 5px #080808, 0px 0px 5px #080808;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.notearslefttocry_bg .quote {
+	position: relative;
+}
+
+.notearslefttocry_bg .quote .box {
+	position: relative;
+	background: rgba(28, 68, 67, 0.9);
+	color: rgba(216, 253, 255, 1);
+	text-shadow: inherit;
+	border: 3px solid rgba(0, 246, 255, 1);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.9);
+	-moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.9);
+	-webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.9);
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.notearslefttocry_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #91f7ff;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #91f7ff;
+	text-shadow: inherit;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.notearslefttocry_bg .quote .boxhead {
+	color: #91f4ff;
+}
+
+.notearslefttocry_bg .quote .box .quote .boxhead {
+	color: #91f7ff;
+	text-shadow: inherit;
+}
+
+.notearslefttocry_bg .code {
+	position: relative;
+}
+
+.notearslefttocry_bg .code .box {
+	background: #263238;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 1px solid #080808;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.9);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.9);
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.9);
+	padding: 5px;
+	color: #eeffff;
+	text-shadow: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.notearslefttocry_bg pre {
+	/* I recommend using Iosevka <https://be5invis.github.io/Iosevka/> as a coding font
+	since this font includes stylistic alternates and programming ligatures. */
+	font-family: Iosevka, Consolas, Menlo, Monaco, "Lucida Console", "Courier New", monospace !important;
+	font-size: 10pt;
+	-webkit-font-smoothing: initial;
+}
+
+.notearslefttocry_bg pre.box {
+	font-family: Iosevka, Consolas, Menlo, Monaco, "Lucida Console", "Courier New", monospace !important;
+	font-size: 10pt;
+	-webkit-font-smoothing: initial;
+}
+
+.notearslefttocry_bg .code .box:after {
+	content: "_";
+	-webkit-animation: notearslefttocry_blinkingcursor 2s linear 0s infinite normal;
+	animation: notearslefttocry_blinkingcursor 2s linear 0s infinite normal;
+}
+
+@-webkit-keyframes notearslefttocry_blinkingcursor {
+	0% {
+		display: inline-block;
+	}
+	25% {
+		visibility: hidden;
+	}
+	50% {
+		display: inline-block;
+	}
+	75% {
+		visibility: hidden;
+	}
+	100% {
+		display: inline-block;
+	}
+}
+
+@keyframes notearslefttocry_blinkingcursor {
+	0% {
+		display: inline-block;
+	}
+	25% {
+		visibility: hidden;
+	}
+	50% {
+		display: inline-block;
+	}
+	75% {
+		visibility: hidden;
+	}
+	100% {
+		display: inline-block;
+	}
+}
+
+.notearslefttocry_bg .code .boxhead {
+	position: relative;
+	background: #263238;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 1px solid #080808;
+	padding: 2px 5px;
+	color: #c792ea;
+	text-shadow: none;
+	font-family: Iosevka, Consolas, Menlo, Monaco, "Lucida Console", "Courier New", monospace !important;
+	font-size: 10pt;
+	-webkit-font-smoothing: initial;
+	text-transform: lowercase;
+}
+
+.notearslefttocry_bg .code .boxhead:before {
+	content: "kamekku14@magikoopa.extraordinaire:~$ cat ";
+	font-size: 10pt;
+	color: #c792ea;
+	text-shadow: none;
+	text-transform: lowercase;
+}
+
+.notearslefttocry_bg .code .boxhead:after {
+	content: ".txt";
+	font-size: 10pt;
+	color: #c792ea;
+	text-shadow: none;
+	text-transform: lowercase;
+}
+
+.notearslefttocry_bg .code br {
+	display: none;
+}
+
+.notearslefttocry_bg code {
+	font-family: Iosevka, Consolas, Menlo, Monaco, "Lucida Console", monospace !important;
+	font-size: 10pt;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: rgba(18, 66, 63, 0.5);
+	padding: 1px;
+	display: inline-block;
+}
+
+.notearslefttocry_bg hr {
+	border: 0;
+	height: 1px;
+	background: #f8f8f8;
+}
+
+/* Others */
+
+.notearslefttocry_bg a:link {
+	color: #18FFFF;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.notearslefttocry_bg a:visited {
+	color: #84FFFF;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.notearslefttocry_bg a:hover {
+	color: #FFC400;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.notearslefttocry_bg a:active {
+	color: #FF6F00;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.notearslefttocry_bg ::selection {
+	color: rgb(248, 248, 248);
+	text-shadow: none;
+	background: #6200EA;
+}
+
+.notearslefttocry_bg ::-moz-selection {
+	color: rgb(248, 248, 248);
+	text-shadow: none;
+	background: #6200EA;
+}
+
+.notearslefttocry_bg .spoiler {
+	background-color: #AA00FF !important;
+	border: 1px dashed #AA00FF;
+	border-radius: 0px;
+	padding: 1px;
+	color: #F8F8F8 !important;
+	transition: background-color .25s linear;
+}
+
+.notearslefttocry_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.notearslefttocry_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.notearslefttocry_bg .code .spoiler {
+	color: inherit !important;
+	/* why not? */
+}
+
+.notearslefttocry_bg .spoiler:hover {
+	background-color: transparent !important;
+}
+
+.notearslefttocry_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

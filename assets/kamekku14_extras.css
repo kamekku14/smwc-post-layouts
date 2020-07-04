@@ -1,0 +1,188 @@
+/* Safari and Chrome */
+@-webkit-keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
+/* Firefox */
+@-moz-keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
+/*Opera*/
+@-o-keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
+.rainbow {
+	-webkit-animation:rainbow 1s infinite;
+	-moz-animation:rainbow 1s infinite;
+	-ms-animation:rainbow 1s infinite;
+	-o-animation:rainbow 1s infinite;
+	animation:rainbow 1s infinite;
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform:rotate(4deg);}
+	50% {-webkit-transform:rotate(-4deg);}
+	100% {-webkit-transform:rotate(4deg);}
+}
+ 
+/* Firefox */
+@-moz-keyframes wiggle {
+	0% {-moz-transform:rotate(4deg);}
+	50% {-moz-transform:rotate(-4deg);}
+	100% {-moz-transform:rotate(4deg);}
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+	0% {transform:rotate(4deg);}
+	50% {transform:rotate(-4deg);}
+	100% {transform:rotate(4deg);}
+}
+ 
+.wiggler {
+	-webkit-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	animation: wiggle 0.5s infinite;
+	display: inline-block;
+}
+
+/* Firefox */
+@-moz-keyframes pulse {
+	0% {-moz-transform: scale(1, 1);}
+	50% {-moz-transform: scale(1.5, 1.5);}
+	100% {-moz-transform: scale(1, 1);}
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes pulse {
+	0% {-webkit-transform: scale(1, 1);}
+	50% {-webkit-transform: scale(1.5, 1.5);}
+	100% {-webkit-transform: scale(1, 1);}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes pulse {
+	0% {transform: scale(1, 1);}
+	50% {transform: scale(1.5, 1.5);}
+	100% {transform: scale(1, 1);}
+}
+
+.pulse {
+	-webkit-animation: pulse 0.5s infinite;
+	-moz-animation: pulse 0.5s infinite;
+	animation: pulse 0.5s infinite;
+	display: inline-block;
+}

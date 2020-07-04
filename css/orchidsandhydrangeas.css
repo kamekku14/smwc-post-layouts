@@ -1,0 +1,600 @@
+/*!
+ * Orchids and Hydrangeas
+ * Copyright (C) 2019 Kamek the Magikoopa
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/* Created on 09/09/2019. Oh wait--happy Cirno Day, everyone! LONG LIVE THE STRONGEST!!! */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|Livvic:400,400i,600,600i,700,700i&display=swap&subset=latin-ext,vietnamese');
+/* If there was a font installed on your computer, it ignores it. 
+	Load Time: Slow, but not really */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder why how I use this... :thinking: */
+
+.orchidsandhydrangeas_bg {
+	background: #B0D0F8 url('https://i.imgur.com/P3Japke.png') repeat center center;
+	padding: 24px;
+	background-size: auto;
+	font-family: "Livvic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #212121;
+	text-shadow: none;
+	min-height: 250px;
+	position: relative;
+}
+
+.orchidsandhydrangeas_post {
+	background: #FAFAFA url('https://i.imgur.com/1DwgNqv.png') repeat center center;
+	color: #212121;
+	border: 5px solid #f8a5c2;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
+	padding: 12px;
+	text-shadow: none;
+	min-width: 16px;
+	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	word-wrap: break-word;
+}
+
+.orchidsandhydrangeas_sig {
+	background: #FAFAFA url('https://i.imgur.com/1DwgNqv.png') repeat center center;
+	color: #212121;
+	border: 5px solid #48dbfb;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
+	text-shadow: none;
+	margin: 4px;
+	margin-top: 20px;
+	padding: 8px;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.orchidsandhydrangeas_bg .quote .box {
+	background-color: rgba(235, 181, 215, 0.1);
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	box-shadow: none;
+	border: solid #6F1E51;
+	border-width: 2px 1px 1px 1px;
+	padding: 5px;
+	word-wrap: break-word;
+	margin: 0;
+}
+
+.orchidsandhydrangeas_bg .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #f3d4e8;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #6F1E51;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 4px 8px;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #41112f;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #41112f;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #41112f;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.orchidsandhydrangeas_bg .code .box {
+	background-color: rgba(200, 243, 253, 0.5);
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	box-shadow: none;
+	border: solid #0abde3;
+	border-width: 2px 1px 1px 1px;
+	padding: 5px;
+	color: #0abde3;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	margin: 0;
+}
+
+.orchidsandhydrangeas_bg .code .box:after {
+	display: none;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #dbf7fd;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #0abde3;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 4px 8px;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #0abde3;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #0abde3;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #0abde3;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.orchidsandhydrangeas_bg .code br {
+	display: none;
+}
+
+.orchidsandhydrangeas_bg pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.orchidsandhydrangeas_bg pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.orchidsandhydrangeas_bg code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: #0abde3;
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.orchidsandhydrangeas_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+}
+
+.orchidsandhydrangeas_topleft {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 5px #000000;
+	padding: 4px;
+	display: inline-block;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:link {
+	color: #00d2d3;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:visited {
+	color: #00e6e7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:hover {
+	color: #f368e0;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:active {
+	color: #ff9f43;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:link {
+	color: #00d2d3;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:visited {
+	color: #00e6e7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:hover {
+	color: #f368e0;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:active {
+	color: #ff9f43;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .boxhead a:link {
+	color: #f3d4e8;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .boxhead a:visited {
+	color: #fcf2f8;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .boxhead a:hover {
+	color: #f7e3f0;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .boxhead a:active {
+	color: #efc4df;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
+	color: #41112f;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead a:visited {
+	color: #601a46;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead a:hover {
+	color: #50163a;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead a:active {
+	color: #310d24;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_topleft a:link {
+	color: #00f9fa;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_topleft a:visited {
+	color: #acffff;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_topleft a:hover {
+	color: #f9b1ef;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_topleft a:active {
+	color: #ffd1a5;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* The rest here are the main link colors. */
+
+.orchidsandhydrangeas_bg a:link {
+	color: #00d2d3;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg a:visited {
+	color: #00e6e7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg a:hover {
+	color: #f368e0;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.orchidsandhydrangeas_bg a:active {
+	color: #ff9f43;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.orchidsandhydrangeas_bg .spoiler {
+	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background-size: auto;
+	border: 0px none #ff9ff3;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background .25s linear;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post .spoiler {
+	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background-size: auto;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background .25s linear;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .spoiler {
+	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background-size: auto;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background .25s linear;
+}
+
+.orchidsandhydrangeas_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.orchidsandhydrangeas_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.orchidsandhydrangeas_bg .code .spoiler {
+	color: inherit !important; /* why not? */
+}
+
+.orchidsandhydrangeas_bg .spoiler:hover {
+	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background-size: auto;
+}
+
+.orchidsandhydrangeas_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post .spoiler:hover {
+	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background-size: auto;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .spoiler:hover {
+	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background-size: auto;
+}
+
+.orchidsandhydrangeas_bg .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #212121;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #212121;
+}
+
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #212121;
+}
+
+.orchidsandhydrangeas_bg ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #706fd3;
+}
+
+.orchidsandhydrangeas_bg ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #706fd3;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

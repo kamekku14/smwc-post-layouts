@@ -1,0 +1,495 @@
+/*!
+ * Copyright (C) 2018 Kamek the Magikoopa
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/* Take note that this is a work-in-progress, so more refinements may happen! */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,600,600i,700,700i&subset=latin-ext');
+/* If there was a font installed on your computer, it ignores it. 
+	Load Time: Slow, but not really */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+/* Wonder why how I use this... */
+
+.kamekku14kensaholiday_bg {
+	background: #FFFFFF url('https://bin.smwcentral.net/u/28710/kensaholiday_white.png') repeat center center;
+	padding: 0px;
+	font-family: "IBM Plex Sans", "Arial Nova", Arial, "Arimo", "Helvetica Neue", Helvetica, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #212121;
+	text-shadow: none;
+	min-height: 250px;
+}
+
+.kamekku14kensaholiday_sideimg {
+	background: transparent url('https://bin.smwcentral.net/u/28710/kensaholiday_sideimg.png') no-repeat right bottom;
+	padding: 0px;
+}
+
+.kamekku14kensaholiday_post {
+	background: transparent;
+	padding: 8px 8px 16px 8px;
+	color: #212121;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 240px;
+	/* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+.kamekku14kensaholiday_sig {
+	background: #000000 url('https://bin.smwcentral.net/u/28710/kensaholiday_black.png') repeat center center;
+	padding: 8px;
+	color: #FFFFFF;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.kamekku14kensaholiday_bg .quote .box {
+	background-color: rgba(158, 158, 158, 0.1);
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	box-shadow: none;
+	border: 0px none #1b1b1b;
+	padding: 8px;
+	word-wrap: break-word;
+	margin: 0;
+}
+
+.kamekku14kensaholiday_bg .quote .boxhead {
+	display: block;
+	color: #A2A2A2;
+	font-weight: 600;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #151515;
+	border: none;
+	border-bottom: 1px solid #e84118;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	padding: 4px 8px;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #1b1b1b;
+	border-style: none none none solid;
+	padding: 8px;
+	color: #1b1b1b;
+	word-wrap: break-word;
+	margin-left: 16px;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead {
+	display: inline-block;
+	color: #1b1b1b;
+	font-weight: 600;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 4px 4px;
+}
+
+.kamekku14kensaholiday_bg .code .box {
+	background: url('https://bin.smwcentral.net/u/28710/kensa_codelines.png') left 4px #2D2D2D;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	box-shadow: none;
+	border: 0px none #F6F6F6;
+	position: relative;
+	padding: 3px 8px;
+	color: #F6F6F6;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	min-height: 26px;
+	margin: 0;
+}
+
+.kamekku14kensaholiday_bg .code .box:after {
+	content: "";
+	display: block;
+	position: absolute;
+	background: #151515;
+	border-top: 1px solid #e84118;
+	border-radius: 0 0 8px 8px;
+	height: 4px;	
+	bottom: -5px;
+	left: 0;
+	right: 0;
+}
+
+.kamekku14kensaholiday_bg .code .boxhead {
+	display: block;
+	color: #A2A2A2;
+	font-weight: 600;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #151515;
+	border: none;
+	border-bottom: 1px solid #e84118;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	padding: 4px 8px;
+}
+
+.kamekku14kensaholiday_bg .code br {
+	display: none;
+}
+
+.kamekku14kensaholiday_bg pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14kensaholiday_bg pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14kensaholiday_bg code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: #E91E63;
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.kamekku14kensaholiday_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:link {
+	color: #d50000;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:visited {
+	color: #c0392b;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:hover {
+	color: #ff1744;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:active {
+	color: #9b0000;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .boxhead a:link {
+	color: #A2A2A2;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .boxhead a:visited {
+	color: #fafafa;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .boxhead a:hover {
+	color: #F8F8F8;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .boxhead a:active {
+	color: #c7c7c7;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead a:link {
+	color: #1b1b1b;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead a:visited {
+	color: #212121;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead a:hover {
+	color: #484848;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead a:active {
+	color: #373737;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:link {
+	color: #ef5350;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:visited {
+	color: #ff6b6b;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:hover {
+	color: #ff8a80;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:active {
+	color: #c0392b;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* The rest here are the main link colors. */
+
+.kamekku14kensaholiday_bg a:link {
+	color: #d50000;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg a:visited {
+	color: #c0392b;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg a:hover {
+	color: #ff1744;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensaholiday_bg a:active {
+	color: #9b0000;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post .spoiler {
+	background-color: #212121 !important;
+	border: 0px none #212121;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig .spoiler {
+	background-color: #E0E0E0 !important;
+	border: 0px none #E0E0E0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14kensaholiday_bg .spoiler {
+	background-color: #212121 !important;
+	border: 0px none #212121;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14kensaholiday_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14kensaholiday_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14kensaholiday_bg .code .spoiler {
+	color: inherit !important;
+	/* why not? */
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig .spoiler:hover {
+	background-color: rgba(224, 224, 224, 0.05) !important;
+}
+
+.kamekku14kensaholiday_bg .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kamekku14kensaholiday_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+.kamekku14kensaholiday_bg ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #e51400;
+}
+
+.kamekku14kensaholiday_bg ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #e51400;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

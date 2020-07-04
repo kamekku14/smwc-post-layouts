@@ -1,0 +1,249 @@
+/*
+	My old layout code was a major mess, so I had to redo it.
+	~ Kamek
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i'); /* If there was a font installed on your computer, it ignores it. */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder why how I use this... */
+
+@-moz-keyframes kamekku14-linkactive {
+	from {
+		transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+	}
+	to {
+		transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+@-webkit-keyframes kamekku14-linkactive {
+	from {
+		transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+	}
+	to {
+		transform: scale3d(1.05, 1.05, 1.05);
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+@-o-keyframes kamekku14-linkactive {
+	from {
+		transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+	}
+	to {
+		transform: scale3d(1.05, 1.05, 1.05);
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+@keyframes kamekku14-linkactive {
+	from {
+		transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
+	}
+	to {
+		transform: scale3d(1.05, 1.05, 1.05);
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+.lilac_bg {
+	background: url(https://www.dropbox.com/s/zyoh1eiddisf1jq/lilac_fp2%281%29.png?dl=1) bottom right no-repeat, #b3d9f0 url(https://www.dropbox.com/s/2t3m781xmreq4e4/childrensplace.png?dl=1) center center repeat;
+	padding: 20px;
+	font-family: 'Fira Sans', 'Trebuchet MS', Trebuchet, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+    -moz-text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color:#080808;
+	text-shadow: 0 0 3px #f8f8f8;
+	min-height: 250px;
+}
+
+.lilac_post {
+	background: rgba(30, 37, 45, 0.95);
+	border: 4px double #fb97d0;
+	border-radius: 4px;
+	padding: 5px;
+	color: #f8f8f8;
+	text-shadow: 0 0 3px #17212f;
+	margin-right: 200px;
+	min-width: 16px;
+	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	word-wrap: break-word;
+}
+
+.lilac_bg a:link {
+	color: #ff3385;
+	font-weight: normal;
+	text-shadow: inherit;
+}
+
+.lilac_bg a:visited {
+	color: #80bfff;
+	font-weight: normal;
+	text-shadow: 0 0 3px #0e3358;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	}
+
+.lilac_bg a:hover {
+	color: #e6ffff;
+	text-shadow: 0 0 4px #82d0f7;
+	text-decoration: none;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	}
+
+.lilac_bg a:active {
+	color: #72b3f3;
+	text-shadow: 0 0 4px #0d6391;
+	text-decoration: none;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	animation-name: kamekku14-linkactive;
+	animation-duration: 0.2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	}
+
+.lilac_bg .quote .box {
+	background: rgba(128, 32, 248, 0.4);
+	border: 1px solid #dbb7ff;
+	border-radius: 4px;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.lilac_bg .quote .boxhead {
+	font-variant: small-caps;
+	color: #e0ccff;
+	text-shadow: inherit;
+}
+
+.lilac_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 1px #d1b3ff;
+	border-style: none none none solid;
+	padding: 5px;
+	color: #d1b3ff;
+	text-shadow: inherit;
+	word-wrap: break-word;
+}
+
+.lilac_bg .quote .box .quote .boxhead {
+	font-variant: small-caps;
+	color: #d1b3ff;
+	text-shadow: inherit;
+}
+
+.lilac_bg .code .box {
+	background: rgba(248, 16, 128, 0.4);
+	border: 1px solid #ffb3d9;
+	border-radius: 4px;
+	padding: 5px;
+	color: #ffb3d1;
+	word-wrap: break-word;
+}
+
+.lilac_bg .code .boxhead {
+	font-variant: small-caps;
+	color: #ffb3d1;
+}
+
+.lilac_post hr {
+	border: 0;
+	height: 1px;
+	background: #fb97d0;
+}
+
+.lilac_sig {
+	background: rgba(30, 37, 45, 0.95);
+	border: 1px solid #41b4f1;
+	border-radius: 4px;
+	padding: 5px;
+	color: #f8f8f8;
+	text-shadow: 0 0 3px #17212f;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.lilac_sig hr {
+	border: 0;
+	height: 1px;
+	background: #41b4f1;
+}
+
+.lilac_bg .code br {
+	display: none;
+}
+
+.lilac_bg pre.box {
+	font-family:Consolas, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+}
+
+.lilac_bg pre {
+	font-family:Consolas, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+}
+
+.lilac_bg .quote .boxhead:before {
+	content: url("https://www.dropbox.com/s/03ur4u6j0c514r1/lilac_1up.png?dl=1");
+	padding-right: 8px;
+}
+
+.lilac_bg .quote .box .boxhead:before {
+	content: none;
+}
+
+.lilac_bg .code .boxhead:before {
+	content: url("https://www.dropbox.com/s/kkprvmarbi46xip/thing3.png?dl=1");
+	padding-right: 8px;
+}
+
+.lilac_bg .spoiler {
+	background-color: #f8b420 !important; border: 1px dashed #f8b420; border-radius: 0px;
+	padding: 1px; color: #F8F8F8 !important; transition: background-color .25s linear;
+	}
+
+.lilac_bg .quote .spoiler {color: inherit !important;}
+.lilac_bg .quote .quote .spoiler {color: inherit !important;}
+.lilac_bg .code .spoiler {color: inherit !important;}  /* why not? */
+.lilac_bg .spoiler:hover {background-color: transparent !important;}
+.lilac_bg .spoilerInner {padding: 0px; transition: visibility .1s linear;}
+
+.lilac_bg ::selection {
+	color: rgb(248,248,248);
+	text-shadow: none;
+	background: #6600cc;
+}
+
+.lilac_bg ::-moz-selection {
+	color: rgb(248,248,248);
+	text-shadow: none;
+	background: #6600cc;
+}
+
+/* Layout Maker XP - C3 Winter 2017 Version */

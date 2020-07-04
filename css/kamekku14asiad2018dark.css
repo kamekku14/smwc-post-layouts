@@ -1,0 +1,347 @@
+/*!
+ * Copyright (C) 2018 Kamek the Magikoopa
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/* Reuses the elements from my previous E3 2018 layout. */
+
+/*!
+ * Last updated: 9:32 PM Thursday, 23 August 2018
+ * 
+ * Replaced Lato (the outdated one...yech!) with Carlito,
+ * which in turn based on the updated version of the Lato typeface.
+ * 
+ * Also, it's metrically compatible with Calibri, too.
+ */
+
+@charset "UTF-8";
+@import url('https://fontlibrary.org/face/carlito');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i');
+/* If there was a font installed on your computer, it ignores it. 
+	Load Time: Slow, but not really */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+/* Wonder why how I use this... */
+
+.kamekku14asiad2018dark_bg {
+	background: #212121 url('https://bin.smwcentral.net/u/28710/asiad2018_postbgdark.png') repeat center center;
+	padding: 0px;
+	font-family: Carlito, Calibri, "Verdana Nova", Verdana, "Arial Nova", Arial, "Arimo", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 11pt;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #FFFFFF;
+	text-shadow: none;
+	min-height: 250px;
+}
+
+.kamekku14asiad2018dark_sideimg {
+	background: transparent url('https://bin.smwcentral.net/u/28710/asiad2018_sideimgdark.png') no-repeat right bottom;
+	padding: 0px;
+}
+
+.kamekku14asiad2018dark_post {
+	background: transparent;
+	padding: 8px 8px 16px 8px;
+	color: #FFFFFF;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 240px;
+	/* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+.kamekku14asiad2018dark_sig {
+	background: #34495e url('https://bin.smwcentral.net/u/28710/asiad2018_sigbgdark.png') repeat center center;
+	padding: 8px;
+	color: #FFFFFF;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.kamekku14asiad2018dark_bg .quote .box {
+	background-color: rgba(80, 148, 168, 0.1);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 0px none #F6F9FF;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.kamekku14asiad2018dark_bg .quote .boxhead {
+	font-weight: bold;
+	color: #F6F9FF;
+}
+
+.kamekku14asiad2018dark_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #F0F8FF;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #F0F8FF;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.kamekku14asiad2018dark_bg .quote .box .quote .boxhead {
+	font-weight: bold;
+	color: #F5F5FF;
+}
+
+.kamekku14asiad2018dark_bg .code .box {
+	background-color: rgba(136, 14, 79, 0.5);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 0px none #F48FB1;
+	padding: 5px;
+	color: #F48FB1;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.kamekku14asiad2018dark_bg .code .boxhead {
+	font-weight: bold;
+	color: #F48FB1;
+}
+
+.kamekku14asiad2018dark_bg .code br {
+	display: none;
+}
+
+.kamekku14asiad2018dark_bg pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14asiad2018dark_bg pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14asiad2018dark_bg code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: #E91E63;
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.kamekku14asiad2018dark_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_post a:link {
+	color: #29B6F6;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_post a:visited {
+	color: #AB47BC;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_post a:hover {
+	color: #FFD54F;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_post a:active {
+	color: #EF5350;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_sig a:link {
+	color: #81D4FA;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_sig a:visited {
+	color: #B39DDB;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_sig a:hover {
+	color: #FFE082;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg > .kamekku14asiad2018dark_sig a:active {
+	color: #EF9A9A;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* The rest here are the main link colors. */
+
+.kamekku14asiad2018dark_bg a:link {
+	color: #29B6F6;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg a:visited {
+	color: #AB47BC;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg a:hover {
+	color: #FFD54F;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg a:active {
+	color: #EF5350;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: normal;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14asiad2018dark_bg .spoiler {
+	background-color: #E0E0E0 !important;
+	border: 0px none #E0E0E0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14asiad2018dark_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14asiad2018dark_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14asiad2018dark_bg .code .spoiler {
+	color: inherit !important;
+	/* why not? */
+}
+
+.kamekku14asiad2018dark_bg .spoiler:hover {
+	background-color: rgba(224, 224, 224, 0.05) !important;
+}
+
+.kamekku14asiad2018dark_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+.kamekku14asiad2018dark_bg ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #a4c400;
+}
+
+.kamekku14asiad2018dark_bg ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #a4c400;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

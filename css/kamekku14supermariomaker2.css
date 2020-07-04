@@ -1,0 +1,504 @@
+/*!
+ * Copyright (C) 2019 Kamek the Magikoopa
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,600,600i,700,700i|IBM+Plex+Mono:400,400i,700,700i|Press+Start+2P&display=swap&subset=latin-ext');
+/* If there was a font installed on your computer, it ignores it. 
+	Load Time: Slow, but not really */
+
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+/* Wonder why how I use this... */
+
+.kamekku14supermariomaker2_bgmain {
+	background: url('https://i.imgur.com/wqzCAP5.png') repeat-x center bottom, #7686FF url('https://i.imgur.com/YbE38q6.png') repeat center center;
+	background-size: auto;
+	padding: 0px;
+	font-family: "Cabin", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #f8f8f8;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	min-height: 250px;
+	position: relative;
+}
+
+.kamekku14supermariomaker2_bgbottom {
+	background: url('https://i.imgur.com/lB2GNjp.png') repeat center top;
+	background-size: auto;
+	padding: 16px 0px;
+	font-size: 8pt;
+	color: #f8f8f8;
+	text-shadow: 0px 0px 8px #000000, 0px 0px 8px #000000;
+	text-align: center;
+	max-height: 48px;
+}
+
+.kamekku14supermariomaker2_sideimg {
+	background: url('https://i.imgur.com/oCXmN8g.png') no-repeat right bottom, transparent url('https://i.imgur.com/vn2uEdY.png') repeat-x center bottom;
+	background-size: auto;
+	padding: 20px 20px 48px 20px;
+}
+
+.kamekku14supermariomaker2_post {
+	background: #fff8d9;
+	color: #212121;
+	text-shadow: none;
+	border: 4px solid #FDCE00;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	padding: 8px;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+.kamekku14supermariomaker2_post > hr {
+	border: 0;
+	height: 2px;
+	background: #FDCE00;
+}
+
+.kamekku14supermariomaker2_sig {
+	background: #d4f0ed;
+	color: #212121;
+	text-shadow: none;
+	border: 4px solid #2bcbba;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+	padding: 8px;
+	margin-top: 20px;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.kamekku14supermariomaker2_sig > hr {
+	border: 0;
+	height: 2px;
+	background: #2bcbba;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .box {
+	background-color: rgba(250, 247, 237, 0.2);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 1px solid rgba(186, 183, 175, 0.8);
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #212121;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #424242;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #424242;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .box .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #424242;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.kamekku14supermariomaker2_bgmain .code .box {
+	background-color: rgba(252, 228, 236, 0.2);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 1px solid rgba(233, 30, 99, 0.8);
+	padding: 5px;
+	color: #E91E63;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.kamekku14supermariomaker2_bgmain .code .box:after {
+	display: none;
+}
+
+.kamekku14supermariomaker2_bgmain .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #E91E63;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.kamekku14supermariomaker2_bgmain .code br {
+	display: none;
+}
+
+.kamekku14supermariomaker2_bgmain pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14supermariomaker2_bgmain pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.kamekku14supermariomaker2_bgmain code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: #E91E63;
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.kamekku14supermariomaker2_topleft {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	font-family: 'Press Start 2P', monospace;
+	font-size: 8px;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	padding: 4px;
+	display: inline-block;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post a:link {
+	color: #03A9F4;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post a:visited {
+	color: #673AB7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post a:hover {
+	color: #FFC107;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post a:active {
+	color: #F44336;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig a:link {
+	color: #1E88E5;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig a:visited {
+	color: #5E35B1;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig a:hover {
+	color: #FFB300;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig a:active {
+	color: #e53935;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_topleft a:link {
+	color: #B3E5FC;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_topleft a:visited {
+	color: #D1C4E9;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_topleft a:hover {
+	color: #FFECB3;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_topleft a:active {
+	color: #ffcdd2;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* The rest here are the main link colors. */
+
+.kamekku14supermariomaker2_bgmain a:link {
+	color: #03A9F4;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain a:visited {
+	color: #673AB7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain a:hover {
+	color: #FFC107;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.kamekku14supermariomaker2_bgmain a:active {
+	color: #F44336;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.kamekku14supermariomaker2_bgmain .spoiler {
+	background-color: #212121 !important;
+	border: 0px none #212121;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post .spoiler {
+	background-color: #212121 !important;
+	border: 0px none #212121;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig .spoiler {
+	background-color: #212121 !important;
+	border: 0px none #212121;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: background-color .25s linear;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14supermariomaker2_bgmain .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.kamekku14supermariomaker2_bgmain .code .spoiler {
+	color: inherit !important; /* why not? */
+}
+
+.kamekku14supermariomaker2_bgmain .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kamekku14supermariomaker2_bgmain .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kamekku14supermariomaker2_bgmain .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #FFFFFF;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_post .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #212121;
+}
+
+.kamekku14supermariomaker2_bgmain .kamekku14supermariomaker2_sig .collapsed-content {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #212121;
+}
+
+.kamekku14supermariomaker2_bgmain ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+.kamekku14supermariomaker2_bgmain ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */

@@ -1,0 +1,248 @@
+/*
+	"Be brave enough to default on the expectations of others!"
+	~ Kamek the Magikoopa
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i'); /* If there was a font installed on your computer, it ignores it. 
+																					Load Time: Moderate */
+@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder how I use this... */
+.splaterialglitch_bg {
+	background: url('https://www.dropbox.com/s/mj5k07tq0ld9yfg/inklinggirl-glitched-7-9-2017-5-20-37-PM.png?dl=1') bottom right no-repeat, #01579B url('https://www.dropbox.com/s/7cekjndjai1u0s7/glitchbg.png?dl=1') center center repeat; 
+	padding: 20px; 
+	font-family: Roboto, Arial, Helvetica, sans-serif; 
+	text-rendering: optimizeLegibility !important; 
+	font-feature-settings: "liga", "clig", "kern"; 
+    -moz-text-rendering: optimizeLegibility !important; 
+	-moz-font-feature-settings: "liga", "clig", "kern"; 
+	-webkit-text-rendering: optimizeLegibility !important; 
+	-webkit-font-feature-settings: "liga", "clig", "kern"; 
+	min-height: 250px; 
+	color: #FFFFFF; 
+	text-shadow: none; 
+	}
+
+.splaterialglitch_bg .splaterialglitch_post {
+	background: #FFFFFF url('https://www.dropbox.com/s/qzglr7yx7q0vinm/glitchpost.png?dl=1') center center repeat; 
+	border: 0 none #E0E0E0; 
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+	padding: 12px; 
+	color: #000000; 
+	text-shadow: none; 
+	margin-right: 200px; 
+	min-width: 16px; 
+	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	word-wrap: break-word; 
+	}
+
+.splaterialglitch_bg .splaterialglitch_post a:link {
+	color: #1565C0; 
+	font-weight: normal; 
+	text-shadow: inherit;
+	}
+
+.splaterialglitch_bg .splaterialglitch_post a:visited {
+	color: #6A1B9A; 
+	font-weight: normal; 
+	text-shadow: inherit;
+	}
+
+.splaterialglitch_bg a:link {
+	color: #FFC107; 
+	font-weight: normal; 
+	text-shadow: inherit;
+	}
+
+.splaterialglitch_bg a:visited {
+	color: #CDDC39; 
+	font-weight: normal; 
+	text-shadow: inherit;
+	}
+
+.splaterialglitch_bg a:hover {
+	text-decoration: underline;
+	}
+
+.splaterialglitch_bg .quote .box {
+	background: rgba(158, 158, 158, 0.5); 
+	border: 0px none #212121; 
+	padding: 6px; 
+	color: inherit; 
+	word-wrap: break-word; 
+	}
+
+.splaterialglitch_bg .splaterialglitch_post .quote .box {
+	background: rgba(224, 224, 224, 0.59); 
+	border: 0px none #212121; 
+	padding: 6px; 
+	color: inherit; 
+	word-wrap: break-word; 
+	}	
+
+.splaterialglitch_bg .quote .boxhead {
+	color: inherit; 
+	text-shadow: inherit; 
+}
+
+.splaterialglitch_bg .splaterialglitch_post .quote .boxhead {
+	color: #424242; 
+	text-shadow: inherit; 
+}
+
+.splaterialglitch_bg .splaterialglitch_post .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	word-wrap: break-word; 
+	border: 2px #424242; 
+	border-style: none none none solid; 
+	padding: 6px; 
+	color: #424242; 
+	word-wrap: break-word; 
+	margin-left: 8px; 
+}
+
+.splaterialglitch_bg .splaterialglitch_post .quote .box .quote .boxhead {
+	color: #424242; 
+	text-shadow: inherit; 
+}
+
+.splaterialglitch_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	word-wrap: break-word; 
+	border: 2px #FFFFFF; 
+	border-style: none none none solid; 
+	padding: 6px; 
+	color: inherit; 
+	word-wrap: break-word; 
+	margin-left: 8px; 
+}
+
+.splaterialglitch_bg .quote .box .quote .boxhead {
+	color: #FFFFFF; 
+	text-shadow: inherit; 
+}
+
+.splaterialglitch_bg .splaterialglitch_post .code .box {
+	background: rgba(197, 225, 165, 0.59);
+	border: 0px none #1B5E20; 
+	padding: 6px; 
+	color: #1B5E20; 
+	white-space: pre-wrap; 
+	word-wrap: break-word; 
+	}
+
+.splaterialglitch_bg .splaterialglitch_post .code .boxhead {
+	color:  #1B5E20;
+	}
+
+.splaterialglitch_bg .code .box {
+	background: rgba(139, 195, 74, 0.5); 
+	border: 0px none #33691E; 
+	padding: 6px; 
+	color: #C5E1A5; 
+	white-space: pre-wrap; 
+	word-wrap: break-word; 
+	}
+
+.splaterialglitch_bg .code .boxhead {
+	color:  #C5E1A5;
+	}
+
+.splaterialglitch_bg pre.box {
+	font-family: "Roboto Mono", Consolas, "Lucida Console", monospace !important; 
+	/* Is Roboto Mono installed on your system?
+	Chances are if it doesn't have that font, it'll override with other fonts like Consolas, for example. */
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.splaterialglitch_bg pre {
+	font-family: "Roboto Mono", Consolas, "Lucida Console", monospace !important; 
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.splaterialglitch_bg code {
+	font-family: "Roboto Mono", Consolas, "Lucida Console", monospace !important; 
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1px;
+	display: inline-block;
+}
+
+.splaterialglitch_bg .splaterialglitch_post code {
+	font-family: "Roboto Mono", Consolas, "Lucida Console", monospace !important; 
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: #E91E63;
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.splaterialglitch_bg .splaterialglitch_post hr {
+	border: 0; 
+	height: 1px; 
+	background: #E0E0E0;
+	}
+
+.splaterialglitch_bg hr {
+	border: 0; 
+	height: 1px; 
+	background: #FFFFFF;
+	}
+
+.splaterialglitch_bg .code br {
+	display: none;
+	}
+
+.splaterialglitch_bg .splaterialglitch_post .code br {
+	display: none;
+	}
+
+/* Others */
+
+.splaterialglitch_bg .spoiler {
+	background-color: #29B6F6 !important; border: 1px dashed #29B6F6; border-radius: 0px;
+	padding: 1px; color: inherit !important; transition: background-color .25s linear;
+	}
+
+.splaterialglitch_bg .quote .spoiler {color: inherit !important;}
+.splaterialglitch_bg .quote .quote .spoiler {color: inherit !important;}
+.splaterialglitch_bg .code .spoiler {color: inherit !important;}  /* why not? */
+.splaterialglitch_bg .spoiler:hover {background-color: transparent !important;}
+.splaterialglitch_bg .spoilerInner {padding: 0px; transition: visibility .1s linear;}
+
+.splaterialglitch_bg ::selection {
+	color: rgb(255,255,255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+.splaterialglitch_bg ::-moz-selection {
+	color: rgb(255,255,255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+/* Made with Layout Maker XP.
+   Powered with Google's MATERIAL DESIGN(tm). */

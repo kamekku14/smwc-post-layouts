@@ -1,0 +1,88 @@
+/*!
+ * layoutreset.css - Style resetter for SMW Central's post layouts
+ * Created by Kamek the Magikoopa <https://www.smwcentral.net/?p=profile&id=28710>
+ * 
+ * This file is in Public Domain. (Feel free to use!)
+ */
+
+.layoutreset {
+	background: transparent;
+	padding: 0px;
+	text-shadow: none;
+	font: inherit;
+	font-weight: normal;
+	color: inherit;
+}
+
+.layoutreset .quote {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.layoutreset .quote .boxhead {
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	font-size: 11px;
+	text-shadow: inherit;
+	vertical-align: baseline;
+	color: inherit;
+	padding: 0px 0px;
+	display: inline;
+}
+
+.layoutreset .quote .box {
+	background: transparent;
+	margin-top: 2px;
+	padding: 3px;
+	border: 1px solid #405060;
+}
+
+.layoutreset .code {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.layoutreset .code .boxhead {
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	font-size: 11px;
+	vertical-align: baseline;
+	color: #00FF00;
+	padding: 0px 0px;
+	display: inline;
+}
+
+.layoutreset .code .box {
+	background: transparent;
+	margin: 2px 0 0 0;
+	padding: 3px;
+	font-family: monospace;
+	border: 1px solid #00FF00;
+	color: #00FF00;
+	text-shadow: inherit;
+}
+
+.layoutreset .code .box:after {
+	display: none;
+}
+
+.layoutreset a {
+	color: #80ffa0;
+	text-decoration: none;
+	font-weight: inherit;
+	text-shadow: inherit;
+}
+
+.layoutreset a:hover {
+	text-decoration: underline;
+	font-weight: inherit;
+	text-shadow: inherit;
+}
