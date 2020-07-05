@@ -16,16 +16,22 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,600,600i,700,700i&subset=latin-ext');
-/* If there was a font installed on your computer, it ignores it. 
-	Load Time: Slow, but not really */
+/*!
+ * Atom One Light code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
 
-@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+/* Bayoen~! */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
 /* Wonder why how I use this... */
 
 .arlenadja_bg {
-	background: #f5f6fa /*url('https://yoururlhere') repeat center center*/;
+	background: #FAFAFA /*url('https://yoururlhere') repeat center center*/;
 	padding: 0px;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -53,7 +59,7 @@
 }
 
 .arlenadja_sig {
-	background: rgba(220, 221, 225, 0.8); /*url('https://yoururlhere') repeat center center*/;
+	background: rgba(241, 242, 246, 0.8); /*url('https://yoururlhere') repeat center center*/;
 	padding: 8px;
 	color: #212121;
 	word-wrap: break-word;
@@ -120,7 +126,7 @@
 }
 
 .arlenadja_bg .code .box {
-	background-color: rgba(247, 213, 245, 0.5);
+	background-color: rgba(247, 213, 245, 0.35);
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -217,6 +223,8 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
+	margin: 8px auto;
+	width: 100%;
 }
 
 /* Others */
@@ -228,9 +236,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .arlenadja_bg a:visited {
@@ -238,9 +246,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .arlenadja_bg a:hover {
@@ -248,9 +256,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .arlenadja_bg a:active {
@@ -258,9 +266,39 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.arlenadja_bg .code .boxhead a.js-link {
+	color: #E91E63;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.arlenadja_bg .code .boxhead a.js-link:hover {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.arlenadja_bg .code .boxhead a.js-link:active {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 /* Spoiler tags and miscellaneous. */
@@ -273,7 +311,7 @@
 	-webkit-border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	transition: all .25s linear;
 }
 
 .arlenadja_bg .quote .spoiler {
@@ -303,9 +341,9 @@
 }
 
 .arlenadja_bg .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .arlenadja_bg ::selection {
@@ -318,6 +356,89 @@
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+.arlenadja_bg .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+
+.arlenadja_bg .hljs-comment,
+.arlenadja_bg .hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.arlenadja_bg .hljs-doctag,
+.arlenadja_bg .hljs-keyword,
+.arlenadja_bg .hljs-formula {
+  color: #a626a4;
+}
+
+.arlenadja_bg .hljs-section,
+.arlenadja_bg .hljs-name,
+.arlenadja_bg .hljs-selector-tag,
+.arlenadja_bg .hljs-deletion,
+.arlenadja_bg .hljs-subst {
+  color: #e45649;
+}
+
+.arlenadja_bg .hljs-literal {
+  color: #0184bb;
+}
+
+.arlenadja_bg .hljs-string,
+.arlenadja_bg .hljs-regexp,
+.arlenadja_bg .hljs-addition,
+.arlenadja_bg .hljs-attribute,
+.arlenadja_bg .hljs-meta-string {
+  color: #50a14f;
+}
+
+.arlenadja_bg .hljs-built_in,
+.arlenadja_bg .hljs-class .arlenadja_bg .hljs-title {
+  color: #c18401;
+}
+
+.arlenadja_bg .hljs-attr,
+.arlenadja_bg .hljs-variable,
+.arlenadja_bg .hljs-template-variable,
+.arlenadja_bg .hljs-type,
+.arlenadja_bg .hljs-selector-class,
+.arlenadja_bg .hljs-selector-attr,
+.arlenadja_bg .hljs-selector-pseudo,
+.arlenadja_bg .hljs-number {
+  color: #986801;
+}
+
+.arlenadja_bg .hljs-symbol,
+.arlenadja_bg .hljs-bullet,
+.arlenadja_bg .hljs-link,
+.arlenadja_bg .hljs-meta,
+.arlenadja_bg .hljs-selector-id,
+.arlenadja_bg .hljs-title {
+  color: #4078f2;
+}
+
+.arlenadja_bg .hljs-emphasis {
+  font-style: italic;
+}
+
+.arlenadja_bg .hljs-strong {
+  font-weight: bold;
+}
+
+.arlenadja_bg .hljs-link {
+  text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */

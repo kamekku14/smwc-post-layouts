@@ -16,16 +16,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,600,600i,700,700i&subset=latin-ext');
-/* If there was a font installed on your computer, it ignores it. 
-	Load Time: Slow, but not really */
+/*!
+ * Atom One Light code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
 
-@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+/* OH-hohohoho! */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
 /* Wonder why how I use this... */
 
 .rulue_bg {
-	background: #f5f6fa /*url('https://yoururlhere') repeat center center*/;
+	background: #FAFAFA /*url('https://yoururlhere') repeat center center*/;
 	padding: 0px;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -120,7 +125,7 @@
 }
 
 .rulue_bg .code .box {
-	background-color: rgba(247, 213, 245, 0.5);
+	background-color: rgba(247, 213, 245, 0.35);
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -217,6 +222,8 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
+	margin: 8px auto;
+	width: 100%;
 }
 
 /* Others */
@@ -229,43 +236,43 @@
  */
 
 .rulue_bg > .rulue_post a:link {
-	color: #03A9F4;
+	color: #1E88E5;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:visited {
-	color: #673AB7;
+	color: #5E35B1;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:hover {
-	color: #FFC107;
+	color: #FFB300;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:active {
-	color: #F44336;
+	color: #e53935;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:link {
@@ -273,9 +280,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:visited {
@@ -283,9 +290,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:hover {
@@ -293,9 +300,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:active {
@@ -303,9 +310,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
@@ -315,9 +322,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg a:visited {
@@ -325,9 +332,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg a:hover {
@@ -335,9 +342,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .rulue_bg a:active {
@@ -345,9 +352,39 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.rulue_bg .code .boxhead a.js-link {
+	color: #E91E63;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.rulue_bg .code .boxhead a.js-link:hover {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.rulue_bg .code .boxhead a.js-link:active {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 /* Spoiler tags and miscellaneous. */
@@ -360,7 +397,7 @@
 	-webkit-border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	transition: all .25s linear;
 }
 
 .rulue_bg > .rulue_post .spoiler {
@@ -371,7 +408,7 @@
 	-webkit-border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	transition: all .25s linear;
 }
 
 .rulue_bg > .rulue_sig .spoiler {
@@ -382,7 +419,7 @@
 	-webkit-border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	transition: all .25s linear;
 }
 
 .rulue_bg .quote .spoiler {
@@ -415,21 +452,21 @@
 }
 
 .rulue_bg .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .rulue_bg > .rulue_post .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .rulue_bg > .rulue_sig .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #FFFFFF;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .rulue_bg ::selection {
@@ -442,6 +479,89 @@
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+.rulue_bg .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+
+.rulue_bg .hljs-comment,
+.rulue_bg .hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.rulue_bg .hljs-doctag,
+.rulue_bg .hljs-keyword,
+.rulue_bg .hljs-formula {
+  color: #a626a4;
+}
+
+.rulue_bg .hljs-section,
+.rulue_bg .hljs-name,
+.rulue_bg .hljs-selector-tag,
+.rulue_bg .hljs-deletion,
+.rulue_bg .hljs-subst {
+  color: #e45649;
+}
+
+.rulue_bg .hljs-literal {
+  color: #0184bb;
+}
+
+.rulue_bg .hljs-string,
+.rulue_bg .hljs-regexp,
+.rulue_bg .hljs-addition,
+.rulue_bg .hljs-attribute,
+.rulue_bg .hljs-meta-string {
+  color: #50a14f;
+}
+
+.rulue_bg .hljs-built_in,
+.rulue_bg .hljs-class .rulue_bg .hljs-title {
+  color: #c18401;
+}
+
+.rulue_bg .hljs-attr,
+.rulue_bg .hljs-variable,
+.rulue_bg .hljs-template-variable,
+.rulue_bg .hljs-type,
+.rulue_bg .hljs-selector-class,
+.rulue_bg .hljs-selector-attr,
+.rulue_bg .hljs-selector-pseudo,
+.rulue_bg .hljs-number {
+  color: #986801;
+}
+
+.rulue_bg .hljs-symbol,
+.rulue_bg .hljs-bullet,
+.rulue_bg .hljs-link,
+.rulue_bg .hljs-meta,
+.rulue_bg .hljs-selector-id,
+.rulue_bg .hljs-title {
+  color: #4078f2;
+}
+
+.rulue_bg .hljs-emphasis {
+  font-style: italic;
+}
+
+.rulue_bg .hljs-strong {
+  font-weight: bold;
+}
+
+.rulue_bg .hljs-link {
+  text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
