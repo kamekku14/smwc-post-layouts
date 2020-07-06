@@ -1,0 +1,439 @@
+/*!
+ * Classic Blue - based on schezowegey.css
+ * Copyright (C) 2020 Kamek the Magikoopa
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*!
+ * Atom One Dark code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ * 
+ * Color scheme based on PANTONE Color of the Year 2020, Classic Blue.
+ * <https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020>
+ */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
+/* Wonder why how I use this... */
+
+.classicblue_bg {
+	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/arle_sideimg.png') bottom right no-repeat, #0f4c81 url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/classicblue_background.png') repeat center center;
+	padding: 0px;
+	font-family: "Work Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: "liga", "clig", "kern";
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px rgba(25, 20, 37, 0.5);
+	min-height: 250px;
+}
+
+.classicblue_post {
+	background: transparent;
+	padding: 8px 8px 16px 8px;
+	color: #FFFFFF;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 240px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+.classicblue_sig {
+	background: rgba(0, 33, 79, 0.8);
+	padding: 8px;
+	color: #d0e6fa;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.classicblue_bg .quote .box {
+	background-color: rgba(25, 20, 37, 0.5);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 0px none #C2E8FF;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.classicblue_bg .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #C2E8FF;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.classicblue_bg .quote .box .quote .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #C2E8FF;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #C2E8FF;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.classicblue_bg .quote .box .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #C2E8FF;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.classicblue_bg .code .box {
+	background-color: rgba(25, 20, 37, 0.5);
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	box-shadow: none;
+	border: 0px none #83CA54;
+	padding: 5px;
+	color: #83CA54;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.classicblue_bg .code .box:after {
+	display: none;
+}
+
+.classicblue_bg .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #83CA54;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.classicblue_bg .quote .box .code .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #83CA54;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #83CA54;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.classicblue_bg .quote .box .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #83CA54;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.classicblue_bg .code br {
+	display: none;
+}
+
+.classicblue_bg pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.classicblue_bg pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+}
+
+.classicblue_bg code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px none #000000;
+	background: rgba(25, 20, 37, 0.5);
+	color: #FFFFFF;
+	padding: 1px;
+	display: inline-block;
+}
+
+.classicblue_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+	margin: 8px auto;
+	width: 100%;
+}
+
+/* Others */
+
+/* Link colors. */
+
+/*!
+ * We chose the post background color to be Classic Blue
+ * while the other, Baby Blue!
+ */
+
+.classicblue_bg a:link {
+	color: #B3C6D5;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg a:visited {
+	color: #C8CFD5;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg a:hover {
+	color: #F4DBB2;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg a:active {
+	color: #F4B894;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg .code .boxhead a.js-link {
+	color: #83CA54;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg .code .boxhead a.js-link:hover {
+	color: #83CA54;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.classicblue_bg .code .boxhead a.js-link:active {
+	color: #83CA54;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.classicblue_bg .spoiler {
+	background-color: #A0B5D0 !important;
+	border: 0px none #A0B5D0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	transition: all .25s linear;
+}
+
+.classicblue_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.classicblue_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.classicblue_bg .code .spoiler {
+	color: inherit !important; /* why not? */
+}
+
+.classicblue_bg .spoiler:hover {
+	background-color: rgba(160, 181, 208, 0.05) !important;
+}
+
+.classicblue_bg .spoilerInner {
+	padding: 0px;
+	transition: visibility .1s linear;
+}
+
+.classicblue_bg .collapsed-content {
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
+}
+
+.classicblue_bg ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #E9ADC9;
+}
+
+.classicblue_bg ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #E9ADC9;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+.classicblue_bg .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+}
+
+.classicblue_bg .hljs-comment,
+.classicblue_bg .hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.classicblue_bg .hljs-doctag,
+.classicblue_bg .hljs-keyword,
+.classicblue_bg .hljs-formula {
+  color: #c678dd;
+}
+
+.classicblue_bg .hljs-section,
+.classicblue_bg .hljs-name,
+.classicblue_bg .hljs-selector-tag,
+.classicblue_bg .hljs-deletion,
+.classicblue_bg .hljs-subst {
+  color: #e06c75;
+}
+
+.classicblue_bg .hljs-literal {
+  color: #56b6c2;
+}
+
+.classicblue_bg .hljs-string,
+.classicblue_bg .hljs-regexp,
+.classicblue_bg .hljs-addition,
+.classicblue_bg .hljs-attribute,
+.classicblue_bg .hljs-meta-string {
+  color: #98c379;
+}
+
+.classicblue_bg .hljs-built_in,
+.classicblue_bg .hljs-class .classicblue_bg .hljs-title {
+  color: #e6c07b;
+}
+
+.classicblue_bg .hljs-attr,
+.classicblue_bg .hljs-variable,
+.classicblue_bg .hljs-template-variable,
+.classicblue_bg .hljs-type,
+.classicblue_bg .hljs-selector-class,
+.classicblue_bg .hljs-selector-attr,
+.classicblue_bg .hljs-selector-pseudo,
+.classicblue_bg .hljs-number {
+  color: #d19a66;
+}
+
+.classicblue_bg .hljs-symbol,
+.classicblue_bg .hljs-bullet,
+.classicblue_bg .hljs-link,
+.classicblue_bg .hljs-meta,
+.classicblue_bg .hljs-selector-id,
+.classicblue_bg .hljs-title {
+  color: #61aeee;
+}
+
+.classicblue_bg .hljs-emphasis {
+  font-style: italic;
+}
+
+.classicblue_bg .hljs-strong {
+  font-weight: bold;
+}
+
+.classicblue_bg .hljs-link {
+  text-decoration: underline;
+}
+
+/* CSS file made with Notepad the right way (a.k.a. Notepad++). */
