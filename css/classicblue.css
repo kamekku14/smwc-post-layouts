@@ -35,6 +35,8 @@
 	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/arle_sideimg.png') bottom right no-repeat, #0f4c81 url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/classicblue_background.png') repeat center center;
 	padding: 0px;
 	font-family: "Work Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+    line-height: normal;
 	text-rendering: optimizeLegibility !important;
 	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";

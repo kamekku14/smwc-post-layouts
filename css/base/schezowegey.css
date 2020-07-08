@@ -34,6 +34,8 @@
 	background: #1e272e /*url('https://yoururlhere') repeat center center*/;
 	padding: 0px;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+    line-height: normal;
 	text-rendering: optimizeLegibility !important;
 	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";
