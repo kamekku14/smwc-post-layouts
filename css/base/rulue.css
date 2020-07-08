@@ -42,7 +42,7 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern";
 	color: #212121;
 	text-shadow: none;
-	min-height: 250px;
+	min-height: 350px;
 }
 
 /*.rulue_sideimg {
@@ -57,7 +57,7 @@
 	/*margin-right: 200px;*/
 	word-wrap: break-word;
 	min-width: 16px;
-	min-height: 240px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	min-height: 320px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 }
 
 .rulue_sig {

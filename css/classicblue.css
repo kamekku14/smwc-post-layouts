@@ -29,7 +29,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
-/* Wonder why how I use this... */
+/* Wonder why how I use this... :thinking: */
 
 .classicblue_bg {
 	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/arle_sideimg.png') bottom right no-repeat, #0f4c81 url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/classicblue_background.png') repeat center center;
@@ -43,7 +43,7 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern";
 	color: #FFFFFF;
 	text-shadow: 2px 2px 2px rgba(25, 20, 37, 0.5);
-	min-height: 250px;
+	min-height: 350px;
 }
 
 .classicblue_post {
@@ -53,7 +53,7 @@
 	margin-right: 200px;
 	word-wrap: break-word;
 	min-width: 16px;
-	min-height: 240px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	min-height: 320px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 }
 
 .classicblue_sig {
@@ -354,6 +354,11 @@
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #E9ADC9;
+}
+
+.classicblue_bg img.emoticon {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(25, 20, 37, 0.5));
+    filter: drop-shadow(2px 2px 2px rgba(25, 20, 37, 0.5));
 }
 
 /*!
