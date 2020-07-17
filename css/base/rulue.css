@@ -491,22 +491,23 @@
  */
 
 .rulue_bg .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: #383a42 !important;
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #383a42 !important;
 }
 
 .rulue_bg .hljs-comment,
 .rulue_bg .hljs-quote {
-  color: #a0a1a7 !important;
-  font-style: italic;
+	color: #a0a1a7 !important;
+	font-style: italic;
 }
 
 .rulue_bg .hljs-doctag,
 .rulue_bg .hljs-keyword,
 .rulue_bg .hljs-formula {
-  color: #a626a4 !important;
+	color: #a626a4 !important;
+	font-style: inherit !important;
 }
 
 .rulue_bg .hljs-section,
@@ -514,11 +515,11 @@
 .rulue_bg .hljs-selector-tag,
 .rulue_bg .hljs-deletion,
 .rulue_bg .hljs-subst {
-  color: #e45649 !important;
+	color: #e45649 !important;
 }
 
 .rulue_bg .hljs-literal {
-  color: #0184bb !important;
+	color: #0184bb !important;
 }
 
 .rulue_bg .hljs-string,
@@ -526,12 +527,13 @@
 .rulue_bg .hljs-addition,
 .rulue_bg .hljs-attribute,
 .rulue_bg .hljs-meta-string {
-  color: #50a14f !important;
+	color: #50a14f !important;
 }
 
 .rulue_bg .hljs-built_in,
 .rulue_bg .hljs-class .rulue_bg .hljs-title {
-  color: #c18401 !important;
+	color: #c18401 !important;
+	font-style: inherit !important;
 }
 
 .rulue_bg .hljs-attr,
@@ -542,7 +544,7 @@
 .rulue_bg .hljs-selector-attr,
 .rulue_bg .hljs-selector-pseudo,
 .rulue_bg .hljs-number {
-  color: #986801 !important;
+	color: #986801 !important;
 }
 
 .rulue_bg .hljs-symbol,
@@ -551,19 +553,21 @@
 .rulue_bg .hljs-meta,
 .rulue_bg .hljs-selector-id,
 .rulue_bg .hljs-title {
-  color: #4078f2 !important;
+	color: #4078f2 !important;
 }
 
 .rulue_bg .hljs-emphasis {
-  font-style: italic;
+	color: inherit !important;
+	font-style: italic;
 }
 
 .rulue_bg .hljs-strong {
-  font-weight: bold;
+	color: inherit !important;
+	font-weight: bold;
 }
 
 .rulue_bg .hljs-link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */

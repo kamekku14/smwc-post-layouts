@@ -367,22 +367,23 @@
  */
 
 .arlenadja_bg .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: #383a42 !important;
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #383a42 !important;
 }
 
 .arlenadja_bg .hljs-comment,
 .arlenadja_bg .hljs-quote {
-  color: #a0a1a7 !important;
-  font-style: italic;
+	color: #a0a1a7 !important;
+	font-style: italic;
 }
 
 .arlenadja_bg .hljs-doctag,
 .arlenadja_bg .hljs-keyword,
 .arlenadja_bg .hljs-formula {
-  color: #a626a4 !important;
+	color: #a626a4 !important;
+	font-style: inherit !important;
 }
 
 .arlenadja_bg .hljs-section,
@@ -390,11 +391,11 @@
 .arlenadja_bg .hljs-selector-tag,
 .arlenadja_bg .hljs-deletion,
 .arlenadja_bg .hljs-subst {
-  color: #e45649 !important;
+	color: #e45649 !important;
 }
 
 .arlenadja_bg .hljs-literal {
-  color: #0184bb !important;
+	color: #0184bb !important;
 }
 
 .arlenadja_bg .hljs-string,
@@ -402,12 +403,13 @@
 .arlenadja_bg .hljs-addition,
 .arlenadja_bg .hljs-attribute,
 .arlenadja_bg .hljs-meta-string {
-  color: #50a14f !important;
+	color: #50a14f !important;
 }
 
 .arlenadja_bg .hljs-built_in,
 .arlenadja_bg .hljs-class .arlenadja_bg .hljs-title {
-  color: #c18401 !important;
+	color: #c18401 !important;
+	font-style: inherit !important;
 }
 
 .arlenadja_bg .hljs-attr,
@@ -418,7 +420,7 @@
 .arlenadja_bg .hljs-selector-attr,
 .arlenadja_bg .hljs-selector-pseudo,
 .arlenadja_bg .hljs-number {
-  color: #986801 !important;
+	color: #986801 !important;
 }
 
 .arlenadja_bg .hljs-symbol,
@@ -427,19 +429,21 @@
 .arlenadja_bg .hljs-meta,
 .arlenadja_bg .hljs-selector-id,
 .arlenadja_bg .hljs-title {
-  color: #4078f2 !important;
+	color: #4078f2 !important;
 }
 
 .arlenadja_bg .hljs-emphasis {
-  font-style: italic;
+	color: inherit !important;
+	font-style: italic;
 }
 
 .arlenadja_bg .hljs-strong {
-  font-weight: bold;
+	color: inherit !important;
+	font-weight: bold;
 }
 
 .arlenadja_bg .hljs-link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
