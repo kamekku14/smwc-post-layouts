@@ -371,19 +371,19 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 
 .classicblue_bg .hljs-comment,
 .classicblue_bg .hljs-quote {
-  color: #5c6370;
+  color: #5c6370 !important;
   font-style: italic;
 }
 
 .classicblue_bg .hljs-doctag,
 .classicblue_bg .hljs-keyword,
 .classicblue_bg .hljs-formula {
-  color: #c678dd;
+  color: #c678dd !important;
 }
 
 .classicblue_bg .hljs-section,
@@ -391,11 +391,11 @@
 .classicblue_bg .hljs-selector-tag,
 .classicblue_bg .hljs-deletion,
 .classicblue_bg .hljs-subst {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 
 .classicblue_bg .hljs-literal {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 }
 
 .classicblue_bg .hljs-string,
@@ -403,12 +403,12 @@
 .classicblue_bg .hljs-addition,
 .classicblue_bg .hljs-attribute,
 .classicblue_bg .hljs-meta-string {
-  color: #98c379;
+  color: #98c379 !important;
 }
 
 .classicblue_bg .hljs-built_in,
 .classicblue_bg .hljs-class .classicblue_bg .hljs-title {
-  color: #e6c07b;
+  color: #e6c07b !important;
 }
 
 .classicblue_bg .hljs-attr,
@@ -419,7 +419,7 @@
 .classicblue_bg .hljs-selector-attr,
 .classicblue_bg .hljs-selector-pseudo,
 .classicblue_bg .hljs-number {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 
 .classicblue_bg .hljs-symbol,
@@ -428,7 +428,7 @@
 .classicblue_bg .hljs-meta,
 .classicblue_bg .hljs-selector-id,
 .classicblue_bg .hljs-title {
-  color: #61aeee;
+  color: #61aeee !important;
 }
 
 .classicblue_bg .hljs-emphasis {

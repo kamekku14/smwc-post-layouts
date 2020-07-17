@@ -452,19 +452,19 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 
 .schezowegey_bg .hljs-comment,
 .schezowegey_bg .hljs-quote {
-  color: #5c6370;
+  color: #5c6370 !important;
   font-style: italic;
 }
 
 .schezowegey_bg .hljs-doctag,
 .schezowegey_bg .hljs-keyword,
 .schezowegey_bg .hljs-formula {
-  color: #c678dd;
+  color: #c678dd !important;
 }
 
 .schezowegey_bg .hljs-section,
@@ -472,11 +472,11 @@
 .schezowegey_bg .hljs-selector-tag,
 .schezowegey_bg .hljs-deletion,
 .schezowegey_bg .hljs-subst {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 
 .schezowegey_bg .hljs-literal {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 }
 
 .schezowegey_bg .hljs-string,
@@ -484,12 +484,12 @@
 .schezowegey_bg .hljs-addition,
 .schezowegey_bg .hljs-attribute,
 .schezowegey_bg .hljs-meta-string {
-  color: #98c379;
+  color: #98c379 !important;
 }
 
 .schezowegey_bg .hljs-built_in,
 .schezowegey_bg .hljs-class .schezowegey_bg .hljs-title {
-  color: #e6c07b;
+  color: #e6c07b !important;
 }
 
 .schezowegey_bg .hljs-attr,
@@ -500,7 +500,7 @@
 .schezowegey_bg .hljs-selector-attr,
 .schezowegey_bg .hljs-selector-pseudo,
 .schezowegey_bg .hljs-number {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 
 .schezowegey_bg .hljs-symbol,
@@ -509,7 +509,7 @@
 .schezowegey_bg .hljs-meta,
 .schezowegey_bg .hljs-selector-id,
 .schezowegey_bg .hljs-title {
-  color: #61aeee;
+  color: #61aeee !important;
 }
 
 .schezowegey_bg .hljs-emphasis {

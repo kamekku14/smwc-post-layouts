@@ -494,19 +494,19 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #383a42;
+  color: #383a42 !important;
 }
 
 .rulue_bg .hljs-comment,
 .rulue_bg .hljs-quote {
-  color: #a0a1a7;
+  color: #a0a1a7 !important;
   font-style: italic;
 }
 
 .rulue_bg .hljs-doctag,
 .rulue_bg .hljs-keyword,
 .rulue_bg .hljs-formula {
-  color: #a626a4;
+  color: #a626a4 !important;
 }
 
 .rulue_bg .hljs-section,
@@ -514,11 +514,11 @@
 .rulue_bg .hljs-selector-tag,
 .rulue_bg .hljs-deletion,
 .rulue_bg .hljs-subst {
-  color: #e45649;
+  color: #e45649 !important;
 }
 
 .rulue_bg .hljs-literal {
-  color: #0184bb;
+  color: #0184bb !important;
 }
 
 .rulue_bg .hljs-string,
@@ -526,12 +526,12 @@
 .rulue_bg .hljs-addition,
 .rulue_bg .hljs-attribute,
 .rulue_bg .hljs-meta-string {
-  color: #50a14f;
+  color: #50a14f !important;
 }
 
 .rulue_bg .hljs-built_in,
 .rulue_bg .hljs-class .rulue_bg .hljs-title {
-  color: #c18401;
+  color: #c18401 !important;
 }
 
 .rulue_bg .hljs-attr,
@@ -542,7 +542,7 @@
 .rulue_bg .hljs-selector-attr,
 .rulue_bg .hljs-selector-pseudo,
 .rulue_bg .hljs-number {
-  color: #986801;
+  color: #986801 !important;
 }
 
 .rulue_bg .hljs-symbol,
@@ -551,7 +551,7 @@
 .rulue_bg .hljs-meta,
 .rulue_bg .hljs-selector-id,
 .rulue_bg .hljs-title {
-  color: #4078f2;
+  color: #4078f2 !important;
 }
 
 .rulue_bg .hljs-emphasis {
