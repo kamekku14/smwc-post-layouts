@@ -1,6 +1,6 @@
 /*!
  * Orchids and Hydrangeas
- * Copyright (C) 2019 Kamek the Magikoopa
+ * Copyright (C) 2019-2020 Kamek the Magikoopa
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,17 +16,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+/*!
+ * Atom One Light code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
+
 /* Created on 09/09/2019. Oh wait--happy Cirno Day, everyone! LONG LIVE THE STRONGEST!!! */
 
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|Livvic:400,400i,600,600i,700,700i&display=swap&subset=latin-ext,vietnamese');
-/* If there was a font installed on your computer, it ignores it. 
-	Load Time: Slow, but not really */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Livvic:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css'); /* Wonder why how I use this... :thinking: */
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... :thinking: */
 
 .orchidsandhydrangeas_bg {
-	background: #B0D0F8 url('https://i.imgur.com/P3Japke.png') repeat center center;
+	background: #B0D0F8 url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/backgroundthing.png') repeat center center;
 	padding: 24px;
 	background-size: auto;
 	font-family: "Livvic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
@@ -41,7 +44,7 @@
 }
 
 .orchidsandhydrangeas_post {
-	background: #FAFAFA url('https://i.imgur.com/1DwgNqv.png') repeat center center;
+	background: #FAFAFA url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/whitebackgroundthing.png') repeat center center;
 	color: #212121;
 	border: 5px solid #f8a5c2;
 	-webkit-border-radius: 0;
@@ -58,7 +61,7 @@
 }
 
 .orchidsandhydrangeas_sig {
-	background: #FAFAFA url('https://i.imgur.com/1DwgNqv.png') repeat center center;
+	background: #FAFAFA url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/whitebackgroundthing.png') repeat center center;
 	color: #212121;
 	border: 5px solid #48dbfb;
 	-webkit-border-radius: 0;
@@ -502,7 +505,7 @@
 /* Spoiler tags and miscellaneous. */
 
 .orchidsandhydrangeas_bg .spoiler {
-	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background: #ff9ff3 url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthing.png') repeat center center !important;
 	background-size: auto;
 	border: 0px none #ff9ff3;
 	border-radius: 2px;
@@ -514,7 +517,7 @@
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post .spoiler {
-	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background: #ff9ff3 url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthing.png') repeat center center !important;
 	background-size: auto;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -525,7 +528,7 @@
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .spoiler {
-	background: #ff9ff3 url('https://i.imgur.com/ESFJmOR.png') repeat center center !important;
+	background: #ff9ff3 url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthing.png') repeat center center !important;
 	background-size: auto;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -548,7 +551,7 @@
 }
 
 .orchidsandhydrangeas_bg .spoiler:hover {
-	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthingtransparent.png') repeat center center !important;
 	background-size: auto;
 }
 
@@ -558,12 +561,12 @@
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post .spoiler:hover {
-	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthingtransparent.png') repeat center center !important;
 	background-size: auto;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .spoiler:hover {
-	background: transparent url('https://i.imgur.com/w8IT701.png') repeat center center !important;
+	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/pinkbackgroundthingtransparent.png') repeat center center !important;
 	background-size: auto;
 }
 
@@ -595,6 +598,92 @@
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #706fd3;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+.orchidsandhydrangeas_bg .hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #383a42 !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-comment,
+.orchidsandhydrangeas_bg .hljs-quote {
+	color: #a0a1a7 !important;
+	font-style: italic;
+}
+
+.orchidsandhydrangeas_bg .hljs-doctag,
+.orchidsandhydrangeas_bg .hljs-keyword,
+.orchidsandhydrangeas_bg .hljs-formula {
+	color: #a626a4 !important;
+	font-style: inherit !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-section,
+.orchidsandhydrangeas_bg .hljs-name,
+.orchidsandhydrangeas_bg .hljs-selector-tag,
+.orchidsandhydrangeas_bg .hljs-deletion,
+.orchidsandhydrangeas_bg .hljs-subst {
+	color: #e45649 !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-literal {
+	color: #0184bb !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-string,
+.orchidsandhydrangeas_bg .hljs-regexp,
+.orchidsandhydrangeas_bg .hljs-addition,
+.orchidsandhydrangeas_bg .hljs-attribute,
+.orchidsandhydrangeas_bg .hljs-meta-string {
+	color: #50a14f !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-built_in,
+.orchidsandhydrangeas_bg .hljs-class .orchidsandhydrangeas_bg .hljs-title {
+	color: #c18401 !important;
+	font-style: inherit !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-attr,
+.orchidsandhydrangeas_bg .hljs-variable,
+.orchidsandhydrangeas_bg .hljs-template-variable,
+.orchidsandhydrangeas_bg .hljs-type,
+.orchidsandhydrangeas_bg .hljs-selector-class,
+.orchidsandhydrangeas_bg .hljs-selector-attr,
+.orchidsandhydrangeas_bg .hljs-selector-pseudo,
+.orchidsandhydrangeas_bg .hljs-number {
+	color: #986801 !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-symbol,
+.orchidsandhydrangeas_bg .hljs-bullet,
+.orchidsandhydrangeas_bg .hljs-link,
+.orchidsandhydrangeas_bg .hljs-meta,
+.orchidsandhydrangeas_bg .hljs-selector-id,
+.orchidsandhydrangeas_bg .hljs-title {
+	color: #4078f2 !important;
+}
+
+.orchidsandhydrangeas_bg .hljs-emphasis {
+	color: inherit !important;
+	font-style: italic;
+}
+
+.orchidsandhydrangeas_bg .hljs-strong {
+	color: inherit !important;
+	font-weight: bold;
+}
+
+.orchidsandhydrangeas_bg .hljs-link {
+	text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
