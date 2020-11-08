@@ -6,87 +6,87 @@
  */
 
 .layoutreset {
-	background: transparent;
-	padding: 0px;
-	text-shadow: none;
-	font: inherit;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: normal;
-	color: inherit;
+	background: transparent !important;
+	padding: 0px !important;
+	text-shadow: none !important;
+	font: inherit !important;
+	font-weight: normal !important;
+	font-size: 13px !important;
+	line-height: normal !important;
+	color: inherit !important;
 }
 
 .layoutreset .quote {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 40px !important;
+	margin-right: 40px !important;
 }
 
 .layoutreset .quote .boxhead {
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	font-size: 11px;
-	text-shadow: inherit;
-	vertical-align: baseline;
-	color: inherit;
-	padding: 0px 0px;
-	display: inline;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	border-radius: 0px 0px 0px 0px !important;
+	-moz-border-radius: 0px 0px 0px 0px !important;
+	-webkit-border-radius: 0px 0px 0px 0px !important;
+	font-size: 11px !important;
+	text-shadow: inherit !important;
+	vertical-align: baseline !important;
+	color: inherit !important;
+	padding: 0px 0px !important;
+	display: inline !important;
 }
 
 .layoutreset .quote .box {
-	background: transparent;
-	margin-top: 2px;
-	padding: 3px;
-	border: 1px solid #405060;
+	background: transparent !important;
+	margin-top: 2px !important;
+	padding: 3px !important;
+	border: 1px solid #405060 !important;
 }
 
 .layoutreset .code {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 40px !important;
+	margin-right: 40px !important;
 }
 
 .layoutreset .code .boxhead {
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	font-size: 11px;
-	vertical-align: baseline;
-	color: #00FF00;
-	padding: 0px 0px;
-	display: inline;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	border-radius: 0px 0px 0px 0px !important;
+	-moz-border-radius: 0px 0px 0px 0px !important;
+	-webkit-border-radius: 0px 0px 0px 0px !important;
+	font-size: 11px !important;
+	vertical-align: baseline !important;
+	color: #00FF00 !important;
+	padding: 0px 0px !important;
+	display: inline !important;
 }
 
 .layoutreset .code .box {
-	background: transparent;
-	margin: 2px 0 0 0;
-	padding: 3px;
-	font-family: monospace;
-	font-size: 12px;
-	line-height: normal;
-	border: 1px solid #00FF00;
-	color: #00FF00;
-	text-shadow: inherit;
+	background: transparent !important;
+	margin: 2px 0 0 0 !important;
+	padding: 3px !important;
+	font-family: monospace !important;
+	font-size: 12px !important;
+	line-height: normal !important;
+	border: 1px solid #00FF00 !important;
+	color: #00FF00 !important;
+	text-shadow: inherit !important;
 }
 
 .layoutreset .code .box:after {
-	display: none;
+	display: none !important;
 }
 
-.layoutreset a {
-	color: #80ffa0;
-	text-decoration: none;
-	font-weight: inherit;
-	text-shadow: inherit;
+.layoutreset a:link, .layoutreset a:visited {
+	color: #80ffa0 !important;
+	text-decoration: none !important;
+	font-weight: inherit !important;
+	text-shadow: inherit !important;
 }
 
-.layoutreset a:hover {
-	text-decoration: underline;
-	font-weight: inherit;
-	text-shadow: inherit;
+.layoutreset a:hover, .layoutreset a:active {
+	text-decoration: underline !important;
+	font-weight: inherit !important;
+	text-shadow: inherit !important;
 }
