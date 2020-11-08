@@ -185,6 +185,7 @@
 	border-style: none none none solid;
 	padding: 6px;
 	color: #0abde3;
+	white-space: pre-wrap;
 	word-wrap: break-word;
 	margin-left: 8px;
 }
@@ -502,6 +503,36 @@
 	-webkit-transition: color 0.5s;
 }
 
+.orchidsandhydrangeas_bg .code .boxhead a.js-link {
+	color: #dbf7fd;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead a.js-link:hover {
+	color: #dbf7fd;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead a.js-link:active {
+	color: #dbf7fd;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .orchidsandhydrangeas_bg .spoiler {
@@ -571,21 +602,21 @@
 }
 
 .orchidsandhydrangeas_bg .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .orchidsandhydrangeas_bg ::selection {

@@ -172,6 +172,7 @@
 	border-style: none none none solid;
 	padding: 6px;
 	color: #E91E63;
+	white-space: pre-wrap;
 	word-wrap: break-word;
 	margin-left: 8px;
 }

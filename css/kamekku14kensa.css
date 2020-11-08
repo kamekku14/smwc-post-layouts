@@ -1,5 +1,6 @@
 /*!
- * Copyright (C) 2018 Kamek the Magikoopa
+ * Toni Kensa
+ * Copyright (C) 2018-2020 Kamek the Magikoopa
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,33 +16,32 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/* Take note that this is a work-in-progress, so more refinements may happen! */
+/*!
+ * Atom One Dark code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
 
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,600,600i,700,700i&subset=latin-ext');
-/* If there was a font installed on your computer, it ignores it. 
-	Load Time: Slow, but not really */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-@import url('https://bin.smwcentral.net/u/28710/kamekku14_extras.css');
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
 /* Wonder why how I use this... */
 
 .kamekku14kensa_bg {
-	background: #FFFFFF url('https://bin.smwcentral.net/u/28710/kensa_white.png') repeat center center;
+	background: #FFFFFF url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_white.png') repeat center center;
 	padding: 0px;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, "Arimo", "Helvetica Neue", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility !important;
 	font-feature-settings: "liga", "clig", "kern";
-	-moz-text-rendering: optimizeLegibility !important;
 	-moz-font-feature-settings: "liga", "clig", "kern";
-	-webkit-text-rendering: optimizeLegibility !important;
 	-webkit-font-feature-settings: "liga", "clig", "kern";
 	color: #212121;
 	text-shadow: none;
-	min-height: 250px;
+	min-height: 350px;
 }
 
 .kamekku14kensa_sideimg {
-	background: transparent url('https://bin.smwcentral.net/u/28710/kensa_sideimg2.png') no-repeat right bottom;
+	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_sideimg2.png') no-repeat right bottom;
 	padding: 0px;
 }
 
@@ -52,12 +52,11 @@
 	margin-right: 200px;
 	word-wrap: break-word;
 	min-width: 16px;
-	min-height: 240px;
-	/* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	min-height: 320px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 }
 
 .kamekku14kensa_sig {
-	background: #000000 url('https://bin.smwcentral.net/u/28710/kensa_black.png') repeat center center;
+	background: #212121 url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_darkestgray.png') repeat center center;
 	padding: 8px;
 	color: #FFFFFF;
 	word-wrap: break-word;
@@ -85,7 +84,7 @@
 	vertical-align: middle;
 	background: #151515;
 	border: none;
-	border-bottom: 1px solid #e84118;
+	border-bottom: 1px solid #e51400;
 	border-radius: 8px 8px 0px 0px;
 	-moz-border-radius: 8px 8px 0px 0px;
 	-webkit-border-radius: 8px 8px 0px 0px;
@@ -125,7 +124,7 @@
 }
 
 .kamekku14kensa_bg .code .box {
-	background: url('https://bin.smwcentral.net/u/28710/kensa_codelines.png') left 4px #2D2D2D;
+	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_codelines.png') left 4px #2D2D2D;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -134,6 +133,7 @@
 	position: relative;
 	padding: 3px 8px;
 	color: #F6F6F6;
+	line-height: 14px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	min-height: 26px;
@@ -145,7 +145,7 @@
 	display: block;
 	position: absolute;
 	background: #151515;
-	border-top: 1px solid #e84118;
+	border-top: 1px solid #e51400;
 	border-radius: 0 0 8px 8px;
 	height: 4px;	
 	bottom: -5px;
@@ -161,11 +161,49 @@
 	vertical-align: middle;
 	background: #151515;
 	border: none;
-	border-bottom: 1px solid #e84118;
+	border-bottom: 1px solid #e51400;
 	border-radius: 8px 8px 0px 0px;
 	-moz-border-radius: 8px 8px 0px 0px;
 	-webkit-border-radius: 8px 8px 0px 0px;
 	padding: 4px 8px;
+}
+
+.kamekku14kensa_bg .quote .box .code .box {
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	word-wrap: break-word;
+	border: 2px #e51400;
+	border-style: none none none solid;
+	padding: 6px;
+	color: #e51400;
+	line-height: normal;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.kamekku14kensa_bg .quote .box .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #e51400;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.kamekku14kensa_bg .quote .box .code .box:after {
+	display: none;
 }
 
 .kamekku14kensa_bg .code br {
@@ -192,7 +230,7 @@
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
 	border: 0px none #000000;
-	background: #E91E63;
+	background: #2D2D2D;
 	color: #FFFFFF;
 	padding: 1px;
 	display: inline-block;
@@ -214,7 +252,7 @@
  */
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:link {
-	color: #d50000;
+	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -224,7 +262,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:visited {
-	color: #c0392b;
+	color: #d11200;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -234,7 +272,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:hover {
-	color: #ff1744;
+	color: #e51400;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -244,7 +282,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:active {
-	color: #9b0000;
+	color: #aa0f00;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -334,7 +372,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:link {
-	color: #ef5350;
+	color: #e51400;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -344,7 +382,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:visited {
-	color: #ff6b6b;
+	color: #f91600;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -354,7 +392,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:hover {
-	color: #ff8a80;
+	color: #ff220d;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -364,7 +402,7 @@
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:active {
-	color: #c0392b;
+	color: #d11200;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -376,7 +414,7 @@
 /* The rest here are the main link colors. */
 
 .kamekku14kensa_bg a:link {
-	color: #d50000;
+	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -386,7 +424,7 @@
 }
 
 .kamekku14kensa_bg a:visited {
-	color: #c0392b;
+	color: #d11200;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -396,7 +434,7 @@
 }
 
 .kamekku14kensa_bg a:hover {
-	color: #ff1744;
+	color: #e51400;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -406,13 +444,43 @@
 }
 
 .kamekku14kensa_bg a:active {
-	color: #9b0000;
+	color: #aa0f00;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
 	transition: color 0.5s;
 	-moz-transition: color 0.5s;
 	-webkit-transition: color 0.5s;
+}
+
+.kamekku14kensa_bg .code .boxhead a.js-link {
+	color: #e51400;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.kamekku14kensa_bg .code .boxhead a.js-link:hover {
+	color: #e51400;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.kamekku14kensa_bg .code .boxhead a.js-link:active {
+	color: #e51400;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 /* Spoiler tags and miscellaneous. */
@@ -481,24 +549,21 @@
 }
 
 .kamekku14kensa_bg .collapsed-content {
-	display: none;
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post .collapsed-content {
-	display: none;
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #212121;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig .collapsed-content {
-	display: none;
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #FFFFFF;
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 1px dashed #CFD8DC;
 }
 
 .kamekku14kensa_bg ::selection {
@@ -511,6 +576,92 @@
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #e51400;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+.kamekku14kensa_bg .hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #abb2bf !important;
+}
+
+.kamekku14kensa_bg .hljs-comment,
+.kamekku14kensa_bg .hljs-quote {
+	color: #5c6370 !important;
+	font-style: italic;
+}
+
+.kamekku14kensa_bg .hljs-doctag,
+.kamekku14kensa_bg .hljs-keyword,
+.kamekku14kensa_bg .hljs-formula {
+	color: #c678dd !important;
+	font-style: inherit !important;
+}
+
+.kamekku14kensa_bg .hljs-section,
+.kamekku14kensa_bg .hljs-name,
+.kamekku14kensa_bg .hljs-selector-tag,
+.kamekku14kensa_bg .hljs-deletion,
+.kamekku14kensa_bg .hljs-subst {
+	color: #e06c75 !important;
+}
+
+.kamekku14kensa_bg .hljs-literal {
+	color: #56b6c2 !important;
+}
+
+.kamekku14kensa_bg .hljs-string,
+.kamekku14kensa_bg .hljs-regexp,
+.kamekku14kensa_bg .hljs-addition,
+.kamekku14kensa_bg .hljs-attribute,
+.kamekku14kensa_bg .hljs-meta-string {
+	color: #98c379 !important;
+}
+
+.kamekku14kensa_bg .hljs-built_in,
+.kamekku14kensa_bg .hljs-class .kamekku14kensa_bg .hljs-title {
+	color: #e6c07b !important;
+	font-style: inherit !important;
+}
+
+.kamekku14kensa_bg .hljs-attr,
+.kamekku14kensa_bg .hljs-variable,
+.kamekku14kensa_bg .hljs-template-variable,
+.kamekku14kensa_bg .hljs-type,
+.kamekku14kensa_bg .hljs-selector-class,
+.kamekku14kensa_bg .hljs-selector-attr,
+.kamekku14kensa_bg .hljs-selector-pseudo,
+.kamekku14kensa_bg .hljs-number {
+	color: #d19a66 !important;
+}
+
+.kamekku14kensa_bg .hljs-symbol,
+.kamekku14kensa_bg .hljs-bullet,
+.kamekku14kensa_bg .hljs-link,
+.kamekku14kensa_bg .hljs-meta,
+.kamekku14kensa_bg .hljs-selector-id,
+.kamekku14kensa_bg .hljs-title {
+	color: #61aeee !important;
+}
+
+.kamekku14kensa_bg .hljs-emphasis {
+	color: inherit !important;
+	font-style: italic;
+}
+
+.kamekku14kensa_bg .hljs-strong {
+	color: inherit !important;
+	font-weight: bold;
+}
+
+.kamekku14kensa_bg .hljs-link {
+	text-decoration: underline;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
