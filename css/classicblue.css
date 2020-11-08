@@ -347,12 +347,16 @@
 .classicblue_bg ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
+	-webkit-filter: none;
+	filter: none;
 	background: #E9ADC9;
 }
 
 .classicblue_bg ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
+	-webkit-filter: none;
+	filter: none;
 	background: #E9ADC9;
 }
 
