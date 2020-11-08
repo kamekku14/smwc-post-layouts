@@ -12,7 +12,7 @@
 	font: inherit;
 	font-weight: normal;
 	font-size: 13px;
-    line-height: normal;
+	line-height: normal;
 	color: inherit;
 }
 
@@ -67,6 +67,8 @@
 	margin: 2px 0 0 0;
 	padding: 3px;
 	font-family: monospace;
+	font-size: 12px;
+	line-height: normal;
 	border: 1px solid #00FF00;
 	color: #00FF00;
 	text-shadow: inherit;
