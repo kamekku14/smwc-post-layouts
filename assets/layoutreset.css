@@ -41,6 +41,12 @@
 	margin-top: 2px !important;
 	padding: 3px !important;
 	border: 1px solid #405060 !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border-radius: 0px 0px 0px 0px !important;
+	-moz-border-radius: 0px 0px 0px 0px !important;
+	-webkit-border-radius: 0px 0px 0px 0px !important;
 }
 
 .layoutreset .code {
@@ -72,6 +78,12 @@
 	border: 1px solid #00FF00 !important;
 	color: #00FF00 !important;
 	text-shadow: inherit !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border-radius: 0px 0px 0px 0px !important;
+	-moz-border-radius: 0px 0px 0px 0px !important;
+	-webkit-border-radius: 0px 0px 0px 0px !important;
 }
 
 .layoutreset .code .box:after {
@@ -89,4 +101,8 @@
 	text-decoration: underline !important;
 	font-weight: inherit !important;
 	text-shadow: inherit !important;
+}
+
+.layoutreset hr {
+	border-top: none !important;
 }
