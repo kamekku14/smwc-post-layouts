@@ -601,6 +601,10 @@
 	background-size: auto;
 }
 
+.orchidsandhydrangeas_bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .orchidsandhydrangeas_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;

@@ -381,6 +381,10 @@
 	visibility: visible !important;
 }
 
+.kamekku14bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .kamekku14bg .collapsed-content {
 	margin-left: 0.5em;
 	padding-left: 0.5em;

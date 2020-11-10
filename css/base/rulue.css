@@ -455,6 +455,10 @@
 	background-color: rgba(224, 224, 224, 0.05) !important;
 }
 
+.rulue_bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .rulue_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;

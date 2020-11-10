@@ -425,6 +425,10 @@
 	transition: visibility .1s linear;
 }
 
+.schezowegey_bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .schezowegey_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;

@@ -343,6 +343,10 @@
 	transition: visibility .1s linear;
 }
 
+.arlenadja_.bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .arlenadja_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;

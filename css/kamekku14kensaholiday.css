@@ -548,6 +548,10 @@
 	transition: visibility .1s linear;
 }
 
+.kamekku14kensaholiday_bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .kamekku14kensaholiday_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;

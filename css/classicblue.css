@@ -339,6 +339,10 @@
 	transition: visibility .1s linear;
 }
 
+.classicblue_bg .collapsed-checkbox {
+    display: none !important;
+}
+
 .classicblue_bg .collapsed-content {
 	margin-left: 0px;
 	padding-left: 0px;
