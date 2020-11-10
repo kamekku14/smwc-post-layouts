@@ -256,9 +256,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:visited {
@@ -266,9 +266,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:hover {
@@ -276,9 +276,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:active {
@@ -286,9 +286,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .boxhead a:link {
@@ -296,9 +296,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .boxhead a:visited {
@@ -306,9 +306,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .boxhead a:hover {
@@ -316,9 +316,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .boxhead a:active {
@@ -326,9 +326,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .box .quote .boxhead a:link {
@@ -336,9 +336,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .box .quote .boxhead a:visited {
@@ -346,9 +346,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .box .quote .boxhead a:hover {
@@ -356,9 +356,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .quote .box .quote .boxhead a:active {
@@ -366,9 +366,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:link {
@@ -376,9 +376,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:visited {
@@ -386,9 +386,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:hover {
@@ -396,9 +396,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:active {
@@ -406,9 +406,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
@@ -418,9 +418,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg a:visited {
@@ -428,9 +428,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg a:hover {
@@ -438,9 +438,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg a:active {
@@ -448,9 +448,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;
-	-webkit-transition: color 0.5s;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 
 .kamekku14kensaholiday_bg .code .boxhead a.js-link {
