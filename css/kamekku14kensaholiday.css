@@ -454,7 +454,7 @@
 }
 
 .kamekku14kensaholiday_bg .code .boxhead a.js-link {
-	color: #e51400;
+	color: #A2A2A2;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -464,7 +464,7 @@
 }
 
 .kamekku14kensaholiday_bg .code .boxhead a.js-link:hover {
-	color: #e51400;
+	color: #fafafa;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -474,6 +474,36 @@
 }
 
 .kamekku14kensaholiday_bg .code .boxhead a.js-link:active {
+	color: #c7c7c7;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .boxhead a.js-link {
+	color: #e51400;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .boxhead a.js-link:hover {
+	color: #e51400;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .boxhead a.js-link:active {
 	color: #e51400;
 	text-shadow: inherit;
 	text-decoration: underline;

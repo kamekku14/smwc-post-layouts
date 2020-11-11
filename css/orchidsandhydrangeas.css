@@ -533,6 +533,36 @@
 	-webkit-transition: all 0.5s;
 }
 
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link {
+	color: #0abde3;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:hover {
+	color: #0abde3;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:active {
+	color: #0abde3;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .orchidsandhydrangeas_bg .spoiler {
