@@ -600,7 +600,7 @@ $kamekku14_words = array(
 	"If you are not interested in drawing up a partitioning scheme for your system, you can use the partitioning scheme we use throughout this book.",
 	"Clinically proven. Kills Germs by Millions on Contact. Use Cool Mint Listerine Antiseptic twice daily.",
 	"Remember, what you do in the past will ultimately affect this future!",
-	"We do have a lot in common. The same earth, the same air, the same sky. Maybe if we started looking at what's the same instead of what's different... well, who knows.",
+	"We do have a lot in common. The same earth, the same air, the same sky. Maybe if we started looking at what's the same instead of what's different... well, who knows?",
 	"Something filled up my heart with nothing, someone told me not to cry. Now that I'm older, my heart is colder, I can see that it's a lie.",
 	"Not difficult. Learn ASM.",
 	"He has refused to pass other Laws for the accommodation of large districts of people, unless those people would relinquish the right of Representation in the Legislature, a right inestimable to them and formidable to tyrants only.",
