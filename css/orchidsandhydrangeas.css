@@ -33,6 +33,8 @@
 	padding: 24px;
 	background-size: auto;
 	font-family: "Livvic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: normal;
 	text-rendering: optimizeLegibility !important;
 	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";
