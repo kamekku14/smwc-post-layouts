@@ -227,14 +227,14 @@
 	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none;
+	border: 0px none !important;
 	padding: 5px;
 	word-wrap: break-word;
 }
 
 .kamekku14bg .code .boxhead {
 	font-variant: small-caps;
-	color: rgb(208, 251, 219);
+	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 }
 
@@ -243,8 +243,8 @@
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
-	border: 2px #d0fbdb;
-	border-style: none none none solid;
+	border: 2px #d0fbdb !important;
+	border-style: none none none solid !important;
 	padding: 5px;
 	color: rgb(50, 239, 98);
 	text-shadow: 1px 1px 1px #0a0a0f;
@@ -254,7 +254,7 @@
 
 .kamekku14bg .quote .box .code .boxhead {
 	font-variant: small-caps;
-	color: rgb(208, 251, 219);
+	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 }
 

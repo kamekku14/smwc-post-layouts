@@ -146,8 +146,8 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	box-shadow: none;
-	border: solid #0abde3;
-	border-width: 2px 1px 1px 1px;
+	border: solid #0abde3 !important;
+	border-width: 2px 1px 1px 1px !important;
 	padding: 5px;
 	color: #0abde3;
 	white-space: pre-wrap;
@@ -162,7 +162,7 @@
 .orchidsandhydrangeas_bg .code .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #dbf7fd;
+	color: #dbf7fd !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: #0abde3;
@@ -183,8 +183,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	word-wrap: break-word;
-	border: 2px #0abde3;
-	border-style: none none none solid;
+	border: 2px #0abde3 !important;
+	border-style: none none none solid !important;
 	padding: 6px;
 	color: #0abde3;
 	white-space: pre-wrap;
@@ -195,7 +195,7 @@
 .orchidsandhydrangeas_bg .quote .box .code .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #0abde3;
+	color: #0abde3 !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;

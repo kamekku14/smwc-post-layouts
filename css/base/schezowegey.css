@@ -133,7 +133,7 @@
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
 	box-shadow: none;
-	border: 0px none #F48FB1;
+	border: 0px none #F48FB1 !important;
 	padding: 5px;
 	color: #F48FB1;
 	white-space: pre-wrap;
@@ -147,7 +147,7 @@
 .schezowegey_bg .code .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #F48FB1;
+	color: #F48FB1 !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;
@@ -168,8 +168,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	word-wrap: break-word;
-	border: 2px #F48FB1;
-	border-style: none none none solid;
+	border: 2px #F48FB1 !important;
+	border-style: none none none solid !important;
 	padding: 6px;
 	color: #F48FB1;
 	white-space: pre-wrap;
@@ -180,7 +180,7 @@
 .schezowegey_bg .quote .box .code .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #F48FB1;
+	color: #F48FB1 !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;

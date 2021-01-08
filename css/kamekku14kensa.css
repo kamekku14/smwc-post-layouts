@@ -131,7 +131,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	box-shadow: none;
-	border: 0px none #F6F6F6;
+	border: 0px none #F6F6F6 !important;
 	position: relative;
 	padding: 3px 8px;
 	color: #F6F6F6;
@@ -157,7 +157,7 @@
 
 .kamekku14kensa_bg .code .boxhead {
 	display: block;
-	color: #A2A2A2;
+	color: #A2A2A2 !important;
 	font-weight: 600;
 	font-size: 11px;
 	vertical-align: middle;
@@ -179,8 +179,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	word-wrap: break-word;
-	border: 2px #e51400;
-	border-style: none none none solid;
+	border: 2px #e51400 !important;
+	border-style: none none none solid !important;
 	padding: 6px;
 	color: #e51400;
 	line-height: normal;
@@ -192,7 +192,7 @@
 .kamekku14kensa_bg .quote .box .code .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #e51400;
+	color: #e51400 !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;
