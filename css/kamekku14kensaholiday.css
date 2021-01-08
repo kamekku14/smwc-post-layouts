@@ -240,6 +240,8 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
+	margin: 8px auto;
+	width: 100%;
 }
 
 /* Others */
