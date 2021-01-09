@@ -72,7 +72,7 @@
 	-moz-border-radius: 0px 0px 8px 8px;
 	-webkit-border-radius: 0px 0px 8px 8px;
 	box-shadow: none;
-	border: 0px none #1b1b1b;
+	border: 0px none #1b1b1b !important;
 	padding: 8px;
 	word-wrap: break-word;
 	margin: 0;
@@ -102,8 +102,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	word-wrap: break-word;
-	border: 2px #1b1b1b;
-	border-style: none none none solid;
+	border: 2px #1b1b1b !important;
+	border-style: none none none solid !important;
 	padding: 8px;
 	color: #1b1b1b;
 	word-wrap: break-word;

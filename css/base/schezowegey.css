@@ -75,7 +75,7 @@
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
 	box-shadow: none;
-	border: 0px none #F6F9FF;
+	border: 0px none #F6F9FF !important;
 	padding: 5px;
 	word-wrap: break-word;
 }
@@ -104,8 +104,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	word-wrap: break-word;
-	border: 2px #F0F8FF;
-	border-style: none none none solid;
+	border: 2px #F0F8FF !important;
+	border-style: none none none solid !important;
 	padding: 6px;
 	color: #F0F8FF;
 	word-wrap: break-word;

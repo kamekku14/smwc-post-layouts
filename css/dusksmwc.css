@@ -188,7 +188,7 @@
 	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none;
+	border: 0px none !important;
 	padding: 5px;
 	color: rgb(220, 220, 237);
 	text-shadow: 1px 1px 1px #0a0a0f;
@@ -206,8 +206,8 @@
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
-	border: 2px #ababd4;
-	border-style: none none none solid;
+	border: 2px #ababd4 !important;
+	border-style: none none none solid !important;
 	padding: 5px;
 	color: rgb(171, 171, 212);
 	text-shadow: 1px 1px 1px #0a0a0f;
