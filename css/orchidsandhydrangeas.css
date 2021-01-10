@@ -567,6 +567,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.orchidsandhydrangeas_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .orchidsandhydrangeas_bg .spoiler {

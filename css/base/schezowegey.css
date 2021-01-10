@@ -391,6 +391,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.schezowegey_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .schezowegey_bg .spoiler {

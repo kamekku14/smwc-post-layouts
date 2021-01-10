@@ -391,6 +391,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.rulue_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .rulue_bg .spoiler {

@@ -517,6 +517,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.kamekku14kensa_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .kamekku14kensa_bg > .kamekku14kensa_post .spoiler {

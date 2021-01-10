@@ -183,6 +183,10 @@
 	-webkit-transition: all 0.5s;
 	}
 
+.kamekku14bg a.un {
+	font-weight: bold;
+}
+
 .kamekku14bg .quote .box {
 	background: rgba(28,28,43,0.5); 
 	border-radius: 2px 2px 2px 2px;

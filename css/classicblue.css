@@ -305,6 +305,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.classicblue_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .classicblue_bg .spoiler {

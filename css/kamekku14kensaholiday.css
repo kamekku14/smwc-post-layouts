@@ -517,6 +517,10 @@
 	-webkit-transition: all 0.5s;
 }
 
+.kamekku14kensaholiday_bg a.un {
+	font-weight: bold;
+}
+
 /* Spoiler tags and miscellaneous. */
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_post .spoiler {
