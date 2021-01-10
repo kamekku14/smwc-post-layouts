@@ -392,7 +392,7 @@
 }
 
 .schezowegey_bg a.un {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 /* Spoiler tags and miscellaneous. */

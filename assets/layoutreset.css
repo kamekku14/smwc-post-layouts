@@ -104,6 +104,10 @@
 	text-shadow: inherit !important;
 }
 
+.layoutreset a.un {
+	font-weight: bold !important;
+}
+
 .layoutreset hr {
 	border-top: none !important;
 	width: 100%;

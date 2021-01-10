@@ -184,7 +184,7 @@
 	}
 
 .kamekku14bg a.un {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .kamekku14bg .quote .box {
