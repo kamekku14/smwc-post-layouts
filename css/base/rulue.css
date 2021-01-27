@@ -69,8 +69,15 @@
 	min-height: 16px;
 }
 
+.rulue_bg .quote, .rulue_bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .rulue_bg .quote .box {
 	background-color: rgba(158, 158, 158, 0.1);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -93,10 +100,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .rulue_bg .quote .box .quote .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -125,10 +135,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .rulue_bg .code .box {
 	background-color: rgba(247, 213, 245, 0.35);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -161,6 +174,8 @@
 
 .rulue_bg .quote .box .code .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -190,6 +205,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .rulue_bg .code br {
@@ -226,7 +242,7 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -481,13 +497,13 @@
 	border: 1px dashed #CFD8DC;
 }
 
-.rulue_bg ::selection {
+.rulue_bg ::selection, .rulue_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;
 }
 
-.rulue_bg ::-moz-selection {
+.rulue_bg ::-moz-selection, .rulue_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;

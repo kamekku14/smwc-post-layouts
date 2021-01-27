@@ -65,8 +65,15 @@
 	min-height: 16px;
 }
 
+.classicblue_bg .quote, .classicblue_bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .classicblue_bg .quote .box {
 	background-color: rgba(25, 20, 37, 0.5);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -89,10 +96,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .classicblue_bg .quote .box .quote .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -121,10 +131,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .classicblue_bg .code .box {
 	background-color: rgba(25, 20, 37, 0.5);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -153,10 +166,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .classicblue_bg .quote .box .code .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -186,6 +202,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .classicblue_bg .code br {
@@ -222,7 +239,7 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -353,7 +370,7 @@
 	border: 1px dashed #CFD8DC;
 }
 
-.classicblue_bg ::selection {
+.classicblue_bg ::selection, .classicblue_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	-webkit-filter: none;
@@ -361,7 +378,7 @@
 	background: #E9ADC9;
 }
 
-.classicblue_bg ::-moz-selection {
+.classicblue_bg ::-moz-selection, .classicblue_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	-webkit-filter: none;

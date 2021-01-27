@@ -1,7 +1,7 @@
+@charset "UTF-8";
+
+/* === START OF PHP CODE GOES HERE === */
 <?php
-
-header('Content-Type: text/css');
-
 $kamekku14_words = array(
 	//NOTE: Some of the strings use the CSS character escape sequences (see <https://mathiasbynens.be/notes/css-escapes> for more information.) to make sure it'll work on any codepage.
 	"Welcome! It's time to face my magic!",
@@ -974,27 +974,27 @@ $kamekku14_words = array(
 	"May the winds of time carry you for eternity."
 );
 
+//Randomize quotes by order.
 $kamekku14_quotes = $kamekku14_words[mt_rand(0, count($kamekku14_words) - 1)];
+?>
+/* ========= END OF PHP CODE ========= */
 
-//Using heredoc syntax, taken from <http://php.net/manual/en/language.types.string.php>
-$css = <<<EOT
-@charset "UTF-8";
-
+/* Generate quotes for desired results. (Not sure how to do this...) */
 .kamekku14_quotes::before { 
 	content: "$kamekku14_quotes";
 	cursor: text;
+	/* Gosh, why does MDN not documenting about other CSS properties again? */
 	user-select: text;
 	-moz-user-select: text;
 	-webkit-user-select: text;
 	-webkit-tap-highlight-color: inherit;
 }
 
+/* Fixes wonky CSS issues. */
 .kamekku14_quotes {
 	display: inline-block;
 	word-wrap: break-word;
 	white-space: normal;
 }
-EOT;
 
-//PHP file made with Notepad the right way (a.k.a. Notepad++).
-?>
+/* CSS+PHP file made with CudaText. <http://uvviewsoft.com/cudatext/> */

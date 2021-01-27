@@ -80,8 +80,15 @@
 	min-height: 16px;
 }
 
+.orchidsandhydrangeas_bg .quote, .orchidsandhydrangeas_bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .orchidsandhydrangeas_bg .quote .box {
 	background-color: rgba(235, 181, 215, 0.1);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -106,10 +113,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 4px 8px;
+	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -138,10 +148,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .code .box {
 	background-color: rgba(200, 243, 253, 0.5);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -172,10 +185,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 4px 8px;
+	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .quote .box .code .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -205,6 +221,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .code br {
@@ -241,7 +258,7 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -661,13 +678,13 @@
 	border: 1px dashed #CFD8DC;
 }
 
-.orchidsandhydrangeas_bg ::selection {
+.orchidsandhydrangeas_bg ::selection, .orchidsandhydrangeas_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #706fd3;
 }
 
-.orchidsandhydrangeas_bg ::-moz-selection {
+.orchidsandhydrangeas_bg ::-moz-selection, .orchidsandhydrangeas_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #706fd3;

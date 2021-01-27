@@ -187,6 +187,11 @@
 	font-weight: bold !important;
 }
 
+.kamekku14bg .quote, .kamekku14bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .kamekku14bg .quote .box {
 	background: rgba(28,28,43,0.5); 
 	border-radius: 2px 2px 2px 2px;
@@ -196,6 +201,7 @@
 	padding: 5px;
 	color: rgb(220, 220, 237);
 	text-shadow: 1px 1px 1px #0a0a0f;
+    line-height: inherit;
 	word-wrap: break-word;
 }
 
@@ -203,6 +209,7 @@
 	font-variant: small-caps;
 	color: rgb(199, 194, 214);
 	text-shadow: 1px 1px 1px #0a0a0f;
+	margin: auto;
 }
 
 .kamekku14bg .quote .box .quote .box {
@@ -215,6 +222,7 @@
 	padding: 5px;
 	color: rgb(171, 171, 212);
 	text-shadow: 1px 1px 1px #0a0a0f;
+    line-height: inherit;
 	word-wrap: break-word;
 	margin-left: 8px;
 }
@@ -223,10 +231,13 @@
 	font-variant: small-caps;
 	color: rgb(171, 171, 212);
 	text-shadow: 1px 1px 1px #0a0a0f;
+	margin: auto;
 }
 
 .kamekku14bg .code .box {
 	color: rgb(50, 239, 98);
+	text-shadow: 1px 1px 1px #0a0a0f;
+	line-height: inherit;
 	background: rgba(18, 33, 26, 0.5); 
 	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
@@ -240,6 +251,7 @@
 	font-variant: small-caps;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
+	margin: auto;
 }
 
 .kamekku14bg .quote .box .code .box {
@@ -260,6 +272,7 @@
 	font-variant: small-caps;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
+	margin: auto;
 }
 
 .kamekku14 .code br {
@@ -297,7 +310,7 @@
 	height: 1px;
 	background-color: #6b6e9c;
 	border: 0;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 

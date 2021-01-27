@@ -66,6 +66,11 @@
 	min-height: 16px;
 }
 
+.kamekku14kensaholiday_bg .quote, .kamekku14kensaholiday_bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .kamekku14kensaholiday_bg .quote .box {
 	background-color: rgba(158, 158, 158, 0.1);
 	border-radius: 0px 0px 8px 8px;
@@ -73,6 +78,8 @@
 	-webkit-border-radius: 0px 0px 8px 8px;
 	box-shadow: none;
 	border: 0px none #1b1b1b !important;
+	text-shadow: inherit;
+	line-height: inherit;
 	padding: 8px;
 	word-wrap: break-word;
 	margin: 0;
@@ -91,6 +98,7 @@
 	-moz-border-radius: 8px 8px 0px 0px;
 	-webkit-border-radius: 8px 8px 0px 0px;
 	padding: 4px 8px;
+	margin: auto;
 }
 
 .kamekku14kensaholiday_bg .quote .box .quote .box {
@@ -106,6 +114,8 @@
 	border-style: none none none solid !important;
 	padding: 8px;
 	color: #1b1b1b;
+	text-shadow: inherit;
+	line-height: inherit;
 	word-wrap: break-word;
 	margin-left: 8px;
 }
@@ -123,6 +133,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .kamekku14kensaholiday_bg .code .box {
@@ -135,6 +146,7 @@
 	position: relative;
 	padding: 3px 8px;
 	color: #F6F6F6;
+	text-shadow: inherit;
 	line-height: 14px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -168,6 +180,7 @@
 	-moz-border-radius: 8px 8px 0px 0px;
 	-webkit-border-radius: 8px 8px 0px 0px;
 	padding: 4px 8px;
+	margin: auto;
 }
 
 .kamekku14kensaholiday_bg .quote .box .code .box {
@@ -183,6 +196,7 @@
 	border-style: none none none solid !important;
 	padding: 6px;
 	color: #e51400;
+	text-shadow: inherit;
 	line-height: normal;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -202,6 +216,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .kamekku14kensaholiday_bg .quote .box .code .box:after {
@@ -242,7 +257,7 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -608,13 +623,13 @@
 	border: 1px dashed #CFD8DC;
 }
 
-.kamekku14kensaholiday_bg ::selection {
+.kamekku14kensaholiday_bg ::selection, .kamekku14kensaholiday_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #e51400;
 }
 
-.kamekku14kensaholiday_bg ::-moz-selection {
+.kamekku14kensaholiday_bg ::-moz-selection, .kamekku14kensaholiday_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #e51400;

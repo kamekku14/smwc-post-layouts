@@ -69,8 +69,15 @@
 	min-height: 16px;
 }
 
+.arlenadja_bg .quote, .arlenadja_bg .code {
+	background: transparent;
+	box-shadow: none;
+}
+
 .arlenadja_bg .quote .box {
 	background-color: rgba(158, 158, 158, 0.1);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -93,10 +100,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .arlenadja_bg .quote .box .quote .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -125,10 +135,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .arlenadja_bg .code .box {
 	background-color: rgba(247, 213, 245, 0.35);
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
@@ -157,10 +170,13 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .arlenadja_bg .quote .box .code .box {
 	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
@@ -190,6 +206,7 @@
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	padding: 0px 0px;
+	margin: auto;
 }
 
 .arlenadja_bg .code br {
@@ -226,7 +243,7 @@
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -357,13 +374,13 @@
 	border: 1px dashed #CFD8DC;
 }
 
-.arlenadja_bg ::selection {
+.arlenadja_bg ::selection, .arlenadja_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;
 }
 
-.arlenadja_bg ::-moz-selection {
+.arlenadja_bg ::-moz-selection, .arlenadja_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #0091EA;
