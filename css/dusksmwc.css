@@ -103,7 +103,7 @@
 	height: 1px;
 	background-color: #1e1e2f;
 	border: 0;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
@@ -128,18 +128,18 @@
 	height: 1px;
 	background-color: #130d1a;
 	border: 0;
-	margin: 8px auto;
+	margin: 8px auto !important;
 	width: 100%;
 }
 
 /* Others */
-.kamekku14bg ::selection {
+.kamekku14bg ::selection, .kamekku14bg .code ::selection {
 	color: rgb(248,248,248);
 	text-shadow: none;
 	background: #8000ff;
 }
 
-.kamekku14bg ::-moz-selection {
+.kamekku14bg ::-moz-selection, .kamekku14bg .code ::-moz-selection {
 	color: rgb(248,248,248);
 	text-shadow: none;
 	background: #8000ff;
