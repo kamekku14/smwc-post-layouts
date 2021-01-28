@@ -69,6 +69,7 @@
 .kamekku14kensaholiday_bg .quote, .kamekku14kensaholiday_bg .code {
 	background: transparent;
 	box-shadow: none;
+	margin-top: 8px;
 }
 
 .kamekku14kensaholiday_bg .quote .box {

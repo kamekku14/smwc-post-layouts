@@ -72,6 +72,7 @@
 .schezowegey_bg .quote, .schezowegey_bg .code {
 	background: transparent;
 	box-shadow: none;
+	margin-top: 8px;
 }
 
 .schezowegey_bg .quote .box {

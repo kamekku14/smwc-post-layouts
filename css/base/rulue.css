@@ -72,6 +72,7 @@
 .rulue_bg .quote, .rulue_bg .code {
 	background: transparent;
 	box-shadow: none;
+	margin-top: 8px;
 }
 
 .rulue_bg .quote .box {

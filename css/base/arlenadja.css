@@ -72,6 +72,7 @@
 .arlenadja_bg .quote, .arlenadja_bg .code {
 	background: transparent;
 	box-shadow: none;
+	margin-top: 8px;
 }
 
 .arlenadja_bg .quote .box {

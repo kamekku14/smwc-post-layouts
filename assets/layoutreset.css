@@ -21,6 +21,7 @@
 	box-shadow: none !important;
 	margin-left: 40px !important;
 	margin-right: 40px !important;
+	margin-top: 0px !important;
 }
 
 .layoutreset .quote .boxhead {
@@ -59,6 +60,7 @@
 	box-shadow: none !important;
 	margin-left: 40px !important;
 	margin-right: 40px !important;
+	margin-top: 0px !important;
 }
 
 .layoutreset .code .boxhead {

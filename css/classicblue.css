@@ -68,6 +68,7 @@
 .classicblue_bg .quote, .classicblue_bg .code {
 	background: transparent;
 	box-shadow: none;
+	margin-top: 8px;
 }
 
 .classicblue_bg .quote .box {
