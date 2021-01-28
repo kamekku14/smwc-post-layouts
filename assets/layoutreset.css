@@ -122,6 +122,23 @@
 	width: 100% !important;
 }
 
+.layoutreset .spoiler {
+	display: inline-block !important;
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	border: 1px solid #ffffff;
+	border-radius: 2px !important;
+	
+}
+.layoutreset .spoiler .spoilerInner {
+	display: inline-block;
+	visibility: hidden !important;
+	padding: 0 2px !important;
+}
+.layoutreset .spoiler:hover .spoilerInner {
+	visibility: visible !important;
+}
+
 .layoutreset .collapsed-checkbox {
     display: none !important;
 }
