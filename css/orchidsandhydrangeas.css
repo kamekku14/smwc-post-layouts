@@ -86,7 +86,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .box {
-	background-color: rgba(235, 181, 215, 0.1);
+	background-color: rgba(235, 181, 215, 0.15);
 	text-shadow: inherit;
 	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
@@ -152,7 +152,7 @@
 }
 
 .orchidsandhydrangeas_bg .code .box {
-	background-color: rgba(200, 243, 253, 0.5);
+	background-color: rgba(200, 243, 253, 0.15);
 	text-shadow: inherit;
 	line-height: inherit;
 	border-radius: 0px 0px 0px 0px;
@@ -773,7 +773,7 @@
 }
 
 .orchidsandhydrangeas_bg .hljs-link {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
