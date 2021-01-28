@@ -17,7 +17,7 @@
  */
 
 /*!
- * Atom One Dark code highlighting from highlight.js
+ * Tomorrow Night Bright and Tomorrow code highlighting from highlight.js
  * <https://highlightjs.org/>
  */
 
@@ -641,70 +641,245 @@
  * Only usable for the new C3 theme, though!
  */
 
-.kamekku14kensaholiday_bg .hljs {
-	display: block;
-	overflow-x: auto;
-	padding: 0.5em;
-	color: #abb2bf !important;
+/* Main code blocks (Tomorrow Night Bright) */
+
+/* Tomorrow Comment */
+.kamekku14kensaholiday_bg .code .box .hljs-comment,
+.kamekku14kensaholiday_bg .code .box .hljs-quote {
+	color: #969896 !important;
+	font-style: inherit !important;
 }
 
-.kamekku14kensaholiday_bg .hljs-comment,
-.kamekku14kensaholiday_bg .hljs-quote {
-	color: #5c6370 !important;
+/* Tomorrow Red */
+.kamekku14kensaholiday_bg .code .box .hljs-variable,
+.kamekku14kensaholiday_bg .code .box .hljs-template-variable,
+.kamekku14kensaholiday_bg .code .box .hljs-tag,
+.kamekku14kensaholiday_bg .code .box .hljs-name,
+.kamekku14kensaholiday_bg .code .box .hljs-selector-id,
+.kamekku14kensaholiday_bg .code .box .hljs-selector-class,
+.kamekku14kensaholiday_bg .code .box .hljs-regexp,
+.kamekku14kensaholiday_bg .code .box .hljs-deletion {
+	color: #d54e53 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Orange */
+.kamekku14kensaholiday_bg .code .box .hljs-number,
+.kamekku14kensaholiday_bg .code .box .hljs-built_in,
+.kamekku14kensaholiday_bg .code .box .hljs-builtin-name,
+.kamekku14kensaholiday_bg .code .box .hljs-literal,
+.kamekku14kensaholiday_bg .code .box .hljs-type,
+.kamekku14kensaholiday_bg .code .box .hljs-params,
+.kamekku14kensaholiday_bg .code .box .hljs-meta,
+.kamekku14kensaholiday_bg .code .box .hljs-link {
+	color: #e78c45 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Yellow */
+.kamekku14kensaholiday_bg .code .box .hljs-attribute {
+	color: #e7c547 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Green */
+.kamekku14kensaholiday_bg .code .box .hljs-string,
+.kamekku14kensaholiday_bg .code .box .hljs-symbol,
+.kamekku14kensaholiday_bg .code .box .hljs-bullet,
+.kamekku14kensaholiday_bg .code .box .hljs-addition {
+	color: #b9ca4a !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Blue */
+.kamekku14kensaholiday_bg .code .box .hljs-title,
+.kamekku14kensaholiday_bg .code .box .hljs-section {
+	color: #7aa6da !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Purple */
+.kamekku14kensaholiday_bg .code .box .hljs-keyword,
+.kamekku14kensaholiday_bg .code .box .hljs-selector-tag {
+	color: #c397d8 !important;
+	font-style: inherit !important;
+}
+
+.kamekku14kensaholiday_bg .code .box .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #eaeaea !important;
+	padding: 0.5em;
+}
+
+.kamekku14kensaholiday_bg .code .box .hljs-emphasis {
+	color: inherit !important;
 	font-style: italic;
 }
 
-.kamekku14kensaholiday_bg .hljs-doctag,
-.kamekku14kensaholiday_bg .hljs-keyword,
-.kamekku14kensaholiday_bg .hljs-formula {
-	color: #c678dd !important;
+.kamekku14kensaholiday_bg .code .box .hljs-strong {
+	color: inherit !important;
+	font-weight: bold;
+}
+
+.kamekku14kensaholiday_bg .code .box .hljs-link {
+	text-decoration: underline !important;
+}
+
+/* Code blocks inside quote boxes (Tomorrow) */
+
+/* Tomorrow Comment */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-comment,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-quote {
+	color: #8e908c !important;
 	font-style: inherit !important;
 }
 
-.kamekku14kensaholiday_bg .hljs-section,
-.kamekku14kensaholiday_bg .hljs-name,
-.kamekku14kensaholiday_bg .hljs-selector-tag,
-.kamekku14kensaholiday_bg .hljs-deletion,
-.kamekku14kensaholiday_bg .hljs-subst {
-	color: #e06c75 !important;
-}
-
-.kamekku14kensaholiday_bg .hljs-literal {
-	color: #56b6c2 !important;
-}
-
-.kamekku14kensaholiday_bg .hljs-string,
-.kamekku14kensaholiday_bg .hljs-regexp,
-.kamekku14kensaholiday_bg .hljs-addition,
-.kamekku14kensaholiday_bg .hljs-attribute,
-.kamekku14kensaholiday_bg .hljs-meta-string {
-	color: #98c379 !important;
-}
-
-.kamekku14kensaholiday_bg .hljs-built_in,
-.kamekku14kensaholiday_bg .hljs-class .kamekku14kensaholiday_bg .hljs-title {
-	color: #e6c07b !important;
+/* Tomorrow Red */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-variable,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-template-variable,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-tag,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-name,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-selector-id,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-selector-class,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-regexp,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-deletion {
+	color: #c82829 !important;
 	font-style: inherit !important;
 }
 
-.kamekku14kensaholiday_bg .hljs-attr,
+/* Tomorrow Orange */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-number,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-built_in,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-builtin-name,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-literal,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-type,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-params,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-meta,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-link {
+	color: #f5871f !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Yellow */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-attribute {
+	color: #eab700 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Green */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-string,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-symbol,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-bullet,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-addition {
+	color: #718c00 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Blue */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-title,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-section {
+	color: #4271ae !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Purple */
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-keyword,
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-selector-tag {
+	color: #8959a8 !important;
+	font-style: inherit !important;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c !important;
+	padding: 0.5em;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-emphasis {
+	color: inherit !important;
+	font-style: italic;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-strong {
+	color: inherit !important;
+	font-weight: bold;
+}
+
+.kamekku14kensaholiday_bg .quote .box .code .box .hljs-link {
+	text-decoration: underline !important;
+}
+
+/* Well... you can guess the rest. */
+
+/* Tomorrow Comment */
+.kamekku14kensaholiday_bg .hljs-comment,
+.kamekku14kensaholiday_bg .hljs-quote {
+	color: #8e908c !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Red */
 .kamekku14kensaholiday_bg .hljs-variable,
 .kamekku14kensaholiday_bg .hljs-template-variable,
-.kamekku14kensaholiday_bg .hljs-type,
+.kamekku14kensaholiday_bg .hljs-tag,
+.kamekku14kensaholiday_bg .hljs-name,
+.kamekku14kensaholiday_bg .hljs-selector-id,
 .kamekku14kensaholiday_bg .hljs-selector-class,
-.kamekku14kensaholiday_bg .hljs-selector-attr,
-.kamekku14kensaholiday_bg .hljs-selector-pseudo,
-.kamekku14kensaholiday_bg .hljs-number {
-	color: #d19a66 !important;
+.kamekku14kensaholiday_bg .hljs-regexp,
+.kamekku14kensaholiday_bg .hljs-deletion {
+	color: #c82829 !important;
+	font-style: inherit !important;
 }
 
+/* Tomorrow Orange */
+.kamekku14kensaholiday_bg .hljs-number,
+.kamekku14kensaholiday_bg .hljs-built_in,
+.kamekku14kensaholiday_bg .hljs-builtin-name,
+.kamekku14kensaholiday_bg .hljs-literal,
+.kamekku14kensaholiday_bg .hljs-type,
+.kamekku14kensaholiday_bg .hljs-params,
+.kamekku14kensaholiday_bg .hljs-meta,
+.kamekku14kensaholiday_bg .hljs-link {
+	color: #f5871f !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Yellow */
+.kamekku14kensaholiday_bg .hljs-attribute {
+	color: #eab700 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Green */
+.kamekku14kensaholiday_bg .hljs-string,
 .kamekku14kensaholiday_bg .hljs-symbol,
 .kamekku14kensaholiday_bg .hljs-bullet,
-.kamekku14kensaholiday_bg .hljs-link,
-.kamekku14kensaholiday_bg .hljs-meta,
-.kamekku14kensaholiday_bg .hljs-selector-id,
-.kamekku14kensaholiday_bg .hljs-title {
-	color: #61aeee !important;
+.kamekku14kensaholiday_bg .hljs-addition {
+	color: #718c00 !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Blue */
+.kamekku14kensaholiday_bg .hljs-title,
+.kamekku14kensaholiday_bg .hljs-section {
+	color: #4271ae !important;
+	font-style: inherit !important;
+}
+
+/* Tomorrow Purple */
+.kamekku14kensaholiday_bg .hljs-keyword,
+.kamekku14kensaholiday_bg .hljs-selector-tag {
+	color: #8959a8 !important;
+	font-style: inherit !important;
+}
+
+.kamekku14kensaholiday_bg .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c !important;
+	padding: 0.5em;
 }
 
 .kamekku14kensaholiday_bg .hljs-emphasis {
@@ -718,7 +893,7 @@
 }
 
 .kamekku14kensaholiday_bg .hljs-link {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
