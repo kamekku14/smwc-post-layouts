@@ -140,11 +140,11 @@
 }
 
 .layoutreset .collapsed-checkbox {
-    display: none !important;
+	display: none !important;
 }
 
 .layoutreset .collapsed-content {
-    margin-left: 0.5em !important;
-    padding-left: 0.5em !important;
-    border-left: 2px solid white !important;
+	margin-left: 0.5em !important;
+	padding-left: 0.5em !important;
+	border-left: 2px solid white !important;
 }
