@@ -132,11 +132,13 @@
 	border-radius: 2px !important;
 	
 }
+
 .layoutreset .spoiler .spoilerInner {
 	display: inline-block;
 	visibility: hidden !important;
 	padding: 0 2px !important;
 }
+
 .layoutreset .spoiler:hover .spoilerInner {
 	visibility: visible !important;
 }
