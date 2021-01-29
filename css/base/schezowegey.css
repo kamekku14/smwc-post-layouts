@@ -257,7 +257,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.schezowegey_bg > .schezowegey_post a:link {
+.schezowegey_bg > .schezowegey_post a:link, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:link {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -277,7 +277,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_post a:hover {
+.schezowegey_bg > .schezowegey_post a:hover, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:hover {
 	color: #FFD54F;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -287,7 +287,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_post a:active {
+.schezowegey_bg > .schezowegey_post a:active, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:active {
 	color: #EF5350;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -297,7 +297,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_sig a:link {
+.schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:link {
 	color: #81D4FA;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -317,7 +317,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_sig a:hover {
+.schezowegey_bg > .schezowegey_sig a:hover, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:hover {
 	color: #FFE082;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -327,7 +327,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_sig a:active {
+.schezowegey_bg > .schezowegey_sig a:active, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:active {
 	color: #EF9A9A;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -339,7 +339,7 @@
 
 /* The rest here are the main link colors. */
 
-.schezowegey_bg a:link {
+.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle:link {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -359,7 +359,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg a:hover {
+.schezowegey_bg a:hover, .schezowegey_bg a.collapsed-toggle:hover {
 	color: #FFD54F;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -369,7 +369,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg a:active {
+.schezowegey_bg a:active, .schezowegey_bg a.collapsed-toggle:active {
 	color: #EF5350;
 	text-shadow: inherit;
 	text-decoration: underline;

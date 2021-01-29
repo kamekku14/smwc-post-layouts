@@ -253,7 +253,7 @@
  * while the other, Baby Blue!
  */
 
-.classicblue_bg a:link {
+.classicblue_bg a:link, .classicblue_bg a.collapsed-toggle:link {
 	color: #B3C6D5;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -273,7 +273,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.classicblue_bg a:hover {
+.classicblue_bg a:hover, .classicblue_bg a.collapsed-toggle:hover {
 	color: #F4DBB2;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -283,7 +283,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.classicblue_bg a:active {
+.classicblue_bg a:active, .classicblue_bg a.collapsed-toggle:active {
 	color: #F4B894;
 	text-shadow: inherit;
 	text-decoration: underline;

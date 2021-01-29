@@ -101,14 +101,14 @@
 	display: none !important;
 }
 
-.layoutreset a:link, .layoutreset a:visited {
+.layoutreset a:link, .layoutreset a:visited, .layoutreset a.collapsed-toggle:link {
 	color: #80ffa0 !important;
 	text-decoration: none !important;
 	font-weight: inherit !important;
 	text-shadow: inherit !important;
 }
 
-.layoutreset a:hover, .layoutreset a:active {
+.layoutreset a:hover, .layoutreset a:active, .layoutreset a.collapsed-toggle:hover, .layoutreset a.collapsed-toggle:active {
 	text-decoration: underline !important;
 	font-weight: inherit !important;
 	text-shadow: inherit !important;

@@ -525,6 +525,57 @@
 	-webkit-transition: all 0.5s;
 }
 
+.orchidsandhydrangeas_bg a.collapsed-toggle:link {
+	color: #fde7fa;
+	background: #F368E0;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	vertical-align: sub;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg a.collapsed-toggle:hover {
+	color: #fde7fa;
+	background: #FF85FD;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	vertical-align: sub;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg a.collapsed-toggle:active {
+	color: #fde7fa;
+	background: #FFA1FF;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	vertical-align: sub;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .orchidsandhydrangeas_bg .code .boxhead a.js-link {
 	color: #dbf7fd;
 	text-decoration: none;

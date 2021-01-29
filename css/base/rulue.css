@@ -256,7 +256,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.rulue_bg > .rulue_post a:link {
+.rulue_bg > .rulue_post a:link, .rulue_bg > .rulue_post a.collapsed-toggle:link {
 	color: #1E88E5;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -276,7 +276,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_post a:hover {
+.rulue_bg > .rulue_post a:hover, .rulue_bg > .rulue_post a.collapsed-toggle:hover {
 	color: #FFB300;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -286,7 +286,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_post a:active {
+.rulue_bg > .rulue_post a:active, .rulue_bg > .rulue_post a.collapsed-toggle:active {
 	color: #e53935;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -296,7 +296,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_sig a:link {
+.rulue_bg > .rulue_sig a:link, .rulue_bg > .rulue_sig a.collapsed-toggle:link {
 	color: #81D4FA;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -316,7 +316,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_sig a:hover {
+.rulue_bg > .rulue_sig a:hover, .rulue_bg > .rulue_sig a.collapsed-toggle:hover {
 	color: #FFE082;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -326,7 +326,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_sig a:active {
+.rulue_bg > .rulue_sig a:active, .rulue_bg > .rulue_sig a.collapsed-toggle:active {
 	color: #EF9A9A;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -338,7 +338,7 @@
 
 /* The rest here are the main link colors. */
 
-.rulue_bg a:link {
+.rulue_bg a:link, .rulue_bg a.collapsed-toggle:link {
 	color: #03A9F4;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -358,7 +358,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg a:hover {
+.rulue_bg a:hover, .rulue_bg a.collapsed-toggle:hover {
 	color: #FFC107;
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -368,7 +368,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.rulue_bg a:active {
+.rulue_bg a:active, .rulue_bg a.collapsed-toggle:active {
 	color: #F44336;
 	text-shadow: inherit;
 	text-decoration: underline;
