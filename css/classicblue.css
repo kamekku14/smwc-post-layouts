@@ -264,9 +264,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg a:visited {
@@ -274,9 +274,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg a:hover, .classicblue_bg a.collapsed-toggle:hover {
@@ -284,9 +284,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg a:active, .classicblue_bg a.collapsed-toggle:active {
@@ -294,9 +294,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg .code .boxhead a.js-link {
@@ -304,9 +304,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg .code .boxhead a.js-link:hover {
@@ -314,9 +314,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg .code .boxhead a.js-link:active {
@@ -324,9 +324,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .classicblue_bg a.un {
@@ -343,6 +343,8 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
 	transition: all .25s linear;
 }
 

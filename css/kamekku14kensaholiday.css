@@ -599,7 +599,9 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
 }
 
 .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig .spoiler {
@@ -610,7 +612,9 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
 }
 
 .kamekku14kensaholiday_bg .spoiler {
@@ -621,7 +625,9 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
-	transition: background-color .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
 }
 
 .kamekku14kensaholiday_bg .quote .spoiler {

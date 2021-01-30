@@ -264,9 +264,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_post a:visited {
@@ -274,9 +274,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_post a:hover, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:hover {
@@ -284,9 +284,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_post a:active, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:active {
@@ -294,9 +294,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:link {
@@ -304,9 +304,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_sig a:visited {
@@ -314,9 +314,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_sig a:hover, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:hover {
@@ -324,9 +324,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg > .schezowegey_sig a:active, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:active {
@@ -334,9 +334,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
@@ -346,9 +346,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg a:visited {
@@ -356,9 +356,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg a:hover, .schezowegey_bg a.collapsed-toggle:hover {
@@ -366,9 +366,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg a:active, .schezowegey_bg a.collapsed-toggle:active {
@@ -376,9 +376,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link {
@@ -386,9 +386,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link:hover {
@@ -396,9 +396,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link:active {
@@ -406,9 +406,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .schezowegey_bg a.un {
@@ -425,6 +425,8 @@
 	border-radius: 2px 2px 2px 2px;
 	padding: 1px;
 	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
 	transition: all .25s linear;
 }
 

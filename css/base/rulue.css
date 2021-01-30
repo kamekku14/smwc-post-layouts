@@ -265,9 +265,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:visited {
@@ -275,9 +275,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:hover, .rulue_bg > .rulue_post a.collapsed-toggle:hover {
@@ -285,9 +285,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_post a:active, .rulue_bg > .rulue_post a.collapsed-toggle:active {
@@ -295,9 +295,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:link, .rulue_bg > .rulue_sig a.collapsed-toggle, .rulue_bg > .rulue_sig a.collapsed-toggle:link {
@@ -305,9 +305,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:visited {
@@ -315,9 +315,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:hover, .rulue_bg > .rulue_sig a.collapsed-toggle:hover {
@@ -325,9 +325,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg > .rulue_sig a:active, .rulue_bg > .rulue_sig a.collapsed-toggle:active {
@@ -335,9 +335,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
@@ -347,9 +347,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg a:visited {
@@ -357,9 +357,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg a:hover, .rulue_bg a.collapsed-toggle:hover {
@@ -367,9 +367,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg a:active, .rulue_bg a.collapsed-toggle:active {
@@ -377,9 +377,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg .code .boxhead a.js-link {
@@ -387,9 +387,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg .code .boxhead a.js-link:hover {
@@ -397,9 +397,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg .code .boxhead a.js-link:active {
@@ -407,9 +407,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .rulue_bg a.un {
@@ -426,6 +426,8 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -437,6 +439,8 @@
 	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -448,6 +452,8 @@
 	-webkit-border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
