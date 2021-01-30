@@ -32,7 +32,7 @@
 
 .rulue_bg {
 	background: #FAFAFA /*url('https://yoururlhere') repeat center center*/;
-	padding: 0px;
+	padding: 0;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: normal;
@@ -47,7 +47,7 @@
 
 /*.rulue_sideimg {
 	background: transparent url('https://yoururlhere') no-repeat right bottom;
-	padding: 0px;
+	padding: 0;
 }*/
 
 .rulue_post {
@@ -71,6 +71,8 @@
 
 .rulue_bg .quote, .rulue_bg .code {
 	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	margin-top: 8px;
 }
@@ -79,11 +81,13 @@
 	background-color: rgba(158, 158, 158, 0.1);
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #0E1116 !important;
+	border: 0 none #0E1116 !important;
 	padding: 5px;
 	word-wrap: break-word;
 }
@@ -97,10 +101,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -108,13 +112,12 @@
 	background-color: transparent;
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	word-wrap: break-word;
 	border: 2px #2B3444 !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -132,10 +135,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -143,11 +146,13 @@
 	background-color: rgba(247, 213, 245, 0.35);
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #E91E63 !important;
+	border: 0 none #E91E63 !important;
 	padding: 5px;
 	color: #E91E63;
 	white-space: pre-wrap;
@@ -167,23 +172,22 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 }
 
 .rulue_bg .quote .box .code .box {
 	background-color: transparent;
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	word-wrap: break-word;
 	border: 2px #E91E63 !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -202,10 +206,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -229,10 +233,10 @@
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none #000000;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none #000000;
 	background: #E91E63;
 	color: #FFFFFF;
 	padding: 1px;
@@ -416,10 +420,10 @@
 
 .rulue_bg .spoiler {
 	background-color: #212121 !important;
-	border: 0px none #212121;
-	border-radius: 2px;
+	border: 0 none #212121;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: all .25s linear;
@@ -427,10 +431,10 @@
 
 .rulue_bg > .rulue_post .spoiler {
 	background-color: #212121 !important;
-	border: 0px none #212121;
-	border-radius: 2px;
+	border: 0 none #212121;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: all .25s linear;
@@ -438,7 +442,7 @@
 
 .rulue_bg > .rulue_sig .spoiler {
 	background-color: #E0E0E0 !important;
-	border: 0px none #E0E0E0;
+	border: 0 none #E0E0E0;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -464,7 +468,7 @@
 }
 
 .rulue_bg .spoilerInner {
-	padding: 0px;
+	padding: 0;
 	transition: visibility .1s linear;
 }
 
@@ -481,20 +485,20 @@
 }
 
 .rulue_bg .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
 .rulue_bg > .rulue_post .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
 .rulue_bg > .rulue_sig .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
