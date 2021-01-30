@@ -525,7 +525,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg a.collapsed-toggle:link {
+.orchidsandhydrangeas_bg a.collapsed-toggle, .orchidsandhydrangeas_bg a.collapsed-toggle:link {
 	color: #fde7fa;
 	background: #F368E0;
 	text-shadow: inherit;
@@ -536,7 +536,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -544,7 +543,7 @@
 
 .orchidsandhydrangeas_bg a.collapsed-toggle:hover {
 	color: #fde7fa;
-	background: #FF85FD;
+	background: #FF85FD !important;
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: 600;
@@ -553,7 +552,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -561,7 +559,7 @@
 
 .orchidsandhydrangeas_bg a.collapsed-toggle:active {
 	color: #fde7fa;
-	background: #FFA1FF;
+	background: #FFA1FF !important;
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: 600;
@@ -570,7 +568,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;

@@ -257,7 +257,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.schezowegey_bg > .schezowegey_post a:link, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:link {
+.schezowegey_bg > .schezowegey_post a:link, .schezowegey_bg > .schezowegey_post a.collapsed-toggle, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:link {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -297,7 +297,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:link {
+.schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:link {
 	color: #81D4FA;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -339,7 +339,7 @@
 
 /* The rest here are the main link colors. */
 
-.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle:link {
+.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle, .schezowegey_bg a.collapsed-toggle:link {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;

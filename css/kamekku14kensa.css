@@ -473,7 +473,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.kamekku14kensa_bg a.collapsed-toggle:link {
+.kamekku14kensa_bg a.collapsed-toggle, .kamekku14kensa_bg a.collapsed-toggle:link {
 	color: #eeeeee;
 	background: #2D2D2D;
 	text-shadow: inherit;
@@ -484,7 +484,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -492,7 +491,7 @@
 
 .kamekku14kensa_bg a.collapsed-toggle:hover {
 	color: #eeeeee;
-	background: #484848;
+	background: #484848 !important;
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: 600;
@@ -501,7 +500,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -509,7 +507,7 @@
 
 .kamekku14kensa_bg a.collapsed-toggle:active {
 	color: #eeeeee;
-	background: #373737;
+	background: #373737 !important;
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: 600;
@@ -518,7 +516,6 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
-	vertical-align: sub;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
