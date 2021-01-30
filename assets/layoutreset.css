@@ -105,7 +105,7 @@
 	display: none !important;
 }
 
-.layoutreset a:link, .layoutreset a:visited, .layoutreset a.collapsed-toggle {
+.layoutreset a, .layoutreset a:link, .layoutreset a:visited, .layoutreset a.collapsed-toggle {
 	color: #80ffa0 !important;
 	text-decoration: none !important;
 	font-weight: inherit !important;

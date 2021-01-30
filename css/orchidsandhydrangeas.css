@@ -287,13 +287,14 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:link {
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_post a, .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:link {
 	color: #00d2d3;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -304,6 +305,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -314,6 +316,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -324,16 +327,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:link {
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a, .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:link {
 	color: #00d2d3;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -344,6 +349,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -354,6 +360,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -364,16 +371,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg .quote .boxhead a:link {
+.orchidsandhydrangeas_bg .quote .boxhead a, .orchidsandhydrangeas_bg .quote .boxhead a:link {
 	color: #f3d4e8;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -384,6 +393,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -394,6 +404,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -404,16 +415,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
+.orchidsandhydrangeas_bg .quote .box .quote .boxhead a, .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
 	color: #41112f;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -424,6 +437,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -434,6 +448,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -444,16 +459,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:link {
+.orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a, .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:link {
 	color: #00f9fa;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -464,6 +481,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -474,6 +492,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -484,18 +503,20 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
 
-.orchidsandhydrangeas_bg a:link {
+.orchidsandhydrangeas_bg a, .orchidsandhydrangeas_bg a:link {
 	color: #00d2d3;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -506,6 +527,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -516,6 +538,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -526,6 +549,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -542,6 +566,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -558,6 +583,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -574,6 +600,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -584,6 +611,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -594,6 +622,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -604,6 +633,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -614,6 +644,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -624,6 +655,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -634,6 +666,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -654,6 +687,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -667,6 +701,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -680,6 +715,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 

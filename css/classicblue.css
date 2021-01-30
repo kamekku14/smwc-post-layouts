@@ -259,13 +259,14 @@
  * while the other, Baby Blue!
  */
 
-.classicblue_bg a:link, .classicblue_bg a.collapsed-toggle {
+.classicblue_bg a, .classicblue_bg a:link, .classicblue_bg a.collapsed-toggle {
 	color: #B3C6D5;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -276,6 +277,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -286,6 +288,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -296,6 +299,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -306,6 +310,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -316,6 +321,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -326,6 +332,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -345,6 +352,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 

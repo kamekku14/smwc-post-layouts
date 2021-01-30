@@ -259,13 +259,14 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.schezowegey_bg > .schezowegey_post a:link, .schezowegey_bg > .schezowegey_post a.collapsed-toggle, .schezowegey_bg > .schezowegey_post a.collapsed-toggle:link {
+.schezowegey_bg > .schezowegey_post a, .schezowegey_bg > .schezowegey_post a:link, .schezowegey_bg > .schezowegey_post a.collapsed-toggle {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -276,6 +277,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -286,6 +288,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -296,16 +299,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle:link {
+.schezowegey_bg > .schezowegey_sig a, .schezowegey_bg > .schezowegey_sig a:link, .schezowegey_bg > .schezowegey_sig a.collapsed-toggle {
 	color: #81D4FA;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -316,6 +321,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -326,6 +332,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -336,18 +343,20 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
 
-.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle {
+.schezowegey_bg a, .schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -358,6 +367,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -368,6 +378,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -378,6 +389,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -388,6 +400,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -398,6 +411,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -408,6 +422,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -427,6 +442,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 

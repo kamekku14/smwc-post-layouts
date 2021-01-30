@@ -275,13 +275,14 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.kamekku14kensa_bg > .kamekku14kensa_post a:link {
+.kamekku14kensa_bg > .kamekku14kensa_post a, .kamekku14kensa_bg > .kamekku14kensa_post a:link {
 	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -292,6 +293,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -302,6 +304,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -312,16 +315,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.kamekku14kensa_bg .quote .boxhead a:link {
+.kamekku14kensa_bg .quote .boxhead a, .kamekku14kensa_bg .quote .boxhead a:link {
 	color: #A2A2A2;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -332,6 +337,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -340,9 +346,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .boxhead a:active {
@@ -352,16 +359,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.kamekku14kensa_bg .quote .box .quote .boxhead a:link {
+.kamekku14kensa_bg .quote .box .quote .boxhead a, .kamekku14kensa_bg .quote .box .quote .boxhead a:link {
 	color: #1b1b1b;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -372,6 +381,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -382,6 +392,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -392,16 +403,18 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
-.kamekku14kensa_bg > .kamekku14kensa_sig a:link {
+.kamekku14kensa_bg > .kamekku14kensa_sig a, .kamekku14kensa_bg > .kamekku14kensa_sig a:link {
 	color: #e51400;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -412,6 +425,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -422,6 +436,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -437,13 +452,14 @@
 
 /* The rest here are the main link colors. */
 
-.kamekku14kensa_bg a:link {
+.kamekku14kensa_bg a, .kamekku14kensa_bg a:link {
 	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -454,6 +470,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -464,6 +481,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -474,6 +492,7 @@
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -490,6 +509,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -506,6 +526,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -522,6 +543,7 @@
 	padding: 4px;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -530,9 +552,10 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .code .boxhead a.js-link:hover {
@@ -540,9 +563,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .code .boxhead a.js-link:active {
@@ -560,9 +584,10 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .code .boxhead a.js-link:hover {
@@ -570,9 +595,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .code .boxhead a.js-link:active {
@@ -580,9 +606,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg a.un {
@@ -601,6 +628,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -614,6 +642,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -627,6 +656,7 @@
 	color: inherit !important;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
