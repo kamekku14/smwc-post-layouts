@@ -33,14 +33,14 @@
 
 .classicblue_bg {
 	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/arle_sideimg.png') bottom right no-repeat, #0f4c81 url('https://kamekku14.github.io/smwc-post-layouts/assets/classicblue/classicblue_background.png') repeat center center;
-	padding: 0px;
+	padding: 0;
 	font-family: "Work Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
-	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";
 	-webkit-font-feature-settings: "liga", "clig", "kern";
+	font-feature-settings: "liga", "clig", "kern";
 	color: #FFFFFF;
 	text-shadow: 2px 2px 2px rgba(25, 20, 37, 0.5);
 	min-height: 350px;
@@ -67,6 +67,8 @@
 
 .classicblue_bg .quote, .classicblue_bg .code {
 	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	margin-top: 8px;
 }
@@ -75,11 +77,13 @@
 	background-color: rgba(25, 20, 37, 0.5);
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #C2E8FF !important;
+	border: 0 none #C2E8FF !important;
 	padding: 5px;
 	word-wrap: break-word;
 }
@@ -93,10 +97,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -104,9 +108,9 @@
 	background-color: transparent;
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -128,10 +132,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -139,11 +143,13 @@
 	background-color: rgba(25, 20, 37, 0.5);
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
 	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #83CA54 !important;
+	border: 0 none #83CA54 !important;
 	padding: 5px;
 	color: #83CA54;
 	white-space: pre-wrap;
@@ -163,10 +169,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -174,9 +180,9 @@
 	background-color: transparent;
 	text-shadow: inherit;
 	line-height: inherit;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -199,10 +205,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -226,10 +232,10 @@
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none #000000;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none #000000;
 	background: rgba(25, 20, 37, 0.5);
 	color: #FFFFFF;
 	padding: 1px;
@@ -331,10 +337,10 @@
 
 .classicblue_bg .spoiler {
 	background-color: #A0B5D0 !important;
-	border: 0px none #A0B5D0;
-	border-radius: 2px;
+	border: 0 none #A0B5D0;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: all .25s linear;
@@ -357,7 +363,7 @@
 }
 
 .classicblue_bg .spoilerInner {
-	padding: 0px;
+	padding: 0;
 	transition: visibility .1s linear;
 }
 
@@ -366,8 +372,8 @@
 }
 
 .classicblue_bg .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 

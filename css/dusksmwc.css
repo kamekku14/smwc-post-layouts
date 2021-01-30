@@ -23,49 +23,49 @@
 
 @-moz-keyframes kamekku14-linkactive {
 	from {
-		transform: scale3d(1, 1, 1);
 		-moz-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
 	}
 	to {
-		transform: scale3d(1.05, 1.05, 1.05);
 		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
 @-webkit-keyframes kamekku14-linkactive {
 	from {
-		transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
 	}
 	to {
-		transform: scale3d(1.05, 1.05, 1.05);
 		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
 @-o-keyframes kamekku14-linkactive {
 	from {
-		transform: scale3d(1, 1, 1);
 		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
 	}
 	to {
-		transform: scale3d(1.05, 1.05, 1.05);
 		-o-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
 @keyframes kamekku14-linkactive {
 	from {
-		transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
 		-moz-transform: scale3d(1, 1, 1);
 		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
 	}
 	to {
-		transform: scale3d(1.05, 1.05, 1.05);
 		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 		-moz-transform: scale3d(1.05, 1.05, 1.05);
 		-o-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
@@ -89,9 +89,9 @@
 	border: 1px #1e1e2f;
 	border-style: none solid solid none;
 	padding: 5px;
-	-webkit-box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
-	-moz-box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
+	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	color: rgb(248,248,248);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	word-wrap: break-word;
@@ -115,9 +115,9 @@
 	border: 1px #130d1a;
 	border-style: none solid solid none;
 	padding: 5px;
-	-webkit-box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
-	-moz-box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0px 0px 4px 1px rgba(10,10,15,0.5);
+	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	word-wrap: break-word;
 	height: 16 px;
 	min-width: 16px;
@@ -150,17 +150,17 @@
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 	}
 
 .kamekku14bg a:visited {
 	color: rgb(202, 221, 227);
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 	}
 
 .kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
@@ -168,9 +168,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 	}
 
 .kamekku14bg a:active, .kamekku14bg a.collapsed-toggle:active {
@@ -178,9 +178,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 	}
 
 .kamekku14bg a.un {
@@ -195,10 +195,10 @@
 
 .kamekku14bg .quote .box {
 	background: rgba(28,28,43,0.5); 
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none !important;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none !important;
 	padding: 5px;
 	color: rgb(220, 220, 237);
 	text-shadow: 1px 1px 1px #0a0a0f;
@@ -215,9 +215,9 @@
 
 .kamekku14bg .quote .box .quote .box {
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	border: 2px #ababd4 !important;
 	border-style: none none none solid !important;
 	padding: 5px;
@@ -240,10 +240,10 @@
 	text-shadow: 1px 1px 1px #0a0a0f;
 	line-height: inherit;
 	background: rgba(18, 33, 26, 0.5); 
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none !important;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none !important;
 	padding: 5px;
 	word-wrap: break-word;
 }
@@ -257,9 +257,9 @@
 
 .kamekku14bg .quote .box .code .box {
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	border: 2px #d0fbdb !important;
 	border-style: none none none solid !important;
 	padding: 5px;
@@ -296,10 +296,10 @@
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none #000000;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none #000000;
 	background: rgba(80, 72, 101, 0.5);
 	color: #F8F8F8;
 	text-shadow: 1px 1px 1px #0a0a0f;
@@ -321,23 +321,23 @@
 	color: #f8f8f8 !important;
 	text-shadow: none;
 	border: 1px solid #f8f8f8;
-	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	box-shadow: 1px 1px 1px #0a0a0f;
+	border-radius: 2px;
 	-webkit-box-shadow: 1px 1px 1px #0a0a0f;
 	-moz-box-shadow: 1px 1px 1px #0a0a0f;
-	transition: all 0.1s linear;
+	box-shadow: 1px 1px 1px #0a0a0f;
 	-moz-transition: all 0.1s linear;
 	-webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear;
 }
 
 .kamekku14bg .spoiler .quote .box {
 	background: rgba(64, 64, 64, 0.5); 
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none;
 	padding: 5px;
 	color: rgb(242, 242, 242);
 	word-wrap: break-word;
@@ -350,9 +350,9 @@
 
 .kamekku14bg .spoiler .quote .box .quote .box {
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	border: 2px #cccccc;
 	border-style: none none none solid;
 	padding: 5px;
@@ -369,10 +369,10 @@
 .kamekku14bg .spoiler .code .box {
 	color: rgb(50, 239, 98);
 	background: rgba(18, 33, 26, 0.5); 
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none;
 	padding: 5px;
 	word-wrap: break-word;
 }
@@ -384,18 +384,18 @@
 }
 
 .kamekku14bg .spoiler .spoilerInner {
-	transition: all 0.1s linear;
 	-moz-transition: all 0.1s linear;
 	-webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear;
 	display: inline-block;
 	visibility: hidden !important;
 	padding: 0 2px;
 }
 
 .kamekku14bg .spoiler:hover .spoilerInner {
-	transition: all 0.1s linear;
 	-moz-transition: all 0.1s linear;
 	-webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear;
 	visibility: visible !important;
 }
 

@@ -37,9 +37,9 @@
 	font-size: 13px;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
-	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";
 	-webkit-font-feature-settings: "liga", "clig", "kern";
+	font-feature-settings: "liga", "clig", "kern";
 	color: #212121;
 	text-shadow: none;
 	min-height: 350px;

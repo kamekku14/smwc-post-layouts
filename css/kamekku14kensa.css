@@ -29,14 +29,14 @@
 
 .kamekku14kensa_bg {
 	background: #FFFFFF url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_white.png') repeat center center;
-	padding: 0px;
+	padding: 0;
 	font-family: "IBM Plex Sans", "Arial Nova", Arial, "Arimo", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
-	font-feature-settings: "liga", "clig", "kern";
 	-moz-font-feature-settings: "liga", "clig", "kern";
 	-webkit-font-feature-settings: "liga", "clig", "kern";
+	font-feature-settings: "liga", "clig", "kern";
 	color: #212121;
 	text-shadow: none;
 	min-height: 350px;
@@ -44,7 +44,7 @@
 
 .kamekku14kensa_sideimg {
 	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_sideimg2.png') no-repeat right bottom;
-	padding: 0px;
+	padding: 0;
 }
 
 .kamekku14kensa_post {
@@ -68,17 +68,21 @@
 
 .kamekku14kensa_bg .quote, .kamekku14kensa_bg .code {
 	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	margin-top: 8px;
 }
 
 .kamekku14kensa_bg .quote .box {
 	background-color: rgba(158, 158, 158, 0.1);
-	border-radius: 0px 0px 8px 8px;
-	-moz-border-radius: 0px 0px 8px 8px;
-	-webkit-border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+	border-radius: 0 0 8px 8px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #1b1b1b !important;
+	border: 0 none #1b1b1b !important;
 	text-shadow: inherit;
 	line-height: inherit;
 	padding: 8px;
@@ -95,22 +99,21 @@
 	background: #151515;
 	border: none;
 	border-bottom: 1px solid #e51400;
-	border-radius: 8px 8px 0px 0px;
-	-moz-border-radius: 8px 8px 0px 0px;
-	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
 	padding: 4px 8px;
 	margin: auto;
 }
 
 .kamekku14kensa_bg .quote .box .quote .box {
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	word-wrap: break-word;
 	border: 2px #1b1b1b !important;
 	border-style: none none none solid !important;
 	padding: 8px;
@@ -130,20 +133,22 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
 .kamekku14kensa_bg .code .box {
 	background: url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14kensa/kensa_codelines.png') left 4px #2D2D2D;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 0px none #F6F6F6 !important;
+	border: 0 none #F6F6F6 !important;
 	position: relative;
 	padding: 3px 8px;
 	color: #F6F6F6;
@@ -177,22 +182,21 @@
 	background: #151515;
 	border: none;
 	border-bottom: 1px solid #e51400;
-	border-radius: 8px 8px 0px 0px;
-	-moz-border-radius: 8px 8px 0px 0px;
-	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
 	padding: 4px 8px;
 	margin: auto;
 }
 
 .kamekku14kensa_bg .quote .box .code .box {
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	word-wrap: break-word;
 	border: 2px #e51400 !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -213,10 +217,10 @@
 	background: transparent;
 	border: none;
 	border-bottom: none;
-	border-radius: 0px 0px 0px 0px;
-	-moz-border-radius: 0px 0px 0px 0px;
-	-webkit-border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
 	margin: auto;
 }
 
@@ -244,10 +248,10 @@
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
-	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border: 0px none #000000;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none #000000;
 	background: #2D2D2D;
 	color: #FFFFFF;
 	padding: 1px;
@@ -276,9 +280,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:visited {
@@ -286,9 +290,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:hover {
@@ -296,9 +300,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post a:active {
@@ -306,9 +310,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .boxhead a:link {
@@ -316,9 +320,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .boxhead a:visited {
@@ -326,9 +330,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .boxhead a:hover {
@@ -346,9 +350,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .quote .boxhead a:link {
@@ -356,9 +360,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .quote .boxhead a:visited {
@@ -366,9 +370,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .quote .boxhead a:hover {
@@ -376,9 +380,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg .quote .box .quote .boxhead a:active {
@@ -386,9 +390,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:link {
@@ -396,9 +400,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:visited {
@@ -406,9 +410,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:hover {
@@ -416,9 +420,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig a:active {
@@ -426,9 +430,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 /* The rest here are the main link colors. */
@@ -438,9 +442,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg a:visited {
@@ -448,9 +452,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg a:hover {
@@ -458,9 +462,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg a:active {
@@ -468,9 +472,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
-	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .kamekku14kensa_bg a.collapsed-toggle {
@@ -589,10 +593,10 @@
 
 .kamekku14kensa_bg > .kamekku14kensa_post .spoiler {
 	background-color: #212121 !important;
-	border: 0px none #212121;
-	border-radius: 2px;
+	border: 0 none #212121;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: background-color .25s linear;
@@ -600,10 +604,10 @@
 
 .kamekku14kensa_bg > .kamekku14kensa_sig .spoiler {
 	background-color: #E0E0E0 !important;
-	border: 0px none #E0E0E0;
-	border-radius: 2px;
+	border: 0 none #E0E0E0;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: background-color .25s linear;
@@ -611,10 +615,10 @@
 
 .kamekku14kensa_bg .spoiler {
 	background-color: #212121 !important;
-	border: 0px none #212121;
-	border-radius: 2px;
+	border: 0 none #212121;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	border-radius: 2px;
 	padding: 1px;
 	color: inherit !important;
 	transition: background-color .25s linear;
@@ -646,7 +650,7 @@
 }
 
 .kamekku14kensa_bg .spoilerInner {
-	padding: 0px;
+	padding: 0;
 	transition: visibility .1s linear;
 }
 
@@ -655,20 +659,20 @@
 }
 
 .kamekku14kensa_bg .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_post .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
 .kamekku14kensa_bg > .kamekku14kensa_sig .collapsed-content {
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 0;
+	padding-left: 0;
 	border: 1px dashed #CFD8DC;
 }
 
