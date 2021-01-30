@@ -525,7 +525,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.orchidsandhydrangeas_bg a.collapsed-toggle, .orchidsandhydrangeas_bg a.collapsed-toggle:link {
+.orchidsandhydrangeas_bg a.collapsed-toggle {
 	color: #fde7fa;
 	background: #F368E0;
 	text-shadow: inherit;

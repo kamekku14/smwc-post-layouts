@@ -473,7 +473,7 @@
 	-webkit-transition: all 0.5s;
 }
 
-.kamekku14kensa_bg a.collapsed-toggle, .kamekku14kensa_bg a.collapsed-toggle:link {
+.kamekku14kensa_bg a.collapsed-toggle {
 	color: #eeeeee;
 	background: #2D2D2D;
 	text-shadow: inherit;

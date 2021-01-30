@@ -339,7 +339,7 @@
 
 /* The rest here are the main link colors. */
 
-.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle, .schezowegey_bg a.collapsed-toggle:link {
+.schezowegey_bg a:link, .schezowegey_bg a.collapsed-toggle {
 	color: #29B6F6;
 	text-decoration: none;
 	text-shadow: inherit;
