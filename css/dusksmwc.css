@@ -16,6 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+/*!
+ * Atelier Sulphurpool Dark code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -415,6 +420,87 @@
 	margin-left: 0.5em;
 	padding-left: 0.5em;
 	border-left: 2px solid #F8F8F8;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+/* Atelier-Sulphurpool Comment */
+.kamekku14bg .hljs-comment,
+.kamekku14bg .hljs-quote {
+	color: #898ea4 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Sulphurpool Red */
+.kamekku14bg .hljs-variable,
+.kamekku14bg .hljs-template-variable,
+.kamekku14bg .hljs-attribute,
+.kamekku14bg .hljs-tag,
+.kamekku14bg .hljs-name,
+.kamekku14bg .hljs-regexp,
+.kamekku14bg .hljs-link,
+.kamekku14bg .hljs-name,
+.kamekku14bg .hljs-selector-id,
+.kamekku14bg .hljs-selector-class {
+	color: #c94922 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Sulphurpool Orange */
+.kamekku14bg .hljs-number,
+.kamekku14bg .hljs-meta,
+.kamekku14bg .hljs-built_in,
+.kamekku14bg .hljs-builtin-name,
+.kamekku14bg .hljs-literal,
+.kamekku14bg .hljs-type,
+.kamekku14bg .hljs-params {
+	color: #c76b29 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Sulphurpool Green */
+.kamekku14bg .hljs-string,
+.kamekku14bg .hljs-symbol,
+.kamekku14bg .hljs-bullet {
+	color: #ac9739 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Sulphurpool Blue */
+.kamekku14bg .hljs-title,
+.kamekku14bg .hljs-section {
+	color: #3d8fd1 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Sulphurpool Purple */
+.kamekku14bg .hljs-keyword,
+.kamekku14bg .hljs-selector-tag {
+	color: #6679cc !important;
+	font-style: inherit !important;
+}
+
+.kamekku14bg .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #979db4 !important;
+	padding: 0.5em;
+}
+
+.kamekku14bg .hljs-emphasis {
+	font-style: italic !important;
+}
+
+.kamekku14bg .hljs-strong {
+	font-weight: bold !important;
+}
+
+.kamekku14bg .hljs-link {
+	text-decoration: underline !important;
 }
 
 /* CSS file made with Notepad the right way (a.k.a. Notepad++). */
