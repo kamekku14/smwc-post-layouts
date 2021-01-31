@@ -78,7 +78,7 @@
 	text-shadow: 1px 1px 1px #0a0a0f;
 	border: none; 
 	padding: 20px;
-	min-height: 250px;
+	min-height: 350px;
 }
 
 .kamekku14post {
@@ -145,7 +145,7 @@
 	background: #8000ff;
 }
 
-.kamekku14bg a, .kamekku14bg a:link, .kamekku14bg a.collapsed-toggle {
+.kamekku14bg a:link, .kamekku14bg a.collapsed-toggle {
 	color: rgb(142, 203, 225);
 	text-shadow: inherit;
 	text-decoration: none;
@@ -185,6 +185,10 @@
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+	-moz-animation: kamekku14-linkactive 0.5s;
+	-webkit-animation: kamekku14-linkactive 0.5s;
+	-o-animation: kamekku14-linkactive 0.5s;
+	animation: kamekku14-linkactive 0.5s;
 	}
 
 .kamekku14bg a.un {

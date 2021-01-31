@@ -256,7 +256,7 @@
 
 /* Link colors. */
 
-.arlenadja_bg a, .arlenadja_bg a:link, .arlenadja_bg a.collapsed-toggle {
+.arlenadja_bg a:link, .arlenadja_bg a.collapsed-toggle {
 	color: #1E88E5;
 	text-decoration: none;
 	text-shadow: inherit;

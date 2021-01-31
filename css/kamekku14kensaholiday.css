@@ -275,7 +275,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a, .kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:link {
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_post a:link {
 	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -319,7 +319,7 @@
 	transition: all 0.5s;
 }
 
-.kamekku14kensaholiday_bg .quote .boxhead a, .kamekku14kensaholiday_bg .quote .boxhead a:link {
+.kamekku14kensaholiday_bg .quote .boxhead a:link {
 	color: #A2A2A2;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -363,7 +363,7 @@
 	transition: all 0.5s;
 }
 
-.kamekku14kensaholiday_bg .quote .box .quote .boxhead a, .kamekku14kensaholiday_bg .quote .box .quote .boxhead a:link {
+.kamekku14kensaholiday_bg .quote .box .quote .boxhead a:link {
 	color: #1b1b1b;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -407,7 +407,7 @@
 	transition: all 0.5s;
 }
 
-.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a, .kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:link {
+.kamekku14kensaholiday_bg > .kamekku14kensaholiday_sig a:link {
 	color: #e51400;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -452,7 +452,7 @@
 
 /* The rest here are the main link colors. */
 
-.kamekku14kensaholiday_bg a, .kamekku14kensaholiday_bg a:link {
+.kamekku14kensaholiday_bg a:link {
 	color: #be1100;
 	text-decoration: none;
 	text-shadow: inherit;

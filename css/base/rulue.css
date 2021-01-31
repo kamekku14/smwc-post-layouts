@@ -260,7 +260,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.rulue_bg > .rulue_post a, .rulue_bg > .rulue_post a:link, .rulue_bg > .rulue_post a.collapsed-toggle {
+.rulue_bg > .rulue_post a:link, .rulue_bg > .rulue_post a.collapsed-toggle {
 	color: #1E88E5;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -304,7 +304,7 @@
 	transition: all 0.5s;
 }
 
-.rulue_bg > .rulue_sig a, .rulue_bg > .rulue_sig a:link, .rulue_bg > .rulue_sig a.collapsed-toggle {
+.rulue_bg > .rulue_sig a:link, .rulue_bg > .rulue_sig a.collapsed-toggle {
 	color: #81D4FA;
 	text-decoration: none;
 	text-shadow: inherit;
@@ -350,7 +350,7 @@
 
 /* The rest here are the main link colors. */
 
-.rulue_bg a, .rulue_bg a:link, .rulue_bg a.collapsed-toggle {
+.rulue_bg a:link, .rulue_bg a.collapsed-toggle {
 	color: #03A9F4;
 	text-decoration: none;
 	text-shadow: inherit;
