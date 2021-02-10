@@ -59,7 +59,7 @@
 	padding: 12px;
 	text-shadow: none;
 	min-width: 16px;
-	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	min-height: 180px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 	word-wrap: break-word;
 }
 

@@ -101,7 +101,7 @@
 	text-shadow: 1px 1px 1px #0a0a0f;
 	word-wrap: break-word;
 	min-width: 16px;
-	min-height: 128px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+	min-height: 180px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 }
 
 .kamekku14bg .kamekku14post hr {
