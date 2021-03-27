@@ -555,11 +555,11 @@
 }
 
 .orchidsandhydrangeas_bg a.collapsed-toggle {
-	color: #fde7fa;
+	color: #fde7fa !important;
 	background: #F368E0;
 	text-shadow: inherit;
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 600 !important;
 	font-size: 11px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
