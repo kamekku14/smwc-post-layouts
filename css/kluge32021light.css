@@ -104,9 +104,11 @@
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 2px none none none solid #34495e !important;
+	border: 2px solid #34495e !important;
+	border-width: 0 0 0 2px !important;
 	padding: 5px;
 	word-wrap: break-word;
+	margin: 0;
 }
 
 .kluge32021light_bg .quote .boxhead {
@@ -169,11 +171,13 @@
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	border: 2px none none none solid #E91E63 !important;
+	border: 2px solid #E91E63 !important;
+	border-width: 0 0 0 2px !important;
 	padding: 5px;
 	color: #E91E63;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	margin: 0;
 }
 
 .kluge32021light_bg .code .box:after {
@@ -243,7 +247,7 @@
 
 .kluge32021light_bg pre.box {
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-	font-size: inherit;
+	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
