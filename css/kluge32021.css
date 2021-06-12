@@ -241,7 +241,7 @@
 
 .kluge32021_bg pre {
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-	font-size: inherit;
+	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
@@ -253,7 +253,7 @@
 
 .kluge32021_bg code {
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-	font-size: inherit;
+	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
@@ -1037,7 +1037,7 @@
 	
 	.kluge32021_bg pre {
 		font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-		font-size: inherit;
+		font-size: 12px;
 		-webkit-font-smoothing: initial;
 	}
 	
@@ -1049,7 +1049,7 @@
 	
 	.kluge32021_bg code {
 		font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-		font-size: inherit;
+		font-size: 12px;
 		-webkit-font-smoothing: initial;
 		-moz-border-radius: 2px 2px 2px 2px;
 		-webkit-border-radius: 2px 2px 2px 2px;
@@ -1806,7 +1806,7 @@
 	
 	.kluge32021_bg pre {
 		font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-		font-size: inherit;
+		font-size: 12px;
 		-webkit-font-smoothing: initial;
 	}
 	
@@ -1818,7 +1818,7 @@
 	
 	.kluge32021_bg code {
 		font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
-		font-size: inherit;
+		font-size: 12px;
 		-webkit-font-smoothing: initial;
 		-moz-border-radius: 2px 2px 2px 2px;
 		-webkit-border-radius: 2px 2px 2px 2px;
