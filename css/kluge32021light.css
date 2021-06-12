@@ -1,0 +1,814 @@
+/*!
+ * E3 2021 Light - Based on rulue.css
+ * Copyright (C) 2021 Klug Nanahikari
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*!
+ * Atelier Heath Light code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css');
+/* Wonder why how I use this... */
+
+.kluge32021light_bg {
+	background: #FDFDFE url('https://kamekku14.github.io/smwc-post-layouts/assets/kluge32021light/e32021_postbg.png') repeat center center;
+	padding: 0;
+	font-family: "IBM Plex Sans", "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: normal;
+	text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern";
+	-webkit-font-feature-settings: "liga", "clig", "kern";
+	font-feature-settings: "liga", "clig", "kern";
+	color: #212121;
+	text-shadow: none;
+	min-height: 350px;
+}
+
+.kluge32021light_sideimg {
+	background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/kluge32021light/e32021_sideimg.png') no-repeat right bottom;
+	padding: 0;
+}
+
+.kluge32021light_post {
+	background: transparent;
+	padding: 8px 8px 16px 8px;
+	color: #212121;
+	margin-right: 200px;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 320px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+@media screen and (max-width: 960px) {
+	/* Look at me, ma! I'm making my layout a bit more responsive!*/
+	.kluge32021light_sideimg {
+		background: transparent url('https://kamekku14.github.io/smwc-post-layouts/assets/kluge32021light/e32021_sideimgsmall.png') no-repeat right bottom;
+		padding: 0;
+	}
+	
+	.kluge32021light_post {
+		background: transparent;
+		padding: 8px 8px 8px 8px;
+		color: #212121;
+		margin-right: 0;
+		margin-bottom: 64px;
+		word-wrap: break-word;
+		min-width: 16px;
+		min-height: 320px;
+	}
+}
+
+.kluge32021light_sig {
+	background: #34495E url('https://kamekku14.github.io/smwc-post-layouts/assets/kluge32021light/e32021_sigbg.png') repeat center center;
+	padding: 8px;
+	color: #FFFFFF;
+	word-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.kluge32021light_bg .quote, .kluge32021light_bg .code {
+	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	margin-top: 8px;
+}
+
+.kluge32021light_bg .quote .box {
+	background-color: rgba(158, 158, 158, 0.1);
+	text-shadow: inherit;
+	line-height: inherit;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 2px none none none solid #34495e !important;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.kluge32021light_bg .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #becfe0;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #34495e;
+	border: none;
+	border-bottom: none;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 4px 8px;
+	margin: auto;
+}
+
+.kluge32021light_bg .quote .box .quote .box {
+	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 2px #2B3444 !important;
+	border-style: none none none solid !important;
+	padding: 6px;
+	color: #2B3444;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.kluge32021light_bg .quote .box .quote .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #2B3444;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
+	margin: auto;
+}
+
+.kluge32021light_bg .code .box {
+	background-color: rgba(247, 213, 245, 0.35);
+	text-shadow: inherit;
+	line-height: inherit;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 2px none none none solid #E91E63 !important;
+	padding: 5px;
+	color: #E91E63;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.kluge32021light_bg .code .box:after {
+	display: none;
+}
+
+.kluge32021light_bg .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #ffcede !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: #E91E63;
+	border: none;
+	border-bottom: none;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 4px 8px;
+    margin: auto;
+}
+
+.kluge32021light_bg .quote .box .code .box {
+	background-color: transparent;
+	text-shadow: inherit;
+	line-height: inherit;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 2px #E91E63 !important;
+	border-style: none none none solid !important;
+	padding: 6px;
+	color: #E91E63;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	margin-left: 8px;
+}
+
+.kluge32021light_bg .quote .box .code .boxhead {
+	display: inline-block;
+	font-weight: 600;
+	color: #E91E63 !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: none;
+	border-bottom: none;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	padding: 0 0;
+	margin: auto;
+}
+
+.kluge32021light_bg .code br {
+	display: none;
+}
+
+.kluge32021light_bg pre {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: inherit;
+	-webkit-font-smoothing: initial;
+}
+
+.kluge32021light_bg pre.box {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: inherit;
+	-webkit-font-smoothing: initial;
+}
+
+.kluge32021light_bg code {
+	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-size: inherit;
+	-webkit-font-smoothing: initial;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	border: 0 none #000000;
+	background: rgba(158, 158, 158, 0.1);
+	color: inherit;
+	padding: 1px;
+	display: inline-block;
+}
+
+.kluge32021light_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+	margin: 8px auto !important;
+	width: 100%;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.kluge32021light_bg > .kluge32021light_post a:link {
+	color: #1E88E5;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_post a:visited {
+	color: #5E35B1;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_post a:hover {
+	color: #FFB300;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_post a:active {
+	color: #e53935;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_sig a:link {
+	color: #81D4FA;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_sig a:visited {
+	color: #B39DDB;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_sig a:hover {
+	color: #FFE082;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg > .kluge32021light_sig a:active {
+	color: #EF9A9A;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .boxhead a:link {
+	color: #becfe0;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .boxhead a:visited {
+	color: #c4d7eb;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .boxhead a:hover {
+	color: #c6daee;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .boxhead a:active {
+	color: #d0e2f3;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .quote .boxhead a:link {
+	color: #2B3444;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .quote .boxhead a:visited {
+	color: #2B3444;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .quote .boxhead a:hover {
+	color: #2B3444;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .quote .boxhead a:active {
+	color: #2B3444;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+/* The rest here are the main link colors. */
+
+.kluge32021light_bg a:link {
+	color: #03A9F4;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a:visited {
+	color: #673AB7;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a:hover {
+	color: #FFC107;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a:active {
+	color: #F44336;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .code .boxhead a.js-link {
+	color: #ffcede;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .code .boxhead a.js-link:hover {
+	color: #ffd9e6;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .code .boxhead a.js-link:active {
+	color: #ffe3ec;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .code .boxhead a.js-link {
+	color: #E91E63;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .code .boxhead a.js-link:hover {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg .quote .box .code .boxhead a.js-link:active {
+	color: #E91E63;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a.collapsed-toggle {
+	color: #B4C9E2 !important;
+	background: #34495e;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600 !important;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a.collapsed-toggle:hover {
+	color: #B4C9E2;
+	background: #4C6177 !important;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a.collapsed-toggle:active {
+	color: #B4C9E2;
+	background: #657990 !important;
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.kluge32021light_bg a.un {
+	font-weight: bold !important;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.kluge32021light_bg .spoiler {
+	background-color: #212121 !important;
+	border: 0 none #212121;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.kluge32021light_bg > .kluge32021light_post .spoiler {
+	background-color: #212121 !important;
+	border: 0 none #212121;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.kluge32021light_bg > .kluge32021light_sig .spoiler {
+	background-color: #E0E0E0 !important;
+	border: 0 none #E0E0E0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.kluge32021light_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.kluge32021light_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.kluge32021light_bg .code .spoiler {
+	color: inherit !important; /* why not? */
+}
+
+.kluge32021light_bg .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kluge32021light_bg .spoilerInner {
+	padding: 0;
+	transition: visibility .1s linear;
+}
+
+.kluge32021light_bg > .kluge32021light_post .spoiler:hover {
+	background-color: rgba(33, 33, 33, 0.05) !important;
+}
+
+.kluge32021light_bg > .kluge32021light_sig .spoiler:hover {
+	background-color: rgba(224, 224, 224, 0.05) !important;
+}
+
+.kluge32021light_bg .collapsed-checkbox {
+    display: none !important;
+}
+
+.kluge32021light_bg .collapsed-content {
+	margin-left: 0;
+	padding-left: 0;
+	border: 1px dashed #CFD8DC;
+}
+
+.kluge32021light_bg > .kluge32021light_post .collapsed-content {
+	margin-left: 0;
+	padding-left: 0;
+	border: 1px dashed #CFD8DC;
+}
+
+.kluge32021light_bg > .kluge32021light_sig .collapsed-content {
+	margin-left: 0;
+	padding-left: 0;
+	border: 1px dashed #CFD8DC;
+}
+
+.kluge32021light_bg ::selection, .kluge32021light_bg .code ::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+.kluge32021light_bg ::-moz-selection, .kluge32021light_bg .code ::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background: #0091EA;
+}
+
+/*!
+ * highlight.js shenanigans.
+ * 
+ * Only usable for the new C3 theme, though!
+ */
+
+/* Atelier-Heath Comment */
+.kluge32021light_bg .hljs-comment,
+.kluge32021light_bg .hljs-quote {
+	color: #776977 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Heath Red */
+.kluge32021light_bg .hljs-variable,
+.kluge32021light_bg .hljs-template-variable,
+.kluge32021light_bg .hljs-attribute,
+.kluge32021light_bg .hljs-tag,
+.kluge32021light_bg .hljs-name,
+.kluge32021light_bg .hljs-regexp,
+.kluge32021light_bg .hljs-link,
+.kluge32021light_bg .hljs-name,
+.kluge32021light_bg .hljs-selector-id,
+.kluge32021light_bg .hljs-selector-class {
+	color: #ca402b !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Heath Orange */
+.kluge32021light_bg .hljs-number,
+.kluge32021light_bg .hljs-meta,
+.kluge32021light_bg .hljs-built_in,
+.kluge32021light_bg .hljs-builtin-name,
+.kluge32021light_bg .hljs-literal,
+.kluge32021light_bg .hljs-type,
+.kluge32021light_bg .hljs-params {
+	color: #a65926 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Heath Green */
+.kluge32021light_bg .hljs-string,
+.kluge32021light_bg .hljs-symbol,
+.kluge32021light_bg .hljs-bullet {
+	color: #918b3b !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Heath Blue */
+.kluge32021light_bg .hljs-title,
+.kluge32021light_bg .hljs-section {
+  color: #516aec !important;
+	font-style: inherit !important;
+}
+
+/* Atelier-Heath Purple */
+.kluge32021light_bg .hljs-keyword,
+.kluge32021light_bg .hljs-selector-tag {
+	color: #7b59c0 !important;
+	font-style: inherit !important;
+}
+
+.kluge32021light_bg .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #695d69 !important;
+	padding: 0.5em;
+}
+
+.kluge32021light_bg .hljs-emphasis {
+	color: inherit !important;
+	font-style: italic !important;
+}
+
+.kluge32021light_bg .hljs-strong {
+	color: inherit !important;
+	font-weight: bold !important;
+}
+
+.kluge32021light_bg .code .box .hljs-link {
+	color: inherit !important;
+	text-decoration: underline !important;
+}
+
+/* Give thanks to Microsoft for giving us the Monaco IDE. (Can't use VS Code right now, it's too scary!) */
