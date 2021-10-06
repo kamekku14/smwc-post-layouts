@@ -242,7 +242,7 @@
 }
 
 /* Opera */
-@-webkit-keyframes pulse {
+@-o-keyframes pulse {
 	0% {
 		-o-transform: scale(1, 1);
 		transform: scale(1, 1);
