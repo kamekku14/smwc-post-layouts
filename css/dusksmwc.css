@@ -26,51 +26,51 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 
-@-moz-keyframes kamekku14-linkactive {
+@keyframes kamekku14-linkactive {
 	from {
-		-moz-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
 	}
 	to {
-		-moz-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
+@-moz-keyframes kamekku14-linkactive {
+	from {
+		transform: scale3d(1, 1, 1);		
+		-moz-transform: scale3d(1, 1, 1);
+	}
+	to {
+		transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
 @-webkit-keyframes kamekku14-linkactive {
 	from {
-		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
 	}
 	to {
-		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
 @-o-keyframes kamekku14-linkactive {
 	from {
-		-o-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
+		-o-transform: scale3d(1, 1, 1);
 	}
 	to {
-		-o-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
-	}
-}
-
-@keyframes kamekku14-linkactive {
-	from {
-		-webkit-transform: scale3d(1, 1, 1);
-		-moz-transform: scale3d(1, 1, 1);
-		-o-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
-	}
-	to {
-		-webkit-transform: scale3d(1.05, 1.05, 1.05);
-		-moz-transform: scale3d(1.05, 1.05, 1.05);
 		-o-transform: scale3d(1.05, 1.05, 1.05);
-		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
@@ -155,19 +155,19 @@
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: inherit;
+	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
 	}
 
 .kamekku14bg a:visited {
 	color: rgb(202, 221, 227);
 	font-weight: inherit;
+	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
 	}
 
 .kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
@@ -175,10 +175,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
 	}
 
 .kamekku14bg a:active, .kamekku14bg a.collapsed-toggle:active {
@@ -186,14 +186,14 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	animation: kamekku14-linkactive 0.5s;
 	-moz-animation: kamekku14-linkactive 0.5s;
 	-webkit-animation: kamekku14-linkactive 0.5s;
 	-o-animation: kamekku14-linkactive 0.5s;
-	animation: kamekku14-linkactive 0.5s;
 	}
 
 .kamekku14bg a.un {
@@ -207,10 +207,13 @@
 }
 
 .kamekku14bg .quote .box {
-	background: rgba(28,28,43,0.5); 
+	background: rgba(28,28,43,0.5);
+	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
 	border: 0 none !important;
 	padding: 5px;
 	color: rgb(220, 220, 237);
@@ -228,9 +231,12 @@
 
 .kamekku14bg .quote .box .quote .box {
 	background-color: transparent;
+	border-radius: 0 0 0 0;
 	-moz-border-radius: 0 0 0 0;
 	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
 	border: 2px #ababd4 !important;
 	border-style: none none none solid !important;
 	padding: 5px;
@@ -252,10 +258,13 @@
 	color: rgb(50, 239, 98);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	line-height: inherit;
-	background: rgba(18, 33, 26, 0.5); 
+	background: rgba(18, 33, 26, 0.5);
+	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
 	border: 0 none !important;
 	padding: 5px;
 	word-wrap: break-word;
@@ -270,9 +279,9 @@
 
 .kamekku14bg .quote .box .code .box {
 	background-color: transparent;
+	border-radius: 0 0 0 0;
 	-moz-border-radius: 0 0 0 0;
 	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
 	border: 2px #d0fbdb !important;
 	border-style: none none none solid !important;
 	padding: 5px;
@@ -305,13 +314,13 @@
 	-webkit-font-smoothing: initial;
 }
 
-.kamekku14 code {
+.kamekku14bg code {
 	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
+	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
 	border: 0 none #000000;
 	background: rgba(80, 72, 101, 0.5);
 	color: #F8F8F8;
@@ -425,7 +434,7 @@
 /*!
  * highlight.js shenanigans.
  * 
- * Only usable for the new C3 theme, though!
+ * Only usable for the upcoming SMWC2 redesign, though!
  */
 
 /* Atelier-Sulphurpool Comment */
