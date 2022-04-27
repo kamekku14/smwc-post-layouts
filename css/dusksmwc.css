@@ -366,8 +366,8 @@
 /* Spoiler tags and miscellaneous. */
 
 .kamekku14bg .spoiler {
-	background-color: #A0B5D0 !important;
-	border: 1px solid #A0B5D0;
+	background-color: rgb(171, 171, 212) !important;
+	border: 1px solid rgb(171, 171, 212);
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -396,7 +396,10 @@
 }
 
 .kamekku14bg .spoiler:hover {
-	background-color: rgba(160, 181, 208, 0.05) !important;
+	background-color: rgba(171, 171, 212, 0.05) !important;
+    box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
+    -webkit-box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
+    -moz-box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
 }
 
 .kamekku14bg .spoilerInner {
