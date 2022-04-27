@@ -28,12 +28,10 @@
 
 @-moz-keyframes kamekku14-linkactive {
 	from {
-		color: rgb(243, 193, 44);
 		-moz-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
 	to {
-		color: rgb(255, 117, 26);
 		-moz-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
 	}
@@ -41,12 +39,10 @@
 
 @-webkit-keyframes kamekku14-linkactive {
 	from {
-		color: rgb(243, 193, 44);
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
 	to {
-		color: rgb(255, 117, 26);
 		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
 	}
@@ -54,7 +50,6 @@
 
 @-o-keyframes kamekku14-linkactive {
 	from {
-		color: rgb(243, 193, 44);
 		-o-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
@@ -66,14 +61,12 @@
 
 @keyframes kamekku14-linkactive {
 	from {
-		color: rgb(243, 193, 44);
 		-moz-transform: scale3d(1, 1, 1);
 		-webkit-transform: scale3d(1, 1, 1);
 		-o-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
 	to {
-		color: rgb(255, 117, 26);
 		-moz-transform: scale3d(1.05, 1.05, 1.05);
 		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 		-o-transform: scale3d(1.05, 1.05, 1.05);
@@ -386,6 +379,10 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 	-moz-animation: kamekku14-linkactive 0.5s;
 	-webkit-animation: kamekku14-linkactive 0.5s;
 	-o-animation: kamekku14-linkactive 0.5s;
