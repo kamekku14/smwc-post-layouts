@@ -497,8 +497,8 @@
 }
 
 .kamekku14bg img.emoticon {
-	filter: drop-shadow(1px 1px 1px #0a0a0f);
 	-webkit-filter: drop-shadow(1px 1px 1px #0a0a0f);
+	filter: drop-shadow(1px 1px 1px #0a0a0f);
 }
 
 /*!
