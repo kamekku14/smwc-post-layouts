@@ -94,9 +94,9 @@
 	border: 1px #1e1e2f;
 	border-style: none solid solid none;
 	padding: 5px;
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	color: rgb(248,248,248);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	word-wrap: break-word;
@@ -120,9 +120,9 @@
 	border: 1px #130d1a;
 	border-style: none solid solid none;
 	padding: 5px;
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
 	word-wrap: break-word;
 	height: 16 px;
 	min-width: 16px;
@@ -135,69 +135,6 @@
 	border: 0;
 	margin: 8px auto !important;
 	width: 100%;
-}
-
-/* Others */
-.kamekku14bg ::selection, .kamekku14bg .code ::selection {
-	color: rgb(248,248,248);
-	text-shadow: none;
-	background: #8000ff;
-}
-
-.kamekku14bg ::-moz-selection, .kamekku14bg .code ::-moz-selection {
-	color: rgb(248,248,248);
-	text-shadow: none;
-	background: #8000ff;
-}
-
-.kamekku14bg a:link, .kamekku14bg a.collapsed-toggle {
-	color: rgb(142, 203, 225);
-	text-shadow: inherit;
-	text-decoration: none;
-	font-weight: inherit;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	}
-
-.kamekku14bg a:visited {
-	color: rgb(202, 221, 227);
-	font-weight: inherit;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	}
-
-.kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
-	color: rgb(243, 193, 44);
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	}
-
-.kamekku14bg a:active, .kamekku14bg a.collapsed-toggle:active {
-	color: rgb(255, 117, 26);
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	animation: kamekku14-linkactive 0.5s;
-	-moz-animation: kamekku14-linkactive 0.5s;
-	-webkit-animation: kamekku14-linkactive 0.5s;
-	-o-animation: kamekku14-linkactive 0.5s;
-	}
-
-.kamekku14bg a.un {
-	font-weight: bold !important;
 }
 
 .kamekku14bg .quote, .kamekku14bg .code {
@@ -270,6 +207,10 @@
 	word-wrap: break-word;
 }
 
+.kamekku14bg .code .box:after {
+	display: none !important;
+}
+
 .kamekku14bg .code .boxhead {
 	font-variant: small-caps;
 	color: rgb(208, 251, 219) !important;
@@ -298,7 +239,7 @@
 	margin: auto;
 }
 
-.kamekku14 .code br {
+.kamekku14bg .code br {
 	display: none;
 }
 
@@ -322,7 +263,7 @@
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
 	border: 0 none #000000;
-	background: rgba(80, 72, 101, 0.5);
+	background: rgba(28,28,43,0.5);
 	color: #F8F8F8;
 	text-shadow: 1px 1px 1px #0a0a0f;
 	padding: 1px;
@@ -337,88 +278,130 @@
 	width: 100%;
 }
 
+/* Others */
+
+.kamekku14bg a:link, .kamekku14bg a.collapsed-toggle {
+	color: rgb(142, 203, 225);
+	text-shadow: inherit;
+	text-decoration: none;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	}
+
+.kamekku14bg a:visited {
+	color: rgb(202, 221, 227);
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	}
+
+.kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
+	color: rgb(243, 193, 44);
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	}
+
+.kamekku14bg a:active, .kamekku14bg a.collapsed-toggle:active {
+	color: rgb(255, 117, 26);
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	animation: kamekku14-linkactive 0.5s;
+	-moz-animation: kamekku14-linkactive 0.5s;
+	-webkit-animation: kamekku14-linkactive 0.5s;
+	-o-animation: kamekku14-linkactive 0.5s;
+	}
+
+.kamekku14bg .code .boxhead a.js-link {
+	color: rgb(208, 251, 219);
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+
+.ckamekku14g .code .boxhead a.js-link:hover {
+	color: rgb(208, 251, 219);
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+
+.ckamekku14g .code .boxhead a.js-link:active {
+	color: rgb(208, 251, 219);
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+
+.kamekku14bg a.un {
+	font-weight: bold !important;
+}
+
+/* Spoiler tags and miscellaneous. */
+
 .kamekku14bg .spoiler {
-	display: inline-block;
-	background-color: #080808 !important;
-	color: #f8f8f8 !important;
-	text-shadow: none;
-	border: 1px solid #f8f8f8;
+	background-color: #A0B5D0 !important;
+	border: 1px solid #A0B5D0;
+	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	border-radius: 2px;
+	box-shadow: 1px 1px 1px #0a0a0f;
 	-webkit-box-shadow: 1px 1px 1px #0a0a0f;
 	-moz-box-shadow: 1px 1px 1px #0a0a0f;
-	box-shadow: 1px 1px 1px #0a0a0f;
-	-moz-transition: all 0.1s linear;
-	-webkit-transition: all 0.1s linear;
-	transition: all 0.1s linear;
+	padding: 1px;
+	color: inherit !important;
+	transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+
 }
 
-.kamekku14bg .spoiler .quote .box {
-	background: rgba(64, 64, 64, 0.5); 
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
-	border: 0 none;
-	padding: 5px;
-	color: rgb(242, 242, 242);
-	word-wrap: break-word;
+.kamekku14bg .quote .spoiler {
+	color: inherit !important;
 }
 
-.kamekku14bg .spoiler .quote .boxhead {
-	font-variant: small-caps;
-	color: rgb(244, 244, 244);
+.kamekku14bg .quote .quote .spoiler {
+	color: inherit !important;
 }
 
-.kamekku14bg .spoiler .quote .box .quote .box {
-	background-color: transparent;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	border: 2px #cccccc;
-	border-style: none none none solid;
-	padding: 5px;
-	color: rgb(204, 204, 204);
-	word-wrap: break-word;
+.kamekku14bg .code .spoiler {
+	color: inherit !important; /* why not? */
 }
 
-.kamekku14bg .spoiler .quote .box .quote .boxhead {
-	font-variant: small-caps;
-	color: rgb(204, 204, 204);
-	text-shadow: 1px 1px 1px #0a0a0f;
+.kamekku14bg .spoiler:hover {
+	background-color: rgba(160, 181, 208, 0.05) !important;
 }
 
-.kamekku14bg .spoiler .code .box {
-	color: rgb(50, 239, 98);
-	background: rgba(18, 33, 26, 0.5); 
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
-	border: 0 none;
-	padding: 5px;
-	word-wrap: break-word;
-}
-
-.kamekku14bg .spoiler .code .boxhead {
-	font-variant: small-caps;
-	color: rgb(208, 251, 219);
-	text-shadow: 1px 1px 1px #0a0a0f;
-}
-
-.kamekku14bg .spoiler .spoilerInner {
-	-moz-transition: all 0.1s linear;
-	-webkit-transition: all 0.1s linear;
-	transition: all 0.1s linear;
-	display: inline-block;
-	visibility: hidden !important;
-	padding: 0 2px;
-}
-
-.kamekku14bg .spoiler:hover .spoilerInner {
-	-moz-transition: all 0.1s linear;
-	-webkit-transition: all 0.1s linear;
-	transition: all 0.1s linear;
-	visibility: visible !important;
+.kamekku14bg .spoilerInner {
+	padding: 0;
+	transition: visibility .1s linear;
 }
 
 .kamekku14bg .collapsed-checkbox {
@@ -426,9 +409,26 @@
 }
 
 .kamekku14bg .collapsed-content {
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 2px solid #F8F8F8;
+	margin-left: 0;
+	padding-left: 0;
+	border: 1px dashed #CFD8DC;
+}
+
+.kamekku14bg ::selection, .kamekku14bg .code ::selection {
+	color: rgb(248,248,248);
+	text-shadow: none;
+	background: #8000ff;
+}
+
+.kamekku14bg ::-moz-selection, .kamekku14bg .code ::-moz-selection {
+	color: rgb(248,248,248);
+	text-shadow: none;
+	background: #8000ff;
+}
+
+.kamekku14bg img.emoticon {
+	filter: drop-shadow(1px 1px 1px #0a0a0f;);
+	-webkit-filter: drop-shadow(1px 1px 1px #0a0a0f;);
 }
 
 /*!
