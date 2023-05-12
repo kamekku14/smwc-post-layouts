@@ -412,10 +412,10 @@
 	transition: all 0.5s;
 }
 
-.kamekku14g .code .boxhead a.js-link:hover {
+.kamekku14bg .code .boxhead a.js-link:hover {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
-	text-decoration: underline !important;
+	text-decoration: underline;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -423,10 +423,10 @@
 	transition: all 0.5s;
 }
 
-.kamekku14g .code .boxhead a.js-link:active {
+.kamekku14bg .code .boxhead a.js-link:active {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
-	text-decoration: underline !important;
+	text-decoration: underline;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -436,6 +436,10 @@
 
 .kamekku14bg a.un {
 	font-weight: bold !important;
+}
+
+.kamekku14bg h1, .kamekku14bg h2 {
+	font-weight: 800;
 }
 
 /* Spoiler tags and miscellaneous. */
