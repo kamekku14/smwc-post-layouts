@@ -1,0 +1,132 @@
+/*! 
+ * Please note that the typeface is currently available in
+ * TrueType format (the acceptable font format used for webfonts)
+ * until the typeface will include support for the WOFF2 font format
+ * in the future.
+ */
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Ysabeau-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Ysabeau';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Ysabeau-ExtraBoldItalic.ttf') format('truetype');
+}

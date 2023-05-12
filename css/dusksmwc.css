@@ -1,6 +1,6 @@
 /*!
  * Dusk
- * Copyright (C) 2016-2022 Klug Nanahikari
+ * Copyright (C) 2016-2023 Klug Nanahikari
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/ysabeau.css');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/cascadia-code.css');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 
@@ -135,13 +135,13 @@
 }
 
 .kamekku14bg {
-	font-family: "Open Sans", "Segoe UI", Verdana, sans-serif;
+	font-family: "Ysabeau", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	font-size: 13px;
     line-height: normal;
 	text-rendering: optimizeLegibility !important;
-	-moz-font-feature-settings: "liga", "clig", "kern";
-	-webkit-font-feature-settings: "liga", "clig", "kern";
-	font-feature-settings: "liga", "clig", "kern";
+	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
 	background: url("https://kamekku14.github.io/smwc-post-layouts/assets/dusksmwc/dusksmwc_bg.png") center repeat rgb(0,11,34);
 	color: rgb(248,248,248);
 	text-shadow: 1px 1px 1px #0a0a0f;
@@ -224,7 +224,9 @@
 }
 
 .kamekku14bg .quote .boxhead {
-	font-variant: small-caps;
+	-moz-font-feature-settings: "smcp" 1;
+	-webkit-font-feature-settings: "smcp" 1;
+	font-feature-settings: "smcp" 1;
 	color: rgb(199, 194, 214);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -249,7 +251,9 @@
 }
 
 .kamekku14bg .quote .box .quote .boxhead {
-	font-variant: small-caps;
+	-moz-font-feature-settings: "smcp" 1;
+	-webkit-font-feature-settings: "smcp" 1;
+	font-feature-settings: "smcp" 1;
 	color: rgb(171, 171, 212);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -276,7 +280,9 @@
 }
 
 .kamekku14bg .code .boxhead {
-	font-variant: small-caps;
+	-moz-font-feature-settings: "smcp" 1;
+	-webkit-font-feature-settings: "smcp" 1;
+	font-feature-settings: "smcp" 1;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -297,7 +303,9 @@
 }
 
 .kamekku14bg .quote .box .code .boxhead {
-	font-variant: small-caps;
+	-moz-font-feature-settings: "smcp" 1;
+	-webkit-font-feature-settings: "smcp" 1;
+	font-feature-settings: "smcp" 1;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -401,7 +409,7 @@
 	transition: all 0.5s;
 }
 
-.ckamekku14g .code .boxhead a.js-link:hover {
+.kamekku14g .code .boxhead a.js-link:hover {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -412,7 +420,7 @@
 	transition: all 0.5s;
 }
 
-.ckamekku14g .code .boxhead a.js-link:active {
+.kamekku14g .code .boxhead a.js-link:active {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
 	text-decoration: underline;
@@ -506,11 +514,7 @@
 	filter: drop-shadow(1px 1px 1px #0a0a0f);
 }
 
-/*!
- * highlight.js shenanigans.
- * 
- * Only usable for the upcoming SMWC2 redesign, though!
- */
+/* highlight.js shenanigans. */
 
 /* Atelier-Sulphurpool Comment */
 .kamekku14bg .hljs-comment,
