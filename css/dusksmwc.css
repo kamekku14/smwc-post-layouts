@@ -135,9 +135,8 @@
 }
 
 .kamekku14bg {
-	font-family: "Ysabeau", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
-	font-size: 13px;
-    line-height: normal;
+	font: 14px/150% "Ysabeau", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+	line-height: normal;
 	text-rendering: optimizeLegibility !important;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
