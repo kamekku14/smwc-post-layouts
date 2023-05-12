@@ -224,9 +224,10 @@
 }
 
 .kamekku14bg .quote .boxhead {
-	-moz-font-feature-settings: "smcp" 1;
-	-webkit-font-feature-settings: "smcp" 1;
-	font-feature-settings: "smcp" 1;
+	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-weight: 600;
 	color: rgb(199, 194, 214);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -251,9 +252,10 @@
 }
 
 .kamekku14bg .quote .box .quote .boxhead {
-	-moz-font-feature-settings: "smcp" 1;
-	-webkit-font-feature-settings: "smcp" 1;
-	font-feature-settings: "smcp" 1;
+	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-weight: 600;
 	color: rgb(171, 171, 212);
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -280,9 +282,10 @@
 }
 
 .kamekku14bg .code .boxhead {
-	-moz-font-feature-settings: "smcp" 1;
-	-webkit-font-feature-settings: "smcp" 1;
-	font-feature-settings: "smcp" 1;
+	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -303,9 +306,10 @@
 }
 
 .kamekku14bg .quote .box .code .boxhead {
-	-moz-font-feature-settings: "smcp" 1;
-	-webkit-font-feature-settings: "smcp" 1;
-	font-feature-settings: "smcp" 1;
+	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
+	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
 	text-shadow: 1px 1px 1px #0a0a0f;
 	margin: auto;
@@ -412,7 +416,7 @@
 .kamekku14g .code .boxhead a.js-link:hover {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -423,7 +427,7 @@
 .kamekku14g .code .boxhead a.js-link:active {
 	color: rgb(208, 251, 219);
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
