@@ -23,6 +23,31 @@
 	100% {color: #ff0040;}
 }
 
+/*Opera*/
+@-o-keyframes rainbow {
+	0% {color: #ff0000;}
+	5% {color: #ff4000;}
+	10% {color: #ff8000;}
+	15% {color: #ffc000;}
+	20% {color: #ffff00;}
+	25% {color: #c0ff00;}
+	30% {color: #80ff00;}
+	35% {color: #00ff00;}
+	40% {color: #00ff80;}
+	45% {color: #00ffc0;}
+	50% {color: #00ffff;}
+	55% {color: #00c0ff;}
+	60% {color: #0080ff;}
+	65% {color: #0000ff;}
+	70% {color: #4000ff;}
+	75% {color: #8000ff;}
+	80% {color: #c000ff;}
+	85% {color: #ff00ff;}
+	90% {color: #ff00c0;}
+	95% {color: #ff0080;}
+	100% {color: #ff0040;}
+}
+
 /* Firefox */
 @-moz-keyframes rainbow {
 	0% {color: #ff0000;}
@@ -73,31 +98,6 @@
 	100% {color: #ff0040;}
 }
 
-/*Opera*/
-@-o-keyframes rainbow {
-	0% {color: #ff0000;}
-	5% {color: #ff4000;}
-	10% {color: #ff8000;}
-	15% {color: #ffc000;}
-	20% {color: #ffff00;}
-	25% {color: #c0ff00;}
-	30% {color: #80ff00;}
-	35% {color: #00ff00;}
-	40% {color: #00ff80;}
-	45% {color: #00ffc0;}
-	50% {color: #00ffff;}
-	55% {color: #00c0ff;}
-	60% {color: #0080ff;}
-	65% {color: #0000ff;}
-	70% {color: #4000ff;}
-	75% {color: #8000ff;}
-	80% {color: #c000ff;}
-	85% {color: #ff00ff;}
-	90% {color: #ff00c0;}
-	95% {color: #ff0080;}
-	100% {color: #ff0040;}
-}
-
 /* anyone brave enough to implement the ideal method */
 @keyframes rainbow {
 	0% {color: #ff0000;}
@@ -124,89 +124,141 @@
 }
 
 .rainbow {
-	-ms-animation:rainbow 1s infinite;
-	-moz-animation:rainbow 1s infinite;
-	-webkit-animation:rainbow 1s infinite;
-	-o-animation:rainbow 1s infinite;
-	animation:rainbow 1s infinite;
+	-ms-animation: rainbow 1s infinite;
+	-o-animation: rainbow 1s infinite;
+	-moz-animation: rainbow 1s infinite;
+	-webkit-animation: rainbow 1s infinite;
+	animation: rainbow 1s infinite;
 }
 
-/* Safari and Chrome */
-@-webkit-keyframes wiggle {
+/* Internet Explorer */
+@-ms-keyframes wiggle {
 	0% {
-		-webkit-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-ms-transform: rotate(4deg);
+		transform: rotate(4deg);
 	}
 	50% {
-		-webkit-transform:rotate(-4deg);
-		transform:rotate(-4deg);
+		-ms-transform: rotate(-4deg);
+		transform: rotate(-4deg);
 	}
 	100% {
-		-webkit-transform:rotate(4deg);
-		transform:rotate(-4deg);
-	}
-}
- 
-/* Firefox */
-@-moz-keyframes wiggle {
-	0% {
-		-moz-transform:rotate(4deg);
-		transform:rotate(4deg);
-	}
-	50% {
-		-moz-transform:rotate(-4deg);
-		transform:rotate(-4deg);
-	}
-	100% {
-		-moz-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-ms-transform: rotate(4deg);
+		transform: rotate(-4deg);
 	}
 }
 
 /* Opera */
 @-o-keyframes wiggle {
 	0% {
-		-o-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-o-transform: rotate(4deg);
+		transform: rotate(4deg);
 	}
 	50% {
-		-o-transform:rotate(-4deg);
-		transform:rotate(-4deg);
+		-o-transform: rotate(-4deg);
+		transform: rotate(-4deg);
 	}
 	100% {
-		-o-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-o-transform: rotate(4deg);
+		transform: rotate(4deg);
+	}
+}
+
+/* Firefox */
+@-moz-keyframes wiggle {
+	0% {
+		-moz-transform: rotate(4deg);
+		transform: rotate(4deg);
+	}
+	50% {
+		-moz-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+	}
+	100% {
+		-moz-transform: rotate(4deg);
+		transform: rotate(4deg);
 	}
 }
  
+/* Safari and Chrome */
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform: rotate(4deg);
+		transform: rotate(4deg);
+	}
+	50% {
+		-webkit-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+	}
+	100% {
+		-webkit-transform: rotate(4deg);
+		transform: rotate(-4deg);
+	}
+}
+
 /* anyone brave enough to implement the ideal method */
 @keyframes wiggle {
 	0% {
-		-moz-transform:rotate(4deg);
-		-webkit-transform:rotate(4deg);
-		-o-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-ms-transform: rotate(4deg);
+		-o-transform: rotate(4deg);
+		-moz-transform: rotate(4deg);
+		-webkit-transform: rotate(4deg);
+		transform: rotate(4deg);
 	}
 	50% {
-		-moz-transform:rotate(-4deg);
-		-webkit-transform:rotate(-4deg);
-		-o-transform:rotate(-4deg);
-		transform:rotate(-4deg);
+		-ms-transform: rotate(-4deg);
+		-o-transform: rotate(-4deg);
+		-moz-transform: rotate(-4deg);
+		-webkit-transform: rotate(-4deg);
+		transform: rotate(-4deg);
 	}
 	100% {
-		-moz-transform:rotate(4deg);
-		-webkit-transform:rotate(4deg);
-		-o-transform:rotate(4deg);
-		transform:rotate(4deg);
+		-ms-transform: rotate(4deg);
+		-o-transform: rotate(4deg);
+		-moz-transform: rotate(4deg);
+		-webkit-transform: rotate(4deg);
+		transform: rotate(4deg);
 	}
 }
  
 .wiggler {
-	-webkit-animation: wiggle 0.5s infinite;
-	-moz-animation: wiggle 0.5s infinite;
+	-ms-animation: wiggle 0.5s infinite;
 	-o-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	-webkit-animation: wiggle 0.5s infinite;
 	animation: wiggle 0.5s infinite;
 	display: inline-block;
+}
+
+/* Internet Explorer */
+@-ms-keyframes pulse {
+	0% {
+		-ms-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
+	50% {
+		-ms-transform: scale(1.5, 1.5);
+		transform: scale(1.5, 1.5);
+	}
+	100% {
+		-ms-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
+}
+
+/* Opera */
+@-o-keyframes pulse {
+	0% {
+		-o-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
+	50% {
+		-o-transform: scale(1.5, 1.5);
+		transform: scale(1.5, 1.5);
+	}
+	100% {
+		-o-transform: scale(1, 1);
+		transform: scale(1, 1);
+	}
 }
 
 /* Firefox */
@@ -241,48 +293,226 @@
 	}
 }
 
-/* Opera */
-@-o-keyframes pulse {
-	0% {
-		-o-transform: scale(1, 1);
-		transform: scale(1, 1);
-	}
-	50% {
-		-o-transform: scale(1.5, 1.5);
-		transform: scale(1.5, 1.5);
-	}
-	100% {
-		-o-transform: scale(1, 1);
-		transform: scale(1, 1);
-	}
-}
-
 /* anyone brave enough to implement the ideal method */
 @keyframes pulse {
 	0% {
+		-ms-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
 		-moz-transform: scale(1, 1);
 		-webkit-transform: scale(1, 1);
-		-o-transform: scale(1, 1);
 		transform: scale(1, 1);
 	}
 	50% {
+		-ms-transform: scale(1.5, 1.5);
+		-o-transform: scale(1.5, 1.5);
 		-moz-transform: scale(1.5, 1.5);
 		-webkit-transform: scale(1.5, 1.5);
-		-o-transform: scale(1.5, 1.5);
 		transform: scale(1.5, 1.5);
 	}
 	100% {
+		-ms-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
 		-moz-transform: scale(1, 1);
 		-webkit-transform: scale(1, 1);
-		-o-transform: scale(1, 1);
 		transform: scale(1, 1);
 	}
 }
 
 .pulse {
+	-ms-animation: pulse 0.5s infinite;
+	-o-animation: pulse 0.5s infinite;
 	-moz-animation: pulse 0.5s infinite;
 	-webkit-animation: pulse 0.5s infinite;
-	-o-animation: pulse 0.5s infinite;
 	animation: pulse 0.5s infinite;
+	display: inline-block;
+}
+
+/* Internet Explorer */
+@-ms-keyframes shake {
+	0% {
+		-ms-transform: translate(-2px, 0px) rotate(1deg);
+		transform: translate(-2px, 0px) rotate(1deg);
+	}
+	20% {
+		-ms-transform: translate(0px, 2px) rotate(0deg);
+		transform: translate(0px, 2px) rotate(0deg);
+	}
+	35% {
+		-ms-transform: translate(0px, 0px) rotate(1deg);
+		transform: translate(0px, 0px) rotate(1deg);
+	}
+	50% {
+		-ms-transform: translate(2px, 0px) rotate(-1deg);
+		transform: translate(2px, 0px) rotate(-1deg);
+	}
+	65% {
+		-ms-transform: translate(-2px, 2px) rotate(1deg);
+		transform: translate(-2px, 2px) rotate(1deg);
+	}
+	80% {
+		-ms-transform: translate(0px, -2px) rotate(0deg);
+		transform: translate(0px, -2px) rotate(0deg);
+	}
+	100% {
+		-ms-transform: translate(0px, 0px) rotate(-1deg);
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+}
+
+/* Opera */
+@-o-keyframes shake {
+	0% {
+		-o-transform: translate(-2px, 0px) rotate(1deg);
+		transform: translate(-2px, 0px) rotate(1deg);
+	}
+	20% {
+		-o-transform: translate(0px, 2px) rotate(0deg);
+		transform: translate(0px, 2px) rotate(0deg);
+	}
+	35% {
+		-o-transform: translate(0px, 0px) rotate(1deg);
+		transform: translate(0px, 0px) rotate(1deg);
+	}
+	50% {
+		-o-transform: translate(2px, 0px) rotate(-1deg);
+		transform: translate(2px, 0px) rotate(-1deg);
+	}
+	65% {
+		-o-transform: translate(-2px, 2px) rotate(1deg);
+		transform: translate(-2px, 2px) rotate(1deg);
+	}
+	80% {
+		-o-transform: translate(0px, -2px) rotate(0deg);
+		transform: translate(0px, -2px) rotate(0deg);
+	}
+	100% {
+		-o-transform: translate(0px, 0px) rotate(-1deg);
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+}
+
+/* Firefox */
+@-moz-keyframes shake {
+	0% {
+		-moz-transform: translate(-2px, 0px) rotate(1deg);
+		transform: translate(-2px, 0px) rotate(1deg);
+	}
+	20% {
+		-moz-transform: translate(0px, 2px) rotate(0deg);
+		transform: translate(0px, 2px) rotate(0deg);
+	}
+	35% {
+		-moz-transform: translate(0px, 0px) rotate(1deg);
+		transform: translate(0px, 0px) rotate(1deg);
+	}
+	50% {
+		-moz-transform: translate(2px, 0px) rotate(-1deg);
+		transform: translate(2px, 0px) rotate(-1deg);
+	}
+	65% {
+		-moz-transform: translate(-2px, 2px) rotate(1deg);
+		transform: translate(-2px, 2px) rotate(1deg);
+	}
+	80% {
+		-moz-transform: translate(0px, -2px) rotate(0deg);
+		transform: translate(0px, -2px) rotate(0deg);
+	}
+	100% {
+		-moz-transform: translate(0px, 0px) rotate(-1deg);
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes shake {
+	0% {
+		-webkit-transform: translate(-2px, 0px) rotate(1deg);
+		transform: translate(-2px, 0px) rotate(1deg);
+	}
+	20% {
+		-webkit-transform: translate(0px, 2px) rotate(0deg);
+		transform: translate(0px, 2px) rotate(0deg);
+	}
+	35% {
+		-webkit-transform: translate(0px, 0px) rotate(1deg);
+		transform: translate(0px, 0px) rotate(1deg);
+	}
+	50% {
+		-webkit-transform: translate(2px, 0px) rotate(-1deg);
+		transform: translate(2px, 0px) rotate(-1deg);
+	}
+	65% {
+		-webkit-transform: translate(-2px, 2px) rotate(1deg);
+		transform: translate(-2px, 2px) rotate(1deg);
+	}
+	80% {
+		-webkit-transform: translate(0px, -2px) rotate(0deg);
+		transform: translate(0px, -2px) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: translate(0px, 0px) rotate(-1deg);
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes shake {
+	0% {
+		-ms-transform: translate(-2px, 0px) rotate(1deg);
+		-o-transform: translate(-2px, 0px) rotate(1deg);
+		-moz-transform: translate(-2px, 0px) rotate(1deg);
+		-webkit-transform: translate(-2px, 0px) rotate(1deg);
+		transform: translate(-2px, 0px) rotate(1deg);
+	}
+	20% {
+		-ms-transform: translate(0px, 2px) rotate(0deg);
+		-o-transform: translate(0px, 2px) rotate(0deg);
+		-moz-transform: translate(0px, 2px) rotate(0deg);
+		-webkit-transform: translate(0px, 2px) rotate(0deg);
+		transform: translate(0px, 2px) rotate(0deg);
+	}
+	35% {
+		-ms-transform: translate(0px, 0px) rotate(1deg);
+		-o-transform: translate(0px, 0px) rotate(1deg);
+		-moz-transform: translate(0px, 0px) rotate(1deg);
+		-webkit-transform: translate(0px, 0px) rotate(1deg);
+		transform: translate(0px, 0px) rotate(1deg);
+	}
+	50% {
+		-ms-transform: translate(2px, 0px) rotate(-1deg);
+		-o-transform: translate(2px, 0px) rotate(-1deg);
+		-moz-transform: translate(2px, 0px) rotate(-1deg);
+		-webkit-transform: translate(2px, 0px) rotate(-1deg);
+		transform: translate(2px, 0px) rotate(-1deg);
+	}
+	65% {
+		-ms-transform: translate(-2px, 2px) rotate(1deg);
+		-o-transform: translate(-2px, 2px) rotate(1deg);
+		-moz-transform: translate(-2px, 2px) rotate(1deg);
+		-webkit-transform: translate(-2px, 2px) rotate(1deg);
+		transform: translate(-2px, 2px) rotate(1deg);
+	}
+	80% {
+		-ms-transform: translate(0px, -2px) rotate(0deg);
+		-o-transform: translate(0px, -2px) rotate(0deg);
+		-moz-transform: translate(0px, -2px) rotate(0deg);
+		-webkit-transform: translate(0px, -2px) rotate(0deg);
+		transform: translate(0px, -2px) rotate(0deg);
+	}
+	100% {
+		-ms-transform: translate(0px, 0px) rotate(-1deg);
+		-o-transform: translate(0px, 0px) rotate(-1deg);
+		-moz-transform: translate(0px, 0px) rotate(-1deg);
+		-webkit-transform: translate(0px, 0px) rotate(-1deg);
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+}
+
+.shake {
+	-ms-animation: shake 0.2s linear infinite;
+	-o-animation: shake 0.2s linear infinite;
+	-moz-animation: shake 0.2s linear infinite;
+	-webkit-animation: shake 0.2s linear infinite;
+	animation: shake 0.2s linear infinite;
 	display: inline-block;
 }
