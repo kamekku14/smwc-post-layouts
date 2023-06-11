@@ -27,6 +27,17 @@
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/cascadia-code.css');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 
+@-o-keyframes kamekku14-linkactive {
+	from {
+		-o-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	to {
+		-o-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+}
+
 @-moz-keyframes kamekku14-linkactive {
 	from {
 		-moz-transform: scale3d(1, 1, 1);
@@ -49,30 +60,196 @@
 	}
 }
 
-@-o-keyframes kamekku14-linkactive {
+@keyframes kamekku14-linkactive {
 	from {
 		-o-transform: scale3d(1, 1, 1);
+		-moz-transform: scale3d(1, 1, 1);
+		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
 	to {
 		-o-transform: scale3d(1.05, 1.05, 1.05);
+		-moz-transform: scale3d(1.05, 1.05, 1.05);
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
 		transform: scale3d(1.05, 1.05, 1.05);
 	}
 }
 
-@keyframes kamekku14-linkactive {
-	from {
-		-moz-transform: scale3d(1, 1, 1);
-		-webkit-transform: scale3d(1, 1, 1);
-		-o-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
+@-o-keyframes spoilerreveal-easeInElastic {
+	0% {
+		background-color: rgb(171, 171, 212) !important;
 	}
-	to {
-		-moz-transform: scale3d(1.05, 1.05, 1.05);
-		-webkit-transform: scale3d(1.05, 1.05, 1.05);
-		-o-transform: scale3d(1.05, 1.05, 1.05);
-		transform: scale3d(1.05, 1.05, 1.05);
+
+	4% {
+		background-color: rgb(171, 171, 212) !important;
 	}
+
+	8% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	14% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	18% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	26% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	28% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	40% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	42% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	56% {
+		background-color: rgba(171, 171, 212, 1.05) !important;
+	}
+
+	58% {
+		background-color: rgba(171, 171, 212, 1.04) !important;
+	}
+
+	72% {
+		background-color: rgba(171, 171, 212, 0.87) !important;
+	}
+
+	86% {
+		background-color: rgba(171, 171, 212, 1.37) !important;
+	}
+
+	100% {
+		background-color: rgba(171, 171, 212, 0.05) !important;
+	}
+
+}
+
+@-moz-keyframes spoilerreveal-easeInElastic {
+	0% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	4% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	8% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	14% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	18% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	26% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	28% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	40% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	42% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	56% {
+		background-color: rgba(171, 171, 212, 1.05) !important;
+	}
+
+	58% {
+		background-color: rgba(171, 171, 212, 1.04) !important;
+	}
+
+	72% {
+		background-color: rgba(171, 171, 212, 0.87) !important;
+	}
+
+	86% {
+		background-color: rgba(171, 171, 212, 1.37) !important;
+	}
+
+	100% {
+		background-color: rgba(171, 171, 212, 0.05) !important;
+	}
+
+}
+
+@-webkit-keyframes spoilerreveal-easeInElastic {
+	0% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	4% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	8% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	14% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	18% {
+		background-color: rgb(171, 171, 212) !important;
+	}
+
+	26% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	28% {
+		background-color: rgba(171, 171, 212, 1.01) !important;
+	}
+
+	40% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	42% {
+		background-color: rgba(171, 171, 212, 0.98) !important;
+	}
+
+	56% {
+		background-color: rgba(171, 171, 212, 1.05) !important;
+	}
+
+	58% {
+		background-color: rgba(171, 171, 212, 1.04) !important;
+	}
+
+	72% {
+		background-color: rgba(171, 171, 212, 0.87) !important;
+	}
+
+	86% {
+		background-color: rgba(171, 171, 212, 1.37) !important;
+	}
+
+	100% {
+		background-color: rgba(171, 171, 212, 0.05) !important;
+	}
+
 }
 
 @keyframes spoilerreveal-easeInElastic {
@@ -320,19 +497,19 @@
 }
 
 .kamekku14bg pre.box {
-	font-family: "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .kamekku14bg pre {
-	font-family: "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .kamekku14bg code {
-	font-family: "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	-moz-border-radius: 2px 2px 2px 2px;
@@ -390,18 +567,18 @@
 	text-shadow: inherit;
 	text-decoration: none;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	}
 
 .kamekku14bg a:visited {
 	color: rgb(202, 221, 227);
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	}
 
@@ -410,9 +587,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	}
 
@@ -421,13 +598,13 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
+	-o-animation: kamekku14-linkactive 0.5s;
 	-moz-animation: kamekku14-linkactive 0.5s;
 	-webkit-animation: kamekku14-linkactive 0.5s;
-	-o-animation: kamekku14-linkactive 0.5s;
 	animation: kamekku14-linkactive 0.5s;
 	}
 
@@ -436,9 +613,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -447,9 +624,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -458,9 +635,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -485,9 +662,9 @@
 	box-shadow: 1px 1px 1px #0a0a0f;
 	padding: 1px;
 	color: inherit !important;
+	-o-transition: all .25s linear;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
-	-o-transition: all .25s linear;
 	transition: all .25s linear;
 
 }
@@ -509,10 +686,10 @@
     -webkit-box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
     -moz-box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
     box-shadow: 1px 1px 1px #0a0a0f inset, 1px 1px 1px #0a0a0f;
-	-moz-animation: spoilerreveal-easeInElastic .25s;
-	-webkit-animation: spoilerreveal-easeInElastic .25s;
-	-o-animation: spoilerreveal-easeInElastic .25s;
-	animation: spoilerreveal-easeInElastic .25s;
+	-o-animation: spoilerreveal-easeInElastic .25s linear;
+	-moz-animation: spoilerreveal-easeInElastic .25s linear;
+	-webkit-animation: spoilerreveal-easeInElastic .25s linear;
+	animation: spoilerreveal-easeInElastic .25s linear;
 }
 
 .kamekku14bg .spoilerInner {
