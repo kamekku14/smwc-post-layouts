@@ -364,6 +364,7 @@
 	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	word-wrap: break-word;
 	height: 16 px;
 	min-width: 16px;
