@@ -263,8 +263,8 @@
 
 .rulue_bg > .rulue_post a:link, .rulue_bg > .rulue_post a.collapsed-toggle {
 	color: #1E88E5;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -274,8 +274,8 @@
 
 .rulue_bg > .rulue_post a:visited {
 	color: #5E35B1;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -285,7 +285,7 @@
 
 .rulue_bg > .rulue_post a:hover, .rulue_bg > .rulue_post a.collapsed-toggle:hover {
 	color: #FFB300;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -296,7 +296,7 @@
 
 .rulue_bg > .rulue_post a:active, .rulue_bg > .rulue_post a.collapsed-toggle:active {
 	color: #e53935;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -307,8 +307,8 @@
 
 .rulue_bg > .rulue_sig a:link, .rulue_bg > .rulue_sig a.collapsed-toggle {
 	color: #81D4FA;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -318,8 +318,8 @@
 
 .rulue_bg > .rulue_sig a:visited {
 	color: #B39DDB;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -329,7 +329,7 @@
 
 .rulue_bg > .rulue_sig a:hover, .rulue_bg > .rulue_sig a.collapsed-toggle:hover {
 	color: #FFE082;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -340,7 +340,7 @@
 
 .rulue_bg > .rulue_sig a:active, .rulue_bg > .rulue_sig a.collapsed-toggle:active {
 	color: #EF9A9A;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -353,8 +353,8 @@
 
 .rulue_bg a:link, .rulue_bg a.collapsed-toggle {
 	color: #03A9F4;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -364,8 +364,8 @@
 
 .rulue_bg a:visited {
 	color: #673AB7;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -375,7 +375,7 @@
 
 .rulue_bg a:hover, .rulue_bg a.collapsed-toggle:hover {
 	color: #FFC107;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -386,7 +386,7 @@
 
 .rulue_bg a:active, .rulue_bg a.collapsed-toggle:active {
 	color: #F44336;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -397,8 +397,8 @@
 
 .rulue_bg .code .boxhead a.js-link {
 	color: #E91E63 !important;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -408,7 +408,7 @@
 
 .rulue_bg .code .boxhead a.js-link:hover {
 	color: #E91E63 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -419,7 +419,7 @@
 
 .rulue_bg .code .boxhead a.js-link:active {
 	color: #E91E63 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;

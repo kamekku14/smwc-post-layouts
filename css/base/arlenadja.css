@@ -258,8 +258,8 @@
 
 .arlenadja_bg a:link, .arlenadja_bg a.collapsed-toggle {
 	color: #1E88E5;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -269,8 +269,8 @@
 
 .arlenadja_bg a:visited {
 	color: #5E35B1;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -280,7 +280,7 @@
 
 .arlenadja_bg a:hover, .arlenadja_bg a.collapsed-toggle:hover {
 	color: #FFB300;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -291,7 +291,7 @@
 
 .arlenadja_bg a:active, .arlenadja_bg a.collapsed-toggle:active {
 	color: #e53935;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -302,8 +302,8 @@
 
 .arlenadja_bg .code .boxhead a.js-link {
 	color: #E91E63 !important;
+	text-shadow: inherit !important;
 	text-decoration: none;
-	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -313,7 +313,7 @@
 
 .arlenadja_bg .code .boxhead a.js-link:hover {
 	color: #E91E63 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -324,7 +324,7 @@
 
 .arlenadja_bg .code .boxhead a.js-link:active {
 	color: #E91E63 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
