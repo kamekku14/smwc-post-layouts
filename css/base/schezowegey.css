@@ -1,6 +1,6 @@
 /*!
  * schezowegey.css - Base layout for future post layouts (Dark-themed layout)
- * Copyright (C) 2019-2021 Klug Nanahikari
+ * Copyright (C) 2019-2023 Klug Nanahikari
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern";
 	font-feature-settings: "liga", "clig", "kern";
 	color: #FFFFFF;
-	text-shadow: none;
+	text-shadow: none !important;
 	min-height: 350px;
 }
 
@@ -70,23 +70,23 @@
 }
 
 .schezowegey_bg .quote, .schezowegey_bg .code {
-	background: transparent;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	background: transparent !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	margin-top: 8px;
 }
 
 .schezowegey_bg .quote .box {
-	background-color: rgba(97, 97, 97, 0.1);
-	text-shadow: inherit;
+	background-color: rgba(97, 97, 97, 0.1) !important;
+	text-shadow: inherit !important;
 	line-height: inherit;
-	-moz-border-radius: 8px 8px 8px 8px;
-	-webkit-border-radius: 8px 8px 8px 8px;
-	border-radius: 8px 8px 8px 8px;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 8px 8px 8px 8px !important;
+	-webkit-border-radius: 8px 8px 8px 8px !important;
+	border-radius: 8px 8px 8px 8px !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 0 none #F6F9FF !important;
 	padding: 5px;
 	word-wrap: break-word;
@@ -98,26 +98,26 @@
 	color: #F6F9FF;
 	font-size: 11px;
 	vertical-align: middle;
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
 
 .schezowegey_bg .quote .box .quote .box {
-	background-color: transparent;
-	text-shadow: inherit;
+	background-color: transparent !important;
+	text-shadow: inherit !important;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 2px #F0F8FF !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -132,26 +132,26 @@
 	color: #F5F5FF;
 	font-size: 11px;
 	vertical-align: middle;
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
 
 .schezowegey_bg .code .box {
-	background-color: rgba(136, 14, 79, 0.35);
-	text-shadow: inherit;
+	background-color: rgba(136, 14, 79, 0.35) !important;
+	text-shadow: inherit !important;
 	line-height: inherit;
-	-moz-border-radius: 8px 8px 8px 8px;
-	-webkit-border-radius: 8px 8px 8px 8px;
-	border-radius: 8px 8px 8px 8px;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 8px 8px 8px 8px !important;
+	-webkit-border-radius: 8px 8px 8px 8px !important;
+	border-radius: 8px 8px 8px 8px !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 0 none #F48FB1 !important;
 	padding: 5px;
 	color: #F48FB1;
@@ -169,26 +169,26 @@
 	color: #F48FB1 !important;
 	font-size: 11px;
 	vertical-align: middle;
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
 
 .schezowegey_bg .quote .box .code .box {
-	background-color: transparent;
-	text-shadow: inherit;
+	background-color: transparent !important;
+	text-shadow: inherit !important;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 2px #F48FB1 !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -204,12 +204,12 @@
 	color: #F48FB1 !important;
 	font-size: 11px;
 	vertical-align: middle;
-	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
@@ -266,9 +266,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -277,9 +277,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -288,9 +288,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -299,9 +299,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -310,9 +310,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -321,9 +321,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -332,9 +332,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -343,9 +343,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -356,9 +356,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -367,9 +367,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -378,9 +378,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -389,42 +389,42 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link {
-	color: #F48FB1;
+	color: #F48FB1 !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link:hover {
-	color: #F48FB1;
+	color: #F48FB1 !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .schezowegey_bg .code .boxhead a.js-link:active {
-	color: #F48FB1;
+	color: #F48FB1 !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -442,9 +442,9 @@
 	border-radius: 2px 2px 2px 2px;
 	padding: 1px;
 	color: inherit !important;
+	-o-transition: all .25s linear;
 	-moz-transition: all .25s linear;
 	-webkit-transition: all .25s linear;
-	-o-transition: all .25s linear;
 	transition: all .25s linear;
 }
 
@@ -493,8 +493,6 @@
 
 /*!
  * highlight.js shenanigans.
- * 
- * Only usable for the new C3 theme, though!
  */
 
 .schezowegey_bg .hljs {

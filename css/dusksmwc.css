@@ -321,7 +321,7 @@
 	font-synthesis: weight style small-caps;
 	background: url("https://kamekku14.github.io/smwc-post-layouts/assets/dusksmwc/dusksmwc_bg.png") center repeat rgb(0,11,34);
 	color: rgb(248,248,248);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	border: none; 
 	padding: 20px;
 	min-height: 350px;
@@ -335,11 +335,11 @@
 	border: 1px #1e1e2f;
 	border-style: none solid solid none;
 	padding: 5px;
-	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	color: rgb(248,248,248);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	word-wrap: break-word;
 	min-width: 16px;
 	min-height: 180px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
@@ -361,9 +361,9 @@
 	border: 1px #130d1a;
 	border-style: none solid solid none;
 	padding: 5px;
-	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
-	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5);
+	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	word-wrap: break-word;
 	height: 16 px;
 	min-width: 16px;
@@ -379,23 +379,23 @@
 }
 
 .kamekku14bg .quote, .kamekku14bg .code {
-	background: transparent;
-	box-shadow: none;
+	background: transparent !important;
+	box-shadow: none !important;
 	margin-top: 8px;
 }
 
 .kamekku14bg .quote .box {
-	background: rgba(28,28,43,0.5);
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
+	background: rgba(28,28,43,0.5) !important;
+	-moz-border-radius: 2px 2px 2px 2px !important;
+	-webkit-border-radius: 2px 2px 2px 2px !important;
+	border-radius: 2px 2px 2px 2px !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	border: 0 none !important;
 	padding: 5px;
 	color: rgb(220, 220, 237);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
     line-height: inherit;
 	word-wrap: break-word;
 }
@@ -412,9 +412,9 @@
 
 .kamekku14bg .quote .box .quote .box {
 	background-color: transparent;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -422,7 +422,7 @@
 	border-style: none none none solid !important;
 	padding: 5px;
 	color: rgb(171, 171, 212);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
     line-height: inherit;
 	word-wrap: break-word;
 	margin-left: 8px;
@@ -434,18 +434,18 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(171, 171, 212);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	margin: auto;
 }
 
 .kamekku14bg .code .box {
 	color: rgb(50, 239, 98);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	line-height: inherit;
-	background: rgba(18, 33, 26, 0.5);
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
+	background: rgba(18, 33, 26, 0.5) !important;
+	-moz-border-radius: 2px 2px 2px 2px !important;
+	-webkit-border-radius: 2px 2px 2px 2px !important;
+	border-radius: 2px 2px 2px 2px !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -464,15 +464,15 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: 1px 1px 1px #0a0a0f !important;
 	margin: auto;
 }
 
 .kamekku14bg .quote .box .code .box {
-	background-color: transparent;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	background-color: transparent !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	border: 2px #d0fbdb !important;
 	border-style: none none none solid !important;
 	padding: 5px;
@@ -609,7 +609,7 @@
 	}
 
 .kamekku14bg .code .boxhead a.js-link {
-	color: rgb(208, 251, 219);
+	color: rgb(208, 251, 219) !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -620,7 +620,7 @@
 }
 
 .kamekku14bg .code .boxhead a.js-link:hover {
-	color: rgb(208, 251, 219);
+	color: rgb(208, 251, 219) !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -631,7 +631,7 @@
 }
 
 .kamekku14bg .code .boxhead a.js-link:active {
-	color: rgb(208, 251, 219);
+	color: rgb(208, 251, 219) !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
