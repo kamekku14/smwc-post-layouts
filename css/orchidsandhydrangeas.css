@@ -799,155 +799,155 @@
 /* Main code blocks (Atelier Lakeside Light) */
 
 /* Atelier-Lakeside Comment */
-.orchidsandhydrangeas_bg .code .box .hljs-comment,
-.orchidsandhydrangeas_bg .code .box .hljs-quote {
+.orchidsandhydrangeas_bg .code .box.hljs-comment,
+.orchidsandhydrangeas_bg .code .box.hljs-quote {
 	color: #5a7b8c !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Lakeside Red */
-.orchidsandhydrangeas_bg .code .box .hljs-variable,
-.orchidsandhydrangeas_bg .code .box .hljs-template-variable,
-.orchidsandhydrangeas_bg .code .box .hljs-attribute,
-.orchidsandhydrangeas_bg .code .box .hljs-tag,
-.orchidsandhydrangeas_bg .code .box .hljs-name,
-.orchidsandhydrangeas_bg .code .box .hljs-regexp,
-.orchidsandhydrangeas_bg .code .box .hljs-link,
-.orchidsandhydrangeas_bg .code .box .hljs-name,
-.orchidsandhydrangeas_bg .code .box .hljs-selector-id,
-.orchidsandhydrangeas_bg .code .box .hljs-selector-class {
+.orchidsandhydrangeas_bg .code .box.hljs-variable,
+.orchidsandhydrangeas_bg .code .box.hljs-template-variable,
+.orchidsandhydrangeas_bg .code .box.hljs-attribute,
+.orchidsandhydrangeas_bg .code .box.hljs-tag,
+.orchidsandhydrangeas_bg .code .box.hljs-name,
+.orchidsandhydrangeas_bg .code .box.hljs-regexp,
+.orchidsandhydrangeas_bg .code .box.hljs-link,
+.orchidsandhydrangeas_bg .code .box.hljs-name,
+.orchidsandhydrangeas_bg .code .box.hljs-selector-id,
+.orchidsandhydrangeas_bg .code .box.hljs-selector-class {
 	color: #d22d72 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Lakeside Orange */
-.orchidsandhydrangeas_bg .code .box .hljs-number,
-.orchidsandhydrangeas_bg .code .box .hljs-meta,
-.orchidsandhydrangeas_bg .code .box .hljs-built_in,
-.orchidsandhydrangeas_bg .code .box .hljs-builtin-name,
-.orchidsandhydrangeas_bg .code .box .hljs-literal,
-.orchidsandhydrangeas_bg .code .box .hljs-type,
-.orchidsandhydrangeas_bg .code .box .hljs-params {
+.orchidsandhydrangeas_bg .code .box.hljs-number,
+.orchidsandhydrangeas_bg .code .box.hljs-meta,
+.orchidsandhydrangeas_bg .code .box.hljs-built_in,
+.orchidsandhydrangeas_bg .code .box.hljs-builtin-name,
+.orchidsandhydrangeas_bg .code .box.hljs-literal,
+.orchidsandhydrangeas_bg .code .box.hljs-type,
+.orchidsandhydrangeas_bg .code .box.hljs-params {
 	color: #935c25 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Lakeside Green */
-.orchidsandhydrangeas_bg .code .box .hljs-string,
-.orchidsandhydrangeas_bg .code .box .hljs-symbol,
-.orchidsandhydrangeas_bg .code .box .hljs-bullet {
+.orchidsandhydrangeas_bg .code .box.hljs-string,
+.orchidsandhydrangeas_bg .code .box.hljs-symbol,
+.orchidsandhydrangeas_bg .code .box.hljs-bullet {
 	color: #568c3b !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Lakeside Blue */
-.orchidsandhydrangeas_bg .code .box .hljs-title,
-.orchidsandhydrangeas_bg .code .box .hljs-section {
+.orchidsandhydrangeas_bg .code .box.hljs-title,
+.orchidsandhydrangeas_bg .code .box.hljs-section {
 	color: #257fad !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Lakeside Purple */
-.orchidsandhydrangeas_bg .code .box .hljs-keyword,
-.orchidsandhydrangeas_bg .code .box .hljs-selector-tag {
+.orchidsandhydrangeas_bg .code .box.hljs-keyword,
+.orchidsandhydrangeas_bg .code .box.hljs-selector-tag {
 	color: #6b6bb8 !important;
 	font-style: inherit !important;
 }
 
-.orchidsandhydrangeas_bg .code .box .hljs {
+.orchidsandhydrangeas_bg .code .box.hljs {
 	display: block;
 	overflow-x: auto;
 	color: #516d7b !important;
 	padding: 0.5em;
 }
 
-.orchidsandhydrangeas_bg .code .box .hljs-emphasis {
+.orchidsandhydrangeas_bg .code .box.hljs-emphasis {
 	font-style: italic !important;
 }
 
-.orchidsandhydrangeas_bg .code .box .hljs-strong {
+.orchidsandhydrangeas_bg .code .box.hljs-strong {
 	font-weight: bold !important;
 }
 
-.orchidsandhydrangeas_bg .code .box .hljs-link {
+.orchidsandhydrangeas_bg .code .box.hljs-link {
 	text-decoration: underline !important;
 }
 
 /* Code blocks inside quote boxes (Atelier Cave Light) */
 
 /* Atelier-Cave Comment */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-comment,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-quote {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-comment,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-quote {
 	color: #655f6d !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Red */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-variable,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-template-variable,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-attribute,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-tag,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-name,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-regexp,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-link,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-name,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-name,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-selector-id,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-selector-class {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-variable,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-template-variable,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-attribute,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-tag,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-name,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-regexp,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-link,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-name,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-name,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-selector-id,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-selector-class {
 	color: #be4678 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Orange */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-number,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-meta,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-built_in,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-builtin-name,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-literal,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-type,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-params {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-number,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-meta,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-built_in,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-builtin-name,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-literal,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-type,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-params {
 	color: #aa573c !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Green */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-string,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-symbol,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-bullet {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-string,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-symbol,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-bullet {
 	color: #2a9292 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Blue */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-title,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-section {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-title,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-section {
 	color: #576ddb !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Purple */
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-keyword,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-selector-tag {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-keyword,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-selector-tag {
 	color: #955ae7 !important;
 	font-style: inherit !important;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-deletion,
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-addition {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-deletion,
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-addition {
 	color: #19171c !important;
 	display: inline-block;
 	width: 100%;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-deletion {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-deletion {
 	background-color: #be4678 !important;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-addition {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-addition {
 	background-color: #2a9292 !important;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs {
 	display: block;
 	overflow-x: auto;
 	background: #efecf4;
@@ -955,15 +955,15 @@
 	padding: 0.5em;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-emphasis {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-emphasis {
 	font-style: italic !important;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-strong {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-strong {
 	font-weight: bold !important;
 }
 
-.orchidsandhydrangeas_bg .quote .box .code .box .hljs-link {
+.orchidsandhydrangeas_bg .quote .box .code .box.hljs-link {
 	text-decoration: underline !important;
 }
 
