@@ -25,7 +25,7 @@
 /* Created on 09/09/2019. Oh wait--happy Cirno Day, everyone! LONG LIVE THE STRONGEST!!! */
 
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Zen+Kaku+Gothic+Antique:wght@400;500;700&display=swap');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/cascadia-code.css');
 
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... :thinking: */
@@ -45,6 +45,10 @@
 	text-shadow: none;
 	min-height: 350px;
 	position: relative;
+}
+
+[class="orchidsandhydrangeas_bg"][lang="ja"] {
+	font-family: "Livvic", "Noto Sans", "Zen Kaku Gothic Antique", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "BIZ UDPGothic", "Yu Gothic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .orchidsandhydrangeas_post {
