@@ -339,7 +339,7 @@
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	color: rgb(248,248,248);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	word-wrap: break-word;
 	min-width: 16px;
 	min-height: 180px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
@@ -364,7 +364,7 @@
 	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	word-wrap: break-word;
 	height: 16 px;
 	min-width: 16px;
@@ -396,7 +396,7 @@
 	border: 0 none !important;
 	padding: 5px;
 	color: rgb(220, 220, 237);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
     line-height: inherit;
 	word-wrap: break-word;
 }
@@ -407,12 +407,12 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(199, 194, 214);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	margin: auto;
 }
 
 .kamekku14bg .quote .box .quote .box {
-	background-color: transparent;
+	background-color: transparent !important;
 	-moz-border-radius: 0 0 0 0 !important;
 	-webkit-border-radius: 0 0 0 0 !important;
 	border-radius: 0 0 0 0 !important;
@@ -423,7 +423,7 @@
 	border-style: none none none solid !important;
 	padding: 5px;
 	color: rgb(171, 171, 212);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
     line-height: inherit;
 	word-wrap: break-word;
 	margin-left: 8px;
@@ -435,13 +435,13 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(171, 171, 212);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	margin: auto;
 }
 
 .kamekku14bg .code .box {
 	color: rgb(50, 239, 98);
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	line-height: inherit;
 	background: rgba(18, 33, 26, 0.5) !important;
 	-moz-border-radius: 2px 2px 2px 2px !important;
@@ -465,7 +465,7 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
-	text-shadow: 1px 1px 1px #0a0a0f !important;
+	text-shadow: inherit !important;
 	margin: auto;
 }
 
@@ -478,7 +478,7 @@
 	border-style: none none none solid !important;
 	padding: 5px;
 	color: rgb(50, 239, 98);
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: inherit !important;
 	word-wrap: break-word;
 	margin-left: 8px;
 }
@@ -489,7 +489,7 @@
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
-	text-shadow: 1px 1px 1px #0a0a0f;
+	text-shadow: inherit !important;
 	margin: auto;
 }
 

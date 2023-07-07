@@ -25,7 +25,8 @@
 /* Created on 09/09/2019. Oh wait--happy Cirno Day, everyone! LONG LIVE THE STRONGEST!!! */
 
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Livvic:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/cascadia-code.css');
 
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... :thinking: */
 
@@ -33,7 +34,7 @@
 	background: #B0D0F8 url('https://kamekku14.github.io/smwc-post-layouts/assets/orchidsandhydrangeas/backgroundthing.png') repeat center center;
 	padding: 24px;
 	background-size: auto;
-	font-family: "Livvic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Livvic", "Noto Sans", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
@@ -82,23 +83,23 @@
 }
 
 .orchidsandhydrangeas_bg .quote, .orchidsandhydrangeas_bg .code {
-	background: transparent;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	background: transparent !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	margin-top: 8px;
 }
 
 .orchidsandhydrangeas_bg .quote .box {
-	background-color: rgba(235, 181, 215, 0.15);
+	background-color: rgba(235, 181, 215, 0.15) !important;
 	text-shadow: inherit;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: solid #6F1E51 !important;
 	border-width: 2px 1px 1px 1px !important;
 	padding: 5px;
@@ -113,25 +114,25 @@
 	font-size: 11px;
 	vertical-align: middle;
 	background: #6F1E51;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 4px 8px;
 	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .box {
-	background-color: transparent;
+	background-color: transparent !important;
 	text-shadow: inherit;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 2px #41112f !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -147,25 +148,25 @@
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .code .box {
-	background-color: rgba(200, 243, 253, 0.15);
+	background-color: rgba(200, 243, 253, 0.15) !important;
 	text-shadow: inherit;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: solid #0abde3 !important;
 	border-width: 2px 1px 1px 1px !important;
 	padding: 5px;
@@ -186,25 +187,25 @@
 	font-size: 11px;
 	vertical-align: middle;
 	background: #0abde3;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 4px 8px;
 	margin: auto;
 }
 
 .orchidsandhydrangeas_bg .quote .box .code .box {
-	background-color: transparent;
+	background-color: transparent !important;
 	text-shadow: inherit;
 	line-height: inherit;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 	border: 2px #0abde3 !important;
 	border-style: none none none solid !important;
 	padding: 6px;
@@ -221,11 +222,11 @@
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;
-	border: none;
-	border-bottom: none;
-	-moz-border-radius: 0 0 0 0;
-	-webkit-border-radius: 0 0 0 0;
-	border-radius: 0 0 0 0;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
 	padding: 0 0;
 	margin: auto;
 }
@@ -235,19 +236,19 @@
 }
 
 .orchidsandhydrangeas_bg pre {
-	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .orchidsandhydrangeas_bg pre.box {
-	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .orchidsandhydrangeas_bg code {
-	font-family: "IBM Plex Mono", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
+	font-family: "Cascadia Code", ui-monospace, Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	-moz-border-radius: 2px 2px 2px 2px;
@@ -274,7 +275,7 @@
 	right: 1px;
 	font-size: 10px;
 	color: #FFFFFF;
-	text-shadow: 0 0 5px #000000;
+	text-shadow: 0 0 5px #000000 !important;
 	padding: 4px;
 	display: inline-block;
 }
@@ -293,9 +294,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -304,9 +305,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -315,9 +316,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -326,9 +327,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -337,9 +338,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -348,9 +349,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -359,9 +360,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -370,9 +371,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -381,9 +382,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -392,9 +393,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -403,9 +404,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -414,9 +415,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -425,9 +426,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -436,9 +437,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -447,9 +448,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -458,53 +459,119 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead a.js-link {
+	color: #dbf7fd !important;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
 	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead a.js-link:hover {
+	color: #dbf7fd !important;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .code .boxhead a.js-link:active {
+	color: #dbf7fd !important;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link {
+	color: #0abde3 !important;
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:hover {
+	color: #0abde3 !important;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:active {
+	color: #0abde3 !important;
+	text-shadow: inherit;
+	text-decoration: underline;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:link {
 	color: #00f9fa;
 	text-decoration: none;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:visited {
 	color: #acffff;
 	text-decoration: none;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:hover {
 	color: #f9b1ef;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:active {
 	color: #ffd1a5;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -515,9 +582,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -526,9 +593,9 @@
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -537,9 +604,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -548,9 +615,9 @@
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -565,14 +632,14 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg a.collapsed-toggle:hover {
-	color: #fde7fa;
+	color: #fde7fa !important;
 	background: #FF85FD !important;
 	text-shadow: inherit;
 	text-decoration: none;
@@ -582,14 +649,14 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .orchidsandhydrangeas_bg a.collapsed-toggle:active {
-	color: #fde7fa;
+	color: #fde7fa !important;
 	background: #FFA1FF !important;
 	text-shadow: inherit;
 	text-decoration: none;
@@ -599,75 +666,9 @@
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 4px;
+	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .code .boxhead a.js-link {
-	color: #dbf7fd;
-	text-decoration: none;
-	text-shadow: inherit;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .code .boxhead a.js-link:hover {
-	color: #dbf7fd;
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .code .boxhead a.js-link:active {
-	color: #dbf7fd;
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link {
-	color: #0abde3;
-	text-decoration: none;
-	text-shadow: inherit;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:hover {
-	color: #0abde3;
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:active {
-	color: #0abde3;
-	text-shadow: inherit;
-	text-decoration: underline;
-	font-weight: inherit;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
@@ -788,8 +789,6 @@
 
 /*!
  * highlight.js shenanigans.
- * 
- * Only usable for the new C3 theme, though!
  */
 
 /* Main code blocks (Atelier Lakeside Light) */
