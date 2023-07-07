@@ -88,6 +88,7 @@
 
 .orchidsandhydrangeas_bg .quote, .orchidsandhydrangeas_bg .code {
 	background: transparent !important;
+	border: none !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -114,7 +115,7 @@
 .orchidsandhydrangeas_bg .quote .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #f3d4e8;
+	color: #f3d4e8 !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: #6F1E51;
@@ -148,7 +149,7 @@
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: #41112f;
+	color: #41112f !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent;
@@ -382,7 +383,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .boxhead a:link {
-	color: #f3d4e8;
+	color: #f3d4e8 !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -393,7 +394,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .boxhead a:visited {
-	color: #fcf2f8;
+	color: #fcf2f8 !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -404,7 +405,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .boxhead a:hover {
-	color: #f7e3f0;
+	color: #f7e3f0 !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -415,7 +416,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .boxhead a:active {
-	color: #efc4df;
+	color: #efc4df !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -426,7 +427,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
-	color: #41112f;
+	color: #41112f !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -437,7 +438,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:visited {
-	color: #601a46;
+	color: #601a46 !important;
 	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -448,7 +449,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:hover {
-	color: #50163a;
+	color: #50163a !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;
@@ -459,7 +460,7 @@
 }
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:active {
-	color: #310d24;
+	color: #310d24 !important;
 	text-shadow: inherit;
 	text-decoration: underline;
 	font-weight: inherit;

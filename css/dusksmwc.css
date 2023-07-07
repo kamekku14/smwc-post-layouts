@@ -381,6 +381,7 @@
 
 .kamekku14bg .quote, .kamekku14bg .code {
 	background: transparent !important;
+	border: none !important;
 	box-shadow: none !important;
 	margin-top: 8px;
 }
