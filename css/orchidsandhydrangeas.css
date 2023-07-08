@@ -124,7 +124,7 @@
 	-moz-border-radius: 0 0 0 0 !important;
 	-webkit-border-radius: 0 0 0 0 !important;
 	border-radius: 0 0 0 0 !important;
-	padding: 4px 8px;
+	padding: 4px 8px 3px;
 	margin: auto;
 }
 
@@ -197,7 +197,7 @@
 	-moz-border-radius: 0 0 0 0 !important;
 	-webkit-border-radius: 0 0 0 0 !important;
 	border-radius: 0 0 0 0 !important;
-	padding: 4px 8px;
+	padding: 4px 8px 3px;
 	margin: auto;
 }
 
