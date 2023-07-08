@@ -47,7 +47,7 @@
 	position: relative;
 }
 
-[class="orchidsandhydrangeas_bg"][lang="ja"] {
+[class="orchidsandhydrangeas_bg"][lang="ja"], .orchidsandhydrangeas_bg *[lang="ja"] {
 	font-family: "Livvic", "Noto Sans", "Zen Kaku Gothic Antique", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "BIZ UDPGothic", "Yu Gothic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
 }
 
