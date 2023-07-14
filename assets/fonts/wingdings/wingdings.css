@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Wingdings';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/WINGDING.ttf') format('truetype'), url('woff/wingding-webfont.woff') format('woff'), url('woff2/wingding-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Wingdings 2';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/WINGDNG2.ttf') format('truetype'), url('woff/wingdng2-webfont.woff') format('woff'), url('woff2/wingdng2-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Wingdings 3';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/WINGDNG3.ttf') format('truetype'), url('woff/wingdng3-webfont.woff') format('woff'), url('woff2/wingdng3-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Webdings';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/WEBDINGS.ttf') format('truetype'), url('woff/webdings-webfont.woff') format('woff'), url('woff2/webdings-webfont.woff2') format('woff2');
+}
