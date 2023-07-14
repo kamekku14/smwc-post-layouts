@@ -327,6 +327,10 @@
 	min-height: 350px;
 }
 
+.kamekku14bg > * {
+	text-shadow: inherit !important; /* Should be obvious. */
+}
+
 .kamekku14post {
 	background: url("https://kamekku14.github.io/smwc-post-layouts/assets/dusksmwc/dusksmwc_postbg.png") center repeat rgb(52,47,82); 
 	-moz-border-radius: 2px 2px 2px 2px;
