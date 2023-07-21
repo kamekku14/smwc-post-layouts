@@ -24,6 +24,7 @@
 @charset "UTF-8";
 
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/ysabeau/ysabeau.css');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Ysabeau+SC:wght@200;300;400;500;600;700;800&display=swap'); /* Google Fonts fallback */
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/cascadia-code/cascadia-code.css');
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 
@@ -312,7 +313,7 @@
 }
 
 .kamekku14bg {
-	font: 14px/150% "Ysabeau", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+	font: 14px/150% "Ysabeau", "Ysabeau Office", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
@@ -407,12 +408,13 @@
 }
 
 .kamekku14bg .quote .boxhead {
+	font-family: "Ysabeau", "Ysabeau SC", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
-	font-size: .85em;
 	color: rgb(199, 194, 214);
+	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
 }
@@ -436,11 +438,13 @@
 }
 
 .kamekku14bg .quote .box .quote .boxhead {
+	font-family: "Ysabeau", "Ysabeau SC", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(171, 171, 212);
+	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
 }
@@ -466,12 +470,13 @@
 }
 
 .kamekku14bg .code .boxhead {
+	font-family: "Ysabeau", "Ysabeau SC", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
-	font-size: .85em;
 	color: rgb(208, 251, 219) !important;
+	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
 }
@@ -491,11 +496,13 @@
 }
 
 .kamekku14bg .quote .box .code .boxhead {
+	font-family: "Ysabeau", "Ysabeau SC", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
 	-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
 	color: rgb(208, 251, 219) !important;
+	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
 }
@@ -539,34 +546,36 @@
 	width: 100%;
 }
 
-/* Ensures if font-synthesis is supported for each web browser. */
+/* FUTURE USE: Ensures if font-synthesis is supported for each web browser. */
 
-@supports(font-synthesis: weight style small-caps) {
-	.kamekku14bg .quote .boxhead {
-		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-variant: small-caps;
-	}
-	.kamekku14bg .quote .box .quote .boxhead {
-		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-variant: small-caps;
-	}
-	.kamekku14bg .code .boxhead {
-		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-variant: small-caps;
-	}
-	.kamekku14bg .quote .box .code .boxhead {
-		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
-		font-variant: small-caps;
-	}
-}
+/*!
+ * @supports(font-synthesis: weight style small-caps) {
+ * 	.kamekku14bg .quote .boxhead {
+ * 		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-variant: small-caps;
+ * 	}
+ * 	.kamekku14bg .quote .box .quote .boxhead {
+ * 		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-variant: small-caps;
+ * 	}
+ * 	.kamekku14bg .code .boxhead {
+ * 		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-variant: small-caps;
+ * 	}
+ * 	.kamekku14bg .quote .box .code .boxhead {
+ * 		-moz-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
+ * 		font-variant: small-caps;
+ * 	}
+ * }
+ */
 
 /* Others */
 
