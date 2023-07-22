@@ -792,6 +792,14 @@
 	background: #706fd3;
 }
 
+.orchidsandhydrangeas_bg h1 {
+	font-size: 2em;
+}
+
+.orchidsandhydrangeas_bg h2 {
+	font-size: 1.5em;
+}
+
 /*!
  * highlight.js shenanigans.
  */

@@ -655,8 +655,14 @@
 	font-weight: bold !important;
 }
 
-.kamekku14bg h1, .kamekku14bg h2 {
+.kamekku14bg h1 {
 	font-weight: 800;
+	font-size: 2em;
+}
+
+.kamekku14bg h2 {
+	font-weight: 800;
+	font-size: 1.5em;
 }
 
 /* Spoiler tags and miscellaneous. */
