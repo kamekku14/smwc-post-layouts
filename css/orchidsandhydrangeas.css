@@ -793,11 +793,13 @@
 }
 
 .orchidsandhydrangeas_bg h1 {
-	font-size: 2em;
+	font-size: 2em !important;
+	line-height: normal !important;
 }
 
 .orchidsandhydrangeas_bg h2 {
-	font-size: 1.5em;
+	font-size: 1.5em !important;
+	line-height: normal !important;
 }
 
 /*!
