@@ -655,18 +655,6 @@
 	font-weight: bold !important;
 }
 
-.kamekku14bg h1 {
-	font-weight: 800;
-	font-size: 2em !important;
-	line-height: normal !important;
-}
-
-.kamekku14bg h2 {
-	font-weight: 800;
-	font-size: 1.5em !important;
-	line-height: normal !important;
-}
-
 /* Spoiler tags and miscellaneous. */
 
 .kamekku14bg .spoiler {
@@ -744,6 +732,18 @@
 .kamekku14bg img.emoticon {
 	-webkit-filter: drop-shadow(1px 1px 1px #0a0a0f);
 	filter: drop-shadow(1px 1px 1px #0a0a0f);
+}
+
+.kamekku14bg h1 {
+	font-weight: 800;
+	font-size: 2em !important;
+	line-height: normal !important;
+}
+
+.kamekku14bg h2 {
+	font-weight: 800;
+	font-size: 1.5em !important;
+	line-height: normal !important;
 }
 
 /* highlight.js shenanigans. */
