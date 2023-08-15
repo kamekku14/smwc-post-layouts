@@ -75,10 +75,10 @@
 }
 
 .klugamethyst_bg > .klugamethyst_sig {
-	--accent-color-link: #8B5CF6;
-	--accent-color-link-hover: #FBBF24;
+	--accent-color-link: #A78BFA;
+	--accent-color-link-hover: #FCD34D;
 	--accent-color-link-active: #FB923C;
-	--accent-color-link-visited: #9C75F6;
+	--accent-color-link-visited: #BAA4FA;
 	--spoiler-color-hidden: #E0E0E0;
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 }
@@ -161,10 +161,10 @@
 	}
 	
 	.klugamethyst_bg > .klugamethyst_sig {
-		--accent-color-link: #8B5CF6;
-		--accent-color-link-hover: #FBBF24;
+		--accent-color-link: #A78BFA;
+		--accent-color-link-hover: #FCD34D;
 		--accent-color-link-active: #FB923C;
-		--accent-color-link-visited: #9C75F6;
+		--accent-color-link-visited: #BAA4FA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
