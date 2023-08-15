@@ -485,19 +485,19 @@
 }
 
 .klugamethyst_bg pre {
-	font-family: var(font-code) !important;
+	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .klugamethyst_bg pre.box {
-	font-family: var(font-code) !important;
+	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 }
 
 .klugamethyst_bg code {
-	font-family: var(font-code) !important;
+	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	-moz-border-radius: 2px 2px 2px 2px;
