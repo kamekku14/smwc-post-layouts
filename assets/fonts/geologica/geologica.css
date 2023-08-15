@@ -1,0 +1,251 @@
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/Geologica-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/Geologica-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/GeologicaSharp-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Geologica Sharp';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/GeologicaSharp-ExtraBoldItalic.ttf') format('truetype');
+}
