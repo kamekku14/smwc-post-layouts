@@ -40,7 +40,7 @@
 	--accent-color-link-visited: #925cf0;
 	--font-main: Geologica, Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
 	--font-head: "Geologica Sharp", Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
-	--font-code: Iosevka, ui-monospace, "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace;
+	--font-code: "Iosevka Web", ui-monospace, "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace;
 	--main-bg: #ffffff url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/bg_light.png') repeat center center;
 	--sig-bg: var(--accent-color-main);
 	--post-bg-horz: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
@@ -497,18 +497,21 @@
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
 }
 
 .klugamethyst_bg pre.box {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
 }
 
 .klugamethyst_bg code {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
 	-moz-border-radius: 2px 2px 2px 2px;
 	-webkit-border-radius: 2px 2px 2px 2px;
 	border-radius: 2px 2px 2px 2px;
