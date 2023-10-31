@@ -199,8 +199,8 @@
 	.ayashiigarnet_bg {
 		--accent-color-main: #9F1239;
 		--accent-color-code: #EC4899;
-		--accent-color-quotebox: rgba(17, 7, 34, 0.5);
-		--accent-color-codebox: rgba(35, 11, 54, 0.35);
+		--accent-color-quotebox: rgba(16,2,6, 0.5);
+		--accent-color-codebox: rgba(32, 6, 16, 0.35);
 		--accent-color-link: #F43F5E;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
