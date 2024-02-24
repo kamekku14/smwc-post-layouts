@@ -1,0 +1,25 @@
+/*!
+ * Special thanks to wye (SMWC ID: 951) for making this font
+ * that was shown during Winter C3 2024!
+ * 
+ * <https://www.smwcentral.net/?p=viewthread&t=126864>
+ * <https://github.com/vvye/smw-font>
+ */
+
+@font-face {
+	font-family: 'SMW';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/smw.woff2') format('woff2'), url('woff/smw.woff') format('woff'), url('otf/smw.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'SMW Monospace';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/smw-monospace.woff2') format('woff2'), url('woff/smw-monospace.woff') format('woff'), url('otf/smw-monospace.otf') format('opentype');
+}
