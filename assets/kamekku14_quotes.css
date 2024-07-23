@@ -940,7 +940,7 @@ $kamekku14_words = array(
 	"I hope you mourn your decision for eternity...",
 	"This hand of mine burns with an awesome power! Its burning grip urges me to defeat you! TAKE THIS! MY LOVE! MY ANGER! AND ALL MY SORROW! SHINING FINGER!!!",
 	"And hast thou slain the Jabberwock? Come to my arms, my beamish boy! O frabjous day! Callooh! Callay!",
-	"I will make your last living moments... ABSOLUTELY SALTY!"
+	"I will make your last living moments... ABSOLUTELY SALTY!",
 	"The only thing that's history is YOU!",
 	"Reform the line. Reform the line! Sound the charge\\3b  take them head on! Charge!!",
 	"What do idiots drink? So-duhhhh! What do sodas call their dads? Pop! A hippie's favorite soda? Granola Cola!",
