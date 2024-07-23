@@ -983,9 +983,9 @@ $css = <<<EOT
 .kamekku14_quotes::before { 
 	content: "$kamekku14_quotes";
 	cursor: text;
-	user-select: text;
 	-moz-user-select: text;
 	-webkit-user-select: text;
+	user-select: text;
 	-webkit-tap-highlight-color: inherit;
 }
 

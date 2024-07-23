@@ -984,9 +984,9 @@ $kamekku14_quotes = $kamekku14_words[mt_rand(0, count($kamekku14_words) - 1)];
 	content: "$kamekku14_quotes";
 	cursor: text;
 	/* Gosh, why does MDN not documenting about other CSS properties again? */
-	user-select: text;
 	-moz-user-select: text;
 	-webkit-user-select: text;
+	user-select: text;
 	-webkit-tap-highlight-color: inherit;
 }
 
