@@ -290,7 +290,7 @@
 	min-height: 350px;
 }
 
-.ayashiigarnet_bg > * {
+.ayashiigarnet_bg *, .ayashiigarnet_post *, .ayashiigarnet_sig * {
 	/* Should be obvious. */
 	text-shadow: inherit !important;
 	line-height: inherit !important; 

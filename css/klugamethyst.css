@@ -290,7 +290,7 @@
 	min-height: 350px;
 }
 
-.klugamethyst_bg > * {
+.klugamethyst_bg *, .klugamethyst_post *, .klugamethyst_sig * {
 	/* Should be obvious. */
 	text-shadow: inherit !important;
 	line-height: inherit !important; 

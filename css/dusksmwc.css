@@ -327,8 +327,10 @@
 	min-height: 350px;
 }
 
-.kamekku14bg > * {
-	text-shadow: inherit !important; /* Should be obvious. */
+.kamekku14bg *, .kamekku14post *, .kamekku14sig * {
+	/* Should be obvious. */
+	text-shadow: inherit !important;
+	line-height: inherit !important; 
 }
 
 .kamekku14post {
