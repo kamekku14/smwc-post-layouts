@@ -628,7 +628,7 @@
 
 .kamekku14bg .code .boxhead a.js-link {
 	color: rgb(208, 251, 219) !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -640,7 +640,7 @@
 .kamekku14bg .code .boxhead a.js-link:hover {
 	color: rgb(208, 251, 219) !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -651,7 +651,7 @@
 .kamekku14bg .code .boxhead a.js-link:active {
 	color: rgb(208, 251, 219) !important;
 	text-shadow: inherit !important;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
