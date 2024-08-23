@@ -411,6 +411,8 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
+	background: transparent !important;
+	border: none !important;
 	color: rgb(199, 194, 214);
 	font-size: .85em;
 	text-shadow: inherit !important;
@@ -440,6 +442,8 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
+	background: transparent !important;
+	border: none !important;
 	color: rgb(171, 171, 212);
 	font-size: .85em;
 	text-shadow: inherit !important;
@@ -471,6 +475,8 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
+	background: transparent !important;
+	border: none !important;
 	color: rgb(208, 251, 219) !important;
 	font-size: .85em;
 	text-shadow: inherit !important;
@@ -496,6 +502,8 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum", "smcp" 1;
 	font-weight: 600;
+	background: transparent !important;
+	border: none !important;
 	color: rgb(208, 251, 219) !important;
 	font-size: .85em;
 	text-shadow: inherit !important;
