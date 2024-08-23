@@ -575,7 +575,7 @@
 .kamekku14bg a:link, .kamekku14bg a.collapsed-toggle {
 	color: rgb(142, 203, 225);
 	text-shadow: inherit !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -595,7 +595,7 @@
 .kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
 	color: rgb(243, 193, 44);
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -606,7 +606,7 @@
 .kamekku14bg a:active, .kamekku14bg a.collapsed-toggle:active {
 	color: rgb(255, 117, 26);
 	text-shadow: inherit !important;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;

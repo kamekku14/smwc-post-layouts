@@ -296,7 +296,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:link {
 	color: #00d2d3;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -307,7 +307,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:visited {
 	color: #00e6e7;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -330,7 +330,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:active {
 	color: #ff9f43;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -340,7 +340,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:link {
 	color: #00d2d3;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -351,7 +351,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:visited {
 	color: #00e6e7;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -363,7 +363,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:hover {
 	color: #f368e0;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -374,7 +374,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:active {
 	color: #ff9f43;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -384,7 +384,7 @@
 
 .orchidsandhydrangeas_bg .quote .boxhead a:link {
 	color: #f3d4e8 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -395,7 +395,7 @@
 
 .orchidsandhydrangeas_bg .quote .boxhead a:visited {
 	color: #fcf2f8 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -407,7 +407,7 @@
 .orchidsandhydrangeas_bg .quote .boxhead a:hover {
 	color: #f7e3f0 !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -418,7 +418,7 @@
 .orchidsandhydrangeas_bg .quote .boxhead a:active {
 	color: #efc4df !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -428,7 +428,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
 	color: #41112f !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -439,7 +439,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:visited {
 	color: #601a46 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -451,7 +451,7 @@
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:hover {
 	color: #50163a !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -462,7 +462,7 @@
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:active {
 	color: #310d24 !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -472,7 +472,7 @@
 
 .orchidsandhydrangeas_bg .code .boxhead a.js-link {
 	color: #dbf7fd !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -484,7 +484,7 @@
 .orchidsandhydrangeas_bg .code .boxhead a.js-link:hover {
 	color: #dbf7fd !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -495,7 +495,7 @@
 .orchidsandhydrangeas_bg .code .boxhead a.js-link:active {
 	color: #dbf7fd !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -505,7 +505,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link {
 	color: #0abde3 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -517,7 +517,7 @@
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:hover {
 	color: #0abde3 !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -528,7 +528,7 @@
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:active {
 	color: #0abde3 !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -538,7 +538,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:link {
 	color: #00f9fa;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -549,7 +549,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:visited {
 	color: #acffff;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -561,7 +561,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:hover {
 	color: #f9b1ef;
 	text-shadow: inherit !important;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -572,7 +572,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_topright a:active {
 	color: #ffd1a5;
 	text-shadow: inherit !important;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -584,7 +584,7 @@
 
 .orchidsandhydrangeas_bg a:link {
 	color: #00d2d3;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -595,7 +595,7 @@
 
 .orchidsandhydrangeas_bg a:visited {
 	color: #00e6e7;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -607,7 +607,7 @@
 .orchidsandhydrangeas_bg a:hover {
 	color: #f368e0;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -618,7 +618,7 @@
 .orchidsandhydrangeas_bg a:active {
 	color: #ff9f43;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -630,7 +630,7 @@
 	color: #fde7fa !important;
 	background: #F368E0;
 	text-shadow: inherit;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: 600 !important;
 	font-size: 11px;
 	-moz-border-radius: 4px;
@@ -647,7 +647,7 @@
 	color: #fde7fa !important;
 	background: #FF85FD !important;
 	text-shadow: inherit;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: 600;
 	font-size: 11px;
 	-moz-border-radius: 4px;
@@ -664,7 +664,7 @@
 	color: #fde7fa !important;
 	background: #FFA1FF !important;
 	text-shadow: inherit;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: 600;
 	font-size: 11px;
 	-moz-border-radius: 4px;
