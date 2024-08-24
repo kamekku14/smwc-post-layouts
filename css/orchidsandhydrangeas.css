@@ -55,9 +55,6 @@
 	/* Should be obvious. */
 	text-shadow: inherit !important;
 	line-height: inherit !important;
-	-moz-box-shadow: inherit !important;
-	-webkit-box-shadow: inherit !important;
-	box-shadow: inherit !important;
 }
 
 .orchidsandhydrangeas_post {
