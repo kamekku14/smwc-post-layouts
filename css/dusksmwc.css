@@ -330,7 +330,10 @@
 .kamekku14bg *, .kamekku14post *, .kamekku14sig * {
 	/* Should be obvious. */
 	text-shadow: inherit !important;
-	line-height: inherit !important; 
+	line-height: inherit !important;
+	-moz-box-shadow: inherit !important;
+	-webkit-box-shadow: inherit !important;
+	box-shadow: inherit !important;
 }
 
 .kamekku14post {
@@ -341,8 +344,8 @@
 	border: 1px #1e1e2f;
 	border-style: none solid solid none;
 	padding: 5px;
-	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	-moz-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
+	-webkit-box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	box-shadow: 0 0 4px 1px rgba(10,10,15,0.5) !important;
 	color: rgb(248,248,248);
 	text-shadow: inherit !important;
@@ -595,6 +598,8 @@
 
 .kamekku14bg a:visited {
 	color: rgb(202, 221, 227);
+	text-shadow: inherit !important;
+	text-decoration: none !important;
 	font-weight: inherit !important;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -604,7 +609,7 @@
 
 .kamekku14bg a:hover, .kamekku14bg a.collapsed-toggle:hover {
 	color: rgb(243, 193, 44);
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;

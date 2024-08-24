@@ -42,13 +42,22 @@
 	-webkit-font-feature-settings: "liga", "clig", "kern";
 	font-feature-settings: "liga", "clig", "kern";
 	color: #212121;
-	text-shadow: none;
+	text-shadow: none !important;
 	min-height: 350px;
 	position: relative;
 }
 
 [class="orchidsandhydrangeas_bg"][lang="ja"], .orchidsandhydrangeas_bg *[lang="ja"] {
 	font-family: "Livvic", "Noto Sans", "Zen Kaku Gothic Antique", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "BIZ UDPGothic", "Yu Gothic", "Verdana Pro", Verdana, "Arial Nova", Arial, Arimo, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.orchidsandhydrangeas_bg *, .orchidsandhydrangeas_post *, .orchidsandhydrangeas_sig * {
+	/* Should be obvious. */
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-box-shadow: inherit !important;
+	-webkit-box-shadow: inherit !important;
+	box-shadow: inherit !important;
 }
 
 .orchidsandhydrangeas_post {
@@ -58,11 +67,11 @@
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
-	-moz-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
-	box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2) !important;
+	-webkit-box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2) !important;
+	box-shadow: 0 0 0 5px #70a1ff inset, 0 2px 8px 0 rgba(0,0,0,0.2) !important;
 	padding: 12px;
-	text-shadow: none;
+	text-shadow: none !important;
 	min-width: 16px;
 	min-height: 180px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
 	word-wrap: break-word;
@@ -75,10 +84,10 @@
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
-	-moz-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
-	box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2);
-	text-shadow: none;
+	-moz-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2) !important;
+	-webkit-box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2) !important;
+	box-shadow: 0 2px 8px 2px rgba(0,0,0,0.2) !important;
+	text-shadow: none !important;
 	margin: 4px;
 	margin-top: 20px;
 	padding: 8px;
@@ -279,6 +288,7 @@
 	top: 1px;
 	right: 1px;
 	font-size: 10px;
+	text-align: right;
 	color: #FFFFFF;
 	text-shadow: 0 0 5px #000000 !important;
 	padding: 4px;
@@ -297,7 +307,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:link {
 	color: #00d2d3;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -308,7 +318,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:visited {
 	color: #00e6e7;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -318,7 +328,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:hover {
 	color: #f368e0;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -329,7 +339,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_post a:active {
 	color: #ff9f43;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -341,7 +351,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:link {
 	color: #00d2d3;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -352,7 +362,7 @@
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:visited {
 	color: #00e6e7;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -362,7 +372,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:hover {
 	color: #f368e0;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -373,7 +383,7 @@
 
 .orchidsandhydrangeas_bg .orchidsandhydrangeas_sig a:active {
 	color: #ff9f43;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -385,7 +395,7 @@
 .orchidsandhydrangeas_bg .quote .boxhead a:link {
 	color: #f3d4e8 !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -396,7 +406,7 @@
 .orchidsandhydrangeas_bg .quote .boxhead a:visited {
 	color: #fcf2f8 !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -406,7 +416,7 @@
 
 .orchidsandhydrangeas_bg .quote .boxhead a:hover {
 	color: #f7e3f0 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -417,7 +427,7 @@
 
 .orchidsandhydrangeas_bg .quote .boxhead a:active {
 	color: #efc4df !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -429,7 +439,7 @@
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:link {
 	color: #41112f !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -440,7 +450,7 @@
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:visited {
 	color: #601a46 !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -450,7 +460,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:hover {
 	color: #50163a !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -461,7 +471,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .quote .boxhead a:active {
 	color: #310d24 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -473,7 +483,7 @@
 .orchidsandhydrangeas_bg .code .boxhead a.js-link {
 	color: #dbf7fd !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -483,7 +493,7 @@
 
 .orchidsandhydrangeas_bg .code .boxhead a.js-link:hover {
 	color: #dbf7fd !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -494,7 +504,7 @@
 
 .orchidsandhydrangeas_bg .code .boxhead a.js-link:active {
 	color: #dbf7fd !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -506,7 +516,7 @@
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link {
 	color: #0abde3 !important;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -516,7 +526,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:hover {
 	color: #0abde3 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -527,7 +537,7 @@
 
 .orchidsandhydrangeas_bg .quote .box .code .boxhead a.js-link:active {
 	color: #0abde3 !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -585,7 +595,7 @@
 .orchidsandhydrangeas_bg a:link {
 	color: #00d2d3;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -596,7 +606,7 @@
 .orchidsandhydrangeas_bg a:visited {
 	color: #00e6e7;
 	text-decoration: none !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -606,7 +616,7 @@
 
 .orchidsandhydrangeas_bg a:hover {
 	color: #f368e0;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -617,7 +627,7 @@
 
 .orchidsandhydrangeas_bg a:active {
 	color: #ff9f43;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -629,7 +639,7 @@
 .orchidsandhydrangeas_bg a.collapsed-toggle {
 	color: #fde7fa !important;
 	background: #F368E0;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: none !important;
 	font-weight: 600 !important;
 	font-size: 11px;
@@ -646,7 +656,7 @@
 .orchidsandhydrangeas_bg a.collapsed-toggle:hover {
 	color: #fde7fa !important;
 	background: #FF85FD !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: none !important;
 	font-weight: 600;
 	font-size: 11px;
@@ -663,7 +673,7 @@
 .orchidsandhydrangeas_bg a.collapsed-toggle:active {
 	color: #fde7fa !important;
 	background: #FFA1FF !important;
-	text-shadow: inherit;
+	text-shadow: inherit !important;
 	text-decoration: none !important;
 	font-weight: 600;
 	font-size: 11px;

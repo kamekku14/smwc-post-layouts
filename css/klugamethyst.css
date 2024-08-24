@@ -293,7 +293,10 @@
 .klugamethyst_bg *, .klugamethyst_post *, .klugamethyst_sig * {
 	/* Should be obvious. */
 	text-shadow: inherit !important;
-	line-height: inherit !important; 
+	line-height: inherit !important;
+	-moz-box-shadow: inherit !important;
+	-webkit-box-shadow: inherit !important;
+	box-shadow: inherit !important;
 }
 
 .klugamethyst_sideimg {
