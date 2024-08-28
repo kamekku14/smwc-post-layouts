@@ -313,7 +313,7 @@
 
 .kamekku14bg {
 	font-family: "Ysabeau", Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	font-size-adjust: cap-height 0.74;
 	line-height: normal;
 	text-rendering: optimizeLegibility !important;
@@ -553,7 +553,7 @@
 	width: 100%;
 }
 
-/* Ensures if font-synthesis is supported for each web browser. */
+/* Ensures if new CSS properties are supported for each web browser. */
 
 @supports(font-synthesis: weight style small-caps) {
 	.kamekku14bg .quote .boxhead {
@@ -579,6 +579,12 @@
 		-webkit-font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
 		font-feature-settings: "liga", "clig", "kern", "ss02" 1, "lnum", "tnum";
 		font-variant: small-caps;
+	}
+}
+
+@supports(font-size-adjust: cap-height 0.74) {
+	.kamekku14bg {
+		font-size: 13px;
 	}
 }
 
