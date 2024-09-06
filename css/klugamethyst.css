@@ -715,7 +715,7 @@
 }
 
 .klugamethyst_bg .code .boxhead a.js-link {
-	color: var(--accent-color-link);
+	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -726,9 +726,9 @@
 }
 
 .klugamethyst_bg .code .boxhead a.js-link:hover {
-	color: var(--accent-color-link-hover);
+	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -737,7 +737,7 @@
 }
 
 .klugamethyst_bg .code .boxhead a.js-link:active {
-	color: var(--accent-color-link-active);
+	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
 	font-weight: inherit;
@@ -748,7 +748,7 @@
 }
 
 .klugamethyst_bg .quote .box .code .boxhead a.js-link {
-	color: var(--accent-color-link);
+	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
 	font-weight: inherit;
@@ -759,7 +759,7 @@
 }
 
 .klugamethyst_bg .quote .box .code .boxhead a.js-link:hover {
-	color: var(--accent-color-link-hover);
+	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
 	font-weight: inherit;
@@ -770,7 +770,7 @@
 }
 
 .klugamethyst_bg .quote .box .code .boxhead a.js-link:active {
-	color: var(--accent-color-link-active);
+	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
 	font-weight: inherit;
