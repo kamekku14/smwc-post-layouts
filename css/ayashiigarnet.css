@@ -368,7 +368,7 @@
 .ayashiigarnet_bg .quote .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: var(--text-quote-boxhead);
+	color: var(--text-quote-boxhead) !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: var(--accent-color-main);
@@ -402,7 +402,7 @@
 .ayashiigarnet_bg .quote .box .quote .boxhead {
 	display: inline-block;
 	font-weight: 600;
-	color: var(--quote-inside-quote);
+	color: var(--quote-inside-quote) !important;
 	font-size: 11px;
 	vertical-align: middle;
 	background: transparent !important;

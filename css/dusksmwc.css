@@ -417,7 +417,7 @@
 	font-weight: 600;
 	background: transparent !important;
 	border: none !important;
-	color: rgb(199, 194, 214);
+	color: rgb(199, 194, 214) !important;
 	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
@@ -448,7 +448,7 @@
 	font-weight: 600;
 	background: transparent !important;
 	border: none !important;
-	color: rgb(171, 171, 212);
+	color: rgb(171, 171, 212) !important;
 	font-size: .85em;
 	text-shadow: inherit !important;
 	margin: auto;
