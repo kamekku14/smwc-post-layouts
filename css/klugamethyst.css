@@ -518,7 +518,7 @@
 	border: 0 none #000000;
 	background: var(--accent-color-quotebox);
 	padding: 1px;
-	display: inline-block;
+	display: inline;
 }
 
 .klugamethyst_bg hr {
