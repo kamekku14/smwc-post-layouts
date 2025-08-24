@@ -390,8 +390,11 @@
 .kamekku14bg .quote, .kamekku14bg .code {
 	background: transparent !important;
 	border: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 .kamekku14bg .quote .box {
