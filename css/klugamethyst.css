@@ -82,30 +82,18 @@
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 }
 
-.klugamethyst_bg .quote .boxhead {
+.klugamethyst_bg .quote .quoteHead {
 	--accent-color-link: var(--text-quote-boxhead);
 	--accent-color-link-hover: #F2EFFE;
 	--accent-color-link-active: #FAF2FF;
 	--accent-color-link-visited: #ede9fe;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead {
 	--accent-color-link: var(--quote-inside-quote);
 	--accent-color-link-hover: #110722;
 	--accent-color-link-active: #1a0a32;
 	--accent-color-link-visited: #0b0415;
-}
-
-.klugamethyst_bg .code .boxhead {
-	--accent-color-link: var(--text-code-boxhead);
-	--accent-color-link-hover: #f3e9ff;
-	--accent-color-link-active: #F6EFFF;
-}
-
-.klugamethyst_bg .quote .box .code .boxhead {
-	--accent-color-link: var(--code-inside-quote);
-	--accent-color-link-hover: #9c45ec;
-	--accent-color-link-active: #9E4AEA;
 }
 
 /*!
@@ -167,30 +155,18 @@
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
 	
-	.klugamethyst_bg .quote .boxhead {
+	.klugamethyst_bg .quote .quoteHead {
 		--accent-color-link: var(--text-quote-boxhead);
 		--accent-color-link-hover: #F2EFFE;
 		--accent-color-link-active: #FAF2FF;
 		--accent-color-link-visited: #ede9fe;
 	}
 	
-	.klugamethyst_bg .quote .box .quote .boxhead {
+	.klugamethyst_bg .quote .quoteInner .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
 		--accent-color-link-hover: #110722;
 		--accent-color-link-active: #1a0a32;
 		--accent-color-link-visited: #0b0415;
-	}
-	
-	.klugamethyst_bg .code .boxhead {
-		--accent-color-link: var(--text-code-boxhead);
-		--accent-color-link-hover: #f3e9ff;
-		--accent-color-link-active: #F6EFFF;
-	}
-	
-	.klugamethyst_bg .quote .box .code .boxhead {
-		--accent-color-link: var(--code-inside-quote);
-		--accent-color-link-hover: #9c45ec;
-		--accent-color-link-active: #9E4AEA;
 	}
 }
 
@@ -246,30 +222,18 @@
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
 	
-	.klugamethyst_bg .quote .boxhead {
+	.klugamethyst_bg .quote .quoteHead {
 		--accent-color-link: var(--text-quote-boxhead);
 		--accent-color-link-hover: #F2EFFE;
 		--accent-color-link-active: #FAF2FF;
 		--accent-color-link-visited: #ede9fe;
 	}
 	
-	.klugamethyst_bg .quote .box .quote .boxhead {
+	.klugamethyst_bg .quote .quoteInner .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
 		--accent-color-link-hover: #e5dfff;
 		--accent-color-link-active: #d4ccff;
 		--accent-color-link-visited: #f6f4fe;
-	}
-	
-	.klugamethyst_bg .code .boxhead {
-		--accent-color-link: var(--text-code-boxhead);
-		--accent-color-link-hover: #f3e9ff;
-		--accent-color-link-active: #F6EFFF;
-	}
-	
-	.klugamethyst_bg .quote .box .code .boxhead {
-		--accent-color-link: var(--code-inside-quote);
-		--accent-color-link-hover: #b268f8;
-		--accent-color-link-active: #B46EF7;
 	}
 }
 
@@ -349,7 +313,7 @@
 	margin-bottom: 8px;
 }
 
-.klugamethyst_bg .quote .box {
+.klugamethyst_bg .quote .quoteInner {
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -366,7 +330,7 @@
 	margin: 0;
 }
 
-.klugamethyst_bg .quote .boxhead {
+.klugamethyst_bg .quote .quoteHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--text-quote-boxhead) !important;
@@ -382,13 +346,13 @@
 	margin: auto;
 }
 
-.klugamethyst_bg .quote .box .quote .box {
+.klugamethyst_bg .quote .quoteInner .quote .quoteInner {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
 	-moz-border-radius: 0 0 0 0 !important;
 	-webkit-border-radius: 0 0 0 0 !important;
-	border-radius: 0 0 0 0; !important
+	border-radius: 0 0 0 0 !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -400,7 +364,7 @@
 	margin-left: 8px;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--quote-inside-quote) !important;
@@ -416,7 +380,7 @@
 	margin: auto;
 }
 
-.klugamethyst_bg .code .box {
+.klugamethyst_bg .code .codeInner {
 	background-color: var(--accent-color-codebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -427,7 +391,7 @@
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	border: 4px solid var(--accent-color-code) !important;
-	border-width: 0 0 0 4px !important;
+	border-width: 0 0 4px 0 !important;
 	padding: 5px;
 	color: var(--text-color-code);
 	white-space: pre-wrap;
@@ -435,11 +399,11 @@
 	margin: 0;
 }
 
-.klugamethyst_bg .code .box:after {
+.klugamethyst_bg .code .codeInner:after {
 	display: none;
 }
 
-.klugamethyst_bg .code .boxhead {
+.klugamethyst_bg .code .codeHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--text-code-boxhead) !important;
@@ -452,42 +416,11 @@
 	-webkit-border-radius: 0 0 0 0 !important;
 	border-radius: 0 0 0 0 !important;
 	padding: 4px 8px;
-    margin: auto;
 }
 
-.klugamethyst_bg .quote .box .code .box {
-	background-color: transparent !important;
-	text-shadow: inherit !important;
-	line-height: inherit !important;
-	-moz-border-radius: 0 0 0 0 !important;
-	-webkit-border-radius: 0 0 0 0 !important;
-	border-radius: 0 0 0 0 !important;
-	-moz-box-shadow: none !important;
-	-webkit-box-shadow: none !important;
-	box-shadow: none !important;
-	border: 2px var(--code-inside-quote) !important;
-	border-style: none none none solid !important;
-	padding: 6px;
-	color: var(--code-inside-quote);
-	white-space: pre-wrap;
-	overflow-wrap: break-word;
-	margin-left: 8px;
-}
-
-.klugamethyst_bg .quote .box .code .boxhead {
-	display: inline-block;
+.klugamethyst_bg .code .codeHead span {
+	color: var(--text-code-boxhead) !important;
 	font-weight: 600;
-	color: var(--code-inside-quote) !important;
-	font-size: 11px;
-	vertical-align: middle;
-	background: transparent;
-	border: none !important;
-	border-bottom: none !important;
-	-moz-border-radius: 0 0 0 0 !important;
-	-webkit-border-radius: 0 0 0 0 !important;
-	border-radius: 0 0 0 0 !important;
-	padding: 0 0;
-	margin: auto;
 }
 
 .klugamethyst_bg .code br {
@@ -520,6 +453,28 @@
 	background: var(--accent-color-quotebox);
 	padding: 1px;
 	display: inline;
+}
+
+.klugamethyst_bg .collapse {
+	border-radius: 0 !important;
+	border: 4px solid var(--accent-color-main) !important;
+	border-width: 0 0 4px 0 !important;
+}
+
+.klugamethyst_bg .collapse .collapse-header {
+	font-weight: 600;
+	color: var(--text-quote-boxhead) !important;
+	background: var(--accent-color-main) !important;
+}
+
+.klugamethyst_bg .collapse .collapse-content {
+	background-color: var(--accent-color-quotebox) !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+}
+
+.klugamethyst_bg .collapse svg.collapse-icon {
+	fill: var(--text-quote-boxhead) !important;
 }
 
 .klugamethyst_bg hr {
@@ -627,7 +582,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .boxhead a:link {
+.klugamethyst_bg .quote .quoteHead a:link {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -638,7 +593,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .boxhead a:visited {
+.klugamethyst_bg .quote .quoteHead a:visited {
 	color: var(--accent-color-link-visited) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -649,7 +604,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .boxhead a:hover {
+.klugamethyst_bg .quote .quoteHead a:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -660,7 +615,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .boxhead a:active {
+.klugamethyst_bg .quote .quoteHead a:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -671,7 +626,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead a:link {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:link {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -682,7 +637,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead a:visited {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:visited {
 	color: var(--accent-color-link-visited) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -693,7 +648,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead a:hover {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -704,7 +659,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .box .quote .boxhead a:active {
+.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -715,7 +670,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .code .boxhead a.js-link {
+.klugamethyst_bg .code .codeHead a.link-copy-code, a.link-select-all {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -724,9 +679,10 @@
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	cursor: pointer;
 }
 
-.klugamethyst_bg .code .boxhead a.js-link:hover {
+.klugamethyst_bg .code .codeHead a.link-copy-code:hover, a.link-select-all:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -735,9 +691,10 @@
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+	cursor: pointer;
 }
 
-.klugamethyst_bg .code .boxhead a.js-link:active {
+.klugamethyst_bg .code .codeHead a.link-copy-code:active, a.link-select-all:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -746,39 +703,7 @@
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-}
-
-.klugamethyst_bg .quote .box .code .boxhead a.js-link {
-	color: var(--accent-color-link) !important;
-	text-decoration: none !important;
-	text-shadow: inherit;
-	font-weight: inherit;
-	-o-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.klugamethyst_bg .quote .box .code .boxhead a.js-link:hover {
-	color: var(--accent-color-link-hover) !important;
-	text-shadow: inherit;
-	text-decoration: underline !important;
-	font-weight: inherit;
-	-o-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.klugamethyst_bg .quote .box .code .boxhead a.js-link:active {
-	color: var(--accent-color-link-active) !important;
-	text-shadow: inherit;
-	text-decoration: underline !important;
-	font-weight: inherit;
-	-o-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
+	cursor: pointer;
 }
 
 /* The rest here are the main link colors. */
@@ -827,7 +752,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.collapsed-toggle {
+.klugamethyst_bg a.button {
 	color: var(--collapse-button-color-text) !important;
 	background: var(--collapse-button-color-main);
 	text-shadow: inherit;
@@ -844,7 +769,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.collapsed-toggle:hover {
+.klugamethyst_bg a.button:hover {
 	color: var(--collapse-button-color-text-hover);
 	background: var(--collapse-button-color-main-hover) !important;
 	text-shadow: inherit;
@@ -861,7 +786,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.collapsed-toggle:active {
+.klugamethyst_bg a.button:active {
 	color: var(--collapse-button-color-text-active);
 	background: var(--collapse-button-color-main-active) !important;
 	text-shadow: inherit;
@@ -939,7 +864,7 @@
 	color: inherit !important; /* why not? */
 }
 
-.klugamethyst_bg .spoiler:hover {
+.klugamethyst_bg .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
 }
 
@@ -948,34 +873,12 @@
 	transition: visibility .1s linear;
 }
 
-.klugamethyst_bg > .klugamethyst_post .spoiler:hover {
+.klugamethyst_bg > .klugamethyst_post .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.klugamethyst_bg > .klugamethyst_sig .spoiler:hover {
+.klugamethyst_bg > .klugamethyst_sig .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
-}
-
-.klugamethyst_bg .collapsed-checkbox {
-    display: none !important;
-}
-
-.klugamethyst_bg .collapsed-content {
-	margin-left: 0;
-	padding-left: 0;
-	border: 1px dashed #CFD8DC;
-}
-
-.klugamethyst_bg > .klugamethyst_post .collapsed-content {
-	margin-left: 0;
-	padding-left: 0;
-	border: 1px dashed #CFD8DC;
-}
-
-.klugamethyst_bg > .klugamethyst_sig .collapsed-content {
-	margin-left: 0;
-	padding-left: 0;
-	border: 1px dashed #CFD8DC;
 }
 
 .klugamethyst_bg ::-moz-selection, .klugamethyst_bg .code ::-moz-selection {
