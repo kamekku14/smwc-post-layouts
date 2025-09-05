@@ -485,6 +485,10 @@
 	background: var(--accent-color-main) !important;
 }
 
+.ayashiigarnet_bg .collapse.open .collapse-header {
+	border-bottom: none !important;
+}
+
 .ayashiigarnet_bg .collapse .collapse-content {
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;

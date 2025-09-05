@@ -467,6 +467,10 @@
 	background: var(--accent-color-main) !important;
 }
 
+.klugamethyst_bg .collapse.open .collapse-header {
+	border-bottom: none !important;
+}
+
 .klugamethyst_bg .collapse .collapse-content {
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;
