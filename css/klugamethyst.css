@@ -96,6 +96,12 @@
 	--accent-color-link-visited: #0b0415;
 }
 
+.klugamethyst_bg .code .codeHead {
+	--accent-color-link: var(--text-code-boxhead);
+	--accent-color-link-hover: #f3e9ff;
+	--accent-color-link-active: #F6EFFF;
+}
+
 /*!
  * System-specific brightness modes
  * 
@@ -168,6 +174,12 @@
 		--accent-color-link-active: #1a0a32;
 		--accent-color-link-visited: #0b0415;
 	}
+	
+	.klugamethyst_bg .code .codeHead {
+		--accent-color-link: var(--text-code-boxhead);
+		--accent-color-link-hover: #f3e9ff;
+		--accent-color-link-active: #F6EFFF;
+	}
 }
 
 /* DARK MODE!!! */
@@ -234,6 +246,12 @@
 		--accent-color-link-hover: #e5dfff;
 		--accent-color-link-active: #d4ccff;
 		--accent-color-link-visited: #f6f4fe;
+	}
+	
+	.klugamethyst_bg .code .codeHead {
+		--accent-color-link: var(--text-code-boxhead);
+		--accent-color-link-hover: #f3e9ff;
+		--accent-color-link-active: #F6EFFF;
 	}
 }
 
