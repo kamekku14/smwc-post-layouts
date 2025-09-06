@@ -327,6 +327,7 @@
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none;
+	border-radius: 0 !important;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
@@ -410,7 +411,7 @@
 	box-shadow: none !important;
 	border: 4px solid var(--accent-color-code) !important;
 	border-width: 0 0 4px 0 !important;
-	padding: 5px;
+	padding: 5px 8px;
 	color: var(--text-color-code);
 	white-space: pre-wrap;
 	overflow-wrap: break-word;
