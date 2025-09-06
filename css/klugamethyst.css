@@ -349,7 +349,6 @@
 }
 
 .klugamethyst_bg .quote .quoteHead {
-	display: inline-block;
 	font-weight: 600;
 	color: var(--text-quote-boxhead) !important;
 	font-size: 11px;
