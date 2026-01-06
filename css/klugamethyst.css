@@ -940,6 +940,10 @@
 	font-family: var(--font-head);
 }
 
+.klugamethyst_bg .small, .klugamethyst_bg small {
+    font-size: var(--font-size-xs);
+}
+
 /* highlight.js shenanigans. */
 
 /* Atelier-Cave Comment */

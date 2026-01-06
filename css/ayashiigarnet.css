@@ -940,6 +940,10 @@
 	font-family: var(--font-head);
 }
 
+.ayashiigarnet_bg .small, .ayashiigarnet_bg small {
+    font-size: var(--font-size-xs);
+}
+
 /* highlight.js shenanigans. */
 
 /* Atelier Heath Comment */
