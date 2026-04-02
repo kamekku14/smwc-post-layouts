@@ -1,5 +1,5 @@
 /*!
- * Amethyst
+ * Amethyst x Garnet
  * Copyright (C) 2023-2026 Klug Nanahikari
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
  */
 
 /*!
- * Atelier Cave code highlighting from highlight.js
+ * Atelier Cave + Heath code highlighting from highlight.js
  * <https://highlightjs.org/>
  */
 
@@ -29,7 +29,7 @@
 
 /* Variables */
 
-.klugamethyst_bg {
+.ayaklugfusion_bg {
 	--accent-color-main: #4C1D95;
 	--accent-color-code: #9333EA;
 	--accent-color-quotebox: rgba(237, 233, 254, 0.5);
@@ -64,7 +64,7 @@
 	--collapse-button-color-text-active: #FAF2FF;
 }
 
-.klugamethyst_bg > .klugamethyst_post {
+.ayaklugfusion_bg > .ayaklugfusion_post {
 	--accent-color-link: #7C3AED;
 	--accent-color-link-hover: #F59E0B;
 	--accent-color-link-active: #F97316;
@@ -73,7 +73,7 @@
 	--spoiler-color-shown: rgba(33, 33, 33, 0.05);
 }
 
-.klugamethyst_bg > .klugamethyst_sig {
+.ayaklugfusion_bg > .ayaklugfusion_sig {
 	--accent-color-link: #A78BFA;
 	--accent-color-link-hover: #FCD34D;
 	--accent-color-link-active: #FB923C;
@@ -82,27 +82,27 @@
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 }
 
-.klugamethyst_bg .quote .quoteHead {
+.ayaklugfusion_bg .quote .quoteHead {
 	--accent-color-link: var(--text-quote-boxhead);
 	--accent-color-link-hover: #F2EFFE;
 	--accent-color-link-active: #FAF2FF;
 	--accent-color-link-visited: #ede9fe;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead {
 	--accent-color-link: var(--quote-inside-quote);
 	--accent-color-link-hover: #110722;
 	--accent-color-link-active: #1a0a32;
 	--accent-color-link-visited: #0b0415;
 }
 
-.klugamethyst_bg .code .codeHead {
+.ayaklugfusion_bg .code .codeHead {
 	--accent-color-link: var(--text-code-boxhead);
 	--accent-color-link-hover: #f3e9ff;
 	--accent-color-link-active: #F6EFFF;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead, .klugamethyst_bg .collapse .collapse-content .code .codeHead {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead {
 	--accent-color-link: var(--code-inside-quote);
 	--accent-color-link-hover: #9c45ec;
 	--accent-color-link-active: #9E4AEA;
@@ -117,7 +117,7 @@
 
 /* LIGHT MODE!!! */
 @media (prefers-color-scheme: light) {
-	.klugamethyst_bg {
+	.ayaklugfusion_bg {
 		--accent-color-main: #4C1D95;
 		--accent-color-code: #9333EA;
 		--accent-color-quotebox: rgba(237, 233, 254, 0.5);
@@ -149,7 +149,7 @@
 		--collapse-button-color-text-active: #FAF2FF;
 	}
 	
-	.klugamethyst_bg > .klugamethyst_post {
+	.ayaklugfusion_bg > .ayaklugfusion_post {
 		--accent-color-link: #7C3AED;
 		--accent-color-link-hover: #F59E0B;
 		--accent-color-link-active: #F97316;
@@ -158,7 +158,7 @@
 		--spoiler-color-shown: rgba(33, 33, 33, 0.05);
 	}
 	
-	.klugamethyst_bg > .klugamethyst_sig {
+	.ayaklugfusion_bg > .ayaklugfusion_sig {
 		--accent-color-link: #A78BFA;
 		--accent-color-link-hover: #FCD34D;
 		--accent-color-link-active: #FB923C;
@@ -167,27 +167,27 @@
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
 	
-	.klugamethyst_bg .quote .quoteHead {
+	.ayaklugfusion_bg .quote .quoteHead {
 		--accent-color-link: var(--text-quote-boxhead);
 		--accent-color-link-hover: #F2EFFE;
 		--accent-color-link-active: #FAF2FF;
 		--accent-color-link-visited: #ede9fe;
 	}
 	
-	.klugamethyst_bg .quote .quoteInner .quote .quoteHead, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead {
+	.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
 		--accent-color-link-hover: #110722;
 		--accent-color-link-active: #1a0a32;
 		--accent-color-link-visited: #0b0415;
 	}
 	
-	.klugamethyst_bg .code .codeHead {
+	.ayaklugfusion_bg .code .codeHead {
 		--accent-color-link: var(--text-code-boxhead);
 		--accent-color-link-hover: #f3e9ff;
 		--accent-color-link-active: #F6EFFF;
 	}
 	
-	.klugamethyst_bg .quote .quoteInner .code .codeHead, .klugamethyst_bg .collapse .collapse-content .code .codeHead {
+	.ayaklugfusion_bg .quote .quoteInner .code .codeHead, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead {
 		--accent-color-link: var(--code-inside-quote);
 		--accent-color-link-hover: #9c45ec;
 		--accent-color-link-active: #9E4AEA;
@@ -196,86 +196,86 @@
 
 /* DARK MODE!!! */
 @media (prefers-color-scheme: dark) {
-	.klugamethyst_bg {
-		--accent-color-main: #5B21B6;
-		--accent-color-code: #A855F7;
-		--accent-color-quotebox: rgba(17, 7, 34, 0.5);
-		--accent-color-codebox: rgba(35, 11, 54, 0.35);
-		--accent-color-link: #8B5CF6;
+	.ayaklugfusion_bg {
+		--accent-color-main: #9F1239;
+		--accent-color-code: #EC4899;
+		--accent-color-quotebox: rgba(16,2,6, 0.5);
+		--accent-color-codebox: rgba(32, 6, 16, 0.35);
+		--accent-color-link: #F43F5E;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
-		--accent-color-link-visited: #9C75F6;
-		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/bg_dark.png') repeat center center;
+		--accent-color-link-visited: #FF5E77;
+		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_dark.png') repeat center center;
 		--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0) 100%);
 		--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0) 100%);
 		--sig-bg: var(--accent-color-main);
-		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimgdark.png');
-		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimgsmalldark.png');
+		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgdark.png');
+		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmalldark.png');
 		--text-color-main: #f8f8f8;
 		--text-color-sig: var(--text-color-main);
 		--text-color-code: var(--accent-color-code);
-		--text-quote-boxhead: #DDD6FE;
-		--text-code-boxhead: #E9D5FF;
-		--quote-inside-quote: #F5F3FF;
+		--text-quote-boxhead: #FECDD3;
+		--text-code-boxhead: #FBCFE8;
+		--quote-inside-quote: #fdeef2;
 		--code-inside-quote: var(--text-color-code);
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 		--collapse-button-color-main: var(--accent-color-main);
 		--collapse-button-color-text: var(--text-quote-boxhead);
-		--collapse-button-color-main-hover: #6324c7;
-		--collapse-button-color-text-hover: #F2EFFE;
-		--collapse-button-color-main-active: #6c27d7;
-		--collapse-button-color-text-active: #FAF2FF;
+		--collapse-button-color-main-hover: #b1143f;
+		--collapse-button-color-text-hover: #fee0e4;
+		--collapse-button-color-main-active: #c21646;
+		--collapse-button-color-text-active: #fff3f5;
 	}
 	
-	.klugamethyst_bg > .klugamethyst_post {
-		--accent-color-link: #8B5CF6;
+	.ayaklugfusion_bg > .ayaklugfusion_post {
+		--accent-color-link: #F43F5E;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
-		--accent-color-link-visited: #9C75F6;
+		--accent-color-link-visited: #FF5E77;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
 	
-	.klugamethyst_bg > .klugamethyst_sig {
-		--accent-color-link: #C4B5FD;
+	.ayaklugfusion_bg > .ayaklugfusion_sig {
+		--accent-color-link: #FDA4AF;
 		--accent-color-link-hover: #FCD34D;
 		--accent-color-link-active: #FB923C;
-		--accent-color-link-visited: #D8CEFD;
+		--accent-color-link-visited: #FFC0CA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
 	}
 	
-	.klugamethyst_bg .quote .quoteHead {
+	.ayaklugfusion_bg .quote .quoteHead {
 		--accent-color-link: var(--text-quote-boxhead);
-		--accent-color-link-hover: #F2EFFE;
-		--accent-color-link-active: #FAF2FF;
-		--accent-color-link-visited: #ede9fe;
+		--accent-color-link-hover: #fee0e4;
+		--accent-color-link-active: #fff3f5;
+		--accent-color-link-visited: #FFE9EF;
 	}
 	
-	.klugamethyst_bg .quote .quoteInner .quote .quoteHead, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead {
+	.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
-		--accent-color-link-hover: #e5dfff;
-		--accent-color-link-active: #d4ccff;
-		--accent-color-link-visited: #f6f4fe;
+		--accent-color-link-hover: #FCF4F6;
+		--accent-color-link-active: #F9F7F8;
+		--accent-color-link-visited: #F4EBF1;
 	}
 	
-	.klugamethyst_bg .code .codeHead {
+	.ayaklugfusion_bg .code .codeHead {
 		--accent-color-link: var(--text-code-boxhead);
-		--accent-color-link-hover: #f3e9ff;
-		--accent-color-link-active: #F6EFFF;
+		--accent-color-link-hover: #fde1f1;
+		--accent-color-link-active: #FFEBFF;
 	}
 	
-	.klugamethyst_bg .quote .quoteInner .code .codeHead, .klugamethyst_bg .collapse .collapse-content .code .codeHead {
+	.ayaklugfusion_bg .quote .quoteInner .code .codeHead, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead {
 		--accent-color-link: var(--code-inside-quote);
-		--accent-color-link-hover: #b268f8;
-		--accent-color-link-active: #B46EF7;
+		--accent-color-link-hover: #ee5aa3;
+		--accent-color-link-active: #FF66B4;
 	}
 }
 
 /* The main squeeze. */
 
-.klugamethyst_bg {
+.ayaklugfusion_bg {
 	background: var(--post-bg-horz), var(--main-bg);
 	padding: 0;
 	font-family: var(--font-main);
@@ -290,18 +290,18 @@
 	min-height: 350px;
 }
 
-.klugamethyst_bg *, .klugamethyst_post *, .klugamethyst_sig * {
+.ayaklugfusion_bg *, .ayaklugfusion_post *, .ayaklugfusion_sig * {
 	/* Should be obvious. */
 	text-shadow: inherit !important;
 	line-height: inherit !important;
 }
 
-.klugamethyst_sideimg {
+.ayaklugfusion_sideimg {
 	background: transparent var(--side-image) no-repeat right bottom;
 	padding: 0;
 }
 
-.klugamethyst_post {
+.ayaklugfusion_post {
 	background: transparent;
 	padding: 24px 8px 16px 8px;
 	color: var(--text-color-main);
@@ -313,15 +313,15 @@
 
 @media screen and (max-width: 960px) {
 	/* Look at me, ma! I'm making my layout a bit more responsive!*/
-	.klugamethyst_bg {
+	.ayaklugfusion_bg {
 		background: var(--post-bg-vert), var(--main-bg);
 	}
-	.klugamethyst_sideimg {
+	.ayaklugfusion_sideimg {
 		background: transparent var(--side-image-small) no-repeat right bottom;
 		padding: 0;
 	}
 	
-	.klugamethyst_post {
+	.ayaklugfusion_post {
 		background: transparent;
 		padding: 24px 8px 104px 8px;
 		margin-right: 0;
@@ -330,7 +330,7 @@
 	}
 }
 
-.klugamethyst_sig {
+.ayaklugfusion_sig {
 	background: var(--sig-bg);
 	padding: 8px;
 	color: var(--text-color-sig);
@@ -339,7 +339,7 @@
 	min-height: 16px;
 }
 
-.klugamethyst_bg .quote, .klugamethyst_bg .code {
+.ayaklugfusion_bg .quote, .ayaklugfusion_bg .code {
 	background: transparent !important;
 	border: none  !important;
 	-moz-box-shadow: none !important;
@@ -350,7 +350,7 @@
 	margin-bottom: 8px;
 }
 
-.klugamethyst_bg .quote .quoteInner {
+.ayaklugfusion_bg .quote .quoteInner {
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -367,7 +367,7 @@
 	margin: 0;
 }
 
-.klugamethyst_bg .quote .quoteHead {
+.ayaklugfusion_bg .quote .quoteHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--text-quote-boxhead) !important;
@@ -383,7 +383,7 @@
 	margin: auto;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteInner, .klugamethyst_bg .collapse .collapse-content .quote .quoteInner {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteInner, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteInner {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -401,7 +401,7 @@
 	margin-left: 8px;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--quote-inside-quote) !important;
@@ -417,7 +417,7 @@
 	margin: auto;
 }
 
-.klugamethyst_bg .code .codeInner {
+.ayaklugfusion_bg .code .codeInner {
 	background-color: var(--accent-color-codebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -436,11 +436,11 @@
 	margin: 0;
 }
 
-.klugamethyst_bg .code .codeInner:after {
+.ayaklugfusion_bg .code .codeInner:after {
 	display: none;
 }
 
-.klugamethyst_bg .code .codeHead {
+.ayaklugfusion_bg .code .codeHead {
 	font-weight: 600;
 	color: var(--text-code-boxhead) !important;
 	font-size: 11px;
@@ -454,12 +454,12 @@
 	padding: 4px 8px;
 }
 
-.klugamethyst_bg .code .codeHead span {
+.ayaklugfusion_bg .code .codeHead span {
 	color: var(--text-code-boxhead) !important;
 	font-weight: 600;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeInner, .klugamethyst_bg .collapse .collapse-content .code .codeInner {
+.ayaklugfusion_bg .quote .quoteInner .code .codeInner, .ayaklugfusion_bg .collapse .collapse-content .code .codeInner {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -477,7 +477,7 @@
 	margin: 0;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead, .klugamethyst_bg .collapse .collapse-content .code .codeHead {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead {
 	font-weight: 600;
 	color: var(--code-inside-quote) !important;
 	font-size: 11px;
@@ -492,30 +492,30 @@
 	padding: 4px 8px;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead span, .klugamethyst_bg .collapse .collapse-content .code .codeHead span {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead span, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead span {
 	color: var(--code-inside-quote) !important;
 	font-weight: 600;
 }
 
-.klugamethyst_bg .code br {
+.ayaklugfusion_bg .code br {
 	display: none;
 }
 
-.klugamethyst_bg pre {
+.ayaklugfusion_bg pre {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	font-stretch: expanded;
 }
 
-.klugamethyst_bg pre.box {
+.ayaklugfusion_bg pre.box {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	font-stretch: expanded;
 }
 
-.klugamethyst_bg code, .klugamethyst_bg .code .inline {
+.ayaklugfusion_bg code, .ayaklugfusion_bg .code .inline {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
@@ -529,21 +529,21 @@
 	display: inline;
 }
 
-.klugamethyst_bg .collapse {
+.ayaklugfusion_bg .collapse {
 	border-radius: 0 !important;
 }
 
-.klugamethyst_bg .collapse .collapse-header {
+.ayaklugfusion_bg .collapse .collapse-header {
 	font-weight: 600;
 	color: var(--text-quote-boxhead) !important;
 	background: var(--accent-color-main) !important;
 }
 
-.klugamethyst_bg .collapse.open .collapse-header {
+.ayaklugfusion_bg .collapse.open .collapse-header {
 	border-bottom: none !important;
 }
 
-.klugamethyst_bg .collapse .collapse-content {
+.ayaklugfusion_bg .collapse .collapse-content {
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -551,11 +551,11 @@
 	border-width: 0 0 4px 0 !important;
 }
 
-.klugamethyst_bg .collapse svg.collapse-icon {
+.ayaklugfusion_bg .collapse svg.collapse-icon {
 	fill: var(--text-quote-boxhead) !important;
 }
 
-.klugamethyst_bg .collapse .collapse-content .collapse .collapse-header {
+.ayaklugfusion_bg .collapse .collapse-content .collapse .collapse-header {
 	font-weight: 600;
 	color: var(--accent-color-main) !important;
 	background: transparent !important;
@@ -563,7 +563,7 @@
 	border-width: 0 0 2px 0 !important;
 }
 
-.klugamethyst_bg .collapse .collapse-content .collapse .collapse-content {
+.ayaklugfusion_bg .collapse .collapse-content .collapse .collapse-content {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -571,11 +571,11 @@
 	border-width: 0 0 0 0 !important;
 }
 
-.klugamethyst_bg .collapse .collapse-content .collapse svg.collapse-icon {
+.ayaklugfusion_bg .collapse .collapse-content .collapse svg.collapse-icon {
 	fill: var(--accent-color-main) !important;
 }
 
-.klugamethyst_bg hr {
+.ayaklugfusion_bg hr {
 	border: 0;
 	height: 1px;
 	background: #CFD8DC;
@@ -592,7 +592,7 @@
  * lighter/darker areas, so I made them easy to distinguish.
  */
 
-.klugamethyst_bg > .klugamethyst_post a:link {
+.ayaklugfusion_bg > .ayaklugfusion_post a:link {
 	color: var(--accent-color-link);
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -603,7 +603,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_post a:visited {
+.ayaklugfusion_bg > .ayaklugfusion_post a:visited {
 	color: var(--accent-color-link-visited);
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -614,7 +614,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_post a:hover {
+.ayaklugfusion_bg > .ayaklugfusion_post a:hover {
 	color: var(--accent-color-link-hover);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -625,7 +625,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_post a:active {
+.ayaklugfusion_bg > .ayaklugfusion_post a:active {
 	color: var(--accent-color-link-active);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -636,7 +636,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_sig a:link {
+.ayaklugfusion_bg > .ayaklugfusion_sig a:link {
 	color: var(--accent-color-link);
 	text-decoration: none;
 	text-shadow: inherit;
@@ -647,7 +647,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_sig a:visited {
+.ayaklugfusion_bg > .ayaklugfusion_sig a:visited {
 	color: var(--accent-color-link-visited);
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -658,7 +658,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_sig a:hover {
+.ayaklugfusion_bg > .ayaklugfusion_sig a:hover {
 	color: var(--accent-color-link-hover);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -669,7 +669,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg > .klugamethyst_sig a:active {
+.ayaklugfusion_bg > .ayaklugfusion_sig a:active {
 	color: var(--accent-color-link-active);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -680,7 +680,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteHead a:link {
+.ayaklugfusion_bg .quote .quoteHead a:link {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -691,7 +691,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteHead a:visited {
+.ayaklugfusion_bg .quote .quoteHead a:visited {
 	color: var(--accent-color-link-visited) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -702,7 +702,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteHead a:hover {
+.ayaklugfusion_bg .quote .quoteHead a:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -713,7 +713,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteHead a:active {
+.ayaklugfusion_bg .quote .quoteHead a:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -724,7 +724,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:link, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead a:link {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead a:link, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead a:link {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -735,7 +735,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:visited, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead a:visited {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead a:visited, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead a:visited {
 	color: var(--accent-color-link-visited) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -746,7 +746,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:hover, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead a:hover {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead a:hover, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead a:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -757,7 +757,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .quote .quoteInner .quote .quoteHead a:active, .klugamethyst_bg .collapse .collapse-content .quote .quoteHead a:active {
+.ayaklugfusion_bg .quote .quoteInner .quote .quoteHead a:active, .ayaklugfusion_bg .collapse .collapse-content .quote .quoteHead a:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -768,7 +768,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg .code .codeHead a.link-copy-code, .klugamethyst_bg .code .codeHead a.link-select-all {
+.ayaklugfusion_bg .code .codeHead a.link-copy-code, .ayaklugfusion_bg .code .codeHead a.link-select-all {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -780,7 +780,7 @@
 	cursor: pointer;
 }
 
-.klugamethyst_bg .code .codeHead a.link-copy-code:hover, .klugamethyst_bg .code .codeHead a.link-select-all:hover {
+.ayaklugfusion_bg .code .codeHead a.link-copy-code:hover, .ayaklugfusion_bg .code .codeHead a.link-select-all:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -792,7 +792,7 @@
 	cursor: pointer;
 }
 
-.klugamethyst_bg .code .codeHead a.link-copy-code:active, .klugamethyst_bg .code .codeHead a.link-select-all:active {
+.ayaklugfusion_bg .code .codeHead a.link-copy-code:active, .ayaklugfusion_bg .code .codeHead a.link-select-all:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -804,7 +804,7 @@
 	cursor: pointer;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead a.link-copy-code, .klugamethyst_bg .quote .quoteInner .code .codeHead a.link-select-all, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-copy-code, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-select-all {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-copy-code, .ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-select-all, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-copy-code, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-select-all {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -816,7 +816,7 @@
 	cursor: pointer;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead a.link-copy-code:hover, .klugamethyst_bg .quote .quoteInner .code .codeHead a.link-select-all:hover, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-copy-code:hover, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-select-all:hover {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-copy-code:hover, .ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-select-all:hover, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-copy-code:hover, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-select-all:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -828,7 +828,7 @@
 	cursor: pointer;
 }
 
-.klugamethyst_bg .quote .quoteInner .code .codeHead a.link-copy-code:active, .klugamethyst_bg .quote .quoteInner .code .codeHead a.link-select-all:active, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-copy-code:active, .klugamethyst_bg .collapse .collapse-content .code .codeHead a.link-select-all:active {
+.ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-copy-code:active, .ayaklugfusion_bg .quote .quoteInner .code .codeHead a.link-select-all:active, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-copy-code:active, .ayaklugfusion_bg .collapse .collapse-content .code .codeHead a.link-select-all:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -842,7 +842,7 @@
 
 /* The rest here are the main link colors. */
 
-.klugamethyst_bg a:link {
+.ayaklugfusion_bg a:link {
 	color: var(--accent-color-link);
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -853,7 +853,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a:visited {
+.ayaklugfusion_bg a:visited {
 	color: var(--accent-color-link-visited);
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -864,7 +864,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a:hover {
+.ayaklugfusion_bg a:hover {
 	color: var(--accent-color-link-hover);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -875,7 +875,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a:active {
+.ayaklugfusion_bg a:active {
 	color: var(--accent-color-link-active);
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -886,7 +886,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.button {
+.ayaklugfusion_bg a.button {
 	color: var(--collapse-button-color-text) !important;
 	background: var(--collapse-button-color-main);
 	text-shadow: inherit;
@@ -903,7 +903,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.button:hover {
+.ayaklugfusion_bg a.button:hover {
 	color: var(--collapse-button-color-text-hover);
 	background: var(--collapse-button-color-main-hover) !important;
 	text-shadow: inherit;
@@ -920,7 +920,7 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.button:active {
+.ayaklugfusion_bg a.button:active {
 	color: var(--collapse-button-color-text-active);
 	background: var(--collapse-button-color-main-active) !important;
 	text-shadow: inherit;
@@ -937,14 +937,14 @@
 	transition: all 0.5s;
 }
 
-.klugamethyst_bg a.un {
+.ayaklugfusion_bg a.un {
 	font-weight: bold !important;
 	text-shadow: -1px -1px #000000, 0px -1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000, 0px 1px #000000, -1px 1px #000000, -1px 0px #000000 !important;
 }
 
 /* Spoiler tags and miscellaneous. */
 
-.klugamethyst_bg .spoiler {
+.ayaklugfusion_bg .spoiler {
 	background-color: var(--spoiler-color-hidden) !important;
 	border: 0 none var(--spoiler-color-hidden);
 	-moz-border-radius: 2px;
@@ -958,7 +958,7 @@
 	transition: all .25s linear;
 }
 
-.klugamethyst_bg > .klugamethyst_post .spoiler {
+.ayaklugfusion_bg > .ayaklugfusion_post .spoiler {
 	background-color: var(--spoiler-color-hidden) !important;
 	border: 0 none var(--spoiler-color-hidden);
 	-moz-border-radius: 2px;
@@ -972,7 +972,7 @@
 	transition: all .25s linear;
 }
 
-.klugamethyst_bg > .klugamethyst_sig .spoiler {
+.ayaklugfusion_bg > .ayaklugfusion_sig .spoiler {
 	background-color: var(--spoiler-color-hidden) !important;
 	border: 0 none var(--spoiler-color-hidden);
 	border-radius: 2px;
@@ -986,48 +986,76 @@
 	transition: all .25s linear;
 }
 
-.klugamethyst_bg .quote .spoiler {
+.ayaklugfusion_bg .quote .spoiler {
 	color: inherit !important;
 }
 
-.klugamethyst_bg .quote .quote .spoiler {
+.ayaklugfusion_bg .quote .quote .spoiler {
 	color: inherit !important;
 }
 
-.klugamethyst_bg .code .spoiler {
+.ayaklugfusion_bg .code .spoiler {
 	color: inherit !important; /* why not? */
 }
 
-.klugamethyst_bg .spoiler:has(input[type=checkbox]:checked) {
+.ayaklugfusion_bg .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.klugamethyst_bg .spoilerInner {
+.ayaklugfusion_bg .spoilerInner {
 	padding: 0;
 	transition: visibility .1s linear;
 }
 
-.klugamethyst_bg > .klugamethyst_post .spoiler:has(input[type=checkbox]:checked) {
+.ayaklugfusion_bg > .ayaklugfusion_post .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.klugamethyst_bg > .klugamethyst_sig .spoiler:has(input[type=checkbox]:checked) {
+.ayaklugfusion_bg > .ayaklugfusion_sig .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.klugamethyst_bg ::-moz-selection, .klugamethyst_bg .code ::-moz-selection {
+.ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #4F46E5;
 }
 
-.klugamethyst_bg ::selection, .klugamethyst_bg .code ::selection {
+.ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
 	background: #4F46E5;
 }
 
-.klugamethyst_bg h1 {
+@media (prefers-color-scheme: light) {
+    .ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
+    	color: rgb(255, 255, 255);
+    	text-shadow: none;
+    	background: #4F46E5;
+    }
+    
+    .ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
+    	color: rgb(255, 255, 255);
+    	text-shadow: none;
+    	background: #4F46E5;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
+    	color: rgb(255, 255, 255);
+    	text-shadow: none;
+    	background: #97266D;
+    }
+    
+    .ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
+    	color: rgb(255, 255, 255);
+    	text-shadow: none;
+    	background: #97266D;
+    }
+}
+
+.ayaklugfusion_bg h1 {
 	font-family: var(--font-head);
 	font-weight: 800;
 	font-size: 2em !important;
@@ -1036,290 +1064,290 @@
 	max-width: none !important;
 }
 
-.klugamethyst_bg h1:before {
+.ayaklugfusion_bg h1:before {
 	display: none !important;
 	margin-right: 0 !important;
 }
 
-.klugamethyst_bg h2 {
+.ayaklugfusion_bg h2 {
 	font-family: var(--font-head);
 	font-weight: 800;
 	font-size: 1.5em !important;
 	line-height: 1.3 !important;
 }
 
-.klugamethyst_bg h3 {
+.ayaklugfusion_bg h3 {
 	font-family: var(--font-head);
 }
 
-.klugamethyst_bg .small, .klugamethyst_bg small {
+.ayaklugfusion_bg .small, .ayaklugfusion_bg small {
     font-size: var(--font-size-xs);
 }
 
 /* highlight.js shenanigans. */
 
 /* Atelier-Cave Comment */
-.klugamethyst_bg .hljs-comment,
-.klugamethyst_bg .hljs-quote {
+.ayaklugfusion_bg .hljs-comment,
+.ayaklugfusion_bg .hljs-quote {
 	color: #655f6d !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Red */
-.klugamethyst_bg .hljs-variable,
-.klugamethyst_bg .hljs-template-variable,
-.klugamethyst_bg .hljs-attribute,
-.klugamethyst_bg .hljs-tag,
-.klugamethyst_bg .hljs-name,
-.klugamethyst_bg .hljs-regexp,
-.klugamethyst_bg .hljs-link,
-.klugamethyst_bg .hljs-name,
-.klugamethyst_bg .hljs-name,
-.klugamethyst_bg .hljs-selector-id,
-.klugamethyst_bg .hljs-selector-class {
+.ayaklugfusion_bg .hljs-variable,
+.ayaklugfusion_bg .hljs-template-variable,
+.ayaklugfusion_bg .hljs-attribute,
+.ayaklugfusion_bg .hljs-tag,
+.ayaklugfusion_bg .hljs-name,
+.ayaklugfusion_bg .hljs-regexp,
+.ayaklugfusion_bg .hljs-link,
+.ayaklugfusion_bg .hljs-name,
+.ayaklugfusion_bg .hljs-name,
+.ayaklugfusion_bg .hljs-selector-id,
+.ayaklugfusion_bg .hljs-selector-class {
 	color: #be4678 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Orange */
-.klugamethyst_bg .hljs-number,
-.klugamethyst_bg .hljs-meta,
-.klugamethyst_bg .hljs-built_in,
-.klugamethyst_bg .hljs-builtin-name,
-.klugamethyst_bg .hljs-literal,
-.klugamethyst_bg .hljs-type,
-.klugamethyst_bg .hljs-params {
+.ayaklugfusion_bg .hljs-number,
+.ayaklugfusion_bg .hljs-meta,
+.ayaklugfusion_bg .hljs-built_in,
+.ayaklugfusion_bg .hljs-builtin-name,
+.ayaklugfusion_bg .hljs-literal,
+.ayaklugfusion_bg .hljs-type,
+.ayaklugfusion_bg .hljs-params {
 	color: #aa573c !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Green */
-.klugamethyst_bg .hljs-string,
-.klugamethyst_bg .hljs-symbol,
-.klugamethyst_bg .hljs-bullet {
+.ayaklugfusion_bg .hljs-string,
+.ayaklugfusion_bg .hljs-symbol,
+.ayaklugfusion_bg .hljs-bullet {
 	color: #2a9292 !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Blue */
-.klugamethyst_bg .hljs-title,
-.klugamethyst_bg .hljs-section {
+.ayaklugfusion_bg .hljs-title,
+.ayaklugfusion_bg .hljs-section {
 	color: #576ddb !important;
 	font-style: inherit !important;
 }
 
 /* Atelier-Cave Purple */
-.klugamethyst_bg .hljs-keyword,
-.klugamethyst_bg .hljs-selector-tag {
+.ayaklugfusion_bg .hljs-keyword,
+.ayaklugfusion_bg .hljs-selector-tag {
 	color: #955ae7 !important;
 	font-style: inherit !important;
 }
 
-.klugamethyst_bg .hljs-deletion,
-.klugamethyst_bg .hljs-addition {
+.ayaklugfusion_bg .hljs-deletion,
+.ayaklugfusion_bg .hljs-addition {
 	color: #19171c !important;
 	font-style: inherit !important;
 	display: inline-block;
 	width: 100%;
 }
 
-.klugamethyst_bg .hljs-deletion {
+.ayaklugfusion_bg .hljs-deletion {
 	background-color: #be4678 !important;
 }
 
-.klugamethyst_bg .hljs-addition {
+.ayaklugfusion_bg .hljs-addition {
 	background-color: #2a9292 !important;
 }
 
-.klugamethyst_bg .hljs {
+.ayaklugfusion_bg .hljs {
 	display: block;
 	overflow-x: auto;
 	color: #585260 !important;
 	padding: 0.5em;
 }
 
-.klugamethyst_bg .hljs-emphasis {
+.ayaklugfusion_bg .hljs-emphasis {
 	font-style: italic !important;
 }
 
-.klugamethyst_bg .hljs-strong {
+.ayaklugfusion_bg .hljs-strong {
 	font-weight: bold !important;
 }
 
 @media (prefers-color-scheme: light) {
 	/* Atelier-Cave Comment */
-	.klugamethyst_bg .hljs-comment,
-	.klugamethyst_bg .hljs-quote {
+	.ayaklugfusion_bg .hljs-comment,
+	.ayaklugfusion_bg .hljs-quote {
 		color: #655f6d !important;
 		font-style: inherit !important;
 	}
 	
 	/* Atelier-Cave Red */
-	.klugamethyst_bg .hljs-variable,
-	.klugamethyst_bg .hljs-template-variable,
-	.klugamethyst_bg .hljs-attribute,
-	.klugamethyst_bg .hljs-tag,
-	.klugamethyst_bg .hljs-name,
-	.klugamethyst_bg .hljs-regexp,
-	.klugamethyst_bg .hljs-link,
-	.klugamethyst_bg .hljs-name,
-	.klugamethyst_bg .hljs-name,
-	.klugamethyst_bg .hljs-selector-id,
-	.klugamethyst_bg .hljs-selector-class {
+	.ayaklugfusion_bg .hljs-variable,
+	.ayaklugfusion_bg .hljs-template-variable,
+	.ayaklugfusion_bg .hljs-attribute,
+	.ayaklugfusion_bg .hljs-tag,
+	.ayaklugfusion_bg .hljs-name,
+	.ayaklugfusion_bg .hljs-regexp,
+	.ayaklugfusion_bg .hljs-link,
+	.ayaklugfusion_bg .hljs-name,
+	.ayaklugfusion_bg .hljs-name,
+	.ayaklugfusion_bg .hljs-selector-id,
+	.ayaklugfusion_bg .hljs-selector-class {
 		color: #be4678 !important;
 		font-style: inherit !important;
 	}
 	
 	/* Atelier-Cave Orange */
-	.klugamethyst_bg .hljs-number,
-	.klugamethyst_bg .hljs-meta,
-	.klugamethyst_bg .hljs-built_in,
-	.klugamethyst_bg .hljs-builtin-name,
-	.klugamethyst_bg .hljs-literal,
-	.klugamethyst_bg .hljs-type,
-	.klugamethyst_bg .hljs-params {
+	.ayaklugfusion_bg .hljs-number,
+	.ayaklugfusion_bg .hljs-meta,
+	.ayaklugfusion_bg .hljs-built_in,
+	.ayaklugfusion_bg .hljs-builtin-name,
+	.ayaklugfusion_bg .hljs-literal,
+	.ayaklugfusion_bg .hljs-type,
+	.ayaklugfusion_bg .hljs-params {
 		color: #aa573c !important;
 		font-style: inherit !important;
 	}
 	
 	/* Atelier-Cave Green */
-	.klugamethyst_bg .hljs-string,
-	.klugamethyst_bg .hljs-symbol,
-	.klugamethyst_bg .hljs-bullet {
+	.ayaklugfusion_bg .hljs-string,
+	.ayaklugfusion_bg .hljs-symbol,
+	.ayaklugfusion_bg .hljs-bullet {
 		color: #2a9292 !important;
 		font-style: inherit !important;
 	}
 	
 	/* Atelier-Cave Blue */
-	.klugamethyst_bg .hljs-title,
-	.klugamethyst_bg .hljs-section {
+	.ayaklugfusion_bg .hljs-title,
+	.ayaklugfusion_bg .hljs-section {
 		color: #576ddb !important;
 		font-style: inherit !important;
 	}
 	
 	/* Atelier-Cave Purple */
-	.klugamethyst_bg .hljs-keyword,
-	.klugamethyst_bg .hljs-selector-tag {
+	.ayaklugfusion_bg .hljs-keyword,
+	.ayaklugfusion_bg .hljs-selector-tag {
 		color: #955ae7 !important;
 		font-style: inherit !important;
 	}
 	
-	.klugamethyst_bg .hljs-deletion,
-	.klugamethyst_bg .hljs-addition {
+	.ayaklugfusion_bg .hljs-deletion,
+	.ayaklugfusion_bg .hljs-addition {
 		color: #19171c !important;
 		font-style: inherit !important;
 		display: inline-block;
 		width: 100%;
 	}
 	
-	.klugamethyst_bg .hljs-deletion {
+	.ayaklugfusion_bg .hljs-deletion {
 		background-color: #be4678 !important;
 	}
 	
-	.klugamethyst_bg .hljs-addition {
+	.ayaklugfusion_bg .hljs-addition {
 		background-color: #2a9292 !important;
 	}
 	
-	.klugamethyst_bg .hljs {
+	.ayaklugfusion_bg .hljs {
 		display: block;
 		overflow-x: auto;
 		color: #585260 !important;
 		padding: 0.5em;
 	}
 	
-	.klugamethyst_bg .hljs-emphasis {
+	.ayaklugfusion_bg .hljs-emphasis {
 		font-style: italic !important;
 	}
 	
-	.klugamethyst_bg .hljs-strong {
+	.ayaklugfusion_bg .hljs-strong {
 		font-weight: bold !important;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
-	/* Atelier-Cave Comment */
-	.klugamethyst_bg .hljs-comment,
-	.klugamethyst_bg .hljs-quote {
-		color: #7e7887 !important;
+	/* Atelier Heath Comment */
+	.ayaklugfusion_bg .hljs-comment,
+	.ayaklugfusion_bg .hljs-quote {
+		color: #9e8f9e !important;
 		font-style: inherit !important;
 	}
 	
-	/* Atelier-Cave Red */
-	.klugamethyst_bg .hljs-variable,
-	.klugamethyst_bg .hljs-template-variable,
-	.klugamethyst_bg .hljs-attribute,
-	.klugamethyst_bg .hljs-regexp,
-	.klugamethyst_bg .hljs-link,
-	.klugamethyst_bg .hljs-tag,
-	.klugamethyst_bg .hljs-name,
-	.klugamethyst_bg .hljs-selector-id,
-	.klugamethyst_bg .hljs-selector-class {
-		color: #be4678 !important;
+	/* Atelier Heath Red */
+	.ayaklugfusion_bg .hljs-variable,
+	.ayaklugfusion_bg .hljs-template-variable,
+	.ayaklugfusion_bg .hljs-attribute,
+	.ayaklugfusion_bg .hljs-regexp,
+	.ayaklugfusion_bg .hljs-link,
+	.ayaklugfusion_bg .hljs-tag,
+	.ayaklugfusion_bg .hljs-name,
+	.ayaklugfusion_bg .hljs-selector-id,
+	.ayaklugfusion_bg .hljs-selector-class {
+		color: #ca402b !important;
 		font-style: inherit !important;
 	}
 	
-	/* Atelier-Cave Orange */
-	.klugamethyst_bg .hljs-number,
-	.klugamethyst_bg .hljs-meta,
-	.klugamethyst_bg .hljs-built_in,
-	.klugamethyst_bg .hljs-builtin-name,
-	.klugamethyst_bg .hljs-literal,
-	.klugamethyst_bg .hljs-type,
-	.klugamethyst_bg .hljs-params {
-		color: #aa573c !important;
+	/* Atelier Heath Orange */
+	.ayaklugfusion_bg .hljs-number,
+	.ayaklugfusion_bg .hljs-meta,
+	.ayaklugfusion_bg .hljs-built_in,
+	.ayaklugfusion_bg .hljs-builtin-name,
+	.ayaklugfusion_bg .hljs-literal,
+	.ayaklugfusion_bg .hljs-type,
+	.ayaklugfusion_bg .hljs-params {
+		color: #a65926 !important;
 		font-style: inherit !important;
 	}
 	
-	/* Atelier-Cave Green */
-	.klugamethyst_bg .hljs-string,
-	.klugamethyst_bg .hljs-symbol,
-	.klugamethyst_bg .hljs-bullet {
-		color: #2a9292 !important;
+	/* Atelier Heath Green */
+	.ayaklugfusion_bg .hljs-string,
+	.ayaklugfusion_bg .hljs-symbol,
+	.ayaklugfusion_bg .hljs-bullet {
+		color: #918b3b !important;
 		font-style: inherit !important;
 	}
 	
-	/* Atelier-Cave Blue */
-	.klugamethyst_bg .hljs-title,
-	.klugamethyst_bg .hljs-section {
-		color: #576ddb !important;
+	/* Atelier Heath Blue */
+	.ayaklugfusion_bg .hljs-title,
+	.ayaklugfusion_bg .hljs-section {
+		color: #516aec !important;
 		font-style: inherit !important;
 	}
 	
-	/* Atelier-Cave Purple */
-	.klugamethyst_bg .hljs-keyword,
-	.klugamethyst_bg .hljs-selector-tag {
-		color: #955ae7 !important;
+	/* Atelier Heath Purple */
+	.ayaklugfusion_bg .hljs-keyword,
+	.ayaklugfusion_bg .hljs-selector-tag {
+		color: #7b59c0 !important;
 		font-style: inherit !important;
 	}
 	
-	.klugamethyst_bg .hljs-deletion,
-	.klugamethyst_bg .hljs-addition {
-		color: #19171c !important;
+	.ayaklugfusion_bg .hljs-deletion,
+	.ayaklugfusion_bg .hljs-addition {
+		color: #1b181b !important;
 		font-style: inherit !important;
 		display: inline-block;
 		width: 100%;
 	}
 	
-	.klugamethyst_bg .hljs-deletion {
-		background-color: #be4678 !important;
+	.ayaklugfusion_bg .hljs-deletion {
+		background-color: #ca402b !important;
 	}
 	
-	.klugamethyst_bg .hljs-addition {
-		background-color: #2a9292 !important;
+	.ayaklugfusion_bg .hljs-addition {
+		background-color: #918b3b !important;
 	}
 	
-	.klugamethyst_bg .hljs {
+	.ayaklugfusion_bg .hljs {
 		display: block;
 		overflow-x: auto;
-		color: #8b8792 !important;
+		color: #ab9bab !important;
 		padding: 0.5em;
 	}
 	
-	.klugamethyst_bg .hljs-emphasis {
+	.ayaklugfusion_bg .hljs-emphasis {
 		font-style: italic !important;
 	}
 	
-	.klugamethyst_bg .hljs-strong {
+	.ayaklugfusion_bg .hljs-strong {
 		font-weight: bold !important;
 	}
 }

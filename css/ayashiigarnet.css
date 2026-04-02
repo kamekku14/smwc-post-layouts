@@ -1,6 +1,6 @@
 /*!
  * Garnet
- * Copyright (C) 2023 Klug Nanahikari
+ * Copyright (C) 2023-2026 Klug Nanahikari
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -89,7 +89,7 @@
 	--accent-color-link-visited: #FFE9EF;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead {
 	--accent-color-link: var(--quote-inside-quote);
 	--accent-color-link-hover: #21050d;
 	--accent-color-link-active: #320714;
@@ -100,6 +100,12 @@
 	--accent-color-link: var(--text-code-boxhead);
 	--accent-color-link-hover: #fde1f1;
 	--accent-color-link-active: #FFEBFF;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead {
+	--accent-color-link: var(--code-inside-quote);
+	--accent-color-link-hover: #de3882;
+	--accent-color-link-active: #e1498c;
 }
 
 /*!
@@ -168,7 +174,7 @@
 		--accent-color-link-visited: #FFE9EF;
 	}
 	
-	.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead {
+	.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
 		--accent-color-link-hover: #21050d;
 		--accent-color-link-active: #320714;
@@ -179,6 +185,12 @@
 		--accent-color-link: var(--text-code-boxhead);
 		--accent-color-link-hover: #fde1f1;
 		--accent-color-link-active: #FFEBFF;
+	}
+	
+	.ayashiigarnet_bg .quote .quoteInner .code .codeHead, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead {
+		--accent-color-link: var(--code-inside-quote);
+		--accent-color-link-hover: #de3882;
+		--accent-color-link-active: #e1498c;
 	}
 }
 
@@ -241,7 +253,7 @@
 		--accent-color-link-visited: #FFE9EF;
 	}
 	
-	.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead {
+	.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead {
 		--accent-color-link: var(--quote-inside-quote);
 		--accent-color-link-hover: #FCF4F6;
 		--accent-color-link-active: #F9F7F8;
@@ -252,6 +264,12 @@
 		--accent-color-link: var(--text-code-boxhead);
 		--accent-color-link-hover: #fde1f1;
 		--accent-color-link-active: #FFEBFF;
+	}
+	
+	.ayashiigarnet_bg .quote .quoteInner .code .codeHead, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead {
+		--accent-color-link: var(--code-inside-quote);
+		--accent-color-link-hover: #ee5aa3;
+		--accent-color-link-active: #FF66B4;
 	}
 }
 
@@ -365,7 +383,7 @@
 	margin: auto;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteInner {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteInner, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteInner {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -383,7 +401,7 @@
 	margin-left: 8px;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead {
 	display: inline-block;
 	font-weight: 600;
 	color: var(--quote-inside-quote) !important;
@@ -441,6 +459,44 @@
 	font-weight: 600;
 }
 
+.ayashiigarnet_bg .quote .quoteInner .code .codeInner, .ayashiigarnet_bg .collapse .collapse-content .code .codeInner {
+	background-color: transparent !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	padding: 5px 8px;
+	color: var(--code-inside-quote);
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead {
+	font-weight: 600;
+	color: var(--code-inside-quote) !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: 2px var(--code-inside-quote) !important;
+	border-style: none none solid none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	padding: 4px 8px;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead span, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead span {
+	color: var(--code-inside-quote) !important;
+	font-weight: 600;
+}
+
 .ayashiigarnet_bg .code br {
 	display: none;
 }
@@ -459,7 +515,7 @@
 	font-stretch: expanded;
 }
 
-.ayashiigarnet_bg code {
+.ayashiigarnet_bg code, .ayashiigarnet_bg .code .inline {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
@@ -475,8 +531,6 @@
 
 .ayashiigarnet_bg .collapse {
 	border-radius: 0 !important;
-	border: 4px solid var(--accent-color-main) !important;
-	border-width: 0 0 4px 0 !important;
 }
 
 .ayashiigarnet_bg .collapse .collapse-header {
@@ -493,10 +547,32 @@
 	background-color: var(--accent-color-quotebox) !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
+	border: 4px solid var(--accent-color-main) !important;
+	border-width: 0 0 4px 0 !important;
 }
 
 .ayashiigarnet_bg .collapse svg.collapse-icon {
 	fill: var(--text-quote-boxhead) !important;
+}
+
+.ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-header {
+	font-weight: 600;
+	color: var(--accent-color-main) !important;
+	background: transparent !important;
+	border: 2px solid var(--accent-color-main) !important;
+	border-width: 0 0 2px 0 !important;
+}
+
+.ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-content {
+	background-color: transparent !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	border: none !important;
+	border-width: 0 0 0 0 !important;
+}
+
+.ayashiigarnet_bg .collapse .collapse-content .collapse svg.collapse-icon {
+	fill: var(--accent-color-main) !important;
 }
 
 .ayashiigarnet_bg hr {
@@ -562,7 +638,7 @@
 
 .ayashiigarnet_bg > .ayashiigarnet_sig a:link {
 	color: var(--accent-color-link);
-	text-decoration: none !important;
+	text-decoration: none;
 	text-shadow: inherit;
 	font-weight: inherit;
 	-o-transition: all 0.5s;
@@ -648,7 +724,7 @@
 	transition: all 0.5s;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:link {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:link, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead a:link {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -659,7 +735,7 @@
 	transition: all 0.5s;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:visited {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:visited, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead a:visited {
 	color: var(--accent-color-link-visited) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -670,7 +746,7 @@
 	transition: all 0.5s;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:hover {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:hover, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead a:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -681,7 +757,7 @@
 	transition: all 0.5s;
 }
 
-.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:active {
+.ayashiigarnet_bg .quote .quoteInner .quote .quoteHead a:active, .ayashiigarnet_bg .collapse .collapse-content .quote .quoteHead a:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -692,7 +768,7 @@
 	transition: all 0.5s;
 }
 
-.ayashiigarnet_bg .code .codeHead a.link-copy-code, a.link-select-all {
+.ayashiigarnet_bg .code .codeHead a.link-copy-code, .ayashiigarnet_bg .code .codeHead a.link-select-all {
 	color: var(--accent-color-link) !important;
 	text-decoration: none !important;
 	text-shadow: inherit;
@@ -704,7 +780,7 @@
 	cursor: pointer;
 }
 
-.ayashiigarnet_bg .code .codeHead a.link-copy-code:hover, a.link-select-all:hover {
+.ayashiigarnet_bg .code .codeHead a.link-copy-code:hover, .ayashiigarnet_bg .code .codeHead a.link-select-all:hover {
 	color: var(--accent-color-link-hover) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
@@ -716,7 +792,43 @@
 	cursor: pointer;
 }
 
-.ayashiigarnet_bg .code .codeHead a.link-copy-code:active, a.link-select-all:active {
+.ayashiigarnet_bg .code .codeHead a.link-copy-code:active, .ayashiigarnet_bg .code .codeHead a.link-select-all:active {
+	color: var(--accent-color-link-active) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-copy-code, .ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-select-all, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-copy-code, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-select-all {
+	color: var(--accent-color-link) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-copy-code:hover, .ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-select-all:hover, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-copy-code:hover, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-select-all:hover {
+	color: var(--accent-color-link-hover) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-copy-code:active, .ayashiigarnet_bg .quote .quoteInner .code .codeHead a.link-select-all:active, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-copy-code:active, .ayashiigarnet_bg .collapse .collapse-content .code .codeHead a.link-select-all:active {
 	color: var(--accent-color-link-active) !important;
 	text-shadow: inherit;
 	text-decoration: underline !important;
