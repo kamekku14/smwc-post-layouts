@@ -373,7 +373,7 @@
 	border: none  !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
-	box-shadow: none;
+	box-shadow: none !important;
 	border-radius: 0 !important;
 	margin-top: 8px;
 	margin-bottom: 8px;
