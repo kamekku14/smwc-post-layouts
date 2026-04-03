@@ -62,6 +62,9 @@
 	--collapse-button-color-text-hover: #fee0e4;
 	--collapse-button-color-main-active: #aa1845;
 	--collapse-button-color-text-active: #fff3f5;
+	--user-color-1: #8a60c8;
+	--user-color-2: #3588e6;
+	--user-color-3: #d781b8;
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_post {
@@ -71,6 +74,9 @@
 	--accent-color-link-visited: #FF4460;
 	--spoiler-color-hidden: #212121;
 	--spoiler-color-shown: rgba(33, 33, 33, 0.05);
+	--user-color-1: #8a60c8;
+	--user-color-2: #3588e6;
+	--user-color-3: #d781b8;
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -80,6 +86,9 @@
 	--accent-color-link-visited: #FF9DAD;
 	--spoiler-color-hidden: #E0E0E0;
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+	--user-color-1: #a37ae1;
+	--user-color-2: #4fa1ff;
+	--user-color-3: #f19ad1;
 }
 
 .ayashiigarnet_bg .quote .quoteHead {
@@ -147,6 +156,9 @@
 		--collapse-button-color-text-hover: #fee0e4;
 		--collapse-button-color-main-active: #aa1845;
 		--collapse-button-color-text-active: #fff3f5;
+		--user-color-1: #8a60c8;
+		--user-color-2: #3588e6;
+		--user-color-3: #d781b8;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_post {
@@ -156,6 +168,9 @@
 		--accent-color-link-visited: #FF4460;
 		--spoiler-color-hidden: #212121;
 		--spoiler-color-shown: rgba(33, 33, 33, 0.05);
+		--user-color-1: #8a60c8;
+		--user-color-2: #3588e6;
+		--user-color-3: #d781b8;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -165,6 +180,10 @@
 		--accent-color-link-visited: #FF9DAD;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+		--user-color-1: #a37ae1;
+		--user-color-2: #4fa1ff;
+		--user-color-3: #f19ad1;
+
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
@@ -226,6 +245,9 @@
 		--collapse-button-color-text-hover: #fee0e4;
 		--collapse-button-color-main-active: #c21646;
 		--collapse-button-color-text-active: #fff3f5;
+		--user-color-1: #a37ae1;
+		--user-color-2: #4fa1ff;
+		--user-color-3: #f19ad1;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_post {
@@ -235,6 +257,9 @@
 		--accent-color-link-visited: #FF5E77;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+		--user-color-1: #a37ae1;
+		--user-color-2: #4fa1ff;
+		--user-color-3: #f19ad1;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -244,6 +269,10 @@
 		--accent-color-link-visited: #FFC0CA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+		--user-color-1: #b897e8;
+		--user-color-2: #76b6ff;
+		--user-color-3: #f4b1db;
+
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
@@ -294,10 +323,6 @@
 	/* Should be obvious. */
 	text-shadow: inherit !important;
 	line-height: inherit !important;
-	-o-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
 }
 
 .ayashiigarnet_sideimg {
