@@ -535,6 +535,7 @@
 
 .klugamethyst_bg .collapse {
 	border-radius: 0 !important;
+	border: none !important;
 }
 
 .klugamethyst_bg .collapse .collapse-header {

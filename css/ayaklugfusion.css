@@ -535,6 +535,7 @@
 
 .ayaklugfusion_bg .collapse {
 	border-radius: 0 !important;
+	border: none !important;
 }
 
 .ayaklugfusion_bg .collapse .collapse-header {

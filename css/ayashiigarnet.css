@@ -535,6 +535,7 @@
 
 .ayashiigarnet_bg .collapse {
 	border-radius: 0 !important;
+	border: none !important;
 }
 
 .ayashiigarnet_bg .collapse .collapse-header {
