@@ -26,7 +26,7 @@
 	margin-top: 0 !important;
 }
 
-.layoutreset .quote .boxhead {
+.layoutreset .quote .quoteHead {
 	background: transparent !important;
 	border: none !important;
 	border-bottom: none !important;
@@ -42,7 +42,7 @@
 	margin: auto !important;
 }
 
-.layoutreset .quote .box {
+.layoutreset .quote .quoteInner {
 	background: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -67,7 +67,7 @@
 	margin-top: 0 !important;
 }
 
-.layoutreset .code .boxhead {
+.layoutreset .code .codeHead {
 	background: transparent !important;
 	background-image: none !important;
 	border: none !important;
@@ -83,7 +83,7 @@
 	margin: auto !important;
 }
 
-.layoutreset .code .box {
+.layoutreset .code .codeInner {
 	background: transparent !important;
 	margin: 2px 0 0 0 !important;
 	padding: 3px !important;
@@ -101,7 +101,7 @@
 	border-radius: 0 0 0 0 !important;
 }
 
-.layoutreset .code .box:after {
+.layoutreset .code .codeInner:after {
 	display: none !important;
 }
 
