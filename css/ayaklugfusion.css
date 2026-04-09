@@ -224,8 +224,8 @@
 		--accent-color-link-active: #FB923C;
 		--accent-color-link-visited: #FF5E77;
 		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_dark.png') repeat center center;
-		--post-bg-horz: linear-gradient(to right, linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.53) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%));
-		--post-bg-vert: linear-gradient(to bottom, linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.53) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%));
+		--post-bg-horz: linear-gradient(to right, linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.53) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
+		--post-bg-vert: linear-gradient(to bottom, linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.53) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
 		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgdark.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmalldark.png');
