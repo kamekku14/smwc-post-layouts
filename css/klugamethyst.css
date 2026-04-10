@@ -32,8 +32,8 @@
 .klugamethyst_bg {
 	--accent-color-main: #4C1D95;
 	--accent-color-code: #9333EA;
-	--accent-color-quotebox: rgba(221, 214, 255, 0.75);
-	--accent-color-codebox: rgba(233, 212, 255, 0.75);
+	--accent-color-quotebox: rgba(221, 214, 255, 0.25);
+	--accent-color-codebox: rgba(233, 212, 255, 0.25);
 	--accent-color-link: #7C3AED;
 	--accent-color-link-hover: #F59E0B;
 	--accent-color-link-active: #F97316;
@@ -129,8 +129,8 @@
 	.klugamethyst_bg {
 		--accent-color-main: #4C1D95;
 		--accent-color-code: #9333EA;
-		--accent-color-quotebox: rgba(221, 214, 255, 0.75);
-		--accent-color-codebox: rgba(233, 212, 255, 0.75);
+		--accent-color-quotebox: rgba(221, 214, 255, 0.25);
+		--accent-color-codebox: rgba(233, 212, 255, 0.25);
 		--accent-color-link: #7C3AED;
 		--accent-color-link-hover: #F59E0B;
 		--accent-color-link-active: #F97316;
@@ -224,8 +224,8 @@
 		--accent-color-link-active: #FB923C;
 		--accent-color-link-visited: #9C75F6;
 		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/bg_dark.png') repeat center center;
-		--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.55) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
-		--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 10%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%);
+		--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.55) 15%,rgba(0,0,0,0.5) 30%,rgba(0,0,0,0.25) 80%,rgba(0,0,0,0.2) 90%,rgba(0,0,0,0) 100%);
+		--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.55) 10%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.2) 75%,rgba(0,0,0,0) 100%);
 		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimgdark.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimgsmalldark.png');
