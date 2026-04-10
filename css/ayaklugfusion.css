@@ -217,8 +217,8 @@
 	.ayaklugfusion_bg {
 		--accent-color-main: #9F1239;
 		--accent-color-code: #EC4899;
-		--accent-color-quotebox: rgba(30, 1, 9, 0.75);
-		--accent-color-codebox: rgba(34, 2, 15, 0.75);
+		--accent-color-quotebox: rgba(30, 1, 9, 0.5);
+		--accent-color-codebox: rgba(34, 2, 15, 0.5);
 		--accent-color-link: #F43F5E;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
