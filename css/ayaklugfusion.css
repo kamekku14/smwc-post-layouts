@@ -1044,43 +1044,43 @@
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
+.ayaklugfusion_bg *::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #4F46E5;
+	background-color: #4F46E5;
 }
 
-.ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
+.ayaklugfusion_bg *::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #4F46E5;
+	background-color: #4F46E5;
 }
 
 @media (prefers-color-scheme: light) {
-    .ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
+    .ayaklugfusion_bg *::-moz-selection {
     	color: rgb(255, 255, 255);
     	text-shadow: none;
-    	background: #4F46E5;
+    	background-color: #4F46E5;
     }
     
-    .ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
+    .ayaklugfusion_bg *::selection {
     	color: rgb(255, 255, 255);
     	text-shadow: none;
-    	background: #4F46E5;
+    	background-color: #4F46E5;
     }
 }
 
 @media (prefers-color-scheme: dark) {
-    .ayaklugfusion_bg ::-moz-selection, .ayaklugfusion_bg .code ::-moz-selection {
+    .ayaklugfusion_bg *::-moz-selection {
     	color: rgb(255, 255, 255);
     	text-shadow: none;
-    	background: #97266D;
+    	background-color: #97266D;
     }
     
-    .ayaklugfusion_bg ::selection, .ayaklugfusion_bg .code ::selection {
+    .ayaklugfusion_bg *::selection {
     	color: rgb(255, 255, 255);
     	text-shadow: none;
-    	background: #97266D;
+    	background-color: #97266D;
     }
 }
 

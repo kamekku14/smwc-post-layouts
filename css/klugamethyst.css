@@ -1044,16 +1044,16 @@
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.klugamethyst_bg ::-moz-selection, .klugamethyst_bg .code ::-moz-selection {
+.klugamethyst_bg *::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #4F46E5;
+	background-color: #4F46E5;
 }
 
-.klugamethyst_bg ::selection, .klugamethyst_bg .code ::selection {
+.klugamethyst_bg *::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #4F46E5;
+	background-color: #4F46E5;
 }
 
 .klugamethyst_bg h1 {

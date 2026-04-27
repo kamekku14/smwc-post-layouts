@@ -1046,16 +1046,16 @@
 	background-color: var(--spoiler-color-shown) !important;
 }
 
-.ayashiigarnet_bg ::-moz-selection, .ayashiigarnet_bg .code ::-moz-selection {
+.ayashiigarnet_bg *::-moz-selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #97266D;
+	background-color: #97266D;
 }
 
-.ayashiigarnet_bg ::selection, .ayashiigarnet_bg .code ::selection {
+.ayashiigarnet_bg *::selection {
 	color: rgb(255, 255, 255);
 	text-shadow: none;
-	background: #97266D;
+	background-color: #97266D;
 }
 
 .ayashiigarnet_bg h1 {
