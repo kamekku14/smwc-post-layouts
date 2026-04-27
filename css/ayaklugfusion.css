@@ -315,6 +315,7 @@
 	color: var(--text-color-main);
 	text-shadow: none !important;
 	min-height: 350px;
+	text-transform: none;
 }
 
 .ayaklugfusion_bg *, .ayaklugfusion_post *, .ayaklugfusion_sig * {

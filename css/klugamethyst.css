@@ -315,6 +315,7 @@
 	color: var(--text-color-main);
 	text-shadow: none !important;
 	min-height: 350px;
+	text-transform: none;
 }
 
 .klugamethyst_bg *, .klugamethyst_post *, .klugamethyst_sig * {
