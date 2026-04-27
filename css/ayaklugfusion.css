@@ -33,7 +33,7 @@
 	--accent-color-main: #4C1D95;
 	--accent-color-code: #9333EA;
 	--accent-color-quotebox: rgba(221, 214, 255, 0.25);
-	--accent-color-codebox: rgba(233, 212, 255, 0.25);
+	--accent-color-codebox: rgba(233, 212, 255, 0.45);
 	--accent-color-link: #7C3AED;
 	--accent-color-link-hover: #F59E0B;
 	--accent-color-link-active: #F97316;
@@ -130,7 +130,7 @@
 		--accent-color-main: #4C1D95;
 		--accent-color-code: #9333EA;
 		--accent-color-quotebox: rgba(221, 214, 255, 0.25);
-		--accent-color-codebox: rgba(233, 212, 255, 0.25);
+		--accent-color-codebox: rgba(233, 212, 255, 0.45);
 		--accent-color-link: #7C3AED;
 		--accent-color-link-hover: #F59E0B;
 		--accent-color-link-active: #F97316;
@@ -218,7 +218,7 @@
 		--accent-color-main: #9F1239;
 		--accent-color-code: #EC4899;
 		--accent-color-quotebox: rgba(30, 1, 9, 0.5);
-		--accent-color-codebox: rgba(34, 2, 15, 0.5);
+		--accent-color-codebox: rgba(34, 2, 15, 0.7);
 		--accent-color-link: #F43F5E;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
