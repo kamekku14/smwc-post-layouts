@@ -217,8 +217,8 @@
 	.klugamethyst_bg {
 		--accent-color-main: #5B21B6;
 		--accent-color-code: #A855F7;
-		--accent-color-quotebox: rgba(77, 23, 154, 0.5);
-		--accent-color-codebox: rgba(93, 14, 192, 0.7);
+		--accent-color-quotebox: rgba(38, 11, 86, 0.35);
+		--accent-color-codebox: rgba(47, 2, 79, 0.55);
 		--accent-color-link: #8B5CF6;
 		--accent-color-link-hover: #FBBF24;
 		--accent-color-link-active: #FB923C;
