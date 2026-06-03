@@ -545,18 +545,20 @@
 	font-stretch: expanded;
 }
 
-.ayashiigarnet_bg code, .ayashiigarnet_bg .code .inline {
+.ayashiigarnet_bg code, .ayashiigarnet_bg .code.inline {
 	font-family: var(--font-code) !important;
 	font-size: 12px;
 	-webkit-font-smoothing: initial;
 	font-stretch: expanded;
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
-	border: 0 none #000000;
-	background: var(--accent-color-quotebox);
+	-moz-border-radius: 2px 2px 2px 2px !important;
+	-webkit-border-radius: 2px 2px 2px 2px !important;
+	border-radius: 2px 2px 2px 2px !important;
+	border: 0 none #000000 !important;
+	background: var(--accent-color-quotebox) !important;
 	padding: 1px;
 	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .ayashiigarnet_bg .collapse {
