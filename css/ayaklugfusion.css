@@ -1030,6 +1030,7 @@
 
 .ayaklugfusion_bg .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayaklugfusion_bg .spoilerInner {
@@ -1039,10 +1040,12 @@
 
 .ayaklugfusion_bg > .ayaklugfusion_post .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayaklugfusion_bg > .ayaklugfusion_sig .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayaklugfusion_bg *::-moz-selection {

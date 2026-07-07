@@ -1030,6 +1030,7 @@
 
 .klugamethyst_bg .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .klugamethyst_bg .spoilerInner {
@@ -1039,10 +1040,12 @@
 
 .klugamethyst_bg > .klugamethyst_post .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .klugamethyst_bg > .klugamethyst_sig .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .klugamethyst_bg *::-moz-selection {

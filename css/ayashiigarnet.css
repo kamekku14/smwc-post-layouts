@@ -1032,6 +1032,7 @@
 
 .ayashiigarnet_bg .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayashiigarnet_bg .spoilerInner {
@@ -1041,10 +1042,12 @@
 
 .ayashiigarnet_bg > .ayashiigarnet_post .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_sig .spoiler:has(input[type=checkbox]:checked) {
 	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
 }
 
 .ayashiigarnet_bg *::-moz-selection {
