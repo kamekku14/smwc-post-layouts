@@ -587,7 +587,7 @@
 	fill: var(--text-quote-boxhead) !important;
 }
 
-.ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-header {
+.ayashiigarnet_bg .quote .quoteInner .collapse .collapse-header, .ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-header {
 	font-weight: 600;
 	color: var(--accent-color-main) !important;
 	background: transparent !important;
@@ -595,7 +595,7 @@
 	border-width: 0 0 2px 0 !important;
 }
 
-.ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-content {
+.ayashiigarnet_bg .quote .quoteInner .collapse .collapse-content, .ayashiigarnet_bg .collapse .collapse-content .collapse .collapse-content {
 	background-color: transparent !important;
 	text-shadow: inherit !important;
 	line-height: inherit !important;
@@ -603,7 +603,7 @@
 	border-width: 0 0 0 0 !important;
 }
 
-.ayashiigarnet_bg .collapse .collapse-content .collapse svg.collapse-icon {
+.ayashiigarnet_bg .quote .quoteInner .collapse svg.collapse-icon, .ayashiigarnet_bg .collapse .collapse-content .collapse svg.collapse-icon {
 	fill: var(--accent-color-main) !important;
 }
 
