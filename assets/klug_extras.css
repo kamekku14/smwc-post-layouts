@@ -308,7 +308,7 @@
 }
 
 /* normal version */
-@media (min-width: 30em) {
+@media (min-width: 50em) {
 	.g-row {
 		width: 100%;
 		display: table;
@@ -325,7 +325,7 @@
 }
 
 /* flexbox version */
-@media (min-width: 30em) {
+@media (min-width: 50em) {
     .f-row {
 		display: flex;
 	}
