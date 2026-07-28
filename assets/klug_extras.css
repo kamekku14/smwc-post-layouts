@@ -294,19 +294,34 @@
 }
 
 /*!
- * ungrid by Chris Nager
+ * based on ungrid by Chris Nager
  * <https://chrisnager.github.io/ungrid/>
  * <https://github.com/chrisnager/ungrid>
  */
 
+/* main squeeze */
+.g-row, .f-row {
+	display: block;
+}
+.g-col, .f-col {
+	display: inline;
+}
+
 /* normal version */
 @media (min-width: 30em) {
 	.g-row {
-		width: 100%; display: table; table-layout: fixed;
+		width: 100%;
+		display: table;
+		table-layout: fixed;
 	}
 	.g-col {
 		display: table-cell;
+		padding-right: 2%;
 	}
+	.g-col:last-child {
+		padding-left: 2%;
+		padding-right: 0;
+  }
 }
 
 /* flexbox version */
@@ -316,7 +331,12 @@
 	}
     .f-col {
 		flex: 1;
+		padding-right: 2%;
 	}
+	.f-col:last-child {
+		padding-left: 2%;
+		padding-right: 0;
+  }
 }
 
 /*!
