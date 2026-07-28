@@ -134,9 +134,12 @@
 	-webkit-animation: klughue-tg 10s infinite linear;
 	animation: klughue-tg 10s infinite linear;
 	color: #EFF6FF;
-	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important
+	-moz-text-shadow: -1px -1px 2px #60A5FA, 1px 1px 2px #60A5FA, -1px 1px 2px #60A5FA, 1px -1px 2px #60A5FA !important;
+	-webkit-text-shadow: -1px -1px 2px #60A5FA, 1px 1px 2px #60A5FA, -1px 1px 2px #60A5FA, 1px -1px 2px #60A5FA !important;
+	text-shadow: -1px -1px 2px #60A5FA, 1px 1px 2px #60A5FA, -1px 1px 2px #60A5FA, 1px -1px 2px #60A5FA !important;
 }
 
+/* Internet Explorer */
 @-ms-keyframes klugdanger-t {
 	0% {
 		color: #D50000
@@ -146,6 +149,7 @@
 	}
 }
 
+/*Opera*/
 @-o-keyframes klugdanger-t {
 	0% {
 		color: #D50000
@@ -155,6 +159,7 @@
 	}
 }
 
+/* Firefox */
 @-moz-keyframes klugdanger-t {
 	0% {
 		color: #D50000
@@ -164,6 +169,7 @@
 	}
 }
 
+/* Safari and Chrome */
 @-webkit-keyframes klugdanger-t {
 	0% {
 		color: #D50000
@@ -173,6 +179,7 @@
 	}
 }
 
+/* anyone brave enough to implement the ideal method */
 @keyframes klugdanger-t {
 	0% {
 		color: #D50000
@@ -181,6 +188,7 @@
 		color: #F44336
 	}
 }
+
 
 .klugdanger-text {
 	-ms-animation: klugdanger-t 2.5s ease-in-out 0s infinite alternate;
@@ -228,64 +236,120 @@
 
 .centertext, .centercol {
 	margin: 0 auto;
-	text-align: center
+	text-align: center;
 }
 
 .righttext {
 	margin-left: auto;
 	margin-right: 0;
-	text-align: right
+	text-align: right;
 }
 
 .lefttext {
 	margin-left: 0;
 	margin-right: auto;
-	text-align: left
+	text-align: left;
 }
 
 .justifytext {
-	text-align: justify
+	text-align: justify;
 }
 
+/* make video embeds more responsive */
 .videocontainer {
-	max-width: 560px
+	max-width: 560px;
 }
-
 .centertext .videocontainer, .justifytext .videocontainer {
-	margin: 0 auto
+	margin: 0 auto;
 }
-
 .righttext .videocontainer {
-	margin: 0 0 0 auto
+	margin: 0 0 0 auto;
 }
-
 .lefttext .videocontainer {
-	margin: 0 auto 0 0
+	margin: 0 auto 0 0;
 }
-
 .videocontainer > div {
 	position: relative;
-	padding-bottom: 56.25%
+	padding-bottom: 56.25%;
 }
-
 .videocontainer iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100% !important;
-	height: 100% !important
+	height: 100% !important;
 }
-
 .videocontainer video {
 	object-fit: contain;
 	background: black;
-	max-width: 100%
+	max-width: 100%;
 }
 
+/* credit goes to <https://css-generators.com/center/> */
 .centercontainer {
-	display: grid
+	display: grid;
+}
+.centeritem, .floatitem {
+	margin: auto;
 }
 
-.centeritem {
-	margin: auto
+/*!
+ * ungrid by Chris Nager
+ * <https://chrisnager.github.io/ungrid/>
+ * <https://github.com/chrisnager/ungrid>
+ */
+
+/* normal version */
+@media (min-width: 30em) {
+	.g-row {
+		width: 100%; display: table; table-layout: fixed;
+	}
+	.g-col {
+		display: table-cell;
+	}
+}
+
+/* flexbox version */
+@media (min-width: 30em) {
+    .f-row {
+		display: flex;
+	}
+    .f-col {
+		flex: 1;
+	}
+}
+
+/*!
+ * float content to the left side and vice-versa
+ * code taken from Simple.css
+ * <https://simplecss.org/>
+ * <https://github.com/kevquirk/simple.css/>
+ */
+.floatcontainer {
+	width: 30%;
+	padding: 0 15px;
+	margin-inline-start: 15px;
+	margin-bottom: 1rem;
+}
+.floatcontainer.left {
+	float: left;
+}
+*[dir="rtl"] .floatcontainer.left {
+	float: right;
+}
+.floatcontainer.right {
+	float: right;
+}
+*[dir="rtl"] .floatcontainer.right {
+	float: left;
+}
+
+/* also make them full-width on mobile */
+@media screen and (max-width: 720px) {
+	.floatcontainer, .floatcontainer.left, .floatcontainer.right {
+		width: 100%;
+		float: none;
+		margin-inline-start: 0;
+		display: grid;
+	}
 }
