@@ -305,10 +305,15 @@
 }
 .g-col, .f-col {
 	display: inline;
-	padding-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.g-col:first-child, .f-col:first-child {
+	padding-top: 0;
+	padding-bottom: 1%;
 }
 .g-col:last-child, .f-col:last-child {
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 0;
 }
 
@@ -321,11 +326,19 @@
 	}
 	.g-col {
 		display: table-cell;
-		padding-right: 2%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 0;
 		padding-bottom: 0;
 	}
+	.g-col:first-child {
+		padding-left: 0;
+		padding-right: 1%;
+		padding-top: 0;
+		padding-bottom: 0;
+  	}
 	.g-col:last-child {
-		padding-left: 2%;
+		padding-left: 1%;
 		padding-right: 0;
 		padding-top: 0;
 		padding-bottom: 0;
@@ -339,11 +352,19 @@
 	}
     .f-col {
 		flex: 1;
-		padding-right: 2%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 0;
 		padding-bottom: 0;
 	}
+	.f-col:first-child {
+		padding-left: 0;
+		padding-right: 1%;
+		padding-top: 0;
+		padding-bottom: 0;
+  	}
 	.f-col:last-child {
-		padding-left: 2%;
+		padding-left: 1%;
 		padding-right: 0;
 		padding-top: 0;
 		padding-bottom: 0;
