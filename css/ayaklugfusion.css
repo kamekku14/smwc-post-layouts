@@ -1062,31 +1062,31 @@
 }
 
 @media (prefers-color-scheme: light) {
-    .ayaklugfusion_bg *::-moz-selection {
-    	color: rgb(255, 255, 255);
-    	text-shadow: none;
-    	background-color: #4F46E5;
-    }
-    
-    .ayaklugfusion_bg *::selection {
-    	color: rgb(255, 255, 255);
-    	text-shadow: none;
-    	background-color: #4F46E5;
-    }
+	.ayaklugfusion_bg *::-moz-selection {
+		color: rgb(255, 255, 255);
+		text-shadow: none;
+		background-color: #4F46E5;
+	}
+	
+	.ayaklugfusion_bg *::selection {
+		color: rgb(255, 255, 255);
+		text-shadow: none;
+		background-color: #4F46E5;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-    .ayaklugfusion_bg *::-moz-selection {
-    	color: rgb(255, 255, 255);
-    	text-shadow: none;
-    	background-color: #97266D;
-    }
-    
-    .ayaklugfusion_bg *::selection {
-    	color: rgb(255, 255, 255);
-    	text-shadow: none;
-    	background-color: #97266D;
-    }
+	.ayaklugfusion_bg *::-moz-selection {
+		color: rgb(255, 255, 255);
+		text-shadow: none;
+		background-color: #97266D;
+	}
+	
+	.ayaklugfusion_bg *::selection {
+		color: rgb(255, 255, 255);
+		text-shadow: none;
+		background-color: #97266D;
+	}
 }
 
 .ayaklugfusion_bg h1 {
@@ -1117,7 +1117,16 @@
 }
 
 .ayaklugfusion_bg .small, .ayaklugfusion_bg small {
-    font-size: var(--font-size-xs);
+	font-size: var(--font-size-xs);
+}
+
+/* Workaround for some modifiers */
+.ayaklugfusion_bg .klughue-textglow, .ayaklugfusion_post .klughue-textglow, .ayaklugfusion_sig .klughue-textglow {
+	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important
+}
+
+.ayaklugfusion_sig .klughue-text, .ayaklugfusion_sig .klugdanger-text {
+	text-shadow: -1px -1px #000000, 0px -1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000, 0px 1px #000000, -1px 1px #000000, -1px 0px #000000 !important;
 }
 
 /* highlight.js shenanigans. */

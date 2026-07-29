@@ -1089,7 +1089,16 @@
 }
 
 .klugamethyst_bg .small, .klugamethyst_bg small {
-    font-size: var(--font-size-xs);
+	font-size: var(--font-size-xs);
+}
+
+/* Workaround for some modifiers */
+.klugamethyst_bg .klughue-textglow, .klugamethyst_post .klughue-textglow, .klugamethyst_sig .klughue-textglow {
+	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important
+}
+
+.klugamethyst_sig .klughue-text, .klugamethyst_sig .klugdanger-text {
+	text-shadow: -1px -1px #000000, 0px -1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000, 0px 1px #000000, -1px 1px #000000, -1px 0px #000000 !important;
 }
 
 /* highlight.js shenanigans. */
