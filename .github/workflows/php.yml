@@ -26,14 +26,14 @@ jobs:
 
     - name: Setup cache environment
       id: extcache
-      uses: shivammathur/cache-extensions@1.14.6
+      uses: shivammathur/cache-extensions@1.15.1
       with:
         php-version: ${{ matrix.php-versions }}
         extensions: ${{ env.extensions }}
         key: ${{ env.key }}
 
     - name: Cache PHP extensions
-      uses: shivammathur/cache-extensions@1.14.6
+      uses: shivammathur/cache-extensions@1.15.1
       with:
         path: ${{ steps.extcache.outputs.dir }}
         key: ${{ steps.extcache.outputs.key }}
