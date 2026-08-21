@@ -1065,6 +1065,7 @@
 	font-family: var(--font-head);
 	font-weight: 800;
 	font-size: 2em !important;
+	color: inherit !important;
 	line-height: 1.3 !important;
 	margin-bottom: 0 !important;
 	max-width: none !important;
@@ -1079,12 +1080,14 @@
 	font-family: var(--font-head);
 	font-weight: 800;
 	font-size: 1.5em !important;
+	color: inherit !important;
 	line-height: 1.3 !important;
 }
 
 .klugamethyst_bg h3 {
 	font-family: var(--font-head);
 	font-size: 1.17em !important;
+	color: inherit !important;
 	line-height: 1.3 !important;
 }
 

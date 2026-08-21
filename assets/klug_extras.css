@@ -199,6 +199,7 @@
 .klug_post h1 {
 	font-weight: 800;
 	font-size: 2em !important;
+	color: inherit !important;
 	line-height: inherit !important;
 	text-align: left !important;
 	margin-bottom: 0 !important;
@@ -210,6 +211,7 @@
 .klug_post h2 {
 	font-weight: 800;
 	font-size: 1.5em !important;
+	color: inherit !important;
 	line-height: inherit !important;
 	margin: 0;
 	padding: 0;
@@ -217,6 +219,7 @@
 
 .klug_post h3 {
 	font-size: 1.17em !important;
+	color: inherit !important;
 	line-height: inherit !important;
 	margin: 0;
 	padding: 0;
@@ -287,6 +290,17 @@
 }
 .centeritem, .floatitem {
 	margin: auto;
+}
+
+/* alternate version */
+.centercontent {
+	display: grid;
+	gap: 1em;
+	place-items: center;
+}
+
+.centercontent.column {
+	grid-auto-flow: column;
 }
 
 /*!
