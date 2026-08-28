@@ -1095,6 +1095,21 @@
 	font-size: var(--font-size-xs);
 }
 
+.klugamethyst_bg sub, .klugamethyst_bg sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.klugamethyst_bg sub {
+	bottom: -0.25em;
+}
+
+.klugamethyst_bg sup {
+	top: -0.5em;
+}
+
 /* Workaround for some modifiers */
 .klugamethyst_bg .klughue-textglow, .klugamethyst_post .klughue-textglow, .klugamethyst_sig .klughue-textglow {
 	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important

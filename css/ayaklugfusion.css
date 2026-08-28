@@ -1123,6 +1123,21 @@
 	font-size: var(--font-size-xs);
 }
 
+.ayaklugfusion_bg sub, .ayaklugfusion_bg sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.ayaklugfusion_bg sub {
+	bottom: -0.25em;
+}
+
+.ayaklugfusion_bg sup {
+	top: -0.5em;
+}
+
 /* Workaround for some modifiers */
 .ayaklugfusion_bg .klughue-textglow, .ayaklugfusion_post .klughue-textglow, .ayaklugfusion_sig .klughue-textglow {
 	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important
