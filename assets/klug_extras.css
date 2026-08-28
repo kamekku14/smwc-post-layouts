@@ -196,6 +196,99 @@
 	color: #F44336
 }
 
+/*!
+ * using Kate Morley's 12-bit rainbow palette as a base
+ * <https://iamkate.com/data/12-bit-rainbow/>
+ */
+
+/* Internet Explorer */
+@-ms-keyframes klugrainbow-t {
+	0% {color: #881177;}
+	7% {color: #aa3355;}
+	15% {color: #cc6666;}
+	25% {color: #ee9944;}
+	35% {color: #eedd00;}
+	45% {color: #99dd55;}
+	55% {color: #44dd88;}
+	65% {color: #22ccbb;}
+	75% {color: #00bbcc;}
+	85% {color: #0099cc;}
+	93% {color: #3366bb;}
+	100% {color: #663399;}
+}
+
+/*Opera*/
+@-o-keyframes klugrainbow-t {
+	0% {color: #881177;}
+	7% {color: #aa3355;}
+	15% {color: #cc6666;}
+	25% {color: #ee9944;}
+	35% {color: #eedd00;}
+	45% {color: #99dd55;}
+	55% {color: #44dd88;}
+	65% {color: #22ccbb;}
+	75% {color: #00bbcc;}
+	85% {color: #0099cc;}
+	93% {color: #3366bb;}
+	100% {color: #663399;}
+}
+
+/* Firefox */
+@-moz-keyframes klugrainbow-t {
+	0% {color: #881177;}
+	7% {color: #aa3355;}
+	15% {color: #cc6666;}
+	25% {color: #ee9944;}
+	35% {color: #eedd00;}
+	45% {color: #99dd55;}
+	55% {color: #44dd88;}
+	65% {color: #22ccbb;}
+	75% {color: #00bbcc;}
+	85% {color: #0099cc;}
+	93% {color: #3366bb;}
+	100% {color: #663399;}
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes klugrainbow-t {
+	0% {color: #881177;}
+	7% {color: #aa3355;}
+	15% {color: #cc6666;}
+	25% {color: #ee9944;}
+	35% {color: #eedd00;}
+	45% {color: #99dd55;}
+	55% {color: #44dd88;}
+	65% {color: #22ccbb;}
+	75% {color: #00bbcc;}
+	85% {color: #0099cc;}
+	93% {color: #3366bb;}
+	100% {color: #663399;}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes klugrainbow-t {
+	0% {color: #881177;}
+	7% {color: #aa3355;}
+	15% {color: #cc6666;}
+	25% {color: #ee9944;}
+	35% {color: #eedd00;}
+	45% {color: #99dd55;}
+	55% {color: #44dd88;}
+	65% {color: #22ccbb;}
+	75% {color: #00bbcc;}
+	85% {color: #0099cc;}
+	93% {color: #3366bb;}
+	100% {color: #663399;}
+}
+
+.klugrainbow-text {
+	-ms-animation: klugrainbow-t 5s ease-in-out infinite;
+	-o-animation: klugrainbow-t 5s ease-in-out infinite;
+	-moz-animation: klugrainbow-t 5s ease-in-out infinite;
+	-webkit-animation: klugrainbow-t 5s ease-in-out infinite;
+	animation: klugrainbow-t 5s ease-in-out infinite;
+}
+
 .klug_post h1 {
 	font-weight: 800;
 	font-size: 2em !important;
