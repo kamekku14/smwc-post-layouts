@@ -1,0 +1,1059 @@
+/*!
+ * Garnet (DARK MODE!!!)
+ * Copyright (C) 2023-2026 Klug Nanahikari
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*!
+ * Atelier Heath code highlighting from highlight.js
+ * <https://highlightjs.org/>
+ */
+
+@charset "UTF-8";
+
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/geologica/geologica.css');
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/fonts/iosevka/iosevka.css');
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
+@import url('https://kamekku14.github.io/smwc-post-layouts/assets/klug_extras.css'); /*...and this one, too...*/
+
+/* Tells which color scheme should be used for this layout. */
+.ayashiigarnetdark_bg {
+	color-scheme: only dark;
+}
+
+/* Variables */
+
+.ayashiigarnetdark_bg {
+	--accent-color-main: #9F1239;
+	--accent-color-code: #EC4899;
+	--accent-color-quotebox: rgba(60, 2, 19, 0.35);
+	--accent-color-codebox: rgba(54, 3, 24, 0.55);
+	--accent-color-link: #F43F5E;
+	--accent-color-link-hover: #FBBF24;
+	--accent-color-link-active: #FB923C;
+	--accent-color-link-visited: #FF5E77;
+	--font-main: Geologica, Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+	--font-head: "Geologica Sharp", Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+	--font-code: "Iosevka Web", ui-monospace, "Cascadia Code", Consolas, Menlo, Monaco, Cousine, "Roboto Mono", "Droid Sans Mono", "Lucida Console", "Courier New", monospace;
+	--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_dark.png') repeat center center;
+	--sig-bg: var(--accent-color-main);
+	--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.55) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
+	--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 10%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%);
+	--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgdark.png');
+	--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmalldark.png');
+	--text-color-main: #f8f8f8;
+	--text-color-sig: var(--text-color-main);
+	--text-color-code: var(--accent-color-code);
+	--text-quote-boxhead: #FECDD3;
+	--text-code-boxhead: #FBCFE8;
+	--quote-inside-quote: #fdeef2;
+	--code-inside-quote: var(--text-color-code);
+	--spoiler-color-hidden: #E0E0E0;
+	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+	--collapse-button-color-main: var(--accent-color-main);
+	--collapse-button-color-text: var(--text-quote-boxhead);
+	--collapse-button-color-main-hover: #b1143f;
+	--collapse-button-color-text-hover: #fee0e4;
+	--collapse-button-color-main-active: #c21646;
+	--collapse-button-color-text-active: #fff3f5;
+	--pink: #ef8fcc;
+	--purple: #996bde;
+	--blue: #3b97ff;
+	--green: #93ec53;
+	--yellow: #f9c928;
+	--orange: #ff9d2d;
+	--red: #df4141;
+	--brown: #897259;
+	--user-color-1: #ac8ae6;
+	--user-color-2: #68adff;
+	--user-color-3: #f4a6d6;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post {
+	--accent-color-link: #F43F5E;
+	--accent-color-link-hover: #FBBF24;
+	--accent-color-link-active: #FB923C;
+	--accent-color-link-visited: #FF5E77;
+	--spoiler-color-hidden: #E0E0E0;
+	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+	--pink: #ef8fcc;
+	--purple: #996bde;
+	--blue: #3b97ff;
+	--green: #93ec53;
+	--yellow: #f9c928;
+	--orange: #ff9d2d;
+	--red: #df4141;
+	--brown: #897259;
+	--user-color-1: #ac8ae6;
+	--user-color-2: #68adff;
+	--user-color-3: #f4a6d6;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig {
+	--accent-color-link: #FDA4AF;
+	--accent-color-link-hover: #FCD34D;
+	--accent-color-link-active: #FB923C;
+	--accent-color-link-visited: #FFC0CA;
+	--spoiler-color-hidden: #E0E0E0;
+	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
+	--pink: #f1a0d4;
+	--purple: #ba9be9;
+	--blue: #76b6ff;
+	--green: #a9f076;
+	--yellow: #fbd761;
+	--orange: #ffaf54;
+	--red: #e77373;
+	--brown: #ae9982;
+	--user-color-1: #c7afee;
+	--user-color-2: #92c5ff;
+	--user-color-3: #f5b3dd;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead {
+	--accent-color-link: var(--text-quote-boxhead);
+	--accent-color-link-hover: #fee0e4;
+	--accent-color-link-active: #fff3f5;
+	--accent-color-link-visited: #FFE9EF;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead {
+	--accent-color-link: var(--quote-inside-quote);
+	--accent-color-link-hover: #FCF4F6;
+	--accent-color-link-active: #F9F7F8;
+	--accent-color-link-visited: #F4EBF1;
+}
+
+.ayashiigarnetdark_bg .code .codeHead {
+	--accent-color-link: var(--text-code-boxhead);
+	--accent-color-link-hover: #fde1f1;
+	--accent-color-link-active: #FFEBFF;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead {
+	--accent-color-link: var(--code-inside-quote);
+	--accent-color-link-hover: #ee5aa3;
+	--accent-color-link-active: #FF66B4;
+}
+
+/* The main squeeze. */
+
+.ayashiigarnetdark_bg {
+	background: var(--post-bg-horz), var(--main-bg);
+	padding: 0;
+	font-family: var(--font-main);
+	font-size: 13px;
+	line-height: 1.3 !important;
+	text-rendering: optimizeLegibility !important;
+	-moz-font-feature-settings: "liga", "clig", "kern", "tnum";
+	-webkit-font-feature-settings: "liga", "clig", "kern", "tnum";
+	font-feature-settings: "liga", "clig", "kern", "tnum";
+	color: var(--text-color-main);
+	text-shadow: none !important;
+	min-height: 350px;
+	text-transform: none;
+}
+
+.ayashiigarnetdark_bg *, .ayashiigarnetdark_post *, .ayashiigarnetdark_sig * {
+	/* Should be obvious. */
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+}
+
+.ayashiigarnetdark_sideimg {
+	background: transparent var(--side-image) no-repeat right bottom;
+	padding: 0;
+}
+
+.ayashiigarnetdark_post {
+	background: transparent;
+	padding: 24px 8px 16px 8px;
+	color: var(--text-color-main);
+	margin-right: 200px;
+	overflow-wrap: break-word;
+	min-width: 16px;
+	min-height: 320px; /* This one prevents the post body from getting shorter than the others (post sig, etc.) */
+}
+
+@media screen and (max-width: 960px) {
+	/* Look at me, ma! I'm making my layout a bit more responsive!*/
+	.ayashiigarnetdark_bg {
+		background: var(--post-bg-vert), var(--main-bg);
+	}
+	.ayashiigarnetdark_sideimg {
+		background: transparent var(--side-image-small) no-repeat right bottom;
+		padding: 0;
+	}
+	
+	.ayashiigarnetdark_post {
+		background: transparent;
+		padding: 24px 8px 104px 8px;
+		margin-right: 0;
+		min-width: 16px;
+		min-height: 320px;
+	}
+}
+
+.ayashiigarnetdark_sig {
+	background: var(--sig-bg);
+	padding: 8px;
+	color: var(--text-color-sig);
+	overflow-wrap: break-word;
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.ayashiigarnetdark_bg .quote, .ayashiigarnetdark_bg .code {
+	background: transparent !important;
+	border: none  !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner {
+	background-color: var(--accent-color-quotebox) !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 4px solid var(--accent-color-main) !important;
+	border-width: 0 0 0 4px !important;
+	padding: 5px;
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead {
+	display: inline-block;
+	font-weight: 600;
+	color: var(--text-quote-boxhead) !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: var(--accent-color-main);
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	padding: 4px 8px;
+	margin: auto;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteInner, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteInner {
+	background-color: transparent !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 2px var(--quote-inside-quote) !important;
+	border-style: none none none solid !important;
+	padding: 6px;
+	color: var(--quote-inside-quote);
+	overflow-wrap: break-word;
+	margin-left: 8px;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead {
+	display: inline-block;
+	font-weight: 600;
+	color: var(--quote-inside-quote) !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	padding: 0 0;
+	margin: auto;
+}
+
+.ayashiigarnetdark_bg .code .codeInner {
+	background-color: var(--accent-color-codebox) !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 4px solid var(--accent-color-code) !important;
+	border-width: 0 0 4px 0 !important;
+	padding: 5px 8px;
+	color: var(--text-color-code);
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+.ayashiigarnetdark_bg .code .codeInner:after {
+	display: none;
+}
+
+.ayashiigarnetdark_bg .code .codeHead {
+	font-weight: 600;
+	color: var(--text-code-boxhead) !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: var(--accent-color-code);
+	border: none !important;
+	border-bottom: none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	padding: 4px 8px;
+}
+
+.ayashiigarnetdark_bg .code .codeHead span {
+	color: var(--text-code-boxhead) !important;
+	font-weight: 600;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeInner, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeInner {
+	background-color: transparent !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	padding: 5px 8px;
+	color: var(--code-inside-quote);
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead {
+	font-weight: 600;
+	color: var(--code-inside-quote) !important;
+	font-size: 11px;
+	vertical-align: middle;
+	background: transparent;
+	border: 2px var(--code-inside-quote) !important;
+	border-style: none none solid none !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	padding: 4px 8px;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead span, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead span {
+	color: var(--code-inside-quote) !important;
+	font-weight: 600;
+}
+
+.ayashiigarnetdark_bg .code br {
+	display: none;
+}
+
+.ayashiigarnetdark_bg pre {
+	font-family: var(--font-code) !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
+}
+
+.ayashiigarnetdark_bg pre.box {
+	font-family: var(--font-code) !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
+}
+
+.ayashiigarnetdark_bg code, .ayashiigarnetdark_bg .code.inline {
+	font-family: var(--font-code) !important;
+	font-size: 12px;
+	-webkit-font-smoothing: initial;
+	font-stretch: expanded;
+	-moz-border-radius: 2px 2px 2px 2px !important;
+	-webkit-border-radius: 2px 2px 2px 2px !important;
+	border-radius: 2px 2px 2px 2px !important;
+	border: 0 none #000000 !important;
+	background: var(--accent-color-quotebox) !important;
+	padding: 1px;
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ayashiigarnetdark_bg .collapse {
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+.ayashiigarnetdark_bg .collapse .collapse-header {
+	font-weight: 600;
+	color: var(--text-quote-boxhead) !important;
+	background: var(--accent-color-main) !important;
+}
+
+.ayashiigarnetdark_bg .collapse.open .collapse-header {
+	border-bottom: none !important;
+}
+
+.ayashiigarnetdark_bg .collapse .collapse-content {
+	background-color: var(--accent-color-quotebox) !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	border: 4px solid var(--accent-color-main) !important;
+	border-width: 0 0 4px 0 !important;
+}
+
+.ayashiigarnetdark_bg .collapse svg.collapse-icon {
+	fill: var(--text-quote-boxhead) !important;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .collapse .collapse-header, .ayashiigarnetdark_bg .collapse .collapse-content .collapse .collapse-header {
+	font-weight: 600;
+	color: var(--accent-color-main) !important;
+	background: transparent !important;
+	border: 2px solid var(--accent-color-main) !important;
+	border-width: 0 0 2px 0 !important;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .collapse .collapse-content, .ayashiigarnetdark_bg .collapse .collapse-content .collapse .collapse-content {
+	background-color: transparent !important;
+	text-shadow: inherit !important;
+	line-height: inherit !important;
+	border: none !important;
+	border-width: 0 0 0 0 !important;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .collapse svg.collapse-icon, .ayashiigarnetdark_bg .collapse .collapse-content .collapse svg.collapse-icon {
+	fill: var(--accent-color-main) !important;
+}
+
+.ayashiigarnetdark_bg hr {
+	border: 0;
+	height: 1px;
+	background: #CFD8DC;
+	margin: 8px auto !important;
+	width: 100%;
+}
+
+/* Others */
+
+/*!
+ * Separate link colors for post boxes
+ * 
+ * Unfortunately, some people with disabilities can't tell difference between the link colors in
+ * lighter/darker areas, so I made them easy to distinguish.
+ */
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post a:link {
+	color: var(--accent-color-link);
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post a:visited {
+	color: var(--accent-color-link-visited);
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post a:hover {
+	color: var(--accent-color-link-hover);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post a:active {
+	color: var(--accent-color-link-active);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig a:link {
+	color: var(--accent-color-link);
+	text-decoration: none;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig a:visited {
+	color: var(--accent-color-link-visited);
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig a:hover {
+	color: var(--accent-color-link-hover);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig a:active {
+	color: var(--accent-color-link-active);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead a:link {
+	color: var(--accent-color-link) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead a:visited {
+	color: var(--accent-color-link-visited) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead a:hover {
+	color: var(--accent-color-link-hover) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteHead a:active {
+	color: var(--accent-color-link-active) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead a:link, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead a:link {
+	color: var(--accent-color-link) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead a:visited, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead a:visited {
+	color: var(--accent-color-link-visited) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead a:hover, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead a:hover {
+	color: var(--accent-color-link-hover) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .quote .quoteHead a:active, .ayashiigarnetdark_bg .collapse .collapse-content .quote .quoteHead a:active {
+	color: var(--accent-color-link-active) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg .code .codeHead a.link-copy-code, .ayashiigarnetdark_bg .code .codeHead a.link-select-all {
+	color: var(--accent-color-link) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnetdark_bg .code .codeHead a.link-copy-code:hover, .ayashiigarnetdark_bg .code .codeHead a.link-select-all:hover {
+	color: var(--accent-color-link-hover) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnetdark_bg .code .codeHead a.link-copy-code:active, .ayashiigarnetdark_bg .code .codeHead a.link-select-all:active {
+	color: var(--accent-color-link-active) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-copy-code, .ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-select-all, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-copy-code, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-select-all {
+	color: var(--accent-color-link) !important;
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-copy-code:hover, .ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-select-all:hover, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-copy-code:hover, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-select-all:hover {
+	color: var(--accent-color-link-hover) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-copy-code:active, .ayashiigarnetdark_bg .quote .quoteInner .code .codeHead a.link-select-all:active, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-copy-code:active, .ayashiigarnetdark_bg .collapse .collapse-content .code .codeHead a.link-select-all:active {
+	color: var(--accent-color-link-active) !important;
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+/* The rest here are the main link colors. */
+
+.ayashiigarnetdark_bg a:link {
+	color: var(--accent-color-link);
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a:visited {
+	color: var(--accent-color-link-visited);
+	text-decoration: none !important;
+	text-shadow: inherit;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a:hover {
+	color: var(--accent-color-link-hover);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a:active {
+	color: var(--accent-color-link-active);
+	text-shadow: inherit;
+	text-decoration: underline !important;
+	font-weight: inherit;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a.button {
+	color: var(--collapse-button-color-text) !important;
+	background: var(--collapse-button-color-main);
+	text-shadow: inherit;
+	text-decoration: none !important;
+	font-weight: 600 !important;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a.button:hover {
+	color: var(--collapse-button-color-text-hover);
+	background: var(--collapse-button-color-main-hover) !important;
+	text-shadow: inherit;
+	text-decoration: none !important;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a.button:active {
+	color: var(--collapse-button-color-text-active);
+	background: var(--collapse-button-color-main-active) !important;
+	text-shadow: inherit;
+	text-decoration: none !important;
+	font-weight: 600;
+	font-size: 11px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.ayashiigarnetdark_bg a.un {
+	font-weight: bold !important;
+	text-shadow: -1px -1px #000000, 0px -1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000, 0px 1px #000000, -1px 1px #000000, -1px 0px #000000 !important;
+}
+
+/* Spoiler tags and miscellaneous. */
+
+.ayashiigarnetdark_bg .spoiler {
+	background-color: var(--spoiler-color-hidden) !important;
+	border: 0 none var(--spoiler-color-hidden);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-o-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post .spoiler {
+	background-color: var(--spoiler-color-hidden) !important;
+	border: 0 none var(--spoiler-color-hidden);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-o-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig .spoiler {
+	background-color: var(--spoiler-color-hidden) !important;
+	border: 0 none var(--spoiler-color-hidden);
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 1px;
+	color: inherit !important;
+	-o-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.ayashiigarnetdark_bg .quote .spoiler {
+	color: inherit !important;
+}
+
+.ayashiigarnetdark_bg .quote .quote .spoiler {
+	color: inherit !important;
+}
+
+.ayashiigarnetdark_bg .code .spoiler {
+	color: inherit !important; /* why not? */
+}
+
+.ayashiigarnetdark_bg .spoiler:has(input[type=checkbox]:checked) {
+	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
+}
+
+.ayashiigarnetdark_bg .spoilerInner {
+	padding: 0;
+	transition: visibility .1s linear;
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_post .spoiler:has(input[type=checkbox]:checked) {
+	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
+}
+
+.ayashiigarnetdark_bg > .ayashiigarnetdark_sig .spoiler:has(input[type=checkbox]:checked) {
+	background-color: var(--spoiler-color-shown) !important;
+	border: 0 none var(--spoiler-color-shown);
+}
+
+.ayashiigarnetdark_bg *::-moz-selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background-color: #97266D;
+}
+
+.ayashiigarnetdark_bg *::selection {
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	background-color: #97266D;
+}
+
+.ayashiigarnetdark_bg h1 {
+	font-family: var(--font-head);
+	font-weight: 800;
+	font-size: 2em !important;
+	color: inherit !important;
+	line-height: 1.3 !important;
+	margin-bottom: 0 !important;
+	max-width: none !important;
+}
+
+.ayashiigarnetdark_bg h1:before {
+	display: none !important;
+	margin-right: 0 !important;
+}
+
+.ayashiigarnetdark_bg h2 {
+	font-family: var(--font-head);
+	font-weight: 800;
+	font-size: 1.5em !important;
+	color: inherit !important;
+	line-height: 1.3 !important;
+}
+
+.ayashiigarnetdark_bg h3 {
+	font-family: var(--font-head);
+	font-size: 1.17em !important;
+	color: inherit !important;
+	line-height: 1.3 !important;
+}
+
+.ayashiigarnetdark_bg .small, .ayashiigarnetdark_bg small {
+	font-size: var(--font-size-xs);
+}
+
+.ayashiigarnetdark_bg sub, .ayashiigarnetdark_bg sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.ayashiigarnetdark_bg sub {
+	bottom: -0.25em;
+}
+
+.ayashiigarnetdark_bg sup {
+	top: -0.5em;
+}
+
+/* Workaround for some modifiers */
+.ayashiigarnetdark_bg .klughue-textglow, .ayashiigarnetdark_post .klughue-textglow, .ayashiigarnetdark_sig .klughue-textglow {
+	text-shadow: -1px -1px 2px #60A5FA,1px 1px 2px #60A5FA,-1px 1px 2px #60A5FA,1px -1px 2px #60A5FA !important
+}
+
+.ayashiigarnetdark_sig .klughue-text, .ayashiigarnetdark_sig .klugdanger-text {
+	text-shadow: -1px -1px #000000, 0px -1px #000000, 1px -1px #000000, 1px 0px #000000, 1px 1px #000000, 0px 1px #000000, -1px 1px #000000, -1px 0px #000000 !important;
+}
+
+/* highlight.js shenanigans. */
+
+/* Atelier Heath Comment */
+.ayashiigarnetdark_bg .hljs-comment,
+.ayashiigarnetdark_bg .hljs-quote {
+	color: #776977 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier Heath Red */
+.ayashiigarnetdark_bg .hljs-variable,
+.ayashiigarnetdark_bg .hljs-template-variable,
+.ayashiigarnetdark_bg .hljs-attribute,
+.ayashiigarnetdark_bg .hljs-tag,
+.ayashiigarnetdark_bg .hljs-name,
+.ayashiigarnetdark_bg .hljs-regexp,
+.ayashiigarnetdark_bg .hljs-link,
+.ayashiigarnetdark_bg .hljs-selector-id,
+.ayashiigarnetdark_bg .hljs-selector-class {
+	color: #ca402b !important;
+	font-style: inherit !important;
+}
+
+/* Atelier Heath Orange */
+.ayashiigarnetdark_bg .hljs-number,
+.ayashiigarnetdark_bg .hljs-meta,
+.ayashiigarnetdark_bg .hljs-built_in,
+.ayashiigarnetdark_bg .hljs-builtin-name,
+.ayashiigarnetdark_bg .hljs-literal,
+.ayashiigarnetdark_bg .hljs-type,
+.ayashiigarnetdark_bg .hljs-params {
+	color: #a65926 !important;
+	font-style: inherit !important;
+}
+
+/* Atelier Heath Green */
+.ayashiigarnetdark_bg .hljs-string,
+.ayashiigarnetdark_bg .hljs-symbol,
+.ayashiigarnetdark_bg .hljs-bullet {
+	color: #918b3b !important;
+	font-style: inherit !important;
+}
+
+/* Atelier Heath Blue */
+.ayashiigarnetdark_bg .hljs-title,
+.ayashiigarnetdark_bg .hljs-section {
+	color: #516aec !important;
+	font-style: inherit !important;
+}
+
+/* Atelier Heath Purple */
+.ayashiigarnetdark_bg .hljs-keyword,
+.ayashiigarnetdark_bg .hljs-selector-tag {
+	color: #7b59c0 !important;
+	font-style: inherit !important;
+}
+
+.ayashiigarnetdark_bg .hljs-deletion,
+.ayashiigarnetdark_bg .hljs-addition {
+	color: #1b181b !important;
+	font-style: inherit !important;
+	display: inline-block;
+	width: 100%;
+}
+
+.ayashiigarnetdark_bg .hljs-deletion {
+	background-color: #ca402b !important;
+}
+
+.ayashiigarnetdark_bg .hljs-addition {
+	background-color: #918b3b !important;
+}
+
+.ayashiigarnetdark_bg .hljs {
+	display: block;
+	overflow-x: auto;
+	color: #ab9bab !important;
+	padding: 0.5em;
+}
+
+.ayashiigarnetdark_bg .hljs-emphasis {
+	font-style: italic !important;
+}
+
+.ayashiigarnetdark_bg .hljs-strong {
+	font-weight: bold !important;
+}

@@ -28,6 +28,11 @@
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/klug_extras.css'); /*...and this one, too...*/
 
+/* Tells which color scheme should be used for this layout. */
+.ayashiigarnet_bg {
+	color-scheme: light dark;
+}
+
 /* Variables */
 
 .ayashiigarnet_bg {
@@ -63,9 +68,22 @@
 	--collapse-button-color-text-hover: #fee0e4;
 	--collapse-button-color-main-active: #aa1845;
 	--collapse-button-color-text-active: #fff3f5;
-	--user-color-1: #8a60c8;
-	--user-color-2: #3588e6;
-	--user-color-3: #d781b8;
+	--pink: #e54aad;
+	--purple: #834bd7;
+	--blue: #1482ff;
+	--green: #69d918;
+	--yellow: #f3bd07;
+	--orange: #f18100;
+	--red: #d52424;
+	--brown: #715e4a;
+	--user-color-1: #9973e2;
+	--user-color-2: #539eff;
+	--user-color-3: #ef74bd;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_post {
@@ -75,9 +93,17 @@
 	--accent-color-link-visited: #FF4460;
 	--spoiler-color-hidden: #212121;
 	--spoiler-color-shown: rgba(33, 33, 33, 0.05);
-	--user-color-1: #8a60c8;
-	--user-color-2: #3588e6;
-	--user-color-3: #d781b8;
+	--pink: #e54aad;
+	--purple: #834bd7;
+	--blue: #1482ff;
+	--green: #69d918;
+	--yellow: #f3bd07;
+	--orange: #f18100;
+	--red: #d52424;
+	--brown: #715e4a;
+	--user-color-1: #9973e2;
+	--user-color-2: #539eff;
+	--user-color-3: #ef74bd;
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -87,9 +113,17 @@
 	--accent-color-link-visited: #FF9DAD;
 	--spoiler-color-hidden: #E0E0E0;
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-	--user-color-1: #a37ae1;
-	--user-color-2: #4fa1ff;
-	--user-color-3: #f19ad1;
+	--pink: #ef8fcc;
+	--purple: #996bde;
+	--blue: #3b97ff;
+	--green: #93ec53;
+	--yellow: #f9c928;
+	--orange: #ff9d2d;
+	--red: #df4141;
+	--brown: #897259;
+	--user-color-1: #ac8ae6;
+	--user-color-2: #68adff;
+	--user-color-3: #f4a6d6;
 }
 
 .ayashiigarnet_bg .quote .quoteHead {
@@ -137,9 +171,9 @@
 		--accent-color-link-active: #F97316;
 		--accent-color-link-visited: #FF4460;
 		--main-bg: #ffffff url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_light.png') repeat center center;
+		--sig-bg: var(--accent-color-main);
 		--post-bg-horz: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0.75) 15%,rgba(255,255,255,0.7) 30%,rgba(255,255,255,0.55) 80%,rgba(255,255,255,0.5) 90%,rgba(255,255,255,0) 100%);
 		--post-bg-vert: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.75) 10%,rgba(255,255,255,0.7) 25%,rgba(255,255,255,0.55) 50%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%);
-		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimg.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmall.png');
 		--text-color-main: #212121;
@@ -157,9 +191,22 @@
 		--collapse-button-color-text-hover: #fee0e4;
 		--collapse-button-color-main-active: #aa1845;
 		--collapse-button-color-text-active: #fff3f5;
-		--user-color-1: #8a60c8;
-		--user-color-2: #3588e6;
-		--user-color-3: #d781b8;
+		--pink: #e54aad;
+		--purple: #834bd7;
+		--blue: #1482ff;
+		--green: #69d918;
+		--yellow: #f3bd07;
+		--orange: #f18100;
+		--red: #d52424;
+		--brown: #715e4a;
+		--user-color-1: #9973e2;
+		--user-color-2: #539eff;
+		--user-color-3: #ef74bd;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_post {
@@ -169,9 +216,17 @@
 		--accent-color-link-visited: #FF4460;
 		--spoiler-color-hidden: #212121;
 		--spoiler-color-shown: rgba(33, 33, 33, 0.05);
-		--user-color-1: #8a60c8;
-		--user-color-2: #3588e6;
-		--user-color-3: #d781b8;
+		--pink: #e54aad;
+		--purple: #834bd7;
+		--blue: #1482ff;
+		--green: #69d918;
+		--yellow: #f3bd07;
+		--orange: #f18100;
+		--red: #d52424;
+		--brown: #715e4a;
+		--user-color-1: #9973e2;
+		--user-color-2: #539eff;
+		--user-color-3: #ef74bd;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -181,10 +236,17 @@
 		--accent-color-link-visited: #FF9DAD;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #a37ae1;
-		--user-color-2: #4fa1ff;
-		--user-color-3: #f19ad1;
-
+		--pink: #ef8fcc;
+		--purple: #996bde;
+		--blue: #3b97ff;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #ac8ae6;
+		--user-color-2: #68adff;
+		--user-color-3: #f4a6d6;
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
@@ -226,9 +288,9 @@
 		--accent-color-link-active: #FB923C;
 		--accent-color-link-visited: #FF5E77;
 		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_dark.png') repeat center center;
+		--sig-bg: var(--accent-color-main);
 		--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.55) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
 		--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 10%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%);
-		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgdark.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmalldark.png');
 		--text-color-main: #f8f8f8;
@@ -246,9 +308,22 @@
 		--collapse-button-color-text-hover: #fee0e4;
 		--collapse-button-color-main-active: #c21646;
 		--collapse-button-color-text-active: #fff3f5;
-		--user-color-1: #a37ae1;
-		--user-color-2: #4fa1ff;
-		--user-color-3: #f19ad1;
+		--pink: #ef8fcc;
+		--purple: #996bde;
+		--blue: #3b97ff;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #ac8ae6;
+		--user-color-2: #68adff;
+		--user-color-3: #f4a6d6;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_post {
@@ -258,9 +333,17 @@
 		--accent-color-link-visited: #FF5E77;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #a37ae1;
-		--user-color-2: #4fa1ff;
-		--user-color-3: #f19ad1;
+		--pink: #ef8fcc;
+		--purple: #996bde;
+		--blue: #3b97ff;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #ac8ae6;
+		--user-color-2: #68adff;
+		--user-color-3: #f4a6d6;
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -270,10 +353,17 @@
 		--accent-color-link-visited: #FFC0CA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #b897e8;
-		--user-color-2: #76b6ff;
-		--user-color-3: #f4b1db;
-
+		--pink: #f1a0d4;
+		--purple: #ba9be9;
+		--blue: #76b6ff;
+		--green: #a9f076;
+		--yellow: #fbd761;
+		--orange: #ffaf54;
+		--red: #e77373;
+		--brown: #ae9982;
+		--user-color-1: #c7afee;
+		--user-color-2: #92c5ff;
+		--user-color-3: #f5b3dd;
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
@@ -1138,8 +1228,6 @@
 .ayashiigarnet_bg .hljs-name,
 .ayashiigarnet_bg .hljs-regexp,
 .ayashiigarnet_bg .hljs-link,
-.ayashiigarnet_bg .hljs-name,
-.ayashiigarnet_bg .hljs-name,
 .ayashiigarnet_bg .hljs-selector-id,
 .ayashiigarnet_bg .hljs-selector-class {
 	color: #ca402b !important;
@@ -1227,8 +1315,6 @@
 	.ayashiigarnet_bg .hljs-name,
 	.ayashiigarnet_bg .hljs-regexp,
 	.ayashiigarnet_bg .hljs-link,
-	.ayashiigarnet_bg .hljs-name,
-	.ayashiigarnet_bg .hljs-name,
 	.ayashiigarnet_bg .hljs-selector-id,
 	.ayashiigarnet_bg .hljs-selector-class {
 		color: #ca402b !important;
@@ -1313,10 +1399,10 @@
 	.ayashiigarnet_bg .hljs-variable,
 	.ayashiigarnet_bg .hljs-template-variable,
 	.ayashiigarnet_bg .hljs-attribute,
-	.ayashiigarnet_bg .hljs-regexp,
-	.ayashiigarnet_bg .hljs-link,
 	.ayashiigarnet_bg .hljs-tag,
 	.ayashiigarnet_bg .hljs-name,
+	.ayashiigarnet_bg .hljs-regexp,
+	.ayashiigarnet_bg .hljs-link,
 	.ayashiigarnet_bg .hljs-selector-id,
 	.ayashiigarnet_bg .hljs-selector-class {
 		color: #ca402b !important;

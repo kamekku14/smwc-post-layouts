@@ -28,6 +28,11 @@
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/kamekku14_extras.css'); /* Wonder why how I use this... */
 @import url('https://kamekku14.github.io/smwc-post-layouts/assets/klug_extras.css'); /*...and this one, too...*/
 
+/* Tells which color scheme should be used for this layout. */
+.ayaklugfusion_bg {
+	color-scheme: light dark;
+}
+
 /* Variables */
 
 .ayaklugfusion_bg {
@@ -63,9 +68,22 @@
 	--collapse-button-color-text-hover: #F2EFFE;
 	--collapse-button-color-main-active: #5d23b6;
 	--collapse-button-color-text-active: #FAF2FF;
-	--user-color-1: #936cd2;
-	--user-color-2: #659cda;
-	--user-color-3: #d281d7;
+	--pink: #df5ce8;
+	--purple: #8c56e4;
+	--blue: #3a8eed;
+	--green: #69d918;
+	--yellow: #f3bd07;
+	--orange: #ff8b06;
+	--red: #d52424;
+	--brown: #7d6851;
+	--user-color-1: #a17bec;
+	--user-color-2: #66a6f2;
+	--user-color-3: #e881ee;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayaklugfusion_bg > .ayaklugfusion_post {
@@ -75,9 +93,17 @@
 	--accent-color-link-visited: #925cf0;
 	--spoiler-color-hidden: #212121;
 	--spoiler-color-shown: rgba(33, 33, 33, 0.05);
-	--user-color-1: #936cd2;
-	--user-color-2: #659cda;
-	--user-color-3: #d281d7;
+	--pink: #df5ce8;
+	--purple: #8c56e4;
+	--blue: #3a8eed;
+	--green: #69d918;
+	--yellow: #f3bd07;
+	--orange: #ff8b06;
+	--red: #d52424;
+	--brown: #7d6851;
+	--user-color-1: #a17bec;
+	--user-color-2: #66a6f2;
+	--user-color-3: #e881ee;
 }
 
 .ayaklugfusion_bg > .ayaklugfusion_sig {
@@ -87,9 +113,17 @@
 	--accent-color-link-visited: #BAA4FA;
 	--spoiler-color-hidden: #E0E0E0;
 	--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-	--user-color-1: #ac85eb;
-	--user-color-2: #7eb5f3;
-	--user-color-3: #eb9af1;
+	--pink: #e98fef;
+	--purple: #a378e9;
+	--blue: #70adf2;
+	--green: #93ec53;
+	--yellow: #f9c928;
+	--orange: #ff9d2d;
+	--red: #df4141;
+	--brown: #897259;
+	--user-color-1: #b494ef;
+	--user-color-2: #8dbef6;
+	--user-color-3: #efa6f3;
 }
 
 .ayaklugfusion_bg .quote .quoteHead {
@@ -137,9 +171,9 @@
 		--accent-color-link-active: #F97316;
 		--accent-color-link-visited: #925cf0;
 		--main-bg: #ffffff url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/bg_light.png') repeat center center;
+		--sig-bg: var(--accent-color-main);
 		--post-bg-horz: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0.75) 15%,rgba(255,255,255,0.7) 30%,rgba(255,255,255,0.55) 80%,rgba(255,255,255,0.5) 90%,rgba(255,255,255,0) 100%);
 		--post-bg-vert: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.75) 10%,rgba(255,255,255,0.7) 25%,rgba(255,255,255,0.55) 50%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%);
-		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimg.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/klugamethyst/klug_sideimgsmall.png');
 		--text-color-main: #212121;
@@ -157,9 +191,22 @@
 		--collapse-button-color-text-hover: #F2EFFE;
 		--collapse-button-color-main-active: #5d23b6;
 		--collapse-button-color-text-active: #FAF2FF;
-		--user-color-1: #936cd2;
-		--user-color-2: #659cda;
-		--user-color-3: #d281d7;
+		--pink: #df5ce8;
+		--purple: #8c56e4;
+		--blue: #3a8eed;
+		--green: #69d918;
+		--yellow: #f3bd07;
+		--orange: #ff8b06;
+		--red: #d52424;
+		--brown: #7d6851;
+		--user-color-1: #a17bec;
+		--user-color-2: #66a6f2;
+		--user-color-3: #e881ee;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayaklugfusion_bg > .ayaklugfusion_post {
@@ -169,9 +216,17 @@
 		--accent-color-link-visited: #925cf0;
 		--spoiler-color-hidden: #212121;
 		--spoiler-color-shown: rgba(33, 33, 33, 0.05);
-		--user-color-1: #936cd2;
-		--user-color-2: #659cda;
-		--user-color-3: #d281d7;
+		--pink: #df5ce8;
+		--purple: #8c56e4;
+		--blue: #3a8eed;
+		--green: #69d918;
+		--yellow: #f3bd07;
+		--orange: #ff8b06;
+		--red: #d52424;
+		--brown: #7d6851;
+		--user-color-1: #a17bec;
+		--user-color-2: #66a6f2;
+		--user-color-3: #e881ee;
 	}
 	
 	.ayaklugfusion_bg > .ayaklugfusion_sig {
@@ -181,9 +236,17 @@
 		--accent-color-link-visited: #BAA4FA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #ac85eb;
-		--user-color-2: #7eb5f3;
-		--user-color-3: #eb9af1;
+		--pink: #e98fef;
+		--purple: #a378e9;
+		--blue: #70adf2;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #b494ef;
+		--user-color-2: #8dbef6;
+		--user-color-3: #efa6f3;
 	}
 	
 	.ayaklugfusion_bg .quote .quoteHead {
@@ -225,9 +288,9 @@
 		--accent-color-link-active: #FB923C;
 		--accent-color-link-visited: #FF5E77;
 		--main-bg: #080808 url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/bg_dark.png') repeat center center;
+		--sig-bg: var(--accent-color-main);
 		--post-bg-horz: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 15%,rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.55) 80%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0) 100%);
 		--post-bg-vert: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.75) 10%,rgba(0,0,0,0.7) 25%,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0) 100%);
-		--sig-bg: var(--accent-color-main);
 		--side-image: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgdark.png');
 		--side-image-small: url('https://kamekku14.github.io/smwc-post-layouts/assets/ayashiigarnet/strangeklug_sideimgsmalldark.png');
 		--text-color-main: #f8f8f8;
@@ -245,9 +308,22 @@
 		--collapse-button-color-text-hover: #fee0e4;
 		--collapse-button-color-main-active: #c21646;
 		--collapse-button-color-text-active: #fff3f5;
-		--user-color-1: #a37ae1;
-		--user-color-2: #4fa1ff;
-		--user-color-3: #f19ad1;
+		--pink: #ef8fcc;
+		--purple: #996bde;
+		--blue: #3b97ff;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #ac8ae6;
+		--user-color-2: #68adff;
+		--user-color-3: #f4a6d6;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayaklugfusion_bg > .ayaklugfusion_post {
@@ -257,9 +333,17 @@
 		--accent-color-link-visited: #FF5E77;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #a37ae1;
-		--user-color-2: #4fa1ff;
-		--user-color-3: #f19ad1;
+		--pink: #ef8fcc;
+		--purple: #996bde;
+		--blue: #3b97ff;
+		--green: #93ec53;
+		--yellow: #f9c928;
+		--orange: #ff9d2d;
+		--red: #df4141;
+		--brown: #897259;
+		--user-color-1: #ac8ae6;
+		--user-color-2: #68adff;
+		--user-color-3: #f4a6d6;
 	}
 	
 	.ayaklugfusion_bg > .ayaklugfusion_sig {
@@ -269,9 +353,17 @@
 		--accent-color-link-visited: #FFC0CA;
 		--spoiler-color-hidden: #E0E0E0;
 		--spoiler-color-shown: rgba(224, 224, 224, 0.05);
-		--user-color-1: #b897e8;
-		--user-color-2: #76b6ff;
-		--user-color-3: #f4b1db;
+		--pink: #f1a0d4;
+		--purple: #ba9be9;
+		--blue: #76b6ff;
+		--green: #a9f076;
+		--yellow: #fbd761;
+		--orange: #ffaf54;
+		--red: #e77373;
+		--brown: #ae9982;
+		--user-color-1: #c7afee;
+		--user-color-2: #92c5ff;
+		--user-color-3: #f5b3dd;
 	}
 	
 	.ayaklugfusion_bg .quote .quoteHead {
@@ -1164,8 +1256,6 @@
 .ayaklugfusion_bg .hljs-name,
 .ayaklugfusion_bg .hljs-regexp,
 .ayaklugfusion_bg .hljs-link,
-.ayaklugfusion_bg .hljs-name,
-.ayaklugfusion_bg .hljs-name,
 .ayaklugfusion_bg .hljs-selector-id,
 .ayaklugfusion_bg .hljs-selector-class {
 	color: #be4678 !important;
@@ -1253,8 +1343,6 @@
 	.ayaklugfusion_bg .hljs-name,
 	.ayaklugfusion_bg .hljs-regexp,
 	.ayaklugfusion_bg .hljs-link,
-	.ayaklugfusion_bg .hljs-name,
-	.ayaklugfusion_bg .hljs-name,
 	.ayaklugfusion_bg .hljs-selector-id,
 	.ayaklugfusion_bg .hljs-selector-class {
 		color: #be4678 !important;
@@ -1339,10 +1427,10 @@
 	.ayaklugfusion_bg .hljs-variable,
 	.ayaklugfusion_bg .hljs-template-variable,
 	.ayaklugfusion_bg .hljs-attribute,
-	.ayaklugfusion_bg .hljs-regexp,
-	.ayaklugfusion_bg .hljs-link,
 	.ayaklugfusion_bg .hljs-tag,
 	.ayaklugfusion_bg .hljs-name,
+	.ayaklugfusion_bg .hljs-regexp,
+	.ayaklugfusion_bg .hljs-link,
 	.ayaklugfusion_bg .hljs-selector-id,
 	.ayaklugfusion_bg .hljs-selector-class {
 		color: #ca402b !important;
