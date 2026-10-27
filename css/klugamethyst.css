@@ -104,6 +104,11 @@
 	--user-color-1: #a17bec;
 	--user-color-2: #66a6f2;
 	--user-color-3: #e881ee;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .klugamethyst_bg > .klugamethyst_sig {
@@ -124,6 +129,11 @@
 	--user-color-1: #b494ef;
 	--user-color-2: #8dbef6;
 	--user-color-3: #efa6f3;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .klugamethyst_bg .quote .quoteHead {
@@ -227,6 +237,11 @@
 		--user-color-1: #a17bec;
 		--user-color-2: #66a6f2;
 		--user-color-3: #e881ee;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.klugamethyst_bg > .klugamethyst_sig {
@@ -247,6 +262,11 @@
 		--user-color-1: #b494ef;
 		--user-color-2: #8dbef6;
 		--user-color-3: #efa6f3;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.klugamethyst_bg .quote .quoteHead {
@@ -344,6 +364,11 @@
 		--user-color-1: #b494ef;
 		--user-color-2: #8dbef6;
 		--user-color-3: #efa6f3;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.klugamethyst_bg > .klugamethyst_sig {
@@ -364,6 +389,11 @@
 		--user-color-1: #c7aef2;
 		--user-color-2: #a9cef8;
 		--user-color-3: #f1b3f4;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.klugamethyst_bg .quote .quoteHead {

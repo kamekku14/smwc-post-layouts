@@ -104,6 +104,11 @@
 	--user-color-1: #9973e2;
 	--user-color-2: #539eff;
 	--user-color-3: #ef74bd;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayashiigarnetlight_bg > .ayashiigarnetlight_sig {
@@ -124,6 +129,11 @@
 	--user-color-1: #ac8ae6;
 	--user-color-2: #68adff;
 	--user-color-3: #f4a6d6;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayashiigarnetlight_bg .quote .quoteHead {

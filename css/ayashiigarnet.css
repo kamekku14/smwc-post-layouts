@@ -104,6 +104,11 @@
 	--user-color-1: #9973e2;
 	--user-color-2: #539eff;
 	--user-color-3: #ef74bd;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -124,6 +129,11 @@
 	--user-color-1: #ac8ae6;
 	--user-color-2: #68adff;
 	--user-color-3: #f4a6d6;
+	--success: var(--green);
+	--info: var(--blue);
+	--error: var(--red);
+	--warning: var(--orange);
+	--new: var(--yellow);
 }
 
 .ayashiigarnet_bg .quote .quoteHead {
@@ -227,6 +237,11 @@
 		--user-color-1: #9973e2;
 		--user-color-2: #539eff;
 		--user-color-3: #ef74bd;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -247,6 +262,11 @@
 		--user-color-1: #ac8ae6;
 		--user-color-2: #68adff;
 		--user-color-3: #f4a6d6;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
@@ -344,6 +364,11 @@
 		--user-color-1: #ac8ae6;
 		--user-color-2: #68adff;
 		--user-color-3: #f4a6d6;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg > .ayashiigarnet_sig {
@@ -364,6 +389,11 @@
 		--user-color-1: #c7afee;
 		--user-color-2: #92c5ff;
 		--user-color-3: #f5b3dd;
+		--success: var(--green);
+		--info: var(--blue);
+		--error: var(--red);
+		--warning: var(--orange);
+		--new: var(--yellow);
 	}
 	
 	.ayashiigarnet_bg .quote .quoteHead {
